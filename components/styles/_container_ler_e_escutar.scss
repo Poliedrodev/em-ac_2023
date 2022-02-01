@@ -1,0 +1,116 @@
+.container_ler_e_escutar {
+    border: 2px solid #981711;
+    padding: 24px;
+    margin: 48px 68px 40px 68px;
+    border-radius: 5px;
+    display: block;
+
+    .text-read{
+      border-top: solid 2px #981711;
+      border-left: solid 6px #E59798;
+      font-size: 16px;
+      border-bottom: none;
+      color: #981711;
+      width: 131px;
+      text-align: center;
+      padding: 3px 0px 3px 6px;
+      font-family: montserrat;
+      font-weight: 700;
+    }
+    .line1{
+      width: 100%;
+      height: 2px;
+      background-color: #981711;
+    }
+
+    // .box_green{
+    //   border: solid 3px #981711;
+    //   font-family: $font-montserrat-extrabold;
+    //   font-size: 16px;
+    //   color: #000000;
+    //   min-width: 200px;
+    // }
+
+    // .box{
+    //   width: 100%;
+    //   height: 3px;
+    //   margin-bottom: 32px;
+    //   background-color: #981711;
+    // }
+
+
+
+    > * {
+        &:first-child {
+            margin-top: 0;
+            &._left {
+                + ._right {
+                    margin-top: 0;
+                }
+            }
+            &._right {
+                + ._left {
+                    margin-top: 0;
+                }
+            }
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &._left {
+            + ._right:last-child {
+                margin-bottom: 20px;
+            }
+        }
+        &._right {
+            + ._left:last-child {
+                margin-bottom: 20px;
+            }
+        }
+    }
+  
+    // &.artes {
+    //   .box_green{
+    //       background: linear-gradient(-90deg, #64428C 0%, rgba(100, 66, 140, 0.7) 100%);
+    //       border: solid 3px #64428C;
+  
+    //   }
+    // }
+    // &.lingua_inglesa {
+    //   .box_green{
+    //       background: linear-gradient(-90deg, #069891 0%, rgba(6, 152, 145, 0.7) 100%);
+    //       border: solid 3px #069891;
+    //   }
+    // }
+    // &.lingua_portuguesa {
+    //   border: 2px solid #981711;
+    //   .box_green{
+    //     color: #981711;
+    //     // border-bottom: solid 2px #981711;
+    //     // border-left: solid 6px #E59798;
+    //     }
+    // }
+    // &.matematica {
+    //   .box_green{
+    //       background: linear-gradient(-90deg, #1961AC 0%, rgba(25, 97, 172, 0.7) 100%);
+    //       border: solid 3px #1961AC;
+    //   }
+    // }
+  
+    /* media query */
+    @media only screen and (min-width: $phone-max-width) {
+        &._left {
+            float: left;
+            clear: left;
+            width: 50%;
+            z-index: 1;
+        }
+        &._right {
+            float: right;
+            clear: right;
+            width: 50%;
+            z-index: 1;
+  
+        }
+    }
+  }

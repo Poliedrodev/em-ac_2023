@@ -1,0 +1,21 @@
+.css_02_texto_destaque2 {
+  display: block;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-family: $font-barlow-condensed-bold;
+margin: 0px 68px 0px 68px;
+  line-height: 1.5em;
+
+  &.artes {
+    color: #C8D300 !important;
+  }
+  &.lingua_inglesa {
+    color: #C8D300 !important;
+  }
+  &.lingua_portuguesa {
+    color: #C8D300 !important;
+  }
+  &.matematica {
+    color: #F1CB40 !important;
+  }
+}

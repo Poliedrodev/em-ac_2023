@@ -1,0 +1,24 @@
+.css_02_texto_glossario {
+    font-family: $font-noticia-text-regular;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #404040;
+    display: block;
+    margin: 24px 250px 24px 68px;
+    padding: 8px 16px;
+    border: solid 2px #000000;
+  
+    &.artes {
+      border: solid 2px #C8D300 !important;
+    }
+    &.lingua_inglesa {
+      border: solid 2px #C8D300 !important;
+    }
+    &.lingua_portuguesa {
+      border: solid 2px #C8D300 !important;
+    }
+    &.matematica {
+      border: solid 2px #F1CB40 !important;
+    }
+  
+  }

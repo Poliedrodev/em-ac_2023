@@ -1,0 +1,27 @@
+.css_03_numero{
+  font-family: montserrat;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+  margin: 32px 0px 0px 0px;
+  float: left;
+  display: flex;
+  justify-content: left;
+
+  &.artes {    
+    color: #64428C !important;
+    border-bottom: solid 3px #C8D300;
+  }
+  &.lingua_inglesa {    
+    color: #069891 !important;
+    border-bottom: solid 3px #C8D300;
+  }
+  &.lingua_portuguesa {    
+    color: #C51A1B !important;
+    border-bottom: solid 3px #C8D300;
+  }
+  &.matematica {    
+    color: #1961AC !important;
+    border-bottom: solid 3px #F1CB40;
+  }
+}
