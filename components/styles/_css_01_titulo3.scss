@@ -1,8 +1,10 @@
 .css_01_titulo3 {
+  display: block;
+  color: $textColor2;
+  font-family: 'Montserrat';
+  font-weight: 800;
   font-size: 24px;
-  font-weight: bold;
-  color: #666666;
-  font-family: $font-montserrat-extrabold;
+  font-variant: tabular-nums;
   margin-top: 48px;
   padding: 0 68px;
   margin-bottom: 16px;
