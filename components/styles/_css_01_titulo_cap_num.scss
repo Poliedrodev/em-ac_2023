@@ -1,10 +1,12 @@
 .css_01_titulo_cap_num {
   display: block;
+  position: relative;
+  bottom: 55px;
   color: transparent;
   font-size: 400px;
+  left: -40px;
   font-family: $font-barlow-condensed-bold;
-  -webkit-text-stroke-color: #FFFFFF;
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke: 3px #FFFFFF;
   margin: 40px 68px 0px 68px;
   padding: 0px 0px 16px 0px;
 }
