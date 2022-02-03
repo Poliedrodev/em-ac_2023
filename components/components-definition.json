@@ -1812,7 +1812,6 @@
             "label": "01 Aberturas e titulos",
             "name": "aberturas_e_titulos",
             "components": [
-                "css_01_titulo_unid",
                 "css_01_titulo_cap_num",
                 "css_01_titulo_cap",
                 "css_01_titulo1",

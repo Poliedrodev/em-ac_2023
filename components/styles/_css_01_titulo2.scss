@@ -1,22 +1,25 @@
 .css_01_titulo2 {
-  font-size: 26px;
+  display: block;
   color: $title-color;
-  font-family: $font-montserrat-extrabold;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 26px;
+  font-variant: tabular-nums;
   margin-top: 48px;
   padding: 0 68px;
   margin-bottom: 16px;
   line-height: 1.5em;
 
   &.artes {
-    color: #64428C !important;
+    color: $art_cor1;
   }
   &.lingua_inglesa {
-    color: #069891 !important;
+    color: $ing_cor1;
   }
   &.lingua_portuguesa {
-    color: #C51A1B !important;
+    color: $por_cor1;
   }
   &.matematica {
-    color: #1961AC !important;
+    color: $mat_cor1;
   }
 }
