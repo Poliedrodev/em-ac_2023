@@ -14,8 +14,6 @@ $slideshowThumbNavigatorMaxHeight: 100px;
 .slideshow {
     clear: both;
     margin: 12px 0;
-    position: relative;
-    top: 210px;
 
     &.full-screen {
         margin: 0;
@@ -29,7 +27,6 @@ $slideshowThumbNavigatorMaxHeight: 100px;
         height: $slideshowMaxHeight;
         border: 0 none;
         .slides {
-            padding-top: 50px;
             position: absolute;
             top: 0;
             left: 50%;
@@ -38,7 +35,6 @@ $slideshowThumbNavigatorMaxHeight: 100px;
             height: $slideshowMaxHeight;
             overflow: hidden;
             .image {
-                padding-top: 40px;
                 float: none;
                 clear: none;
                 @include display-flex();
@@ -52,8 +48,6 @@ $slideshowThumbNavigatorMaxHeight: 100px;
                 figcaption {
                     /* Transform is added as inline-style to the caption by Jssor library.
                        This results in blurry font rendering on Safari. */
-                    position: absolute;
-                    top: -2px;
                     -webkit-transform: none !important;
                     padding: 0 68px;
                     @include webkit-prefix(flex-shrink, 0);
@@ -77,7 +71,7 @@ $slideshowThumbNavigatorMaxHeight: 100px;
                 left: 10px;
                 margin: -15px 0 0 0;
                 border-radius: 50%;
-                background-color: rgba(150, 23, 25, 0.73);
+                background-color: rgba(255, 255, 255, 0.8);
                 transition-property: background-color;
                 transition-timing-function: linear;
                 transition-duration: $speed;
@@ -107,7 +101,7 @@ $slideshowThumbNavigatorMaxHeight: 100px;
             }
             &:hover {
                 &::before {
-                    background-color: rgba(150, 23, 25, 1);
+                    background-color: rgba(255, 255, 255, 1);
                 }
             }
         }

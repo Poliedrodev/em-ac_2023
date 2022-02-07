@@ -466,7 +466,7 @@
             "name": "css_01_bullet_unid",
             "icon": "icons/components/icon_01_bullet_unid.svg",
             "label": "01 Bullet Unidade",
-            "properties": ["style", "position", "text-align", "letter-spacing", "line-height"]
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
             "name": "css_02_texto_geral",

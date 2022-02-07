@@ -4,6 +4,7 @@
 * PLEASE DO NOT MODIFY THIS FILE BY HAND.
 */
 /* Constants */
+/* Cores */
 /* Fontes */
 /* Mixin's helpers, more info: http://sass-lang.com/guide#topic-6*/
 /* Font embeds, examples see: https://www.google.com/fonts */
@@ -24,7 +25,7 @@ body {
   margin: 0;
   font: 14px "Lato";
   color: #000000;
-  background-color: #f7dedf;
+  background-color: #ffffff;
   font-weight: 300;
   word-wrap: break-word;
   -webkit-font-smoothing: antialiased !important;
@@ -43,13 +44,12 @@ html {
   background-size: cover; }
 
 body {
-  width: 100% !important;
-  padding-top: 75px !important;
+  max-width: 860px;
   padding: 0;
   margin-left: auto;
   margin-right: auto;
   overflow-x: hidden;
-  background-color: #f7dedf; }
+  background-color: #fff; }
   body::after {
     content: ' ';
     display: block;
@@ -121,7 +121,7 @@ span[data-text-edit-color] a {
     overflow-x: hidden;
     overflow-y: auto; }
     .hero-js ._hero-content-box ._hero-content-wrapper {
-      background-color: #f7dedf; }
+      background-color: #ffffff; }
       .hero-js ._hero-content-box ._hero-content-wrapper ._hero-content-body {
         max-width: 860px;
         padding: 0 5px;
@@ -1065,8 +1065,6 @@ span[style="text-decoration: line-through;"] {
 .slideshow {
   clear: both;
   margin: 12px 0;
-  position: relative;
-  top: 210px;
   /* an example how to hide the filmstrip on iPod and iPhone */ }
   .slideshow.full-screen {
     margin: 0;
@@ -1078,7 +1076,6 @@ span[style="text-decoration: line-through;"] {
     height: 500px;
     border: 0 none; }
     .slideshow .slideshow-container .slides {
-      padding-top: 50px;
       position: absolute;
       top: 0;
       left: 50%;
@@ -1087,7 +1084,6 @@ span[style="text-decoration: line-through;"] {
       height: 500px;
       overflow: hidden; }
       .slideshow .slideshow-container .slides .image {
-        padding-top: 40px;
         float: none;
         clear: none;
         display: -webkit-flex;
@@ -1102,8 +1098,6 @@ span[style="text-decoration: line-through;"] {
         .slideshow .slideshow-container .slides .image figcaption {
           /* Transform is added as inline-style to the caption by Jssor library.
                        This results in blurry font rendering on Safari. */
-          position: absolute;
-          top: -2px;
           -webkit-transform: none !important;
           padding: 0 68px;
           -webkit-flex-shrink: 0;
@@ -1125,7 +1119,7 @@ span[style="text-decoration: line-through;"] {
         left: 10px;
         margin: -15px 0 0 0;
         border-radius: 50%;
-        background-color: rgba(150, 23, 25, 0.73);
+        background-color: rgba(255, 255, 255, 0.8);
         transition-property: background-color;
         transition-timing-function: linear;
         transition-duration: 0.2s; }
@@ -1148,7 +1142,7 @@ span[style="text-decoration: line-through;"] {
         .slideshow .slideshow-container .arrow._right::after {
           background-image: url("img/slideshow-right-arrow.svg"); }
       .slideshow .slideshow-container .arrow:hover::before {
-        background-color: #961719; }
+        background-color: white; }
   .slideshow._vertical .slideshow-container .arrow {
     height: 80px;
     width: 80px;
@@ -1282,7 +1276,6 @@ span[style="text-decoration: line-through;"] {
 .container {
   margin: 20px 0px !important;
   clear: both;
-  height: 100% !important;
   /* class styles for the options properties of the container component */
   /* media query */ }
   .container::after {
@@ -1859,6 +1852,7 @@ blockquote {
     border: solid 2px #F1CB40;
     border-bottom: none;
     border-left: solid 4px #C09100;
+    color: #C09100;
     background-color: #FAEDBC; }
   .container_exercicios.matematica .line2 {
     background-color: #F1CB40; }
@@ -2461,8 +2455,9 @@ blockquote {
 .css_01_titulo_unid {
   display: block;
   color: #45973D;
-  font-size: 50px;
-  font-family: "barlow condensed", "550";
+  font-size: 100px;
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
   margin: 40px 68px 0px 68px;
   padding: 0px 0px 16px 0px; }
   .css_01_titulo_unid.artes {
@@ -2477,8 +2472,9 @@ blockquote {
 .css_01_titulo_cap {
   display: block;
   color: #45973D;
-  font-size: 55px;
-  font-family: "barlow condensed", "550";
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  font-size: 100px;
   margin: 40px 68px 0px 68px;
   padding: 0px 0px 16px 0px; }
   .css_01_titulo_cap.artes {
@@ -2492,15 +2488,12 @@ blockquote {
 
 .css_01_titulo_cap_num {
   display: block;
-  position: relative;
-  bottom: 55px;
   color: transparent;
   font-family: 'Barlow Condensed';
   font-weight: 700;
   font-size: 400px;
-  left: -40px;
-  font-family: "barlow condensed", "550";
-  -webkit-text-stroke: 3px #FFFFFF;
+  -webkit-text-stroke-color: #FFFFFF;
+  -webkit-text-stroke-width: 2px;
   margin: 40px 68px 0px 68px;
   padding: 0px 0px 16px 0px; }
 
@@ -2634,41 +2627,10 @@ blockquote {
   font-size: 16px;
   color: #FFFFFF;
   font-family: "noticia text", "400";
-  margin: 0px 28px 24px 0px;
+  margin: 0px 28px 24px 13px;
   line-height: 1.5em;
   border-left: solid 2px #FFFFFF;
-  padding-left: 10px;
-  max-width: 100px;
-  /* media query */ }
-  .css_01_bullet_unid > *:first-child {
-    margin-top: 0; }
-    .css_01_bullet_unid > *:first-child._left + ._right {
-      margin-top: 0;
-      padding: 0 68 0 16px; }
-    .css_01_bullet_unid > *:first-child._right + ._left {
-      margin-top: 0;
-      padding: 0 16 0 68px; }
-  .css_01_bullet_unid > *:last-child {
-    margin-bottom: 0; }
-  .css_01_bullet_unid > *._left + ._right:last-child {
-    margin-bottom: 20px;
-    padding: 0 68 0 16px; }
-  .css_01_bullet_unid > *._right + ._left:last-child {
-    margin-bottom: 20px;
-    padding: 0 16 0 68px; }
-  @media only screen and (min-width: 481px) {
-    .css_01_bullet_unid._left {
-      float: left;
-      clear: left;
-      width: 47%;
-      margin-right: 24px;
-      z-index: 1; }
-    .css_01_bullet_unid._right {
-      float: right;
-      clear: right;
-      width: 47%;
-      margin-left: 24px;
-      z-index: 1; } }
+  padding-left: 10px; }
 
 .css_02_texto_geral {
   display: block;
@@ -2774,7 +2736,7 @@ blockquote {
   display: block;
   color: #FFFFFF;
   font-size: 60px;
-  font-family: "barlow condensed", "550";
+  font-family: "barlow condensed", "700";
   margin: 0px 68px 0px 68px;
   line-height: 1.5em; }
 
@@ -2782,7 +2744,7 @@ blockquote {
   display: block;
   color: #FFFFFF;
   font-size: 40px;
-  font-family: "barlow condensed", "550";
+  font-family: "barlow condensed", "700";
   margin: 0px 68px 0px 68px;
   line-height: 1.5em; }
   .css_02_texto_destaque2.artes {

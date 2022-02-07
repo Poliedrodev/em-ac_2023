@@ -1,5 +1,6 @@
 /* Constants */
-$bodyBackground: #f7dedf;
+$bodyBackground: #ffffff;
+/* Cores */
 $textColor: #000000;
 $textColor2: #666666;
 $por_cor1: #C51A1B;
@@ -26,7 +27,6 @@ $seg_mat_cor1: #F1CB40;
 $seg_mat_cor2: #C09100;
 $seg_mat_cor3: #FAEDBC;
 $seg_mat_cor4: #FDF7E2;
-$seg-teste: #FF03DF;
 /* Fontes */
 $fontName: 'Lato';
 $defaultFontSize: 14px;
@@ -57,7 +57,7 @@ $font-montserrat-extrabold: 'montserrat extrabold', '800';
 $font-noticia-text-regular: 'noticia text', '400';
 $font-noticia-text-bold: 'noticia text', '700';
 $font-nunito-sans-black: 'nunito sans', '900';
-$font-barlow-condensed-bold: 'barlow condensed', '550';
+$font-barlow-condensed-bold: 'barlow condensed', '700';
 
 /* Mixin's helpers, more info: http://sass-lang.com/guide#topic-6*/
 @mixin display-flex() {
@@ -108,13 +108,12 @@ html{
 }
 
 body {
-    width: 100% !important;
-    padding-top: 75px !important;
+    max-width: $max-width;
     padding: 0;
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
-    background-color: $bodyBackground;
+    background-color: #fff;
     &::after {
         content: ' ';
         display: block;
