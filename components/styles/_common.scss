@@ -1,32 +1,33 @@
-/* Constants */
-$bodyBackground: #ffffff;
 /* Cores */
 $textColor: #000000;
-$textColor2: #666666;
-$por_cor1: #C51A1B;
-$por_cor2: #981711;
+$textColor2: $textColor;
+$por_cor1: #c9252c;
+$por_cor2: #96171a;
 $por_cor3: #E59798;
-$por_cor4: #F7DCDD;
+$por_cor4: #f7dedf;
 $ing_cor1: #069891;
 $ing_cor2: #015F5B;
 $ing_cor3: #8CCDD2;
-$ing_cor4: #D9EEF0;
+$ing_cor4: #d9f0ef;
 $art_cor1: #64428C;
 $art_cor2: #3F1F71;
 $art_cor3: #B9A9CB;
-$art_cor4: #E8E3EE;
+$art_cor4: #dfdaea;
 $mat_cor1: #1961AC;
 $mat_cor2: #033878;
 $mat_cor3: #97B7D9;
-$mat_cor4: #DCE7F3;
-$seg_lin_cor1: #C8D300;
-$seg_lin_cor2: #84A214;
+$mat_cor4: #d0e1f0;
+$seg_lin_cor1: #bfd730;
+$seg_lin_cor2: #62883b;
 $seg_lin_cor3: #ECF0A6;
 $seg_lin_cor4: #F7F9D9;
 $seg_mat_cor1: #F1CB40;
 $seg_mat_cor2: #C09100;
 $seg_mat_cor3: #FAEDBC;
 $seg_mat_cor4: #FDF7E2;
+/* Constants */
+$bodyBackground: #ffffff;
+
 /* Fontes */
 $fontName: 'Lato';
 $defaultFontSize: 14px;
@@ -73,11 +74,10 @@ $font-barlow-condensed-bold: 'barlow condensed', '700';
 /* Imports the style from the google fonts cdn */
 @import url(https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Noticia+Text:ital@0;1&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,700;1,700&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,900;1,900&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+@import url(https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Cookie&display=swap);
 @import url(https://perugluglu.net/poliedro/stylesheet.css);
 /* Article view style */
@@ -87,33 +87,26 @@ body {
     margin: 0;
     font: $defaultFontSize $fontName;
     color: $textColor;
-    background-color: $bodyBackground;
+    background-color: #ffffff;
     font-weight: $defaultFontWeight;
     word-wrap: break-word;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale !important;
     -webkit-overflow-scrolling: touch;
-    background-color: #fff;
     :focus {
         outline: none;
     }
 }
 
-html{
-    background: url('img/background/LUMEN_SOC.svg') center center no-repeat fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+html {
+    background-color: $bodyBackground;
 }
-
 body {
     max-width: $max-width;
     padding: 0;
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
-    background-color: #fff;
     &::after {
         content: ' ';
         display: block;

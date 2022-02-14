@@ -1,11 +1,12 @@
 .css_03_exercicio_bullet_sub {
   display: block;
-  font-family: $font-noticia-text-regular;
-  color: #505050;
+  font-family: 'Noticia Text';
+  font-weight: 400;
+  color: #000000;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 16px 68px 16px 130px;
+  margin: 16px 0px 0px 43px;
   ul li{
-    padding-left: 0px;
+    padding-left: 12px;
   }
 }

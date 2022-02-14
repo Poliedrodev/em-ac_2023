@@ -1,63 +1,28 @@
 .css_03_numero_cor_2{
-  font-family: $font-montserrat-bold;
+  font-family: 'Montserrat';
+  font-weight: 700;
   font-size: 18px;
-//   margin: 21px;
-  color: #fff;
-  display: block;
-  margin: 24px 0px 0px 68px;
+  font-variant: tabular-nums;
+  color: #000000;
+  margin: 34px 0px 0px 0px;
   float: left;
-  width: 32px;
-  height: 20px;
   display: flex;
-  text-decoration: solid 2px #999999;
-  justify-content: center;
+  justify-content: left;
 
-  &.artes {
-    
-    background-color: #84A214 !important;
+  &.artes {    
+    color: $art_cor1 !important;
+    border-bottom: solid 3px $seg_lin_cor1;
   }
-  &.biologia {
-    
-    background-color: #BD8432 !important;
+  &.lingua_inglesa {    
+    color: $ing_cor1 !important;
+    border-bottom: solid 3px $seg_lin_cor1;
   }
-  &.filosofia {
-    
-    background-color: #208F6D !important;
+  &.lingua_portuguesa {    
+    color: $por_cor1 !important;
+    border-bottom: solid 3px $seg_lin_cor1;
   }
-  &.fisica {
-    
-    background-color: #BD8432 !important;
-  }
-  &.geografia {
-    
-    background-color: #208F6D !important;
-  }
-  &.historia {
-    
-    background-color: #208F6D !important;
-  }
-  &.lingua_inglesa {
-    
-    background-color: #84A214 !important;
-  }
-  &.lingua_portuguesa {
-    
-    background-color: #84A214 !important;
-  }
-  &.matematica {
-    
-    background-color: #C09100 !important;
-  }
-  &.producao_de_texto {
-   
-    background-color: #84A214 !important;
-  }
-  &.quimica {
-    
-    background-color: #BD8432 !important;
-  }
-  &.sociologia {
-    
-    background-color: #208F6D !important;
+  &.matematica {    
+    color: $mat_cor1 !important;
+    border-bottom: solid 3px $seg_mat_cor1;
   }
 }

@@ -1,28 +1,28 @@
 .css_03_numero{
-  font-family: montserrat;
+  font-family: 'Montserrat';
   font-weight: 700;
   font-size: 18px;
   font-variant: tabular-nums;
   color: #000000;
-  margin: 32px 0px 0px 0px;
+  margin: 34px 0px 0px 0px;
   float: left;
   display: flex;
   justify-content: left;
 
   &.artes {    
-    color: #64428C !important;
-    border-bottom: solid 3px #C8D300;
+    color: $art_cor1 !important;
+    border-bottom: solid 3px $seg_lin_cor1;
   }
   &.lingua_inglesa {    
-    color: #069891 !important;
-    border-bottom: solid 3px #C8D300;
+    color: $ing_cor1 !important;
+    border-bottom: solid 3px $seg_lin_cor1;
   }
   &.lingua_portuguesa {    
-    color: #C51A1B !important;
-    border-bottom: solid 3px #C8D300;
+    color: $por_cor1 !important;
+    border-bottom: solid 3px $seg_lin_cor1;
   }
   &.matematica {    
-    color: #1961AC !important;
-    border-bottom: solid 3px #F1CB40;
+    color: $mat_cor1 !important;
+    border-bottom: solid 3px $seg_mat_cor1;
   }
 }

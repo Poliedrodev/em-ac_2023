@@ -2,20 +2,22 @@
   display: block;
   color: #FFFFFF;
   font-size: 40px;
-  font-family: $font-barlow-condensed-bold;
-margin: 0px 68px 0px 68px;
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  margin: 0px 68px 0px 68px;
   line-height: 1.5em;
+  text-transform: uppercase;
 
   &.artes {
-    color: #C8D300 !important;
+    color: $seg_lin_cor1 !important;
   }
   &.lingua_inglesa {
-    color: #C8D300 !important;
+    color: $seg_lin_cor1 !important;
   }
   &.lingua_portuguesa {
-    color: #C8D300 !important;
+    color: $seg_lin_cor1 !important;
   }
   &.matematica {
-    color: #F1CB40 !important;
+    color: $seg_mat_cor1 !important;
   }
 }

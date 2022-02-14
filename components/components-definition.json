@@ -375,7 +375,7 @@
         {
             "name": "container_fica_a_dica",
             "icon": "icons/components/container.svg",
-            "label": "Container #FICAADICA",
+            "label": "Container Boxe 1",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -550,7 +550,7 @@
             "name": "css_02_texto_citado_titulo",
             "icon": "icons/components/icon_02_texto_citado_titulo.svg",
             "label": "02 Texto Citado Título",
-            "properties": ["style", "letter-spacing", "line-height"]
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
             "name": "css_02_texto_citado",
@@ -562,7 +562,7 @@
             "name": "css_02_texto_citado_fonte",
             "icon": "icons/components/icon_02_texto_citado_fonte.svg",
             "label": "02 Texto Citado Fonte",
-            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+            "properties": ["style", "letter-spacing", "line-height"]
         },
         {
             "name": "css_02_texto_glossario_titulo",
@@ -592,7 +592,7 @@
             "name": "css_03_item_alinhamento_1",
             "icon": "icons/components/icon_03_exercicio_alternativa.svg",
             "label": "03 Item Alinhamento 1",
-            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+            "properties": ["style", "letter-spacing", "line-height"]
         },
         {
             "name": "css_03_item_resolvido",
@@ -623,14 +623,6 @@
             "icon": "icons/components/icon_03_exercicio_texto.svg",
             "label": "03 Exercício Texto",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
-        },
-        {
-            "name": "css_03_container_questao_resolvida",
-            "icon": "icons/components/icon_03_exercicio_resolvido.svg",
-            "selectionMethod": "handle",
-            "allowNesting": "one-level",
-            "label": "Questão Resolvida",
-            "properties": ["style", "position", "background-color"]
         },
         {
             "name": "css_03_exercicio_resolvido",
@@ -804,7 +796,7 @@
             "name": "css_05_fonte",
             "icon": "icons/components/icon_05_fonte.svg",
             "label": "05 Fonte",
-            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+            "properties": ["style", "letter-spacing", "line-height"]
         },
         {
             "name": "css_05_fonte_mapa",
@@ -1748,52 +1740,10 @@
             "css_06_boxe2",
             "css_06_boxe3",
             "css_06_boxe4",
-            "css_06_boxe_discussao_em_sala",
-            "css_06_container_boxe_discussao_em_sala",
-            "css_06_boxe_em_arte",
-            "css_06_boxe_em_biologia",
-            "css_06_boxe_em_filosofia",
-            "css_06_boxe_em_fisica",
-            "css_06_boxe_em_geografia",
-            "css_06_boxe_em_historia",
-            "css_06_boxe_em_lingua_inglesa",
-            "css_06_boxe_em_lingua_portuguesa",
-            "css_06_boxe_em_literatura",
-            "css_06_boxe_em_matematica",
-            "css_06_boxe_em_producao_de_texto",
-            "css_06_boxe_em_quimica",
-            "css_06_boxe_em_sociologia",
-            "css_06_boxe_experimento",
-            "css_06_container_boxe_experimento",
-            "css_06_boxe_fique_ligado",
-            "css_06_container_boxe_fique_ligado",
-            "css_06_boxe_go_further",
-            "css_06_container_boxe_go_further",
-            "css_06_boxe_mais",
-            "css_06_container_boxe_mais",
-            "css_03_container_questao_resolvida",
-            "css_06_boxe_speak_out",
-            "css_06_container_boxe_speak_out",
-            "css_06_boxe_watch_out",
-            "css_06_container_boxe_watch_out",
             "css_07_boxe1",
             "css_07_boxe2",
             "css_07_boxe3",
-            "css_07_boxe4",
-            "css_07_secao_aplicando_conhecimentos",
-            "css_07_secao_arte_em_leitura",
-            "css_07_secao_brain_teaser",
-            "css_07_secao_consolidando_saberes",
-            "css_07_secao_dive_in",
-            "css_07_secao_leitura_de_documentos",
-            "css_07_secao_na_hora_da_prova",
-            "css_07_secao_no_enem_e_assim",
-            "css_07_secao_ponto_de_vista",
-            "css_07_secao_por_dentro_da_arte",
-            "css_07_secao_practice_it",
-            "css_07_secao_superacao",
-            "css_07_secao_texto_e_contexto",
-            "css_07_secao_texto_em_foco"
+            "css_07_boxe4"
     ]
     },
 {
@@ -1812,14 +1762,10 @@
             "label": "01 Aberturas e titulos",
             "name": "aberturas_e_titulos",
             "components": [
-                "css_01_titulo_cap_num",
-                "css_01_titulo_cap",
                 "css_01_titulo1",
                 "css_01_titulo2",
                 "css_01_titulo3",
-                "css_01_titulo4",
-                "css_01_texto_unid",
-                "css_01_bullet_unid"
+                "css_01_titulo4"
             ]
         },
         {
@@ -1841,7 +1787,6 @@
                 "css_02_texto_citado_titulo",
                 "css_02_texto_citado",
                 "css_02_texto_citado_fonte",
-                "css_02_texto_glossario_titulo",
                 "css_02_texto_glossario",
                 "css_02_texto_vocabulario"
             ]
@@ -1854,7 +1799,6 @@
                 "css_03_item_alinhamento_1",
                 "css_03_item_resolvido",
                 "css_03_numero",
-                "css_03_numero_cor_2",
                 "css_06_item",
                 "css_06_boxe_numero",
                 "css_07_item",
@@ -1925,7 +1869,6 @@
                 "css_06_boxe_titulo3",
                 "css_06_boxe_texto1",
                 "css_06_boxe_texto2",
-                "css_06_boxe_texto2_competencias",
                 "css_06_boxe_texto3",
                 "css_06_boxe_item",
                 "css_06_boxe_bullet",
@@ -2496,6 +2439,53 @@
             "css_00_licenciamento_texto_terceiro": "auto",
             "css_00_ilustracao": "auto"
         },        
+        "css_01_titulo1": {
+            "css_01_titulo2": "auto",
+            "css_01_titulo3": "auto",
+            "css_01_titulo4": "auto"
+        },        
+        "css_01_titulo2": {
+            "css_01_titulo1": "auto",
+            "css_01_titulo3": "auto",
+            "css_01_titulo4": "auto"
+        },        
+        "css_01_titulo3": {
+            "css_01_titulo1": "auto",
+            "css_01_titulo2": "auto",
+            "css_01_titulo4": "auto"
+        },        
+        "css_01_titulo4": {
+            "css_01_titulo1": "auto",
+            "css_01_titulo2": "auto",
+            "css_01_titulo3": "auto"
+        },        
+        "css_02_texto_geral": {
+            "css_02_texto_geral1": "auto",
+            "css_02_texto_geral2": "auto",
+            "css_02_texto_geral3": "auto"
+        },        
+        "css_02_texto_geral1": {
+            "css_02_texto_geral2": "auto",
+            "css_02_texto_geral3": "auto",
+            "css_02_texto_item": "auto"
+        },        
+        "css_02_texto_geral2": {
+            "css_02_texto_geral1": "auto",
+            "css_02_texto_geral3": "auto"
+        },        
+        "css_02_texto_geral3": {
+            "css_02_texto_geral1": "auto",
+            "css_02_texto_geral2": "auto"
+        },        
+        "css_02_texto_item": {
+            "css_02_texto_geral1": "auto"
+        },        
+        "css_02_texto_destaque": {
+            "css_02_texto_destaque2": "auto"
+        },        
+        "css_02_texto_destaque2": {
+            "css_02_texto_destaque": "auto"
+        },        
         "css_03_exercicio_enunciado": {
             "css_03_numero": "auto",
             "css_03_numero_cor_2": "auto",
@@ -2599,8 +2589,10 @@
             "css_03_item": "auto"
         },        
         "css_03_item": {
-            "css_03_numero": "auto",
-            "css_03_numero_cor_2": "auto"
+            "css_03_item_alinhamento_1": "auto"
+        },        
+        "css_03_item_alinhamento_1": {
+            "css_03_item": "auto"
         },        
         "css_07_secao_exercicio1": {
             "css_03_numero": "auto",
