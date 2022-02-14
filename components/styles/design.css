@@ -1886,16 +1886,29 @@ blockquote {
     display: none; }
   .container_fica_a_dica input[type=checkbox]:checked ~ label {
     background: url(img/icons8-minus-close_white.png) left 5px top 9px no-repeat; }
-  .container_fica_a_dica input[type=checkbox]:checked ~ .doc_container {
-    display: block; }
+  .container_fica_a_dica input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    display: block;
+    transition: all 0.25s ease-out; }
+  .container_fica_a_dica input[type=checkbox]:checked ~ .line-box {
+    display: block;
+    transition: all 0.25s ease-out; }
   .container_fica_a_dica label {
     width: 100%;
     height: 40px;
     background: url(img/icons8-plus-open_white.png) left 5px top 9px no-repeat;
     position: relative;
-    background-size: 18px;
+    background-size: 18px !important;
     display: block;
     left: -13px; }
+    .container_fica_a_dica label:before {
+      content: '#FICAADICA';
+      font-family: "nunito sans";
+      font-size: 14px;
+      font-weight: 900;
+      color: #62883b;
+      position: absolute;
+      left: 28px;
+      top: 10px; }
   .container_fica_a_dica .text-box {
     min-width: 200px;
     font-family: "nunito sans", "900";
@@ -1905,12 +1918,14 @@ blockquote {
     left: 50px;
     top: 10px; }
   .container_fica_a_dica .line-box {
-    border-left: 3px solid #FFF; }
+    border-left: 3px solid #FFF;
+    display: none; }
+  .container_fica_a_dica .txt_boxe_collapsed {
+    display: none; }
   .container_fica_a_dica .doc_container {
     position: relative;
     padding: 16px;
-    box-sizing: border-box;
-    display: none; }
+    box-sizing: border-box; }
   .container_fica_a_dica.artes {
     background-color: #ECF0A6; }
     .container_fica_a_dica.artes .text-box {
@@ -2026,18 +2041,18 @@ blockquote {
       z-index: 1; } }
 
 .container_ler_e_escutar {
-  border: 2px solid #981711;
+  border: 2px solid #96171a;
   padding: 24px;
   margin: 48px 68px 40px 68px;
   border-radius: 5px;
   display: block;
   /* media query */ }
   .container_ler_e_escutar .text-read {
-    border-top: solid 2px #981711;
+    border-top: solid 2px #96171a;
     border-left: solid 6px #E59798;
     font-size: 16px;
     border-bottom: none;
-    color: #981711;
+    color: #96171a;
     width: 131px;
     text-align: center;
     padding: 3px 0px 3px 6px;
@@ -2046,7 +2061,39 @@ blockquote {
   .container_ler_e_escutar .line1 {
     width: 100%;
     height: 2px;
-    background-color: #981711; }
+    background-color: #96171a; }
+  .container_ler_e_escutar.artes {
+    border: 2px solid #3F1F71; }
+    .container_ler_e_escutar.artes .text-read {
+      border-top: solid 2px #3F1F71;
+      border-left: solid 6px #B9A9CB;
+      color: #3F1F71; }
+    .container_ler_e_escutar.artes .line1 {
+      background-color: #3F1F71; }
+  .container_ler_e_escutar.lingua_inglesa {
+    border: 2px solid #015F5B; }
+    .container_ler_e_escutar.lingua_inglesa .text-read {
+      border-top: solid 2px #015F5B;
+      border-left: solid 6px #8CCDD2;
+      color: #015F5B; }
+    .container_ler_e_escutar.lingua_inglesa .line1 {
+      background-color: #015F5B; }
+  .container_ler_e_escutar.lingua_portuguesa {
+    border: 2px solid #96171a; }
+    .container_ler_e_escutar.lingua_portuguesa .text-read {
+      border-top: solid 2px #96171a;
+      border-left: solid 6px #E59798;
+      color: #96171a; }
+    .container_ler_e_escutar.lingua_portuguesa .line1 {
+      background-color: #96171a; }
+  .container_ler_e_escutar.matematica {
+    border: 2px solid #033878; }
+    .container_ler_e_escutar.matematica .text-read {
+      border-top: solid 2px #033878;
+      border-left: solid 6px #97B7D9;
+      color: #033878; }
+    .container_ler_e_escutar.matematica .line1 {
+      background-color: #033878; }
   .container_ler_e_escutar > *:first-child {
     margin-top: 0; }
     .container_ler_e_escutar > *:first-child._left + ._right {
@@ -2176,28 +2223,38 @@ blockquote {
     display: none; }
   .container_repertorio_cultural input[type=checkbox]:checked ~ label {
     background: url(img/icons8-minus-close_white.png) left 5px top 9px no-repeat; }
-  .container_repertorio_cultural input[type=checkbox]:checked ~ .doc_container {
-    display: block; }
+  .container_repertorio_cultural input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    display: block;
+    transition: all 0.25s ease-out; }
+  .container_repertorio_cultural input[type=checkbox]:checked ~ .line-box {
+    display: block;
+    transition: all 0.25s ease-out; }
   .container_repertorio_cultural label {
     width: 100%;
     height: 40px;
     background: url(img/icons8-plus-open_white.png) left 5px top 9px no-repeat;
     position: relative;
-    background-size: 18px;
-    display: block; }
+    background-size: 18px !important;
+    display: block;
+    left: -13px; }
     .container_repertorio_cultural label:before {
-      content: '#FICAADICA';
-      font-family: "nunito sans", "900";
+      content: 'REPOSITÓRIO CULTURAL';
+      font-family: "nunito sans";
       font-size: 14px;
-      color: black;
+      font-weight: 900;
+      color: #62883b;
       position: absolute;
       left: 28px;
       top: 10px; }
+  .container_repertorio_cultural .line-box {
+    border-left: 3px solid #FFF;
+    display: none; }
+  .container_repertorio_cultural .txt_boxe_collapsed {
+    display: none; }
   .container_repertorio_cultural .doc_container {
     position: relative;
     padding: 16px;
-    box-sizing: border-box;
-    display: none; }
+    box-sizing: border-box; }
   .container_repertorio_cultural.artes {
     background-color: #ECF0A6; }
     .container_repertorio_cultural.artes label:before {
@@ -2271,28 +2328,38 @@ blockquote {
     display: none; }
   .container_saiba_mais input[type=checkbox]:checked ~ label {
     background: url(img/icons8-minus-close_white.png) left 5px top 9px no-repeat; }
-  .container_saiba_mais input[type=checkbox]:checked ~ .doc_container {
-    display: block; }
+  .container_saiba_mais input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    display: block;
+    transition: all 0.25s ease-out; }
+  .container_saiba_mais input[type=checkbox]:checked ~ .line-box {
+    display: block;
+    transition: all 0.25s ease-out; }
   .container_saiba_mais label {
     width: 100%;
     height: 40px;
     background: url(img/icons8-plus-open_white.png) left 5px top 9px no-repeat;
     position: relative;
-    background-size: 18px;
-    display: block; }
+    background-size: 18px !important;
+    display: block;
+    left: -13px; }
     .container_saiba_mais label:before {
-      content: '#FICAADICA';
-      font-family: "nunito sans", "900";
+      content: 'SAIBA MAIS';
+      font-family: "nunito sans";
       font-size: 14px;
-      color: black;
+      font-weight: 900;
+      color: #62883b;
       position: absolute;
       left: 28px;
       top: 10px; }
+  .container_saiba_mais .line-box {
+    border-left: 3px solid #FFF;
+    display: none; }
+  .container_saiba_mais .txt_boxe_collapsed {
+    display: none; }
   .container_saiba_mais .doc_container {
     position: relative;
     padding: 16px;
-    box-sizing: border-box;
-    display: none; }
+    box-sizing: border-box; }
   .container_saiba_mais.artes {
     background-color: #ECF0A6; }
     .container_saiba_mais.artes label:before {

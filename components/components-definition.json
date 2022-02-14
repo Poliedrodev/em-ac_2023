@@ -375,7 +375,7 @@
         {
             "name": "container_fica_a_dica",
             "icon": "icons/components/container.svg",
-            "label": "Container Boxe 1",
+            "label": "Container Fica a Dica",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {

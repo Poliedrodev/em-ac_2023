@@ -15,8 +15,14 @@
         background: url(img/icons8-minus-close_white.png) left 5px top 9px no-repeat;
     }
 
-    input[type=checkbox]:checked ~ .doc_container {
+    input[type=checkbox]:checked ~ .txt_boxe_collapsed {
         display: block;
+        transition: all 0.25s ease-out;
+    }
+
+    input[type=checkbox]:checked ~ .line-box {
+        display: block;
+        transition: all 0.25s ease-out;
     }
 
     label {
@@ -24,25 +30,35 @@
         height: 40px;
         background: url(img/icons8-plus-open_white.png) left 5px top 9px no-repeat;
         position: relative;
-        background-size: 18px;
+        background-size: 18px !important;
         display: block;
+        left: -13px;
 
         &:before {
-            content: '#FICAADICA';
-            font-family: $font-nunito-sans-black;
+            content: 'SAIBA MAIS';
+            font-family: "nunito sans";
             font-size: 14px;
-            color: black;
+            font-weight: 900;
+            color: #62883b;
             position: absolute;
             left: 28px;
             top: 10px;
         }
     }
 
+    .line-box{
+        border-left: 3px solid #FFF;
+        display: none;
+    }
+
+    .txt_boxe_collapsed{
+        display: none;
+    }
+
     .doc_container {
         position: relative;
         padding: 16px;
         box-sizing: border-box;
-        display: none;
     }
     
     &.artes {
