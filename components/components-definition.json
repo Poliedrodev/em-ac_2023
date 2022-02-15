@@ -1,5 +1,5 @@
 {
-    "name": "default-components",
+    "name": "default-components-ing",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "body",
@@ -78,6 +78,29 @@
             }
         },
         {
+            "name": "image_inline",
+            "icon": "icons/components/image.svg",
+            "label": "Imagem Inline",
+            "properties": [
+                { "name": "fitting", "defaultValue": "_fit-frame-height-to-content" },
+                "position",
+                "style",
+                "inside-caption",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "edit-image", "directiveKey": "image" },
+                { "name": "hyperlink", "directiveKey": "hyperlink" }
+            ],
+            "directiveOptions": {
+                "caption": {
+                    "autofill": {
+                        "source": "image",
+                        "metadataField": "ContentMetaData/Description"
+                    }
+                }
+            }
+        },        {
             "name": "imagem_centralizada",
             "icon": "icons/components/image.svg",
             "label": "Imagem Centralizada",
@@ -1713,6 +1736,7 @@
             "imagem_sem_margem",
             "imagem_centralizada",
             "imagem_coluna_falsa",
+            "image_inline",
             "imagem_meia_coluna",
             "imagem_meia_coluna_container",
             "author",
@@ -2313,6 +2337,7 @@
             }
         },
         "image": {
+            "image_inline": "auto",
             "imagem_sem_margem": "auto",
             "imagem_centralizada": "auto",
             "imagem_coluna_falsa": "auto",
@@ -2326,6 +2351,7 @@
             "product": "auto"
         },
         "imagem_sem_margem": {
+            "image_inline": "auto",
             "image": "auto",
             "imagem_centralizada": "auto",
             "imagem_coluna_falsa": "auto",
@@ -2339,6 +2365,7 @@
             "product": "auto"
         },
         "imagem_centralizada": {
+            "image_inline": "auto",
             "imagem_sem_margem": "auto",
             "imagem_meia_coluna": "auto",
             "imagem_meia_coluna_container": "auto",
@@ -2353,7 +2380,7 @@
             "product": "auto"
         },
             "imagem_coluna_falsa": {
-            "imagem_sem_margem": "auto",
+                "imagem_sem_margem": "auto",
             "imagem_meia_coluna": "auto",
             "imagem_meia_coluna_container": "auto",
             "imagem_centralizada": "auto",
@@ -2955,10 +2982,10 @@
     "shortcuts": {
         "conversionComponents": [
             "css_03_numero",
-            "css_03_numero_cor_2",
             "css_03_item",
             "css_02_texto_geral1",
-            "image"
+            "image",
+            "image_inline"
         ]
     },
     "scripts": ["scripts/vendor.js"]
