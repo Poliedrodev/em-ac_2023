@@ -2649,35 +2649,38 @@ blockquote {
   padding: 0px 0px 16px 0px; }
 
 .css_01_titulo1 {
+  position: relative;
   display: block;
-  color: #45973D;
-  font-family: 'Montserrat';
-  font-weight: 800;
-  font-size: 40px;
-  font-variant: tabular-nums;
   margin: 40px 68px 0px 68px;
   padding: 0px 0px 16px 0px; }
-  .css_01_titulo1.artes {
-    color: #64428C !important; }
-  .css_01_titulo1.lingua_inglesa {
-    color: #069891 !important; }
-  .css_01_titulo1.lingua_portuguesa {
-    color: #c9252c !important; }
-  .css_01_titulo1.matematica {
-    color: #1961AC !important; }
-  .css_01_titulo1 .line-title {
+  .css_01_titulo1.artes .line {
+    background-color: #bfd730; }
+  .css_01_titulo1.artes .text {
+    color: #3F1F71; }
+  .css_01_titulo1.lingua_inglesa .line {
+    background-color: #bfd730; }
+  .css_01_titulo1.lingua_inglesa .text {
+    color: #015F5B; }
+  .css_01_titulo1.lingua_portuguesa .line {
+    background-color: #bfd730; }
+  .css_01_titulo1.lingua_portuguesa .text {
+    color: #96171a; }
+  .css_01_titulo1.matematica .line {
+    background-color: #F1CB40; }
+  .css_01_titulo1.matematica .text {
+    color: #033878; }
+  .css_01_titulo1 .line {
     width: 162px;
     height: 3px;
-    background-color: #000;
-    margin-left: 68px; }
-    .css_01_titulo1 .line-title.artes {
-      background-color: #bfd730 !important; }
-    .css_01_titulo1 .line-title.lingua_inglesa {
-      background-color: #bfd730 !important; }
-    .css_01_titulo1 .line-title.lingua_portuguesa {
-      background-color: #bfd730 !important; }
-    .css_01_titulo1 .line-title.matematica {
-      background-color: #F1CB40 !important; }
+    background-color: black;
+    position: absolute;
+    top: 72px; }
+  .css_01_titulo1 .text {
+    color: #45973D;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 40px;
+    font-variant: tabular-nums; }
 
 .css_01_titulo2 {
   display: block;
@@ -7134,6 +7137,22 @@ blockquote {
   font-size: 20px;
   color: #71706f;
   margin: 16px 0px 16px 0px; }
+
+.css_06_boxe_bullett {
+  display: block;
+  font-size: 20px;
+  color: #71706f;
+  font-family: "Proxima Nova Lt" !important;
+  font-weight: 400;
+  margin: 16px 0px 16px 0px;
+  line-height: 1.5em; }
+  .css_06_boxe_bullett ul li {
+    font-size: 20px;
+    color: #71706f;
+    font-family: "Proxima Nova Lt" !important;
+    font-weight: 400;
+    line-height: 1.5em;
+    padding-left: 4px; }
 
 .css_06_boxe_exercicio {
   display: block;

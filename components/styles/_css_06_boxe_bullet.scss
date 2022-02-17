@@ -2,7 +2,25 @@
   display: block;
   font-family: $font-proximaNova-light;
   font-size: 20px;
-  // margin: 10px;
   color: #71706f;
   margin: 16px 0px 16px 0px;
+}
+
+.css_06_boxe_bullett {
+  display: block;
+  font-size: 20px;
+  color: #71706f;
+  font-family: $font-proximaNova-light;
+  font-weight: 400;
+  margin: 16px 0px 16px 0px;
+  line-height: 1.5em;
+  ul li{
+    font-size: 20px;
+    color: #71706f;
+    font-family: $font-proximaNova-light;
+    font-weight: 400;
+    // margin: -8px 68px -8px 50px;
+    line-height: 1.5em;
+    padding-left: 4px;
+  }
 }
