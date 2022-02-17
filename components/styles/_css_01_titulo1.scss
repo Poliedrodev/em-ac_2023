@@ -7,98 +7,40 @@
   font-variant: tabular-nums;
   margin: 40px 68px 0px 68px;
   padding: 0px 0px 16px 0px;
+
   &.artes {
-    color: $art_cor1;
-    .line {
-      width: 162px;
-      height: 3px;
-      background-color: #000;
-      margin-left: 68px;
-      &.artes {
-        background-color: $seg_lin_cor1
-      }
-      &.lingua_inglesa {
-        background-color: $seg_lin_cor1
-      }
-      &.lingua_portuguesa {
-        background-color: $seg_lin_cor1
-      }
-      &.matematica {
-        background-color: $seg_mat_cor1
-      }
-    }
+    color: $art_cor1 !important;
   }
+
   &.lingua_inglesa {
-    color: $ing_cor1;
-    .line {
-      &.artes {
-        background-color: $seg_lin_cor1
-      }
-      &.lingua_inglesa {
-        background-color: $seg_lin_cor1
-      }
-      &.lingua_portuguesa {
-        background-color: $seg_lin_cor1
-      }
-      &.matematica {
-        background-color: $seg_mat_cor1
-      }
-    }
+    color: $ing_cor1 !important;
   }
+
   &.lingua_portuguesa {
-    color: $por_cor1;
-    .line {
-      &.artes {
-        background-color: $seg_lin_cor1
-      }
-      &.lingua_inglesa {
-        background-color: $seg_lin_cor1
-      }
-      &.lingua_portuguesa {
-        background-color: $seg_lin_cor1
-      }
-      &.matematica {
-        background-color: $seg_mat_cor1
-      }
+    color: $por_cor1 !important;
+  }
+
+  &.matematica {
+    color: $mat_cor1 !important;
+  }
+  
+  .line-title {
+    width: 162px;
+    height: 3px;
+    background-color: #000;
+    margin-left: 68px;
+    &.artes {
+      background-color: $seg_lin_cor1 !important;
+    }
+    &.lingua_inglesa {
+      background-color: $seg_lin_cor1 !important;
+    }
+    &.lingua_portuguesa {
+      background-color: $seg_lin_cor1 !important;
+    }
+    &.matematica {
+      background-color: $seg_mat_cor1 !important;
     }
   }
-  &.matematica {
-    color: $mat_cor1;
-    .line {
-      &.artes {
-        background-color: $seg_lin_cor1
-      }
-      &.lingua_inglesa {
-        background-color: $seg_lin_cor1
-      }
-      &.lingua_portuguesa {
-        background-color: $seg_lin_cor1
-      }
-      &.matematica {
-        background-color: $seg_mat_cor1
-      }
-    }
-  }
-}
-.line {
-  width: 162px;
-  height: 3px;
-  background-color: #000;
-  margin-left: 68px;
-  &.artes {
-    color: $art_cor1;
-    background-color: $seg_lin_cor1
-  }
-  &.lingua_inglesa {
-    color: $ing_cor1;
-    background-color: $seg_lin_cor1
-  }
-  &.lingua_portuguesa {
-    color: $por_cor1;
-    background-color: $seg_lin_cor1
-  }
-  &.matematica {
-    color: $mat_cor1;
-    background-color: $seg_mat_cor1
-  }
+  
 }
