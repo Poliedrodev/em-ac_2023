@@ -1,5 +1,5 @@
 {
-    "name": "default-components-teoria",
+    "name": "default-components-mat",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "body",
@@ -398,7 +398,13 @@
         {
             "name": "container_fica_a_dica",
             "icon": "icons/components/container.svg",
-            "label": "Container Fica a Dica",
+            "label": "Container #Ficaadica",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_take_a_tip",
+            "icon": "icons/components/container.svg",
+            "label": "Container #Takeatip",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -408,9 +414,27 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "container_connections",
+            "icon": "icons/components/container.svg",
+            "label": "Container Connections",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_read_more",
+            "icon": "icons/components/container.svg",
+            "label": "Container Read More",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "container_ler_e_escutar",
             "icon": "icons/components/container.svg",
             "label": "Container Ler e Escutar",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_reading_and_writing",
+            "icon": "icons/components/container.svg",
+            "label": "Container Reading and Writing",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -420,15 +444,33 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "container_reflecting_and_studying",
+            "icon": "icons/components/container.svg",
+            "label": "Container Reflecting and Studying",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "container_repertorio_cultural",
             "icon": "icons/components/container.svg",
             "label": "Container Repertório Cultural",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "container_culture_box",
+            "icon": "icons/components/container.svg",
+            "label": "Container Culture Box",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "container_saiba_mais",
             "icon": "icons/components/container.svg",
             "label": "Container Saiba Mais",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_fast_facts",
+            "icon": "icons/components/container.svg",
+            "label": "Container Fast Facts",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -1768,6 +1810,19 @@
             "css_07_boxe2",
             "css_07_boxe3",
             "css_07_boxe4"
+    ]
+    },
+    {
+        "label": "Lingua Inglesa",
+        "name": "lingua_inglesa",
+        "components": [
+            "container_connections",
+            "container_culture_box",
+            "container_fast_facts",
+            "container_read_more",
+            "container_reading_and_writing",
+            "container_reflecting_and_studying",
+            "container_take_a_tip"
     ]
     },
 {

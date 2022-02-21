@@ -35,7 +35,7 @@ body {
     outline: none; }
 
 html {
-  background-color: #ffffff; }
+  background-color: #d0e1f0; }
 
 body {
   max-width: 860px;
@@ -114,7 +114,7 @@ span[data-text-edit-color] a {
     overflow-x: hidden;
     overflow-y: auto; }
     .hero-js ._hero-content-box ._hero-content-wrapper {
-      background-color: #ffffff; }
+      background-color: #d0e1f0; }
       .hero-js ._hero-content-box ._hero-content-wrapper ._hero-content-body {
         max-width: 860px;
         padding: 0 5px;
@@ -2045,6 +2045,87 @@ blockquote {
       width: 33%;
       z-index: 1; } }
 
+.container_take_a_tip {
+  position: relative;
+  box-sizing: border-box;
+  margin: 32px 68px 40px 68px;
+  padding: 0px 28px 8px 28px;
+  border-radius: 5px;
+  transition: all 0.3;
+  background-color: #ECF0A6;
+  /* media query */ }
+  .container_take_a_tip input[type=checkbox] {
+    display: none; }
+  .container_take_a_tip input[type=checkbox]:checked ~ label {
+    background: url(img/icons8-minus-close_white.png) left 5px top 9px no-repeat; }
+  .container_take_a_tip input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    display: block;
+    transition: all 0.25s ease-out; }
+  .container_take_a_tip input[type=checkbox]:checked ~ .line-box {
+    display: block;
+    transition: all 0.25s ease-out; }
+  .container_take_a_tip label {
+    width: 100%;
+    height: 40px;
+    background: url(img/icons8-plus-open_white.png) left 5px top 9px no-repeat;
+    position: relative;
+    background-size: 18px !important;
+    display: block;
+    left: -13px; }
+    .container_take_a_tip label:before {
+      content: '#TAKEATIP';
+      font-family: "nunito sans";
+      font-size: 14px;
+      font-weight: 900;
+      color: #62883b;
+      position: absolute;
+      left: 28px;
+      top: 10px; }
+  .container_take_a_tip .text-box {
+    min-width: 200px;
+    font-family: "nunito sans", "900";
+    font-size: 14px;
+    color: #84A214;
+    position: absolute;
+    left: 50px;
+    top: 10px; }
+  .container_take_a_tip .line-box {
+    border-left: 3px solid #FFF;
+    display: none; }
+  .container_take_a_tip .txt_boxe_collapsed {
+    display: none; }
+  .container_take_a_tip .doc_container {
+    position: relative;
+    padding: 16px;
+    box-sizing: border-box; }
+  .container_take_a_tip.artes {
+    background-color: #ECF0A6; }
+    .container_take_a_tip.artes .text-box {
+      color: #C8D300; }
+  .container_take_a_tip.lingua_inglesa {
+    background-color: #ECF0A6; }
+    .container_take_a_tip.lingua_inglesa .text-box {
+      color: #C8D300; }
+  .container_take_a_tip.lingua_portuguesa {
+    background-color: #ECF0A6; }
+    .container_take_a_tip.lingua_portuguesa .text-box {
+      color: #84A214; }
+  .container_take_a_tip.matematica {
+    background-color: #FAEDBC; }
+    .container_take_a_tip.matematica .text-box {
+      color: #C09100; }
+  @media only screen and (min-width: 481px) {
+    .container_take_a_tip._left {
+      float: left;
+      clear: left;
+      width: 33%;
+      z-index: 1; }
+    .container_take_a_tip._right {
+      float: right;
+      clear: right;
+      width: 33%;
+      z-index: 1; } }
+
 .container_leitura_complementar {
   padding: 8px 16px 16px 16px;
   margin: 48px 68px 40px 68px;
@@ -2131,6 +2212,178 @@ blockquote {
       width: 50%;
       z-index: 1; } }
 
+.container_connections {
+  padding: 8px 16px 16px 16px;
+  margin: 48px 68px 40px 68px;
+  clear: both;
+  display: block;
+  /* media query */ }
+  .container_connections::after {
+    content: '';
+    display: block;
+    clear: both; }
+  .container_connections .text-read2 {
+    font-size: 16px;
+    border-bottom: solid 3px #8CCDD2;
+    color: #069891;
+    width: 235px;
+    text-align: center;
+    padding: 3px;
+    font-family: montserrat;
+    font-weight: 700; }
+  .container_connections .line3 {
+    width: 100%;
+    height: 2px;
+    background-color: #069891; }
+  .container_connections > *:first-child {
+    margin-top: 0; }
+    .container_connections > *:first-child._left + ._right {
+      margin-top: 0; }
+    .container_connections > *:first-child._right + ._left {
+      margin-top: 0; }
+  .container_connections > *:last-child {
+    margin-bottom: 0; }
+  .container_connections > *._left + ._right:last-child {
+    margin-bottom: 20px; }
+  .container_connections > *._right + ._left:last-child {
+    margin-bottom: 20px; }
+  .container_connections.artes .box_green {
+    background: linear-gradient(-90deg, #64428C 0%, rgba(100, 66, 140, 0.7) 100%);
+    border: solid 3px #64428C; }
+  .container_connections.biologia .box_green {
+    background: linear-gradient(-90deg, #45973d 0%, rgba(69, 151, 61, 0.7) 100%);
+    border: solid 3px #45973d; }
+  .container_connections.filosofia .box_green {
+    background: linear-gradient(-90deg, #536DA7 0%, rgba(83, 109, 167, 0.7) 100%);
+    border: solid 3px #536DA7; }
+  .container_connections.fisica .box_green {
+    background: linear-gradient(-90deg, #00909B 0%, rgba(0, 144, 155, 0.7) 100%);
+    border: solid 3px #00909B; }
+  .container_connections.geografia .box_green {
+    background: linear-gradient(-90deg, #D85509 0%, rgba(216, 85, 9, 0.7) 100%);
+    border: solid 3px #D85509; }
+  .container_connections.historia .box_green {
+    background: linear-gradient(-90deg, #951B81 0%, rgba(149, 27, 129, 0.7) 100%);
+    border: solid 3px #951B81; }
+  .container_connections.lingua_inglesa .box_green {
+    background: linear-gradient(-90deg, #069891 0%, rgba(6, 152, 145, 0.7) 100%);
+    border: solid 3px #069891; }
+  .container_connections.lingua_portuguesa {
+    border: 2px solid #981711; }
+    .container_connections.lingua_portuguesa .box_green {
+      color: #981711;
+      border-bottom: solid 2px #981711;
+      border-left: solid 6px #E59798; }
+  .container_connections.matematica .box_green {
+    background: linear-gradient(-90deg, #1961AC 0%, rgba(25, 97, 172, 0.7) 100%);
+    border: solid 3px #1961AC; }
+  .container_connections.producao_de_texto .box_green {
+    background: linear-gradient(-90deg, #0F83A6 0%, rgba(15, 131, 166, 0.7) 100%);
+    border: solid 3px #0F83A6; }
+  .container_connections.quimica .box_green {
+    background: linear-gradient(-90deg, #B80071 0%, rgba(184, 0, 113, 0.7) 100%);
+    border: solid 3px #B80071; }
+  .container_connections.sociologia .box_green {
+    background: linear-gradient(-90deg, #C71553 0%, rgba(199, 21, 83, 0.7) 100%);
+    border: solid 3px #C71553; }
+  @media only screen and (min-width: 481px) {
+    .container_connections._left {
+      float: left;
+      clear: left;
+      width: 50%;
+      z-index: 1; }
+    .container_connections._right {
+      float: right;
+      clear: right;
+      width: 50%;
+      z-index: 1; } }
+
+.container_read_more {
+  padding: 8px 16px 16px 16px;
+  margin: 48px 68px 40px 68px;
+  clear: both;
+  display: block;
+  /* media query */ }
+  .container_read_more::after {
+    content: '';
+    display: block;
+    clear: both; }
+  .container_read_more .text-read2 {
+    font-size: 16px;
+    border-bottom: solid 3px #8CCDD2;
+    color: #069891;
+    width: 235px;
+    text-align: center;
+    padding: 3px;
+    font-family: montserrat;
+    font-weight: 700; }
+  .container_read_more .line3 {
+    width: 100%;
+    height: 2px;
+    background-color: #069891; }
+  .container_read_more > *:first-child {
+    margin-top: 0; }
+    .container_read_more > *:first-child._left + ._right {
+      margin-top: 0; }
+    .container_read_more > *:first-child._right + ._left {
+      margin-top: 0; }
+  .container_read_more > *:last-child {
+    margin-bottom: 0; }
+  .container_read_more > *._left + ._right:last-child {
+    margin-bottom: 20px; }
+  .container_read_more > *._right + ._left:last-child {
+    margin-bottom: 20px; }
+  .container_read_more.artes .box_green {
+    background: linear-gradient(-90deg, #64428C 0%, rgba(100, 66, 140, 0.7) 100%);
+    border: solid 3px #64428C; }
+  .container_read_more.biologia .box_green {
+    background: linear-gradient(-90deg, #45973d 0%, rgba(69, 151, 61, 0.7) 100%);
+    border: solid 3px #45973d; }
+  .container_read_more.filosofia .box_green {
+    background: linear-gradient(-90deg, #536DA7 0%, rgba(83, 109, 167, 0.7) 100%);
+    border: solid 3px #536DA7; }
+  .container_read_more.fisica .box_green {
+    background: linear-gradient(-90deg, #00909B 0%, rgba(0, 144, 155, 0.7) 100%);
+    border: solid 3px #00909B; }
+  .container_read_more.geografia .box_green {
+    background: linear-gradient(-90deg, #D85509 0%, rgba(216, 85, 9, 0.7) 100%);
+    border: solid 3px #D85509; }
+  .container_read_more.historia .box_green {
+    background: linear-gradient(-90deg, #951B81 0%, rgba(149, 27, 129, 0.7) 100%);
+    border: solid 3px #951B81; }
+  .container_read_more.lingua_inglesa .box_green {
+    background: linear-gradient(-90deg, #069891 0%, rgba(6, 152, 145, 0.7) 100%);
+    border: solid 3px #069891; }
+  .container_read_more.lingua_portuguesa {
+    border: 2px solid #981711; }
+    .container_read_more.lingua_portuguesa .box_green {
+      color: #981711;
+      border-bottom: solid 2px #981711;
+      border-left: solid 6px #E59798; }
+  .container_read_more.matematica .box_green {
+    background: linear-gradient(-90deg, #1961AC 0%, rgba(25, 97, 172, 0.7) 100%);
+    border: solid 3px #1961AC; }
+  .container_read_more.producao_de_texto .box_green {
+    background: linear-gradient(-90deg, #0F83A6 0%, rgba(15, 131, 166, 0.7) 100%);
+    border: solid 3px #0F83A6; }
+  .container_read_more.quimica .box_green {
+    background: linear-gradient(-90deg, #B80071 0%, rgba(184, 0, 113, 0.7) 100%);
+    border: solid 3px #B80071; }
+  .container_read_more.sociologia .box_green {
+    background: linear-gradient(-90deg, #C71553 0%, rgba(199, 21, 83, 0.7) 100%);
+    border: solid 3px #C71553; }
+  @media only screen and (min-width: 481px) {
+    .container_read_more._left {
+      float: left;
+      clear: left;
+      width: 50%;
+      z-index: 1; }
+    .container_read_more._right {
+      float: right;
+      clear: right;
+      width: 50%;
+      z-index: 1; } }
+
 .container_ler_e_escutar {
   border: 2px solid #96171a;
   padding: 24px;
@@ -2209,17 +2462,138 @@ blockquote {
       width: 50%;
       z-index: 1; } }
 
-.container_refletir_e_analisar {
-  border: 2px solid #ccc;
-  padding: 8px 16px 16px 16px;
+.container_reading_and_writing {
+  border: 2px solid #96171a;
+  padding: 24px;
   margin: 48px 68px 40px 68px;
-  clear: both;
+  border-radius: 5px;
   display: block;
   /* media query */ }
-  .container_refletir_e_analisar::after {
-    content: '';
-    display: block;
-    clear: both; }
+  .container_reading_and_writing .text-read {
+    border-top: solid 2px #96171a;
+    border-left: solid 6px #E59798;
+    font-size: 16px;
+    border-bottom: none;
+    color: #96171a;
+    width: 202px;
+    text-align: center;
+    padding: 3px 0px 3px 6px;
+    font-family: montserrat;
+    font-weight: 700; }
+  .container_reading_and_writing .line1 {
+    width: 100%;
+    height: 2px;
+    background-color: #96171a; }
+  .container_reading_and_writing.artes {
+    border: 2px solid #3F1F71; }
+    .container_reading_and_writing.artes .text-read {
+      border-top: solid 2px #3F1F71;
+      border-left: solid 6px #B9A9CB;
+      color: #3F1F71; }
+    .container_reading_and_writing.artes .line1 {
+      background-color: #3F1F71; }
+  .container_reading_and_writing.lingua_inglesa {
+    border: 2px solid #015F5B; }
+    .container_reading_and_writing.lingua_inglesa .text-read {
+      border-top: solid 2px #015F5B;
+      border-left: solid 6px #8CCDD2;
+      color: #015F5B; }
+    .container_reading_and_writing.lingua_inglesa .line1 {
+      background-color: #015F5B; }
+  .container_reading_and_writing.lingua_portuguesa {
+    border: 2px solid #96171a; }
+    .container_reading_and_writing.lingua_portuguesa .text-read {
+      border-top: solid 2px #96171a;
+      border-left: solid 6px #E59798;
+      color: #96171a; }
+    .container_reading_and_writing.lingua_portuguesa .line1 {
+      background-color: #96171a; }
+  .container_reading_and_writing.matematica {
+    border: 2px solid #033878; }
+    .container_reading_and_writing.matematica .text-read {
+      border-top: solid 2px #033878;
+      border-left: solid 6px #97B7D9;
+      color: #033878; }
+    .container_reading_and_writing.matematica .line1 {
+      background-color: #033878; }
+  .container_reading_and_writing > *:first-child {
+    margin-top: 0; }
+    .container_reading_and_writing > *:first-child._left + ._right {
+      margin-top: 0; }
+    .container_reading_and_writing > *:first-child._right + ._left {
+      margin-top: 0; }
+  .container_reading_and_writing > *:last-child {
+    margin-bottom: 0; }
+  .container_reading_and_writing > *._left + ._right:last-child {
+    margin-bottom: 20px; }
+  .container_reading_and_writing > *._right + ._left:last-child {
+    margin-bottom: 20px; }
+  @media only screen and (min-width: 481px) {
+    .container_reading_and_writing._left {
+      float: left;
+      clear: left;
+      width: 50%;
+      z-index: 1; }
+    .container_reading_and_writing._right {
+      float: right;
+      clear: right;
+      width: 50%;
+      z-index: 1; } }
+
+.container_refletir_e_analisar {
+  border: 2px solid #96171a;
+  padding: 24px;
+  margin: 48px 68px 40px 68px;
+  border-radius: 5px;
+  display: block;
+  /* media query */ }
+  .container_refletir_e_analisar .text-read {
+    border-top: solid 2px #96171a;
+    border-left: solid 6px #E59798;
+    font-size: 16px;
+    border-bottom: none;
+    color: #96171a;
+    width: 187px;
+    text-align: center;
+    padding: 3px 0px 3px 6px;
+    font-family: montserrat;
+    font-weight: 700; }
+  .container_refletir_e_analisar .line1 {
+    width: 100%;
+    height: 2px;
+    background-color: #96171a; }
+  .container_refletir_e_analisar.artes {
+    border: 2px solid #3F1F71; }
+    .container_refletir_e_analisar.artes .text-read {
+      border-top: solid 2px #3F1F71;
+      border-left: solid 6px #B9A9CB;
+      color: #3F1F71; }
+    .container_refletir_e_analisar.artes .line1 {
+      background-color: #3F1F71; }
+  .container_refletir_e_analisar.lingua_inglesa {
+    border: 2px solid #015F5B; }
+    .container_refletir_e_analisar.lingua_inglesa .text-read {
+      border-top: solid 2px #015F5B;
+      border-left: solid 6px #8CCDD2;
+      color: #015F5B; }
+    .container_refletir_e_analisar.lingua_inglesa .line1 {
+      background-color: #015F5B; }
+  .container_refletir_e_analisar.lingua_portuguesa {
+    border: 2px solid #96171a; }
+    .container_refletir_e_analisar.lingua_portuguesa .text-read {
+      border-top: solid 2px #96171a;
+      border-left: solid 6px #E59798;
+      color: #96171a; }
+    .container_refletir_e_analisar.lingua_portuguesa .line1 {
+      background-color: #96171a; }
+  .container_refletir_e_analisar.matematica {
+    border: 2px solid #033878; }
+    .container_refletir_e_analisar.matematica .text-read {
+      border-top: solid 2px #033878;
+      border-left: solid 6px #97B7D9;
+      color: #033878; }
+    .container_refletir_e_analisar.matematica .line1 {
+      background-color: #033878; }
   .container_refletir_e_analisar > *:first-child {
     margin-top: 0; }
     .container_refletir_e_analisar > *:first-child._left + ._right {
@@ -2232,63 +2606,6 @@ blockquote {
     margin-bottom: 20px; }
   .container_refletir_e_analisar > *._right + ._left:last-child {
     margin-bottom: 20px; }
-  .container_refletir_e_analisar .box_green {
-    width: 93.5%;
-    height: 23px;
-    position: relative;
-    display: flex;
-    top: 18px;
-    left: 16px;
-    padding: 1px 0px 0px 0px;
-    margin: 0px 0px 32px 0px;
-    border-bottom: solid 2px #000000;
-    border-left: solid 6px #999999;
-    text-decoration: overline;
-    font-family: "montserrat extrabold", "800";
-    font-size: 16px;
-    color: #000000; }
-    .container_refletir_e_analisar .box_green:before {
-      content: '';
-      display: block; }
-  .container_refletir_e_analisar.artes .box_green {
-    background: linear-gradient(-90deg, #64428C 0%, rgba(100, 66, 140, 0.7) 100%);
-    border: solid 3px #64428C; }
-  .container_refletir_e_analisar.biologia .box_green {
-    background: linear-gradient(-90deg, #45973d 0%, rgba(69, 151, 61, 0.7) 100%);
-    border: solid 3px #45973d; }
-  .container_refletir_e_analisar.filosofia .box_green {
-    background: linear-gradient(-90deg, #536DA7 0%, rgba(83, 109, 167, 0.7) 100%);
-    border: solid 3px #536DA7; }
-  .container_refletir_e_analisar.fisica .box_green {
-    background: linear-gradient(-90deg, #00909B 0%, rgba(0, 144, 155, 0.7) 100%);
-    border: solid 3px #00909B; }
-  .container_refletir_e_analisar.geografia .box_green {
-    background: linear-gradient(-90deg, #D85509 0%, rgba(216, 85, 9, 0.7) 100%);
-    border: solid 3px #D85509; }
-  .container_refletir_e_analisar.historia .box_green {
-    background: linear-gradient(-90deg, #951B81 0%, rgba(149, 27, 129, 0.7) 100%);
-    border: solid 3px #951B81; }
-  .container_refletir_e_analisar.lingua_inglesa .box_green {
-    background: linear-gradient(-90deg, #069891 0%, rgba(6, 152, 145, 0.7) 100%);
-    border: solid 3px #069891; }
-  .container_refletir_e_analisar.lingua_portuguesa {
-    border: 2px solid #981711; }
-    .container_refletir_e_analisar.lingua_portuguesa .box_green {
-      color: #981711;
-      border-bottom: solid 2px #981711;
-      border-left: solid 6px #E59798; }
-  .container_refletir_e_analisar.matematica .box_green {
-    background: linear-gradient(-90deg, #1961AC 0%, rgba(25, 97, 172, 0.7) 100%);
-    border: solid 3px #1961AC; }
-  .container_refletir_e_analisar.producao_de_texto .box_green {
-    background: linear-gradient(-90deg, #0F83A6 0%, rgba(15, 131, 166, 0.7) 100%);
-    border: solid 3px #0F83A6; }
-  .container_refletir_e_analisar.quimica .box_green {
-    background: linear-gradient(-90deg, #B80071 0%, rgba(184, 0, 113, 0.7) 100%);
-    border: solid 3px #B80071; }
-  .container_refletir_e_analisar.sociologia .box_green {
-    background: linear-gradient(-90deg, #C71553 0%, rgba(199, 21, 83, 0.7) 100%);
-    border: solid 3px #C71553; }
   @media only screen and (min-width: 481px) {
     .container_refletir_e_analisar._left {
       float: left;
@@ -2296,6 +2613,84 @@ blockquote {
       width: 50%;
       z-index: 1; }
     .container_refletir_e_analisar._right {
+      float: right;
+      clear: right;
+      width: 50%;
+      z-index: 1; } }
+
+.container_reflecting_and_studying {
+  border: 2px solid #96171a;
+  padding: 24px;
+  margin: 48px 68px 40px 68px;
+  border-radius: 5px;
+  display: block;
+  /* media query */ }
+  .container_reflecting_and_studying .text-read {
+    border-top: solid 2px #96171a;
+    border-left: solid 6px #E59798;
+    font-size: 16px;
+    border-bottom: none;
+    color: #96171a;
+    width: 239px;
+    text-align: center;
+    padding: 3px 0px 3px 6px;
+    font-family: montserrat;
+    font-weight: 700; }
+  .container_reflecting_and_studying .line1 {
+    width: 100%;
+    height: 2px;
+    background-color: #96171a; }
+  .container_reflecting_and_studying.artes {
+    border: 2px solid #3F1F71; }
+    .container_reflecting_and_studying.artes .text-read {
+      border-top: solid 2px #3F1F71;
+      border-left: solid 6px #B9A9CB;
+      color: #3F1F71; }
+    .container_reflecting_and_studying.artes .line1 {
+      background-color: #3F1F71; }
+  .container_reflecting_and_studying.lingua_inglesa {
+    border: 2px solid #015F5B; }
+    .container_reflecting_and_studying.lingua_inglesa .text-read {
+      border-top: solid 2px #015F5B;
+      border-left: solid 6px #8CCDD2;
+      color: #015F5B; }
+    .container_reflecting_and_studying.lingua_inglesa .line1 {
+      background-color: #015F5B; }
+  .container_reflecting_and_studying.lingua_portuguesa {
+    border: 2px solid #96171a; }
+    .container_reflecting_and_studying.lingua_portuguesa .text-read {
+      border-top: solid 2px #96171a;
+      border-left: solid 6px #E59798;
+      color: #96171a; }
+    .container_reflecting_and_studying.lingua_portuguesa .line1 {
+      background-color: #96171a; }
+  .container_reflecting_and_studying.matematica {
+    border: 2px solid #033878; }
+    .container_reflecting_and_studying.matematica .text-read {
+      border-top: solid 2px #033878;
+      border-left: solid 6px #97B7D9;
+      color: #033878; }
+    .container_reflecting_and_studying.matematica .line1 {
+      background-color: #033878; }
+  .container_reflecting_and_studying > *:first-child {
+    margin-top: 0; }
+    .container_reflecting_and_studying > *:first-child._left + ._right {
+      margin-top: 0; }
+    .container_reflecting_and_studying > *:first-child._right + ._left {
+      margin-top: 0; }
+  .container_reflecting_and_studying > *:last-child {
+    margin-bottom: 0; }
+  .container_reflecting_and_studying > *._left + ._right:last-child {
+    margin-bottom: 20px; }
+  .container_reflecting_and_studying > *._right + ._left:last-child {
+    margin-bottom: 20px; }
+  @media only screen and (min-width: 481px) {
+    .container_reflecting_and_studying._left {
+      float: left;
+      clear: left;
+      width: 50%;
+      z-index: 1; }
+    .container_reflecting_and_studying._right {
       float: right;
       clear: right;
       width: 50%;
@@ -2406,6 +2801,87 @@ blockquote {
       width: 33%;
       z-index: 1; } }
 
+.container_culture_box {
+  position: relative;
+  box-sizing: border-box;
+  margin: 32px 68px 40px 68px;
+  padding: 0px 28px 8px 28px;
+  border-radius: 5px;
+  transition: all 0.3;
+  background-color: #ECF0A6;
+  /* media query */ }
+  .container_culture_box input[type=checkbox] {
+    display: none; }
+  .container_culture_box input[type=checkbox]:checked ~ label {
+    background: url(img/icons8-minus-close_white.png) left 5px top 9px no-repeat; }
+  .container_culture_box input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    display: block;
+    transition: all 0.25s ease-out; }
+  .container_culture_box input[type=checkbox]:checked ~ .line-box {
+    display: block;
+    transition: all 0.25s ease-out; }
+  .container_culture_box label {
+    width: 100%;
+    height: 40px;
+    background: url(img/icons8-plus-open_white.png) left 5px top 9px no-repeat;
+    position: relative;
+    background-size: 18px !important;
+    display: block;
+    left: -13px; }
+    .container_culture_box label:before {
+      content: 'CULTURE BOX';
+      font-family: "nunito sans";
+      font-size: 14px;
+      font-weight: 900;
+      color: #62883b;
+      position: absolute;
+      left: 28px;
+      top: 10px; }
+  .container_culture_box .text-box {
+    min-width: 200px;
+    font-family: "nunito sans", "900";
+    font-size: 14px;
+    color: #84A214;
+    position: absolute;
+    left: 50px;
+    top: 10px; }
+  .container_culture_box .line-box {
+    border-left: 3px solid #FFF;
+    display: none; }
+  .container_culture_box .txt_boxe_collapsed {
+    display: none; }
+  .container_culture_box .doc_container {
+    position: relative;
+    padding: 16px;
+    box-sizing: border-box; }
+  .container_culture_box.artes {
+    background-color: #ECF0A6; }
+    .container_culture_box.artes .text-box {
+      color: #C8D300; }
+  .container_culture_box.lingua_inglesa {
+    background-color: #ECF0A6; }
+    .container_culture_box.lingua_inglesa .text-box {
+      color: #C8D300; }
+  .container_culture_box.lingua_portuguesa {
+    background-color: #ECF0A6; }
+    .container_culture_box.lingua_portuguesa .text-box {
+      color: #84A214; }
+  .container_culture_box.matematica {
+    background-color: #FAEDBC; }
+    .container_culture_box.matematica .text-box {
+      color: #C09100; }
+  @media only screen and (min-width: 481px) {
+    .container_culture_box._left {
+      float: left;
+      clear: left;
+      width: 33%;
+      z-index: 1; }
+    .container_culture_box._right {
+      float: right;
+      clear: right;
+      width: 33%;
+      z-index: 1; } }
+
 .container_saiba_mais {
   position: relative;
   box-sizing: border-box;
@@ -2506,6 +2982,87 @@ blockquote {
       width: 33%;
       z-index: 1; }
     .container_saiba_mais._right {
+      float: right;
+      clear: right;
+      width: 33%;
+      z-index: 1; } }
+
+.container_fast_facts {
+  position: relative;
+  box-sizing: border-box;
+  margin: 32px 68px 40px 68px;
+  padding: 0px 28px 8px 28px;
+  border-radius: 5px;
+  transition: all 0.3;
+  background-color: #ECF0A6;
+  /* media query */ }
+  .container_fast_facts input[type=checkbox] {
+    display: none; }
+  .container_fast_facts input[type=checkbox]:checked ~ label {
+    background: url(img/icons8-minus-close_white.png) left 5px top 9px no-repeat; }
+  .container_fast_facts input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    display: block;
+    transition: all 0.25s ease-out; }
+  .container_fast_facts input[type=checkbox]:checked ~ .line-box {
+    display: block;
+    transition: all 0.25s ease-out; }
+  .container_fast_facts label {
+    width: 100%;
+    height: 40px;
+    background: url(img/icons8-plus-open_white.png) left 5px top 9px no-repeat;
+    position: relative;
+    background-size: 18px !important;
+    display: block;
+    left: -13px; }
+    .container_fast_facts label:before {
+      content: 'FAST FACTS';
+      font-family: "nunito sans";
+      font-size: 14px;
+      font-weight: 900;
+      color: #62883b;
+      position: absolute;
+      left: 28px;
+      top: 10px; }
+  .container_fast_facts .text-box {
+    min-width: 200px;
+    font-family: "nunito sans", "900";
+    font-size: 14px;
+    color: #84A214;
+    position: absolute;
+    left: 50px;
+    top: 10px; }
+  .container_fast_facts .line-box {
+    border-left: 3px solid #FFF;
+    display: none; }
+  .container_fast_facts .txt_boxe_collapsed {
+    display: none; }
+  .container_fast_facts .doc_container {
+    position: relative;
+    padding: 16px;
+    box-sizing: border-box; }
+  .container_fast_facts.artes {
+    background-color: #ECF0A6; }
+    .container_fast_facts.artes .text-box {
+      color: #C8D300; }
+  .container_fast_facts.lingua_inglesa {
+    background-color: #ECF0A6; }
+    .container_fast_facts.lingua_inglesa .text-box {
+      color: #C8D300; }
+  .container_fast_facts.lingua_portuguesa {
+    background-color: #ECF0A6; }
+    .container_fast_facts.lingua_portuguesa .text-box {
+      color: #84A214; }
+  .container_fast_facts.matematica {
+    background-color: #FAEDBC; }
+    .container_fast_facts.matematica .text-box {
+      color: #C09100; }
+  @media only screen and (min-width: 481px) {
+    .container_fast_facts._left {
+      float: left;
+      clear: left;
+      width: 33%;
+      z-index: 1; }
+    .container_fast_facts._right {
       float: right;
       clear: right;
       width: 33%;
@@ -2674,7 +3231,7 @@ blockquote {
     height: 3px;
     background-color: black;
     position: absolute;
-    top: 72px; }
+    top: 64px; }
   .css_01_titulo1 .text {
     color: #45973D;
     font-family: 'Montserrat';
@@ -3074,7 +3631,7 @@ blockquote {
   font-size: 18px;
   margin: 12px 0px 0px 32px; }
 
-.css_03_exercicio_enunciado {
+.css_03_exercicio_resolvido {
   display: block;
   font-family: 'Noticia Text';
   font-weight: 400;
@@ -3663,8 +4220,9 @@ blockquote {
 .css_06_boxe_texto1 {
   display: block;
   font-size: 16px;
-  color: #84A214;
-  font-family: "noticia text", "400";
+  color: #62883b;
+  font-family: 'Noticia Text';
+  font-weight: 400;
   margin: 0px 0px 16px 20px;
   line-height: 1.5em; }
   .css_06_boxe_texto1.artes {
@@ -7133,26 +7691,34 @@ blockquote {
 
 .css_06_boxe_bullet {
   display: block;
-  font-family: "Proxima Nova Lt" !important;
-  font-size: 20px;
-  color: #71706f;
+  font-size: 16px;
+  color: #62883b;
+  font-family: 'Noticia Text';
+  font-weight: 400;
   margin: 16px 0px 16px 0px; }
 
 .css_06_boxe_bullett {
   display: block;
-  font-size: 20px;
-  color: #71706f;
-  font-family: "Proxima Nova Lt" !important;
+  font-size: 16px;
+  color: #62883b;
+  font-family: 'Noticia Text';
   font-weight: 400;
   margin: 16px 0px 16px 0px;
   line-height: 1.5em; }
   .css_06_boxe_bullett ul li {
-    font-size: 20px;
-    color: #71706f;
+    font-size: 16px;
     font-family: "Proxima Nova Lt" !important;
     font-weight: 400;
     line-height: 1.5em;
     padding-left: 4px; }
+  .css_06_boxe_bullett.artes {
+    color: #62883b; }
+  .css_06_boxe_bullett.lingua_inglesa {
+    color: #62883b; }
+  .css_06_boxe_bullett.lingua_portuguesa {
+    color: #62883b; }
+  .css_06_boxe_bullett.matematica {
+    color: #C09100; }
 
 .css_06_boxe_exercicio {
   display: block;
