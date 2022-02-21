@@ -1,5 +1,5 @@
 {
-    "name": "default-components-mat",
+    "name": "default-components",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "body",
@@ -400,6 +400,12 @@
             "icon": "icons/components/container.svg",
             "label": "Container #Ficaadica",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_questao_dissertativa",
+            "icon": "icons/components/container.svg",
+            "label": "Container Questao Dissertativa" ,
+            "properties": ["position", "text-align", "letter-spacing", "line-height"]
         },
         {
             "name": "container_take_a_tip",
@@ -1798,6 +1804,7 @@
             "container_leitura_complementar",
             "container_ler_e_escutar",
             "container_tarja_secao",
+            "container_questao_dissertativa",
             "container_refletir_e_analisar",
             "container_repertorio_cultural",
             "container_saiba_mais",
