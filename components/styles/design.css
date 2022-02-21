@@ -2065,7 +2065,8 @@ blockquote {
       border-right: solid 1px #707070;
       display: flex;
       justify-content: space-between;
-      align-items: center; }
+      align-items: center;
+      cursor: pointer; }
       .container_questao_dissertativa .label .arial:after {
         content: '';
         width: 10px;
@@ -2086,7 +2087,8 @@ blockquote {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin: 0px 10px 0px 10px; }
+      margin: 0px 10px 0px 10px;
+      cursor: pointer; }
       .container_questao_dissertativa .label .size:after {
         content: '';
         width: 10px;
@@ -2113,7 +2115,8 @@ blockquote {
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        margin-right: 10px; }
+        margin-right: 10px;
+        cursor: pointer; }
       .container_questao_dissertativa .label .type .textI {
         content: '';
         width: 10px;
@@ -2122,7 +2125,8 @@ blockquote {
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        margin-right: 10px; }
+        margin-right: 10px;
+        cursor: pointer; }
       .container_questao_dissertativa .label .type .textU {
         content: '';
         width: 10px;
@@ -2131,7 +2135,8 @@ blockquote {
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        margin-right: 10px; }
+        margin-right: 10px;
+        cursor: pointer; }
   .container_questao_dissertativa .text {
     max-width: 93%;
     margin: 20px 20px 10px 16px !important; }

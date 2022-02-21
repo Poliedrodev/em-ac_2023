@@ -19,6 +19,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            cursor: pointer;
             &:after{
                 content: '';
                 width: 10px;
@@ -47,6 +48,7 @@
             justify-content: space-between;
             align-items: center;
             margin: 0px 10px 0px 10px;
+            cursor: pointer;
             &:after{
                 content: '';
                 width: 10px;
@@ -80,6 +82,7 @@
                 background-size: contain;
                 background-repeat: no-repeat;
                 margin-right: 10px;
+                cursor: pointer;
             }
             .textI{
                 content: '';
@@ -90,6 +93,8 @@
                 background-size: contain;
                 background-repeat: no-repeat;
                 margin-right: 10px;
+                cursor: pointer;
+
             }
             .textU{
                 content: '';
@@ -100,6 +105,8 @@
                 background-size: contain;
                 background-repeat: no-repeat;
                 margin-right: 10px;
+                cursor: pointer;
+
             }
         }
     }
