@@ -2665,6 +2665,84 @@ blockquote {
       width: 50%;
       z-index: 1; } }
 
+.container_matema_tec {
+  border: 2px solid #96171a;
+  padding: 24px;
+  margin: 48px 68px 40px 68px;
+  border-radius: 5px;
+  display: block;
+  /* media query */ }
+  .container_matema_tec .text-read {
+    border-top: solid 2px #033878;
+    border-left: solid 6px #97B7D9;
+    font-size: 16px;
+    border-bottom: none;
+    color: #96171a;
+    width: 117px;
+    text-align: center;
+    padding: 3px 0px 3px 6px;
+    font-family: montserrat;
+    font-weight: 700; }
+  .container_matema_tec .line1 {
+    width: 100%;
+    height: 2px;
+    background-color: #033878; }
+  .container_matema_tec.artes {
+    border: 2px solid #3F1F71; }
+    .container_matema_tec.artes .text-read {
+      border-top: solid 2px #3F1F71;
+      border-left: solid 6px #B9A9CB;
+      color: #3F1F71; }
+    .container_matema_tec.artes .line1 {
+      background-color: #3F1F71; }
+  .container_matema_tec.lingua_inglesa {
+    border: 2px solid #015F5B; }
+    .container_matema_tec.lingua_inglesa .text-read {
+      border-top: solid 2px #015F5B;
+      border-left: solid 6px #8CCDD2;
+      color: #015F5B; }
+    .container_matema_tec.lingua_inglesa .line1 {
+      background-color: #015F5B; }
+  .container_matema_tec.lingua_portuguesa {
+    border: 2px solid #96171a; }
+    .container_matema_tec.lingua_portuguesa .text-read {
+      border-top: solid 2px #96171a;
+      border-left: solid 6px #E59798;
+      color: #96171a; }
+    .container_matema_tec.lingua_portuguesa .line1 {
+      background-color: #96171a; }
+  .container_matema_tec.matematica {
+    border: 2px solid #033878; }
+    .container_matema_tec.matematica .text-read {
+      border-top: solid 2px #033878;
+      border-left: solid 6px #97B7D9;
+      color: #033878; }
+    .container_matema_tec.matematica .line1 {
+      background-color: #033878; }
+  .container_matema_tec > *:first-child {
+    margin-top: 0; }
+    .container_matema_tec > *:first-child._left + ._right {
+      margin-top: 0; }
+    .container_matema_tec > *:first-child._right + ._left {
+      margin-top: 0; }
+  .container_matema_tec > *:last-child {
+    margin-bottom: 0; }
+  .container_matema_tec > *._left + ._right:last-child {
+    margin-bottom: 20px; }
+  .container_matema_tec > *._right + ._left:last-child {
+    margin-bottom: 20px; }
+  @media only screen and (min-width: 481px) {
+    .container_matema_tec._left {
+      float: left;
+      clear: left;
+      width: 50%;
+      z-index: 1; }
+    .container_matema_tec._right {
+      float: right;
+      clear: right;
+      width: 50%;
+      z-index: 1; } }
+
 .container_refletir_e_analisar {
   border: 2px solid #96171a;
   padding: 24px;

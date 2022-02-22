@@ -1,5 +1,5 @@
 {
-    "name": "default-components",
+    "name": "default-components-teoria",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "body",
@@ -404,7 +404,7 @@
         {
             "name": "container_questao_dissertativa",
             "icon": "icons/components/container.svg",
-            "label": "Container Questao Dissertativa" ,
+            "label": "Questão Dissertativa" ,
             "properties": ["position", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -441,6 +441,12 @@
             "name": "container_reading_and_writing",
             "icon": "icons/components/container.svg",
             "label": "Container Reading and Writing",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_matema_tec",
+            "icon": "icons/components/container.svg",
+            "label": "Container Matema Tec",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -1803,8 +1809,8 @@
             "container_fica_a_dica",
             "container_leitura_complementar",
             "container_ler_e_escutar",
+            "container_matema_tec",
             "container_tarja_secao",
-            "container_questao_dissertativa",
             "container_refletir_e_analisar",
             "container_repertorio_cultural",
             "container_saiba_mais",
@@ -1831,6 +1837,13 @@
             "container_reflecting_and_studying",
             "container_take_a_tip"
     ]
+    },
+    {
+        "label": "Questões",
+        "name": "questoes",
+        "components": [
+            "container_questao_dissertativa"
+            ]
     },
 {
             "label": "00 Códigos e recados",
