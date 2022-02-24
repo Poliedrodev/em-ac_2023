@@ -1023,6 +1023,409 @@ span[style="text-decoration: line-through;"] {
       overflow: hidden;
       text-overflow: ellipsis; }
 
+.botao_voltar {
+  height: 68px;
+  width: 68px;
+  background: url(img/voltar_por.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  margin: 20px 0px 0px -80px; }
+  .botao_voltar.artes {
+    background: url(img/voltar_lin.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute; }
+  .botao_voltar.lingua_inglesa {
+    background: url(img/back_ing.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute; }
+  .botao_voltar.lingua_portuguesa {
+    background: url(img/voltar_por.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute; }
+  .botao_voltar.matematica {
+    background: url(img/voltar_mat.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute; }
+
+/* Author component style */
+.secao_produzir_e_compartilhar {
+  height: 65px;
+  margin: 40px 68px 0px 68px;
+  padding: 0 0 0 64px;
+  display: flex;
+  align-items: center;
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  font-size: 30px;
+  color: #96171a;
+  background: url(img/por_produzir.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+  .secao_produzir_e_compartilhar.artes {
+    color: #3F1F71;
+    background: url(img/lin_produzir.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .secao_produzir_e_compartilhar.lingua_inglesa {
+    color: #015F5B;
+    background: url(img/ing_creating.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .secao_produzir_e_compartilhar.lingua_portuguesa {
+    color: #96171a;
+    background: url(img/por_produzir.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .secao_produzir_e_compartilhar.matematica {
+    color: #033878;
+    background: url(img/mat_produzir.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+
+.secao_topo_produzir_e_compartilhar {
+  height: 32px;
+  margin: 40px 68px 0px 68px;
+  padding: 0 0 0 38px;
+  display: flex;
+  align-items: center;
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  font-size: 20px;
+  color: #96171a;
+  background: url(img/por_topo_produzir.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+  .secao_topo_produzir_e_compartilhar.artes {
+    color: #3F1F71;
+    background: url(img/lin_topo_produzir.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .secao_topo_produzir_e_compartilhar.lingua_inglesa {
+    color: #015F5B;
+    background: url(img/ing_top_creating.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .secao_topo_produzir_e_compartilhar.lingua_portuguesa {
+    color: #96171a;
+    background: url(img/por_topo_produzir.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .secao_topo_produzir_e_compartilhar.matematica {
+    color: #033878;
+    background: url(img/mat_topo_produzir.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+
+.secao_topo_quiz {
+  height: 32px;
+  margin: 40px 68px 0px 68px;
+  padding: 0 0 0 38px;
+  display: flex;
+  align-items: center;
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  font-size: 20px;
+  color: #96171a;
+  background: url(img/por_topo_quiz.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+  .secao_topo_quiz.artes {
+    color: #3F1F71;
+    background: url(img/lin_topo_quiz.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .secao_topo_quiz.lingua_inglesa {
+    color: #015F5B;
+    background: url(img/ing_top_quiz.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .secao_topo_quiz.lingua_portuguesa {
+    color: #96171a;
+    background: url(img/por_topo_quiz.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .secao_topo_quiz.matematica {
+    color: #033878;
+    background: url(img/mat_topo_quiz.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+
+/* Author component style */
+.secao_para_aprofundar {
+  height: 65px;
+  margin: 40px 68px 0px 68px;
+  padding: 0 0 0 64px;
+  display: flex;
+  align-items: center;
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  font-size: 30px;
+  color: #96171a;
+  background: url(img/por_aprofundar.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+  .secao_para_aprofundar.artes {
+    color: #3F1F71;
+    background: url(img/lin_aprofundar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .secao_para_aprofundar.lingua_inglesa {
+    color: #015F5B;
+    background: url(img/ing_find.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .secao_para_aprofundar.lingua_portuguesa {
+    color: #96171a;
+    background: url(img/por_aprofundar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .secao_para_aprofundar.matematica {
+    color: #033878;
+    background: url(img/mat_produzir.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+
+.secao_topo_para_aprofundar {
+  height: 32px;
+  margin: 40px 68px 0px 68px;
+  padding: 0 0 0 38px;
+  display: flex;
+  align-items: center;
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  font-size: 20px;
+  color: #96171a;
+  background: url(img/por_topo_aprofundar.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+  .secao_topo_para_aprofundar.artes {
+    color: #3F1F71;
+    background: url(img/lin_topo_aprofundar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .secao_topo_para_aprofundar.lingua_inglesa {
+    color: #015F5B;
+    background: url(img/ing_top_find.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .secao_topo_para_aprofundar.lingua_portuguesa {
+    color: #96171a;
+    background: url(img/por_topo_aprofundar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .secao_topo_para_aprofundar.matematica {
+    color: #033878;
+    background: url(img/mat_topo_aprofundar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+
+/* Author component style */
+.secao_para_consolidar {
+  height: 65px;
+  margin: 40px 68px 0px 68px;
+  padding: 0 0 0 64px;
+  display: flex;
+  align-items: center;
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  font-size: 30px;
+  color: #96171a;
+  background: url(img/por_consolidar.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+  .secao_para_consolidar.artes {
+    color: #3F1F71;
+    background: url(img/lin_consolidar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .secao_para_consolidar.lingua_inglesa {
+    color: #015F5B;
+    background: url(img/ing_practice.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .secao_para_consolidar.lingua_portuguesa {
+    color: #96171a;
+    background: url(img/por_consolidar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .secao_para_consolidar.matematica {
+    color: #033878;
+    background: url(img/mat_consolidar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+
+.secao_topo_para_consolidar {
+  height: 32px;
+  margin: 40px 68px 0px 68px;
+  padding: 0 0 0 38px;
+  display: flex;
+  align-items: center;
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  font-size: 20px;
+  color: #96171a;
+  background: url(img/por_topo_consolidar.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+  .secao_topo_para_consolidar.artes {
+    color: #3F1F71;
+    background: url(img/lin_topo_consolidar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .secao_topo_para_consolidar.lingua_inglesa {
+    color: #015F5B;
+    background: url(img/ing_top_practice.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .secao_topo_para_consolidar.lingua_portuguesa {
+    color: #96171a;
+    background: url(img/por_topo_consolidar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .secao_topo_para_consolidar.matematica {
+    color: #033878;
+    background: url(img/mat_topo_consolidar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+
+/* Author component style */
+.secao_creating_and_sharing {
+  height: 65px;
+  margin: 40px 68px 0px 68px;
+  padding: 0 0 0 64px;
+  display: flex;
+  align-items: center;
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  font-size: 30px;
+  color: #015F5B;
+  background: url(img/ing_creating.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+.secao_topo_creating_and_sharing {
+  height: 32px;
+  margin: 40px 68px 0px 68px;
+  padding: 0 0 0 38px;
+  display: flex;
+  align-items: center;
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  font-size: 20px;
+  color: #015F5B;
+  background: url(img/ing_top_creating.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+/* Author component style */
+.secao_extra_practice {
+  height: 65px;
+  margin: 40px 68px 0px 68px;
+  padding: 0 0 0 64px;
+  display: flex;
+  align-items: center;
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  font-size: 30px;
+  color: #015F5B;
+  background: url(img/ing_practice.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+.secao_topo_extra_practice {
+  height: 32px;
+  margin: 40px 68px 0px 68px;
+  padding: 0 0 0 38px;
+  display: flex;
+  align-items: center;
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  font-size: 20px;
+  color: #015F5B;
+  background: url(img/ing_top_practice.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+/* Author component style */
+.secao_find_out_more {
+  height: 65px;
+  margin: 40px 68px 0px 68px;
+  padding: 0 0 0 64px;
+  display: flex;
+  align-items: center;
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  font-size: 30px;
+  color: #015F5B;
+  background: url(img/ing_find.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+.secao_topo_find_out_more {
+  height: 32px;
+  margin: 40px 68px 0px 68px;
+  padding: 0 0 0 38px;
+  display: flex;
+  align-items: center;
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  font-size: 20px;
+  color: #015F5B;
+  background: url(img/ing_top_find.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+
 /* Hero component style.
    A hero image is a large banner image, prominently placed on a web page, generally in the front and center.
    http://en.wikipedia.org/wiki/Hero_image */
@@ -3410,9 +3813,7 @@ blockquote {
 
 .css_01_titulo1 {
   position: relative;
-  display: block;
-  margin: 40px 68px 0px 68px;
-  padding: 0px 0px 16px 0px; }
+  display: block; }
   .css_01_titulo1.artes .line {
     background-color: #bfd730; }
   .css_01_titulo1.artes .text {
@@ -3430,17 +3831,20 @@ blockquote {
   .css_01_titulo1.matematica .text {
     color: #033878; }
   .css_01_titulo1 .line {
-    width: 162px;
-    height: 3px;
+    width: 215px;
     background-color: black;
     position: absolute;
-    top: 64px; }
+    bottom: -25px;
+    margin: 0px 68px 20px 68px;
+    padding: 0px 0px 3px 0px; }
   .css_01_titulo1 .text {
     color: #45973D;
     font-family: 'Montserrat';
     font-weight: 800;
     font-size: 40px;
-    font-variant: tabular-nums; }
+    font-variant: tabular-nums;
+    margin: 40px 68px 0px 68px;
+    padding: 0px 0px 20px 0px; }
 
 .css_01_titulo2 {
   display: block;

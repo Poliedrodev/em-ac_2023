@@ -1,0 +1,44 @@
+.secao_topo_para_consolidar {
+    height: 32px;
+    margin: 40px 68px 0px 68px;
+    padding: 0 0 0 38px;
+    display: flex;
+    align-items: center;
+    font-family: 'Barlow Condensed';
+    font-weight: 700;
+    font-size: 20px;
+    color: $por_cor2;
+    background: url(img/por_topo_consolidar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    &.artes {
+        color: $art_cor2;
+        background: url(img/lin_topo_consolidar.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        }
+    &.lingua_inglesa {
+        color: $ing_cor2;
+        background: url(img/ing_top_practice.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        }
+    &.lingua_portuguesa {
+        color: $por_cor2;
+        background: url(img/por_topo_consolidar.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        }
+    &.matematica {
+        color: $mat_cor2;
+        background: url(img/mat_topo_consolidar.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        }
+}

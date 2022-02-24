@@ -1,0 +1,16 @@
+/* Author component style */
+.secao_find_out_more {
+    height: 65px;
+    margin: 40px 68px 0px 68px;
+    padding: 0 0 0 64px;
+    display: flex;
+    align-items: center;
+    font-family: 'Barlow Condensed';
+    font-weight: 700;
+    font-size: 30px;
+    color: $ing_cor2;
+    background: url(img/ing_find.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}

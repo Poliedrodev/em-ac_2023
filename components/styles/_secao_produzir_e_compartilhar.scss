@@ -1,0 +1,45 @@
+/* Author component style */
+.secao_produzir_e_compartilhar {
+    height: 65px;
+    margin: 40px 68px 0px 68px;
+    padding: 0 0 0 64px;
+    display: flex;
+    align-items: center;
+    font-family: 'Barlow Condensed';
+    font-weight: 700;
+    font-size: 30px;
+    color: $por_cor2;
+    background: url(img/por_produzir.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    &.artes {
+        color: $art_cor2;
+        background: url(img/lin_produzir.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        }
+    &.lingua_inglesa {
+        color: $ing_cor2;
+        background: url(img/ing_creating.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        }
+    &.lingua_portuguesa {
+        color: $por_cor2;
+        background: url(img/por_produzir.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        }
+    &.matematica {
+        color: $mat_cor2;
+        background: url(img/mat_produzir.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        }
+}

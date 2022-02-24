@@ -1,8 +1,6 @@
 .css_01_titulo1 {
   position: relative;
   display: block;
-  margin: 40px 68px 0px 68px;
-  padding: 0px 0px 16px 0px;
 
   &.artes {
     .line{
@@ -39,11 +37,12 @@
   }
   
   .line{
-    width: 162px;
-    height: 3px;
+    width: 215px;
     background-color: black;
     position: absolute;
-    top: 64px;
+    bottom: -25px;
+    margin: 0px 68px 20px 68px;
+    padding: 0px 0px 3px 0px;
   }
 
   .text{
@@ -52,5 +51,7 @@
     font-weight: 800;
     font-size: 40px;
     font-variant: tabular-nums;
-  }
+    margin: 40px 68px 0px 68px;
+    padding: 0px 0px 20px 0px;
+    }
 }

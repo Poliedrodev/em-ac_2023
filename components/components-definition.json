@@ -2,7 +2,7 @@
     "name": "default-components-teoria",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
-    "defaultComponentOnEnter": "body",
+    "defaultComponentOnEnter": "css_02_texto_geral1",
 
     "components": [
         {
@@ -210,7 +210,7 @@
         },
         {
             "name": "container_tarja_secao",
-            "icon": "icons/components/author.svg",
+            "icon": "icons/components/icon_02_texto_destaque.svg",
             "label": "Container Tarja Seção",
             "properties": [
                 "style",
@@ -218,6 +218,166 @@
                 "letter-spacing",
                 "line-height"
             
+            ]
+        },
+        {
+            "name": "botao_voltar",
+            "icon": "icons/components/icon_02_texto_destaque.svg",
+            "label": "Botão Voltar",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "hyperlink", "directiveKey": "link-url" }
+            ]
+        },
+        {
+            "name": "secao_produzir_e_compartilhar",
+            "icon": "icons/components/icon_02_texto_destaque.svg",
+            "label": "Seção Produzir e Compartilhar",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "hyperlink", "directiveKey": "link-url" }
+            ]
+        },
+        {
+            "name": "secao_topo_produzir_e_compartilhar",
+            "icon": "icons/components/icon_02_texto_destaque.svg",
+            "label": "Topo Produzir e Compartilhar",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ]
+        },
+        {
+            "name": "secao_topo_quiz",
+            "icon": "icons/components/icon_02_texto_destaque.svg",
+            "label": "Topo Quiz",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ]
+        },
+        {
+            "name": "secao_para_aprofundar",
+            "icon": "icons/components/icon_02_texto_destaque.svg",
+            "label": "Seção Para Aprofundar",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "hyperlink", "directiveKey": "link-url" }
+            ]
+        },
+        {
+            "name": "secao_topo_para_aprofundar",
+            "icon": "icons/components/icon_02_texto_destaque.svg",
+            "label": "Topo Para Aprofundar",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ]
+        },
+        {
+            "name": "secao_para_consolidar",
+            "icon": "icons/components/icon_02_texto_destaque.svg",
+            "label": "Seção Para Consolidar",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "hyperlink", "directiveKey": "link-url" }
+            ]
+        },
+        {
+            "name": "secao_topo_para_consolidar",
+            "icon": "icons/components/icon_02_texto_destaque.svg",
+            "label": "Topo Para Consolidar",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ]
+        },
+        {
+            "name": "secao_creating_and_sharing",
+            "icon": "icons/components/icon_02_texto_destaque.svg",
+            "label": "Seção Creating and Sharing",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "hyperlink", "directiveKey": "link-url" }
+            ]
+        },
+        {
+            "name": "secao_topo_creating_and_sharing",
+            "icon": "icons/components/icon_02_texto_destaque.svg",
+            "label": "Topo Creating and Sharing",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"           ]
+        },
+        {
+            "name": "secao_extra_practice",
+            "icon": "icons/components/icon_02_texto_destaque.svg",
+            "label": "Seção Extra Practice",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "hyperlink", "directiveKey": "link-url" }
+            ]
+        },
+        {
+            "name": "secao_topo_extra_practice",
+            "icon": "icons/components/icon_02_texto_destaque.svg",
+            "label": "Topo Extra Practice",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ]
+        },
+        {
+            "name": "secao_find_out_more",
+            "icon": "icons/components/icon_02_texto_destaque.svg",
+            "label": "Seção Find Out More",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "hyperlink", "directiveKey": "link-url" }
+            ]
+        },
+        {
+            "name": "secao_topo_find_out_more",
+            "icon": "icons/components/icon_02_texto_destaque.svg",
+            "label": "Topo Find Out More",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
             ]
         },
         {
@@ -1822,7 +1982,15 @@
             "css_07_boxe1",
             "css_07_boxe2",
             "css_07_boxe3",
-            "css_07_boxe4"
+            "css_07_boxe4",
+            "secao_produzir_e_compartilhar",
+            "secao_para_aprofundar",
+            "secao_para_consolidar",
+            "secao_topo_para_aprofundar",
+            "secao_topo_para_consolidar",
+            "secao_topo_produzir_e_compartilhar",
+            "secao_topo_quiz",
+            "botao_voltar"
     ]
     },
     {
@@ -1835,7 +2003,14 @@
             "container_read_more",
             "container_reading_and_writing",
             "container_reflecting_and_studying",
-            "container_take_a_tip"
+            "container_take_a_tip",
+            "secao_creating_and_sharing",
+            "secao_find_out_more",
+            "secao_extra_practice",
+            "secao_topo_creating_and_sharing",
+            "secao_topo_find_out_more",
+            "secao_topo_extra_practice",            
+            "secao_topo_quiz"
     ]
     },
     {
