@@ -2252,7 +2252,7 @@ blockquote {
   font-size: 14px;
   color: #b92e74;
   background-color: #F5D9EA;
-  margin: 16px 8px 16px 8px;
+  margin: 16px 8px 0px 8px;
   padding: 8px; }
 
 .css_00_cartografia {
@@ -2261,7 +2261,7 @@ blockquote {
   font-size: 14px;
   color: #b92e74;
   background-color: #F5D9EA;
-  margin: 16px 8px 16px 8px;
+  margin: 16px 8px 0px 8px;
   padding: 8px; }
 
 .css_00_multimidia {
@@ -2270,7 +2270,7 @@ blockquote {
   font-size: 14px;
   color: #69880d;
   background-color: #E3F0E2;
-  margin: 16px 8px 16px 8px;
+  margin: 16px 8px 0px 8px;
   padding: 8px; }
 
 .css_00_licenciamento_texto_terceiro {
@@ -2279,7 +2279,7 @@ blockquote {
   font-size: 14px;
   color: #69880d;
   background-color: #E3F0E2;
-  margin: 16px 8px 16px 8px;
+  margin: 16px 8px 0px 8px;
   padding: 8px; }
 
 .css_00_ilustracao {
@@ -2288,7 +2288,7 @@ blockquote {
   font-size: 14px;
   color: #b92e74;
   background-color: #F5D9EA;
-  margin: 16px 8px 16px 8px;
+  margin: 16px 8px 0px 8px;
   padding: 8px; }
 
 .css_00_revisao {
@@ -2297,7 +2297,7 @@ blockquote {
   font-size: 14px;
   color: #b47331;
   background-color: #F9E5DA;
-  margin: 16px 8px 16px 8px;
+  margin: 16px 8px 0px 8px;
   padding: 8px; }
 
 .container_exercicios {
@@ -4197,7 +4197,7 @@ blockquote {
   font-size: 18px;
   font-variant: tabular-nums;
   color: #000000;
-  margin: 4px 0px -2px 0px;
+  margin: 4px 1px -2px 0px;
   float: left;
   display: flex;
   justify-content: left; }
