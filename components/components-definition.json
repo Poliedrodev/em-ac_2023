@@ -430,6 +430,14 @@
             "properties": ["style", "position", "background-color"]
         },
         {
+            "name": "container_id_questao",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "allowNesting": "one-level",
+            "label": "Container ID Questão",
+            "properties": []
+        },
+        {
             "name": "container_coluna_falsa",
             "icon": "icons/components/container.svg",
             "selectionMethod": "handle",
@@ -564,7 +572,7 @@
         {
             "name": "container_questao_dissertativa",
             "icon": "icons/components/container.svg",
-            "label": "Questão Dissertativa" ,
+            "label": "Questão Discursiva" ,
             "properties": ["position", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -715,6 +723,12 @@
             "name": "css_02_texto_geral1",
             "icon": "icons/components/icon_02_texto_geral1.svg",
             "label": "02 Texto Geral 1",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_00_id_questao",
+            "icon": "icons/components/icon_02_texto_geral1.svg",
+            "label": "ID Questão",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -2017,6 +2031,8 @@
         "label": "Questões",
         "name": "questoes",
         "components": [
+            "container_id_questao",
+            "css_00_id_questao",
             "container_questao_dissertativa"
             ]
     },

@@ -1825,6 +1825,16 @@ span[style="text-decoration: line-through;"] {
       z-index: 1; } }
 
 /* Container component style*/
+.container_id_questao {
+  margin: 8px 0px 0px 0px !important;
+  padding-top: 16px;
+  clear: both; }
+  .container_id_questao::after {
+    content: '';
+    display: block;
+    clear: both; }
+
+/* Container component style*/
 .container_coluna_falsa {
   margin: 20px 68px 20px 68px;
   clear: both;
@@ -2450,10 +2460,9 @@ blockquote {
 
 .container_questao_dissertativa {
   min-height: 200px;
-  width: 90%;
   border: solid 1px #707070;
-  margin-left: 5%;
-  border-radius: 4px;
+  margin: 16px 0px 0px 32px;
+  border-radius: 6px;
   /* media query */ }
   .container_questao_dissertativa .label {
     width: 93%;
@@ -3933,6 +3942,14 @@ blockquote {
   font-size: 18px;
   margin: 24px 68px 24px 68px; }
 
+.css_00_id_questao {
+  display: block;
+  color: #ffb100;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  line-height: 1.5em;
+  font-size: 12px; }
+
 .css_02_texto_geral2 {
   display: block;
   text-align: center;
@@ -4180,7 +4197,7 @@ blockquote {
   font-size: 18px;
   font-variant: tabular-nums;
   color: #000000;
-  margin: 34px 0px 0px 0px;
+  margin: 4px 0px -2px 0px;
   float: left;
   display: flex;
   justify-content: left; }
@@ -4227,7 +4244,7 @@ blockquote {
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 32px 0px 0px 32px; }
+  margin: 0px 0px 0px 32px; }
 
 .css_03_exercicio_texto {
   display: block;
