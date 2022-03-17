@@ -3864,7 +3864,7 @@ blockquote {
   font-variant: tabular-nums;
   margin-top: 48px;
   padding: 0 68px;
-  margin-bottom: 16px;
+  margin-bottom: 0px;
   line-height: 1.5em; }
   .css_01_titulo2.artes {
     color: #64428C; }
@@ -3884,7 +3884,7 @@ blockquote {
   font-variant: tabular-nums;
   margin-top: 48px;
   padding: 0 68px;
-  margin-bottom: 16px;
+  margin-bottom: 0px;
   line-height: 1.5em; }
 
 .css_01_titulo4 {
@@ -3896,7 +3896,7 @@ blockquote {
   font-size: 20px;
   margin-top: 48px;
   padding: 0 68px;
-  margin-bottom: 16px;
+  margin-bottom: 0px;
   line-height: 1.5em; }
 
 .css_01_texto_unid {
@@ -3931,7 +3931,7 @@ blockquote {
   font-weight: 400;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 24px 68px 24px 68px; }
+  margin: 24px 68px 0px 68px; }
 
 .css_02_texto_geral1 {
   display: block;
@@ -3940,7 +3940,7 @@ blockquote {
   font-weight: 400;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 24px 68px 24px 68px; }
+  margin: 24px 68px 0px 68px; }
 
 .css_00_id_questao {
   display: block;
@@ -3958,7 +3958,7 @@ blockquote {
   font-family: 'Noticia Text';
   font-weight: 700;
   line-height: 1.5em;
-  margin: 24px 68px 24px 68px;
+  margin: 24px 68px 0px 68px;
   padding: 24px;
   border-radius: 8px;
   box-shadow: 0 0 5px 1px #ddd; }
@@ -3970,7 +3970,7 @@ blockquote {
   font-weight: 400;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 8px 0px 8px 0px; }
+  margin: 8px 0px 0px 0px; }
 
 .css_02_texto_bullet {
   display: block;
@@ -4009,7 +4009,7 @@ blockquote {
   font-weight: 400;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 24px 68px 24px 108px; }
+  margin: 24px 68px 0px 108px; }
 
 .css_02_texto_definicao {
   display: block;
@@ -4019,7 +4019,7 @@ blockquote {
   font-family: 'Noticia Text';
   font-weight: 700;
   line-height: 1.5em;
-  margin: 24px 68px 24px 68px;
+  margin: 24px 68px 0px 68px;
   padding: 24px;
   border-radius: 8px;
   box-shadow: 0 0 5px 1px #ddd; }
@@ -4032,7 +4032,7 @@ blockquote {
   font-family: 'Noticia Text';
   font-weight: 700;
   line-height: 1.5em;
-  margin: 24px 250px 24px 250px;
+  margin: 24px 250px 0px 250px;
   padding: 24px;
   border-radius: 8px;
   box-shadow: 0 0 5px 1px #ddd; }
@@ -4045,7 +4045,7 @@ blockquote {
   font-family: 'Noticia Text';
   font-weight: 700;
   line-height: 1.5em;
-  margin: 24px 180px 24px 180px;
+  margin: 24px 180px 0px 180px;
   padding: 24px;
   border-radius: 8px;
   box-shadow: 0 0 5px 1px #ddd; }
@@ -4083,7 +4083,7 @@ blockquote {
   font-family: 'Cookie';
   font-size: 32px;
   color: #000000;
-  margin: 16px 68px; }
+  margin: 0px 68px; }
 
 .css_02_texto_citado_titulo {
   font-family: 'Noticia Text';
@@ -4092,7 +4092,7 @@ blockquote {
   line-height: 1.5em;
   font-size: 20px;
   display: block;
-  margin: 16px 68px 8px 68px; }
+  margin: 16px 68px 0px 68px; }
 
 .css_02_texto_citado {
   display: block;
@@ -4101,7 +4101,7 @@ blockquote {
   font-family: 'Montserrat';
   font-weight: 400;
   line-height: 1.5em;
-  margin: 8px 68px 8px 68px; }
+  margin: 8px 68px 0px 68px; }
 
 .css_02_texto_citado_fonte {
   display: block;
@@ -4110,7 +4110,7 @@ blockquote {
   font-weight: 400;
   font-size: 12px;
   text-align: right;
-  margin: 0px 68px 16px 68px; }
+  margin: 0px 68px 0px 68px; }
 
 .css_02_texto_glossario_titulo {
   font-family: 'Noticia Text';
@@ -4158,7 +4158,7 @@ blockquote {
   line-height: 1.5em;
   font-size: 16px;
   background-color: #E5E9F2;
-  margin: 16px 68px 16px 68px;
+  margin: 16px 68px 0px 68px;
   padding: 24px; }
 
 .css_03_item {
@@ -4244,7 +4244,7 @@ blockquote {
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 0px 0px 0px 32px; }
+  margin: 31px 0px 2px 32px; }
 
 .css_03_exercicio_texto {
   display: block;
@@ -4427,7 +4427,7 @@ blockquote {
   color: #707070;
   font-family: 'Montserrat';
   font-weight: 400;
-  margin-bottom: 32px;
+  margin-bottom: 0px;
   padding: 0 68px; }
 
 .css_05_credito1 {
@@ -4436,7 +4436,7 @@ blockquote {
   color: #707070;
   font-family: 'Montserrat';
   font-weight: 400;
-  margin-bottom: 32px;
+  margin-bottom: 0px;
   padding: 0 68px; }
 
 .css_05_credito2 {
@@ -4445,7 +4445,7 @@ blockquote {
   color: #707070;
   font-family: 'Montserrat';
   font-weight: 400;
-  margin-bottom: 32px;
+  margin-bottom: 0px;
   padding: 0 68px; }
 
 .css_05_legenda {
@@ -4455,7 +4455,7 @@ blockquote {
   font-weight: 400;
   font-size: 14px;
   font-variant: tabular-nums;
-  margin: 4px 68px 8px 68px; }
+  margin: 4px 68px 0px 68px; }
   .css_05_legenda.artes {
     color: #000000; }
     .css_05_legenda.artes .line-legenda {
@@ -4537,7 +4537,7 @@ blockquote {
   font-weight: 400;
   font-size: 14px;
   font-variant: tabular-nums;
-  margin: 4px 0px 8px 0px; }
+  margin: 4px 0px 0px 0px; }
   .css_05_legenda_sem_margem.artes {
     color: #000000; }
     .css_05_legenda_sem_margem.artes .line-legenda {
@@ -4617,7 +4617,7 @@ blockquote {
   font-size: 16px;
   color: #000000;
   font-family: "Proxima Nova Lt" !important;
-  margin-bottom: 8px; }
+  margin-bottom: 0px; }
 
 .css_05_nota_rodape {
   display: block;
@@ -4625,7 +4625,7 @@ blockquote {
   color: #000000;
   border-top: 2px solid #000;
   font-family: "Proxima Nova Lt" !important;
-  margin: 32px 68px 64px 68px;
+  margin: 32px 68px 0px 68px;
   padding: 8px 0px 0px 0px; }
 
 .css_05_grafico_titulo {
@@ -4633,7 +4633,7 @@ blockquote {
   font-family: "Prelo ExtraBold";
   text-align: center;
   font-size: 20px;
-  margin: 8px 0px 8px 0px; }
+  margin: 8px 0px 0px 0px; }
   .css_05_grafico_titulo.artes {
     color: #84a214 !important; }
   .css_05_grafico_titulo.biologia {
@@ -4665,7 +4665,7 @@ blockquote {
   color: #000000;
   font-family: 'Montserrat';
   font-weight: 400;
-  margin: 8px 0px 8px 0px; }
+  margin: 8px 0px 0px 0px; }
 
 .css_05_fonte {
   display: block;
@@ -4674,7 +4674,7 @@ blockquote {
   color: #000000;
   font-family: 'Montserrat';
   font-weight: 400;
-  margin: 0px 0px 24px 0px;
+  margin: 0px 0px 0px 0px;
   padding: 0px 68px 0px 108px; }
 
 .css_05_fonte_mapa {
@@ -4684,7 +4684,7 @@ blockquote {
   color: #000000;
   font-family: 'Montserrat';
   font-weight: 400;
-  margin: -16px 0px 24px 0px; }
+  margin: -16px 0px 0px 0px; }
 
 .css_05_cota_titulo {
   display: block;
@@ -4692,7 +4692,7 @@ blockquote {
   color: #000000;
   font-family: 'Montserrat';
   font-weight: 700;
-  margin: 8px 0px 8px 0px; }
+  margin: 8px 0px 0px 0px; }
 
 .css_05_cota {
   display: block;
@@ -4700,7 +4700,7 @@ blockquote {
   color: #000000;
   font-family: 'Montserrat';
   font-weight: 400;
-  margin: 8px 0px 8px 0px; }
+  margin: 8px 0px 0px 0px; }
 
 .css_05_linha_exercicio {
   display: block;
@@ -4777,7 +4777,7 @@ blockquote {
   color: #000000;
   text-transform: uppercase;
   font-family: 'Barlow Condensed';
-  margin: 24px 68px 24px 68px; }
+  margin: 24px 68px 0px 68px; }
 
 .css_06_item {
   display: block;
@@ -4801,7 +4801,7 @@ blockquote {
   font-size: 20px;
   color: #FFFFFF;
   font-family: "nunito sans", "900";
-  margin: 0px 0px 8px 20px; }
+  margin: 0px 0px 0px 20px; }
 
 .css_06_boxe_titulo2 {
   display: block;
@@ -4847,7 +4847,7 @@ blockquote {
   color: #62883b;
   font-family: 'Noticia Text';
   font-weight: 400;
-  margin: 0px 0px 16px 20px;
+  margin: 0px 0px 0px 20px;
   line-height: 1.5em; }
   .css_06_boxe_texto1.artes {
     color: #62883b; }
@@ -4863,7 +4863,7 @@ blockquote {
   font-size: 18px;
   color: #505050;
   font-family: "noticia text", "400";
-  margin: 16px 16px 16px 16px;
+  margin: 16px 16px 0px 16px;
   line-height: 1.5em; }
 
 .css_06_boxe_texto2_competencias {
@@ -4957,7 +4957,7 @@ blockquote {
   font-size: 18px;
   color: #505050;
   font-family: "noticia text", "700";
-  margin: 24px 68px 24px 68px;
+  margin: 24px 68px 0px 68px;
   padding: 24px;
   line-height: 1.5em;
   border-radius: 8px;
@@ -4968,7 +4968,7 @@ blockquote {
   font-family: "Proxima Nova Lt" !important;
   font-size: 18px;
   color: #000;
-  margin: 16px 0px 16px 75px; }
+  margin: 16px 0px 0px 75px; }
 
 .css_06_boxe_mais {
   border: 3px solid #ccc;
@@ -8319,7 +8319,7 @@ blockquote {
   color: #62883b;
   font-family: 'Noticia Text';
   font-weight: 400;
-  margin: 16px 0px 16px 0px; }
+  margin: 16px 0px 0px 0px; }
 
 .css_06_boxe_bullett {
   display: block;
@@ -8349,13 +8349,13 @@ blockquote {
   font-family: "Proxima Nova Lt" !important;
   font-size: 18px;
   color: #000;
-  margin: 16px 0px 16px 70px; }
+  margin: 16px 0px 0px 70px; }
 
 .css_06_boxe_exercicio_continuacao {
   display: block;
   font-family: "Proxima Nova Lt" !important;
   font-size: 18px;
-  margin: 16px 0px 16px 75px;
+  margin: 16px 0px 0px 75px;
   color: #000; }
 
 .css_06_boxe_exercicio_texto {
@@ -8371,14 +8371,14 @@ blockquote {
   font-size: 20px;
   font-family: "TheSerif-HP6SeBld" !important;
   color: #000000;
-  margin: 24px 0px 16px 0px;
+  margin: 24px 0px 0px 0px;
   padding: 0 68px; }
 
 .css_06_boxe_texto_citado {
   display: block;
   font-size: 20px;
   color: #000000;
-  margin: 16px 0px 16px 0px;
+  margin: 16px 0px 0px 0px;
   padding: 0 68; }
 
 .css_07_item {
@@ -8517,7 +8517,7 @@ blockquote {
   text-align: center;
   font-family: "TheSerif-HP6SeBld" !important;
   font-size: 20px;
-  margin: 24px 0px 16px 80px;
+  margin: 24px 0px 0px 80px;
   padding: 0 68px;
   color: #000;
   display: block; }
@@ -8527,7 +8527,7 @@ blockquote {
   font-size: 18px;
   color: #000;
   display: block;
-  margin: 16px 0px 16px 40px;
+  margin: 16px 0px 0px 40px;
   padding: 0 68px; }
 
 .css_07_secao_exercicio1 {
