@@ -35,7 +35,7 @@ body {
     outline: none; }
 
 html {
-  background-color: #ffffff; }
+  background-color: #dfdaea; }
 
 body {
   max-width: 860px;
@@ -114,7 +114,7 @@ span[data-text-edit-color] a {
     overflow-x: hidden;
     overflow-y: auto; }
     .hero-js ._hero-content-box ._hero-content-wrapper {
-      background-color: #ffffff; }
+      background-color: #dfdaea; }
       .hero-js ._hero-content-box ._hero-content-wrapper ._hero-content-body {
         max-width: 860px;
         padding: 0 5px;
@@ -3775,6 +3775,60 @@ blockquote {
       width: 50%;
       z-index: 1; } }
 
+.container_textos_fundo_sepia {
+  border: 2px solid #ccc;
+  padding: 8px 16px 16px 16px;
+  margin: 48px 68px 40px 68px;
+  clear: both;
+  background-color: #e3ceb9;
+  display: block;
+  /* media query */ }
+  .container_textos_fundo_sepia::after {
+    content: '';
+    display: block;
+    clear: both; }
+  .container_textos_fundo_sepia > *:first-child {
+    margin-top: 0; }
+    .container_textos_fundo_sepia > *:first-child._left + ._right {
+      margin-top: 0; }
+    .container_textos_fundo_sepia > *:first-child._right + ._left {
+      margin-top: 0; }
+  .container_textos_fundo_sepia > *:last-child {
+    margin-bottom: 0; }
+  .container_textos_fundo_sepia > *._left + ._right:last-child {
+    margin-bottom: 20px; }
+  .container_textos_fundo_sepia > *._right + ._left:last-child {
+    margin-bottom: 20px; }
+  .container_textos_fundo_sepia .box_green {
+    width: 93.5%;
+    height: 23px;
+    position: relative;
+    display: flex;
+    top: 18px;
+    left: 16px;
+    padding: 1px 0px 0px 0px;
+    margin: 0px 0px 32px 0px;
+    border-bottom: solid 2px #000000;
+    border-left: solid 6px #999999;
+    text-decoration: overline;
+    font-family: "montserrat extrabold", "800";
+    font-size: 16px;
+    color: #e3ceb9; }
+    .container_textos_fundo_sepia .box_green:before {
+      content: '';
+      display: block; }
+  @media only screen and (min-width: 481px) {
+    .container_textos_fundo_sepia._left {
+      float: left;
+      clear: left;
+      width: 50%;
+      z-index: 1; }
+    .container_textos_fundo_sepia._right {
+      float: right;
+      clear: right;
+      width: 50%;
+      z-index: 1; } }
+
 .css_01_titulo_unid {
   display: block;
   color: #45973D;
@@ -4197,7 +4251,7 @@ blockquote {
   font-size: 18px;
   font-variant: tabular-nums;
   color: #000000;
-  margin: 4px 1px -2px 0px;
+  margin: 34px 0px -4px 0px;
   float: left;
   display: flex;
   justify-content: left; }
@@ -4220,7 +4274,7 @@ blockquote {
   font-size: 18px;
   font-variant: tabular-nums;
   color: #000000;
-  margin: 34px 0px 0px 0px;
+  margin: 34px 0px -4px 0px;
   float: left;
   display: flex;
   justify-content: left; }
@@ -8522,12 +8576,29 @@ blockquote {
   color: #000;
   display: block; }
 
+.css_07_secao_titulo_citado {
+  text-align: center;
+  font-family: "TheSerif-HP6SeBld" !important;
+  font-size: 20px;
+  margin: 24px 0px 0px -212px;
+  padding: 0 68px;
+  color: #000;
+  display: block; }
+
 .css_07_secao_texto_citado {
   font-family: "TheSerif-HP2ExLig";
   font-size: 18px;
   color: #000;
   display: block;
   margin: 16px 0px 0px 40px;
+  padding: 0 68px; }
+
+.css_07_secao_texto_citado_2 {
+  font-family: "TheSerif-HP2ExLig";
+  font-size: 18px;
+  color: #000;
+  display: block;
+  margin: 15px 0px 0px -35px;
   padding: 0 68px; }
 
 .css_07_secao_exercicio1 {
