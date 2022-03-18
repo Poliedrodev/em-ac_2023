@@ -1,5 +1,5 @@
 {
-    "name": "default-components-ing",
+    "name": "default-components-mat",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "css_02_texto_geral1",
@@ -893,6 +893,12 @@
         },
         {
             "name": "css_03_numero",
+            "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+            "label": "03 Número Cor 1",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_03_numero_inicial",
             "icon": "icons/components/icon_03_exercicio_alternativa.svg",
             "label": "03 Número Cor 1",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
@@ -2147,6 +2153,7 @@
                 "css_03_item_alinhamento_1",
                 "css_03_item_resolvido",
                 "css_03_numero",
+                "css_03_numero_inicial",
                 "css_06_item",
                 "css_06_boxe_numero",
                 "css_07_item",
@@ -2934,6 +2941,12 @@
             "css_03_exercicio_alternativa": "auto"
         },        
         "css_03_numero": {
+            "css_03_numero_inicial": "auto",
+            "css_03_numero_cor_2": "auto",
+            "css_03_item": "auto"
+        },
+        "css_03_numero_inicial": {
+            "css_03_numero": "auto",
             "css_03_numero_cor_2": "auto",
             "css_03_item": "auto"
         },        
