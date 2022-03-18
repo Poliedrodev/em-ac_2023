@@ -1,5 +1,5 @@
 {
-    "name": "default-components-art",
+    "name": "default-components-ing",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "css_02_texto_geral1",

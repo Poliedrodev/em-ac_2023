@@ -35,7 +35,7 @@ body {
     outline: none; }
 
 html {
-  background-color: #dfdaea; }
+  background-color: #d9f0ef; }
 
 body {
   max-width: 860px;
@@ -114,7 +114,7 @@ span[data-text-edit-color] a {
     overflow-x: hidden;
     overflow-y: auto; }
     .hero-js ._hero-content-box ._hero-content-wrapper {
-      background-color: #dfdaea; }
+      background-color: #d9f0ef; }
       .hero-js ._hero-content-box ._hero-content-wrapper ._hero-content-body {
         max-width: 860px;
         padding: 0 5px;
@@ -1996,7 +1996,6 @@ span[style="text-decoration: line-through;"] {
   cursor: pointer;
   margin-left: 40px;
   font-size: 22px;
-  left: 20px;
   display: inline-block;
   user-select: none; }
 
