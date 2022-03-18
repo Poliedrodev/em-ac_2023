@@ -1,0 +1,29 @@
+.container_questao_soma{
+  font-family: 'Noticia Text';
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+  margin: 16px 0px 0px 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.num{
+  font-family: 'Noticia Text';
+  max-width: 26px;
+  max-height: 26px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+  margin: 0px 0px 0px 4px;
+  float: left;
+  display: flex;
+  justify-content: center;
+}
+  
+.btn_submit {
+  bottom: 0.5em;
+  margin-left: 6px;
+  display: block;
+}

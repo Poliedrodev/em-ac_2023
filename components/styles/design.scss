@@ -32,6 +32,11 @@
 @import "slideshow";
 @import "container";
 @import "container_id_questao";
+@import "container_questao_f";
+@import "container_questao_c";
+@import "container_questao_vf";
+@import "container_questao_soma";
+@import "container_questao_radio";
 @import "container_coluna_falsa";
 @import "body";
 @import "title";
@@ -52,6 +57,7 @@
 @import "css_00_ilustracao";
 @import "css_00_revisao";
 @import "container_exercicios";
+@import "container_grupo_radio";
 @import "container_fica_a_dica";
 @import "container_questao_dissertativa";
 @import "container_take_a_tip";
@@ -80,7 +86,6 @@
 @import "css_01_bullet_unid";
 @import "css_02_texto_geral";
 @import "css_02_texto_geral1";
-@import "css_00_id_questao";
 @import "css_02_texto_geral2";
 @import "css_02_texto_geral3";
 @import "css_02_texto_bullet";

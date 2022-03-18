@@ -433,8 +433,42 @@
             "name": "container_id_questao",
             "icon": "icons/components/container.svg",
             "selectionMethod": "handle",
-            "allowNesting": "one-level",
             "label": "Container ID Questão",
+            "properties": []
+        },
+        {
+            "name": "container_questao_f",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "label": "Container Questão Falsa",
+            "properties": []
+        },
+        {
+            "name": "container_questao_c",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "label": "Container Questão Correta",
+            "properties": []
+        },
+        {
+            "name": "container_questao_vf",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "label": "Quadrinho Verdadeiro Falso",
+            "properties": []
+        },
+        {
+            "name": "container_questao_soma",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "label": "Quadrinho Soma",
+            "properties": []
+        },
+        {
+            "name": "container_questao_radio",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "label": "Bolinha Escolha",
             "properties": []
         },
         {
@@ -564,6 +598,12 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "container_grupo_radio",
+            "icon": "icons/components/container.svg",
+            "label": "Container Grupo Radio",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "container_fica_a_dica",
             "icon": "icons/components/container.svg",
             "label": "Container #Ficaadica",
@@ -572,7 +612,7 @@
         {
             "name": "container_questao_dissertativa",
             "icon": "icons/components/container.svg",
-            "label": "Questão Discursiva" ,
+            "label": "Questão Dissertativa" ,
             "properties": ["position", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -729,12 +769,6 @@
             "name": "css_02_texto_geral1",
             "icon": "icons/components/icon_02_texto_geral1.svg",
             "label": "02 Texto Geral 1",
-            "properties": ["style", "text-align", "letter-spacing", "line-height"]
-        },
-        {
-            "name": "css_00_id_questao",
-            "icon": "icons/components/icon_02_texto_geral1.svg",
-            "label": "ID Questão",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -2051,7 +2085,12 @@
         "name": "questoes",
         "components": [
             "container_id_questao",
-            "css_00_id_questao",
+            "container_questao_f",
+            "container_questao_c",
+            "container_questao_vf",
+            "container_questao_soma",
+            "container_questao_radio",
+            "container_grupo_radio",
             "container_questao_dissertativa"
             ]
     },
@@ -2976,7 +3015,6 @@
             "css_07_secao_exercicio_continuacao": "auto"
         },
         "css_07_secao_titulo_citado_2": {
-            "css_02_texto_citado_titulo": "auto",
             "css_02_texto_citado_titulo": "auto",
             "css_03_numero": "auto",
             "css_03_numero_cor_2": "auto",

@@ -1,0 +1,64 @@
+.container_questao_c {
+  border: solid 1px #707070;
+  padding: 0px 12px 12px 0px;
+  border-radius: 6px;
+  margin: 16px 0px 0px 32px;
+  clear: both;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+
+    &:before {
+      background-image: url(img/correta.png);
+      content: '';
+      display: none;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      left: 98.5%;
+      top: 15px;
+      z-index: 1;
+      background-size: contain;
+    }
+
+  /* media query */
+  @media only screen and (min-width: $phone-max-width) {
+    &._left {
+        float: left;
+        clear: left;
+        width: 50%;
+        z-index: 1;
+    }
+    &._right {
+        float: right;
+        clear: right;
+        width: 50%;
+        z-index: 1;
+      }
+    }
+}
+.container_questao_c:focus {
+  transition: 800ms ease all;
+  border: solid 1px #707070;
+  padding: 0px 12px 12px 0px;
+  border-radius: 6px;
+  margin: 16px 0px 0px 32px;
+  clear: both;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  background-color: $seg_lin_cor4;
+
+  &:before {
+    background-image: url(img/correta.png);
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 98.5%;
+    top: 15px;
+    z-index: 1;
+    background-size: contain;
+  }
+}
