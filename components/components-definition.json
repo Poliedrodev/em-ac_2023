@@ -900,7 +900,7 @@
         {
             "name": "css_03_numero_inicial",
             "icon": "icons/components/icon_03_exercicio_alternativa.svg",
-            "label": "03 Número Cor 1",
+            "label": "03 Número Inicial",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
