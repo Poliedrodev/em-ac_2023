@@ -4550,6 +4550,29 @@ blockquote {
     color: #1961AC !important;
     border-bottom: solid 3px #F1CB40; }
 
+.css_03_numero_inicial {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 18px;
+  font-variant: tabular-nums;
+  color: #000000;
+  margin: 16px 0px -4px 0px !important;
+  float: left;
+  display: flex;
+  justify-content: left; }
+  .css_03_numero_inicial.artes {
+    color: #64428C !important;
+    border-bottom: solid 3px #bfd730; }
+  .css_03_numero_inicial.lingua_inglesa {
+    color: #069891 !important;
+    border-bottom: solid 3px #bfd730; }
+  .css_03_numero_inicial.lingua_portuguesa {
+    color: #c9252c !important;
+    border-bottom: solid 3px #bfd730; }
+  .css_03_numero_inicial.matematica {
+    color: #1961AC !important;
+    border-bottom: solid 3px #F1CB40; }
+
 .css_03_numero_cor_2 {
   font-family: 'Montserrat';
   font-weight: 700;
