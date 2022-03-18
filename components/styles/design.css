@@ -4119,6 +4119,179 @@ blockquote {
       width: 50%;
       z-index: 1; } }
 
+.container_dados_mancha {
+  margin: 16px 68px 16px 108px;
+  padding: 4px 16px 4px 0px;
+  clear: both;
+  border-radius: 10px;
+  background-color: #EFDDEC;
+  /* class styles for the options properties of the container component */
+  /* media query */ }
+  .container_dados_mancha::after {
+    content: '';
+    display: block;
+    clear: both; }
+  .container_dados_mancha.Português {
+    background-color: #ffffff  !important;
+    border: 3px solid #c9252c; }
+  .container_dados_mancha.Inglês {
+    background-color: #ffffff !important;
+    border: 3px solid #069891; }
+  .container_dados_mancha.Linguagens {
+    background-color: #ffffff !important;
+    border: 3px solid #64428C; }
+  .container_dados_mancha.Matemática {
+    background-color: #ffffff !important;
+    border: 3px solid #1961AC; }
+  .container_dados_mancha > *:first-child {
+    margin-top: 0; }
+    .container_dados_mancha > *:first-child._left + ._right {
+      margin-top: 0;
+      padding: 0 68 0 16px; }
+    .container_dados_mancha > *:first-child._right + ._left {
+      margin-top: 0;
+      padding: 0 16 0 68px; }
+  .container_dados_mancha > *:last-child {
+    margin-bottom: 0; }
+  .container_dados_mancha > *._left + ._right:last-child {
+    margin-bottom: 20px;
+    padding: 0 68 0 16px; }
+  .container_dados_mancha > *._right + ._left:last-child {
+    margin-bottom: 20px;
+    padding: 0 16 0 68px; }
+  @media only screen and (min-width: 481px) {
+    .container_dados_mancha._left {
+      float: left;
+      clear: left;
+      width: 50%;
+      margin-left: 68px;
+      margin-right: 24px;
+      z-index: 1; }
+    .container_dados_mancha._right {
+      float: right;
+      clear: right;
+      width: 50%;
+      margin-left: 24px;
+      margin-right: 68px;
+      z-index: 1; } }
+
+.container_dados_mancha_30 {
+  margin: 16px 228px 16px 268px;
+  padding: 4px 16px 4px 0px;
+  clear: both;
+  border-radius: 10px;
+  background-color: #EFDDEC;
+  /* class styles for the options properties of the container component */
+  /* media query */ }
+  .container_dados_mancha_30::after {
+    content: '';
+    display: block;
+    clear: both; }
+  .container_dados_mancha_30.Português {
+    background-color: #ffffff  !important;
+    border: 3px solid #c9252c; }
+  .container_dados_mancha_30.Inglês {
+    background-color: #ffffff !important;
+    border: 3px solid #069891; }
+  .container_dados_mancha_30.Linguagens {
+    background-color: #ffffff !important;
+    border: 3px solid #64428C; }
+  .container_dados_mancha_30.Matemática {
+    background-color: #ffffff !important;
+    border: 3px solid #1961AC; }
+  .container_dados_mancha_30 > *:first-child {
+    margin-top: 0; }
+    .container_dados_mancha_30 > *:first-child._left + ._right {
+      margin-top: 0;
+      padding: 0 68 0 16px; }
+    .container_dados_mancha_30 > *:first-child._right + ._left {
+      margin-top: 0;
+      padding: 0 16 0 68px; }
+  .container_dados_mancha_30 > *:last-child {
+    margin-bottom: 0; }
+  .container_dados_mancha_30 > *._left + ._right:last-child {
+    margin-bottom: 20px;
+    padding: 0 68 0 16px; }
+  .container_dados_mancha_30 > *._right + ._left:last-child {
+    margin-bottom: 20px;
+    padding: 0 16 0 68px; }
+  @media only screen and (min-width: 481px) {
+    .container_dados_mancha_30._left {
+      float: left;
+      clear: left;
+      width: 50%;
+      margin-left: 68px;
+      margin-right: 24px;
+      z-index: 1; }
+    .container_dados_mancha_30._right {
+      float: right;
+      clear: right;
+      width: 50%;
+      margin-left: 24px;
+      margin-right: 68px;
+      z-index: 1; } }
+
+.container_dados_mancha_60 {
+  margin: 16px 140px 16px 188px;
+  padding: 4px 16px 4px 0px;
+  clear: both;
+  border-radius: 10px;
+  background-color: #EFDDEC;
+  /* class styles for the options properties of the container component */ }
+  .container_dados_mancha_60::after {
+    content: '';
+    display: block;
+    clear: both; }
+  .container_dados_mancha_60.Português {
+    background-color: #ffffff  !important;
+    border: 3px solid #c9252c; }
+  .container_dados_mancha_60.Inglês {
+    background-color: #ffffff !important;
+    border: 3px solid #069891; }
+  .container_dados_mancha_60.Linguagens {
+    background-color: #ffffff !important;
+    border: 3px solid #64428C; }
+  .container_dados_mancha_60.Matemática {
+    background-color: #ffffff !important;
+    border: 3px solid #1961AC; }
+
+> *:first-child {
+  margin-top: 0; }
+  > *:first-child._left + ._right {
+    margin-top: 0;
+    padding: 0 68 0 16px; }
+  > *:first-child._right + ._left {
+    margin-top: 0;
+    padding: 0 16 0 68px; }
+
+> *:last-child {
+  margin-bottom: 0; }
+
+> *._left + ._right:last-child {
+  margin-bottom: 20px;
+  padding: 0 68 0 16px; }
+
+> *._right + ._left:last-child {
+  margin-bottom: 20px;
+  padding: 0 16 0 68px; }
+
+/* media query */
+@media only screen and (min-width: 481px) {
+  ._left {
+    float: left;
+    clear: left;
+    width: 50%;
+    margin-left: 68px;
+    margin-right: 24px;
+    z-index: 1; }
+  ._right {
+    float: right;
+    clear: right;
+    width: 50%;
+    margin-left: 24px;
+    margin-right: 68px;
+    z-index: 1; } }
+
 .css_01_titulo_unid {
   display: block;
   color: #45973D;
@@ -4505,6 +4678,15 @@ blockquote {
   font-size: 18px;
   float: left;
   margin: 12px 0px 0px 32px !important; }
+
+.css_03_item_sobrescrito {
+  display: block;
+  color: #000000;
+  font-family: 'Noticia Text';
+  font-weight: 700;
+  font-size: 18px;
+  float: left;
+  margin: 17px 0px 0px 32px !important; }
 
 .css_03_item_alinhamento_1 {
   display: block;

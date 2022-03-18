@@ -706,6 +706,24 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "container_dados_mancha",
+            "icon": "icons/components/container.svg",
+            "label": "Container Dados",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_dados_mancha_30",
+            "icon": "icons/components/container.svg",
+            "label": "Container Dados 30%",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_dados_mancha_60",
+            "icon": "icons/components/container.svg",
+            "label": "Container Dados 60%",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_01_titulo_unid",
             "icon": "icons/components/icon_01_titulo_unid.svg",
             "label": "01 Título Unidade",
@@ -877,6 +895,12 @@
             "name": "css_03_item",
             "icon": "icons/components/icon_03_exercicio_alternativa.svg",
             "label": "03 Item",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_03_item_sobrescrito",
+            "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+            "label": "03 Item Sobrescrito",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -2063,7 +2087,10 @@
             "secao_topo_para_consolidar",
             "secao_topo_produzir_e_compartilhar",
             "secao_topo_quiz",
-            "botao_voltar"
+            "botao_voltar",
+            "container_dados_mancha",
+            "container_dados_mancha_30",
+            "container_dados_mancha_60"
     ]
     },
     {
@@ -2150,6 +2177,7 @@
             "name": "numeradores",
             "components": [
                 "css_03_item",
+                "css_03_item_sobrescrito",
                 "css_03_item_alinhamento_1",
                 "css_03_item_resolvido",
                 "css_03_numero",
