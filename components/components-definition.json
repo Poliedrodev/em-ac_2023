@@ -30,6 +30,30 @@
             }
         },
         {
+            "name": "image_cont_exercicios",
+            "icon": "icons/components/image.svg",
+            "label": "Imagem Container Exercícios",
+            "properties": [
+                { "name": "fitting", "defaultValue": "_fit-frame-height-to-content" },
+                "position",
+                "style",
+                "inside-caption",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "edit-image", "directiveKey": "image" },
+                { "name": "hyperlink", "directiveKey": "hyperlink" }
+            ],
+            "directiveOptions": {
+                "caption": {
+                    "autofill": {
+                        "source": "image",
+                        "metadataField": "ContentMetaData/Description"
+                    }
+                }
+            }
+        },
+        {
             "name": "image_teoria",
             "icon": "icons/components/image.svg",
             "label": "Imagem Teoria",
@@ -984,6 +1008,18 @@
             "properties": ["drop-capital", "style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_02_texto_citado_bullet",
+            "icon": "icons/components/icon_02_texto_citado.svg",
+            "label": "02 Texto Citado Bullet",
+            "properties": ["drop-capital", "style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_02_texto_citado_romano",
+            "icon": "icons/components/icon_02_texto_citado.svg",
+            "label": "02 Texto Citado Romano",
+            "properties": ["drop-capital", "style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_02_texto_citado_fonte",
             "icon": "icons/components/icon_02_texto_citado_fonte.svg",
             "label": "02 Texto Citado Fonte",
@@ -1029,6 +1065,12 @@
             "name": "css_03_item",
             "icon": "icons/components/icon_03_exercicio_alternativa.svg",
             "label": "03 Item",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_02_item_citado",
+            "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+            "label": "02 Item Citado",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -1227,6 +1269,12 @@
             "name": "css_05_legenda",
             "icon": "icons/components/icon_05_legenda.svg",
             "label": "05 Legenda",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_05_legenda_cont_exercicios",
+            "icon": "icons/components/icon_05_legenda.svg",
+            "label": "05 Legenda Container exercicios",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -2242,6 +2290,7 @@
         "name": "imagens",
         "components": [
             "image",
+            "image_cont_exercicios",
             "image_teoria",
             "image_exercicio",
             "image_saiba_mais",
@@ -2377,6 +2426,8 @@
                 "css_02_texto_manuscrito",
                 "css_02_texto_citado_titulo",
                 "css_02_texto_citado",
+                "css_02_texto_citado_bullet",
+                "css_02_texto_citado_romano",
                 "css_02_texto_citado_fonte",
                 "css_02_texto_citado_fonte_2",
                 "css_02_texto_citado_fonte_saiba_mais",
@@ -2390,6 +2441,7 @@
             "name": "numeradores",
             "components": [
                 "css_03_item",
+                "css_02_item_citado",
                 "css_03_item_container",
                 "css_03_item_sobrescrito",
                 "css_03_item_sobrescrito_2",
@@ -2445,6 +2497,7 @@
                 "css_05_credito1",
                 "css_05_credito2",
                 "css_05_legenda",
+                "css_05_legenda_cont_exercicios",
                 "css_05_legenda_teoria",
                 "css_05_legenda_exercicio",
                 "css_05_legenda_saiba_mais",
@@ -3272,6 +3325,14 @@
             "css_03_item_alinhamento_1": "auto",
             "css_03_item_container": "auto",
             "css_06_item_2": "auto",
+            "css_02_item_citado": "auto",
+            "css_03_item_sobrescrito": "auto"
+        },        
+        "css_02_item_citado": {
+            "css_03_item_alinhamento_1": "auto",
+            "css_03_item_container": "auto",
+            "css_06_item_2": "auto",
+            "css_03_item": "auto",
             "css_03_item_sobrescrito": "auto"
         }, 
         "css_06_item_2": {

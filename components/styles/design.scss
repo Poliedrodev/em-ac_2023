@@ -4,6 +4,7 @@
 */
 @import "common";
 @import "image";
+@import "image_cont_exercicios";
 @import "image_teoria";
 @import "image_saiba_mais";
 @import "image_exercicio";
@@ -112,6 +113,8 @@
 @import "css_02_texto_manuscrito";
 @import "css_02_texto_citado_titulo";
 @import "css_02_texto_citado";
+@import "css_02_texto_citado_bullet";
+@import "css_02_texto_citado_romano";
 @import "css_02_texto_citado_fonte";
 @import "css_02_texto_citado_fonte_2";
 @import "css_02_texto_citado_fonte_saiba_mais";
@@ -120,6 +123,7 @@
 @import "css_02_texto_glossario_citado";
 @import "css_02_texto_vocabulario";
 @import "css_03_item";
+@import "css_02_item_citado";
 @import "css_03_item_container";
 @import "css_03_item_sobrescrito";
 @import "css_03_item_sobrescrito_2";
@@ -153,6 +157,7 @@
 @import "css_05_credito1";
 @import "css_05_credito2";
 @import "css_05_legenda";
+@import "css_05_legenda_cont_exercicios";
 @import "css_05_legenda_teoria";
 @import "css_05_legenda_saiba_mais";
 @import "css_05_legenda_exercicio";
