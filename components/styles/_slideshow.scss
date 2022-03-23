@@ -49,7 +49,7 @@ $slideshowThumbNavigatorMaxHeight: 100px;
                     /* Transform is added as inline-style to the caption by Jssor library.
                        This results in blurry font rendering on Safari. */
                     -webkit-transform: none !important;
-                    padding: 0 68px;
+                    padding: 0 2px;
                     @include webkit-prefix(flex-shrink, 0);
                 }
             }

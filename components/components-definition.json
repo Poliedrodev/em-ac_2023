@@ -30,6 +30,78 @@
             }
         },
         {
+            "name": "image_teoria",
+            "icon": "icons/components/image.svg",
+            "label": "Imagem Teoria",
+            "properties": [
+                { "name": "fitting", "defaultValue": "_fit-frame-height-to-content" },
+                "position",
+                "style",
+                "inside-caption",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "edit-image", "directiveKey": "image" },
+                { "name": "hyperlink", "directiveKey": "hyperlink" }
+            ],
+            "directiveOptions": {
+                "caption": {
+                    "autofill": {
+                        "source": "image",
+                        "metadataField": "ContentMetaData/Description"
+                    }
+                }
+            }
+        },
+        {
+            "name": "image_saiba_mais",
+            "icon": "icons/components/image.svg",
+            "label": "Imagem Saiba Mais",
+            "properties": [
+                { "name": "fitting", "defaultValue": "_fit-frame-height-to-content" },
+                "position",
+                "style",
+                "inside-caption",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "edit-image", "directiveKey": "image" },
+                { "name": "hyperlink", "directiveKey": "hyperlink" }
+            ],
+            "directiveOptions": {
+                "caption": {
+                    "autofill": {
+                        "source": "image",
+                        "metadataField": "ContentMetaData/Description"
+                    }
+                }
+            }
+        },
+                {
+            "name": "image_exercicio",
+            "icon": "icons/components/image.svg",
+            "label": "Imagem exercícios",
+            "properties": [
+                { "name": "fitting", "defaultValue": "_fit-frame-height-to-content" },
+                "position",
+                "style",
+                "inside-caption",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "edit-image", "directiveKey": "image" },
+                { "name": "hyperlink", "directiveKey": "hyperlink" }
+            ],
+            "directiveOptions": {
+                "caption": {
+                    "autofill": {
+                        "source": "image",
+                        "metadataField": "ContentMetaData/Description"
+                    }
+                }
+            }
+        },
+        {
             "name": "hero_tirinha",
             "icon": "icons/components/image.svg",
             "label": "Imagem no Topo",
@@ -430,6 +502,14 @@
             "properties": ["style", "position", "background-color"]
         },
         {
+            "name": "container_slideshow_boxe",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "allowNesting": "one-level",
+            "label": "Container Slideshow Boxe",
+            "properties": ["style", "position", "background-color"]
+        },
+        {
             "name": "container_id_questao",
             "icon": "icons/components/container.svg",
             "selectionMethod": "handle",
@@ -610,16 +690,16 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "container_fica_a_dica_teoria",
+            "icon": "icons/components/container.svg",
+            "label": "Container #Ficaadica Teoria" ,
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "container_questao_dissertativa",
             "icon": "icons/components/container.svg",
             "label": "Questão Dissertativa" ,
             "properties": ["position", "text-align", "letter-spacing", "line-height"]
-        },
-        {
-            "name": "container_take_a_tip",
-            "icon": "icons/components/container.svg",
-            "label": "Container #Takeatip",
-            "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
             "name": "container_leitura_complementar",
@@ -676,6 +756,12 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "container_repertorio_cultural_teoria",
+            "icon": "icons/components/container.svg",
+            "label": "Container Repertório Cultural Teoria",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "container_culture_box",
             "icon": "icons/components/container.svg",
             "label": "Container Culture Box",
@@ -688,6 +774,12 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "container_saiba_mais_exercicios",
+            "icon": "icons/components/container.svg",
+            "label": "Container Saiba Mais Exercícios",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "container_fast_facts",
             "icon": "icons/components/container.svg",
             "label": "Container Fast Facts",
@@ -697,6 +789,12 @@
             "name": "container_textos",
             "icon": "icons/components/container.svg",
             "label": "Container Textos",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_textos_exercicios",
+            "icon": "icons/components/container.svg",
+            "label": "Container Textos Exercícios",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -874,6 +972,18 @@
             "properties": ["style", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_02_texto_citado_fonte_2",
+            "icon": "icons/components/icon_02_texto_citado_fonte.svg",
+            "label": "02 Texto Citado Fonte 2",
+            "properties": ["style", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_02_texto_citado_fonte_saiba_mais",
+            "icon": "icons/components/icon_02_texto_citado_fonte.svg",
+            "label": "02 Fonte Saiba Mais",
+            "properties": ["style", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_02_texto_glossario_titulo",
             "icon": "icons/components/icon_02_texto_glossario_titulo.svg",
             "label": "02 Texto Glossário Título",
@@ -883,6 +993,12 @@
             "name": "css_02_texto_glossario",
             "icon": "icons/components/icon_02_texto_glossario.svg",
             "label": "02 Texto Glossário",
+            "properties": ["style", "text-align", "position", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_02_texto_glossario_citado",
+            "icon": "icons/components/icon_02_texto_glossario.svg",
+            "label": "02 Texto Glossário Citado",
             "properties": ["style", "text-align", "position", "letter-spacing", "line-height"]
         },
         {
@@ -898,9 +1014,21 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_03_item_container",
+            "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+            "label": "03 Item Container",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_03_item_sobrescrito",
             "icon": "icons/components/icon_03_exercicio_alternativa.svg",
             "label": "03 Item Sobrescrito",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_03_item_sobrescrito_2",
+            "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+            "label": "03 Item Sobrescrito 2",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -1081,6 +1209,24 @@
             "name": "css_05_legenda",
             "icon": "icons/components/icon_05_legenda.svg",
             "label": "05 Legenda",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_05_legenda_teoria",
+            "icon": "icons/components/icon_05_legenda.svg",
+            "label": "05 Legenda Teoria",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_05_legenda_saiba_mais",
+            "icon": "icons/components/icon_05_legenda.svg",
+            "label": "05 Legenda Saiba Mais",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_05_legenda_exercicio",
+            "icon": "icons/components/icon_05_legenda.svg",
+            "label": "05 Legenda Exercícios",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -1438,9 +1584,27 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_06_boxe_titulo_citado_saiba_mais",
+            "icon": "icons/components/icon_06_boxe_titulo_texto_citado.svg",
+            "label": "Boxe Título Citado Saiba Mais",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_06_boxe_texto_citado",
             "icon": "icons/components/icon_06_boxe_texto_citado.svg",
             "label": "06 Boxe Texto Citado",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_06_boxe_texto_citado_saiba_mais",
+            "icon": "icons/components/icon_06_boxe_texto_citado.svg",
+            "label": "06 Boxe Texto Citado Saiba Mais",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_06_boxe_subtitulo_citado_saiba_mais",
+            "icon": "icons/components/icon_06_boxe_texto_citado.svg",
+            "label": "06 Boxe Subtitulo Citado Saiba Mais",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -1498,6 +1662,12 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_07_secao_texto_le_comp",
+            "icon": "icons/components/icon_07_secao_texto1.svg",
+            "label": "07 Seção Texto Lei. Comp.",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_07_secao_titulo_citado",
             "icon": "icons/components/icon_07_secao_titulo_citado.svg",
             "label": "07 Seção Título Citado",
@@ -1549,6 +1719,12 @@
             "name": "css_07_secao_exercicio_item",
             "icon": "icons/components/icon_07_secao_exercicio_item.svg",
             "label": "07 Seção Exercício Item",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_07_secao_exercicio_item_container",
+            "icon": "icons/components/icon_07_secao_exercicio_item.svg",
+            "label": "07 Seção Exercício Item Container",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -2042,6 +2218,9 @@
         "name": "imagens",
         "components": [
             "image",
+            "image_teoria",
+            "image_exercicio",
+            "image_saiba_mais",
             "hero_tirinha",
             "imagem_sem_margem",
             "imagem_centralizada",
@@ -2060,17 +2239,22 @@
         "name": "containers",
         "components": [
             "container",
+            "container_slideshow_boxe",
             "container_coluna_falsa",
             "container_exercicios",
             "container_fica_a_dica",
+            "container_fica_a_dica_teoria",
             "container_leitura_complementar",
             "container_ler_e_escutar",
             "container_matema_tec",
             "container_tarja_secao",
             "container_refletir_e_analisar",
             "container_repertorio_cultural",
+            "container_repertorio_cultural_teoria",
             "container_saiba_mais",
+            "container_saiba_mais_exercicios",
             "container_textos",
+            "container_textos_exercicios",
             "container_textos_fundo_sepia",
             "css_06_boxe1",
             "css_06_boxe2",
@@ -2103,7 +2287,6 @@
             "container_read_more",
             "container_reading_and_writing",
             "container_reflecting_and_studying",
-            "container_take_a_tip",
             "secao_creating_and_sharing",
             "secao_find_out_more",
             "secao_extra_practice",
@@ -2168,7 +2351,10 @@
                 "css_02_texto_citado_titulo",
                 "css_02_texto_citado",
                 "css_02_texto_citado_fonte",
+                "css_02_texto_citado_fonte_2",
+                "css_02_texto_citado_fonte_saiba_mais",
                 "css_02_texto_glossario",
+                "css_02_texto_glossario_citado",
                 "css_02_texto_vocabulario"
             ]
         },
@@ -2177,7 +2363,9 @@
             "name": "numeradores",
             "components": [
                 "css_03_item",
+                "css_03_item_container",
                 "css_03_item_sobrescrito",
+                "css_03_item_sobrescrito_2",
                 "css_03_item_alinhamento_1",
                 "css_03_item_resolvido",
                 "css_03_numero",
@@ -2229,6 +2417,9 @@
                 "css_05_credito1",
                 "css_05_credito2",
                 "css_05_legenda",
+                "css_05_legenda_teoria",
+                "css_05_legenda_exercicio",
+                "css_05_legenda_saiba_mais",
                 "css_05_legenda_sem_margem",
                 "css_05_legenda_unidade",
                 "css_05_nota_rodape",
@@ -2260,7 +2451,10 @@
                 "css_06_boxe_item",
                 "css_06_boxe_exercicio_texto",
                 "css_06_boxe_titulo_texto_citado",
-                "css_06_boxe_texto_citado"
+                "css_06_boxe_texto_citado",
+                "css_06_boxe_titulo_citado_saiba_mais",
+                "css_06_boxe_subtitulo_citado_saiba_mais",
+                "css_06_boxe_texto_citado_saiba_mais"
             ]
         },
         {
@@ -2273,6 +2467,7 @@
                 "css_07_secao_titulo4",
                 "css_07_secao_texto1",
                 "css_07_secao_texto2",
+                "css_07_secao_texto_le_comp",
                 "css_07_secao_titulo_citado",
                 "css_07_secao_titulo_citado_2",
                 "css_07_secao_texto_citado",
@@ -2282,6 +2477,7 @@
                 "css_07_secao_exercicio3",
                 "css_07_secao_exercicio4",
                 "css_07_secao_exercicio_item",
+                "css_07_secao_exercicio_item_container",
                 "css_07_secao_exercicio_bullet",
                 "css_07_secao_exercicio_bullet_sub",
                 "css_07_secao_exercicio_alternativa",
@@ -2699,6 +2895,60 @@
         },
         "image": {
             "image_inline": "auto",
+            "image_teoria": "auto",
+            "image_exercicio": "auto",
+            "image_saiba_mais": "auto",
+            "imagem_sem_margem": "auto",
+            "imagem_centralizada": "auto",
+            "imagem_coluna_falsa": "auto",
+            "imagem_meia_coluna": "auto",
+            "imagem_meia_coluna_container": "auto",
+            "hero": "auto",
+            "author": "auto",
+            "slideshow": {
+                "type": "to-container",
+                "container": "slideshow"},
+            "product": "auto"
+        },
+        "image_teoria": {
+            "image_inline": "auto",
+            "image": "auto",
+            "image_exercicio": "auto",
+            "image_saiba_mais": "auto",
+            "imagem_sem_margem": "auto",
+            "imagem_centralizada": "auto",
+            "imagem_coluna_falsa": "auto",
+            "imagem_meia_coluna": "auto",
+            "imagem_meia_coluna_container": "auto",
+            "hero": "auto",
+            "author": "auto",
+            "slideshow": {
+                "type": "to-container",
+                "container": "slideshow"},
+            "product": "auto"
+        },
+        "image_saiba_mais": {
+            "image_inline": "auto",
+            "image_teoria": "auto",
+            "image_exercicio": "auto",
+            "image": "auto",
+            "imagem_sem_margem": "auto",
+            "imagem_centralizada": "auto",
+            "imagem_coluna_falsa": "auto",
+            "imagem_meia_coluna": "auto",
+            "imagem_meia_coluna_container": "auto",
+            "hero": "auto",
+            "author": "auto",
+            "slideshow": {
+                "type": "to-container",
+                "container": "slideshow"},
+            "product": "auto"
+        },
+        "image_exercicio": {
+            "image_inline": "auto",
+            "image_teoria": "auto",
+            "image_exercicio": "auto",
+            "image": "auto",
             "imagem_sem_margem": "auto",
             "imagem_centralizada": "auto",
             "imagem_coluna_falsa": "auto",
@@ -2780,7 +3030,12 @@
             "product": "auto"
         },
         "container": {
-            "container_coluna_falsa": "auto"
+            "container_coluna_falsa": "auto",
+            "container_slideshow_boxe": "auto"
+        },
+        "container_slideshow_boxe": {
+            "container_coluna_falsa": "auto",
+            "container": "auto"
         }, 
         "container_coluna_falsa": {
             "container": "auto"
@@ -2965,8 +3220,11 @@
             "css_03_exercicio_citado_titulo": "auto",
             "css_03_exercicio_texto": "auto",
             "css_03_item": "auto",
+            "css_03_item_sobrescrito": "auto",
+            "css_03_item_sobrescrito_2": "auto",
             "css_03_exercicio_continuacao": "auto",
-            "css_03_exercicio_alternativa": "auto"
+            "css_03_exercicio_alternativa": "auto",
+            "css_03_exercicio_item_vf": "auto"
         },        
         "css_03_numero": {
             "css_03_numero_inicial": "auto",
@@ -2984,6 +3242,12 @@
         },        
         "css_03_item": {
             "css_03_item_alinhamento_1": "auto",
+            "css_03_item_container": "auto",
+            "css_03_item_sobrescrito": "auto"
+        },        
+        "css_03_item_container": {
+            "css_03_item_alinhamento_1": "auto",
+            "css_03_item": "auto",
             "css_03_item_sobrescrito": "auto"
         },
         "css_03_item_sobrescrito": {
@@ -3112,6 +3376,22 @@
             "css_07_secao_titulo_citado": "auto",
             "css_07_secao_texto_citado": "auto",
             "css_07_secao_texto2": "auto",
+            "css_07_secao_texto_le_comp": "auto",
+            "css_03_item": "auto",
+            "css_07_secao_exercicio_item": "auto",
+            "css_07_secao_exercicio_continuacao": "auto"
+        },
+        "css_07_secao_texto_le_comp": {
+            "css_03_numero": "auto",
+            "css_03_numero_cor_2": "auto",
+            "css_07_secao_exercicio1": "auto",
+            "css_07_secao_exercicio2": "auto",
+            "css_07_secao_exercicio3": "auto",
+            "css_07_secao_exercicio4": "auto",
+            "css_07_secao_titulo_citado": "auto",
+            "css_07_secao_texto_citado": "auto",
+            "css_07_secao_texto2": "auto",
+            "css_07_secao_texto1": "auto",
             "css_03_item": "auto",
             "css_07_secao_exercicio_item": "auto",
             "css_07_secao_exercicio_continuacao": "auto"
@@ -3126,6 +3406,7 @@
             "css_07_secao_titulo_citado": "auto",
             "css_07_secao_texto_citado": "auto",
             "css_07_secao_texto1": "auto",
+            "css_07_secao_texto_le_comp": "auto",
             "css_03_item": "auto",
             "css_07_secao_exercicio_item": "auto",
             "css_07_secao_exercicio_continuacao": "auto"
@@ -3133,6 +3414,21 @@
         "css_07_secao_exercicio_item": {
             "css_03_numero": "auto",
             "css_03_numero_cor_2": "auto",
+            "css_07_secao_exercicio_item_container": "auto",
+            "css_07_secao_exercicio1": "auto",
+            "css_07_secao_exercicio2": "auto",
+            "css_07_secao_exercicio3": "auto",
+            "css_07_secao_exercicio4": "auto",
+            "css_07_secao_titulo_citado": "auto",
+            "css_07_secao_texto_citado": "auto",
+            "css_07_secao_texto1": "auto",
+            "css_03_item": "auto",
+            "css_07_secao_exercicio_continuacao": "auto"
+        },        
+        "css_07_secao_exercicio_item_container": {
+            "css_03_numero": "auto",
+            "css_03_numero_cor_2": "auto",
+            "css_07_secao_exercicio_item": "auto",
             "css_07_secao_exercicio1": "auto",
             "css_07_secao_exercicio2": "auto",
             "css_07_secao_exercicio3": "auto",
@@ -3354,7 +3650,19 @@
             "css_03_exercicio_citado": "auto"
         },
         "css_05_legenda": {
-            "css_05_legenda_sem_margem": "auto"
+            "css_05_legenda_sem_margem": "auto",
+            "css_05_legenda_saiba_mais": "auto",
+            "css_05_legenda_exercicio": "auto"
+        },
+        "css_05_legenda_saiba_mais": {
+            "css_05_legenda_sem_margem": "auto",
+            "css_05_legenda": "auto",
+            "css_05_legenda_exercicio": "auto"
+        },
+        "css_05_legenda_exercicio": {
+            "css_05_legenda_sem_margem": "auto",
+            "css_05_legenda_saiba_mais": "auto",
+            "css_05_legenda": "auto"
         }, 
         "css_05_legenda_sem_margem": {
             "css_05_legenda": "auto"

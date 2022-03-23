@@ -4,6 +4,9 @@
 */
 @import "common";
 @import "image";
+@import "image_teoria";
+@import "image_saiba_mais";
+@import "image_exercicio";
 @import "hero_tirinha";
 @import "imagem_sem_margem";
 @import "image_inline";
@@ -31,6 +34,7 @@
 @import "product";
 @import "slideshow";
 @import "container";
+@import "container_slideshow_boxe";
 @import "container_id_questao";
 @import "container_questao_f";
 @import "container_questao_c";
@@ -59,6 +63,7 @@
 @import "container_exercicios";
 @import "container_grupo_radio";
 @import "container_fica_a_dica";
+@import "container_fica_a_dica_teoria";
 @import "container_questao_dissertativa";
 @import "container_take_a_tip";
 @import "container_leitura_complementar";
@@ -70,10 +75,13 @@
 @import "container_refletir_e_analisar";
 @import "container_reflecting_and_studying";
 @import "container_repertorio_cultural";
+@import "container_repertorio_cultural_teoria";
 @import "container_culture_box";
 @import "container_saiba_mais";
+@import "container_saiba_mais_exercicios";
 @import "container_fast_facts";
 @import "container_textos";
+@import "container_textos_exercicios";
 @import "container_textos_fundo_sepia";
 @import "container_dados_mancha";
 @import "container_dados_mancha_30";
@@ -103,11 +111,16 @@
 @import "css_02_texto_citado_titulo";
 @import "css_02_texto_citado";
 @import "css_02_texto_citado_fonte";
+@import "css_02_texto_citado_fonte_2";
+@import "css_02_texto_citado_fonte_saiba_mais";
 @import "css_02_texto_glossario_titulo";
 @import "css_02_texto_glossario";
+@import "css_02_texto_glossario_citado";
 @import "css_02_texto_vocabulario";
 @import "css_03_item";
+@import "css_03_item_container";
 @import "css_03_item_sobrescrito";
+@import "css_03_item_sobrescrito_2";
 @import "css_03_item_alinhamento_1";
 @import "css_03_item_resolvido";
 @import "css_03_numero";
@@ -138,6 +151,9 @@
 @import "css_05_credito1";
 @import "css_05_credito2";
 @import "css_05_legenda";
+@import "css_05_legenda_teoria";
+@import "css_05_legenda_saiba_mais";
+@import "css_05_legenda_exercicio";
 @import "css_05_legenda_sem_margem";
 @import "css_05_legenda_unidade";
 @import "css_05_nota_rodape";
@@ -197,7 +213,10 @@
 @import "css_06_boxe_exercicio_continuacao";
 @import "css_06_boxe_exercicio_texto";
 @import "css_06_boxe_titulo_texto_citado";
+@import "css_06_boxe_titulo_citado_saiba_mais";
 @import "css_06_boxe_texto_citado";
+@import "css_06_boxe_texto_citado_saiba_mais";
+@import "css_06_boxe_subtitulo_citado_saiba_mais";
 @import "css_07_item";
 @import "css_07_secao_numero";
 @import "css_07_secao_numero_paragrafo";
@@ -207,6 +226,7 @@
 @import "css_07_secao_titulo4";
 @import "css_07_secao_texto1";
 @import "css_07_secao_texto2";
+@import "css_07_secao_texto_le_comp";
 @import "css_07_secao_titulo_citado";
 @import "css_07_secao_titulo_citado_2";
 @import "css_07_secao_texto_citado";
@@ -216,6 +236,7 @@
 @import "css_07_secao_exercicio3";
 @import "css_07_secao_exercicio4";
 @import "css_07_secao_exercicio_item";
+@import "css_07_secao_exercicio_item_container";
 @import "css_07_secao_aplicando_conhecimentos";
 @import "css_07_secao_practice_it";
 @import "css_07_secao_dive_in";
