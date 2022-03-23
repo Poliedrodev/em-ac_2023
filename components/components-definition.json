@@ -684,6 +684,12 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "container_take_a_tip",
+            "icon": "icons/components/container.svg",
+            "label": "Container #TAKEATIP",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "container_fica_a_dica",
             "icon": "icons/components/container.svg",
             "label": "Container #Ficaadica",
@@ -2243,6 +2249,7 @@
             "container_coluna_falsa",
             "container_exercicios",
             "container_fica_a_dica",
+            "container_take_a_tip",
             "container_fica_a_dica_teoria",
             "container_leitura_complementar",
             "container_ler_e_escutar",
