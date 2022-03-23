@@ -1,0 +1,174 @@
+.container_questao_dissertativa_item {
+    min-height: 200px;
+    border: solid 1px #707070;
+    margin: 16px 0px 0px 65px;
+    border-radius: 6px;
+    .label{
+        width: 93%;
+        height: 35px;
+        margin: 0px 20px 0px 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .arial{
+            width: 20%;
+            border-right: solid 1px #707070;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            &:after{
+                content: '';
+                width: 10px;
+                height: 10px;
+                background-image: url(img/arrow.svg);
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                margin-right: 10px;
+            }
+            .textarrow{
+                &:before{
+                    content: 'Fonte';
+                    font-family: "nunito sans";
+                    font-size: 14px;
+                    font-weight: 900;  
+                }
+                
+            }
+            
+        }
+        .size{
+            width: 10%;
+            border-right: solid 1px #707070;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0px 10px 0px 10px;
+            cursor: pointer;
+            &:after{
+                content: '';
+                width: 10px;
+                height: 10px;
+                background-image: url(img/arrow.svg);
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                margin-right: 10px;
+            }
+            .textarrow{
+                &:before{
+                    content: '11';
+                    font-family: "nunito sans";
+                    font-size: 14px;
+                    font-weight: 900;  
+                }
+                
+            }
+        }
+        .type{
+            width: 70%;
+            display: flex;
+            align-items: center;
+            .textB{
+                content: '';
+                width: 10px;
+                height: 10px;
+                background-image: url(img/bold-text-option.png);
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+            .textI{
+                content: '';
+                width: 10px;
+                height: 10px;
+                background-image: url(img/italics.png);
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                margin-right: 10px;
+                cursor: pointer;
+
+            }
+            .textU{
+                content: '';
+                width: 10px;
+                height: 10px;
+                background-image: url(img/underline.png);
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                margin-right: 10px;
+                cursor: pointer;
+
+            }
+        }
+    }
+
+    .textarea:valid{
+        max-width: 93%;
+        margin: 20px 20px 10px 16px!important;
+        border:1px solid #888;
+    }
+
+    > * {
+        &:first-child {
+            margin-top: 0;
+            &._left {
+                + ._right {
+                    margin-top: 0;
+                    padding: 0 68 0 16px;
+                }
+            }
+            &._right {
+                + ._left {
+                    margin-top: 0;
+                    padding: 0 16 0 68px;
+                }
+            }
+        }
+        &:last-child {
+            margin-bottom: 0;
+            border-width: 0px;
+        }
+        &._left {
+            + ._right:last-child {
+                margin-bottom: 20px;
+                padding: 0 68 0 16px;
+            }
+        }
+        &._right {
+            + ._left:last-child {
+                margin-bottom: 20px;
+                padding: 0 16 0 68px;
+            }
+        }
+    }
+
+    /* media query */
+    @media only screen and (min-width: $phone-max-width) {
+        &._left {
+            float: left;
+            clear: left;
+            width: 47%;
+            margin-right: 24px;
+            z-index: 1;
+        }
+        &._right {
+            float: right;
+            clear: right;
+            width: 47%;
+            margin-left: 24px;
+            z-index: 1;
+        }
+    }
+  
+    .btn_submit {
+      bottom: 0.5em;
+      margin-top: 6px;
+    }
+}

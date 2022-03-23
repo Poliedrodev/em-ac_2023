@@ -708,6 +708,12 @@
             "properties": ["position", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "container_questao_dissertativa_item",
+            "icon": "icons/components/container.svg",
+            "label": "Questão Dissertativa Item" ,
+            "properties": ["position", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "container_leitura_complementar",
             "icon": "icons/components/container.svg",
             "label": "Container Leitura Complementar",
@@ -799,6 +805,12 @@
         },
         {
             "name": "container_textos_exercicios",
+            "icon": "icons/components/container.svg",
+            "label": "Container Textos Exercícios",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_textos_exercicio_mancha",
             "icon": "icons/components/container.svg",
             "label": "Container Textos Exercícios",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
@@ -1311,6 +1323,12 @@
             "name": "css_06_item",
             "icon": "icons/components/icon_03_exercicio_item.svg",
             "label": "06 Item",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_06_item_2",
+            "icon": "icons/components/icon_03_exercicio_item.svg",
+            "label": "06 Item 2",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -2262,6 +2280,7 @@
             "container_saiba_mais_exercicios",
             "container_textos",
             "container_textos_exercicios",
+            "container_textos_exercicio_mancha",
             "container_textos_fundo_sepia",
             "css_06_boxe1",
             "css_06_boxe2",
@@ -2314,7 +2333,8 @@
             "container_questao_soma",
             "container_questao_radio",
             "container_grupo_radio",
-            "container_questao_dissertativa"
+            "container_questao_dissertativa",
+            "container_questao_dissertativa_item"
             ]
     },
 {
@@ -2378,6 +2398,7 @@
                 "css_03_numero",
                 "css_03_numero_inicial",
                 "css_06_item",
+                "css_06_item_2",
                 "css_06_boxe_numero",
                 "css_07_item",
                 "css_07_secao_numero",
@@ -3250,6 +3271,13 @@
         "css_03_item": {
             "css_03_item_alinhamento_1": "auto",
             "css_03_item_container": "auto",
+            "css_06_item_2": "auto",
+            "css_03_item_sobrescrito": "auto"
+        }, 
+        "css_06_item_2": {
+            "css_03_item_alinhamento_1": "auto",
+            "css_03_item_container": "auto",
+            "css_03_item": "auto",
             "css_03_item_sobrescrito": "auto"
         },        
         "css_03_item_container": {
