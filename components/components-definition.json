@@ -562,6 +562,13 @@
             "properties": []
         },
         {
+            "name": "container_questao_vf_2",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "label": "Quadrinho Verdadeiro Falso 2",
+            "properties": []
+        },
+        {
             "name": "container_questao_soma",
             "icon": "icons/components/container.svg",
             "selectionMethod": "handle",
@@ -729,6 +736,12 @@
             "name": "container_questao_dissertativa",
             "icon": "icons/components/container.svg",
             "label": "Questão Dissertativa" ,
+            "properties": ["position", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_questao_dissertativa_semrecuo",
+            "icon": "icons/components/container.svg",
+            "label": "Questão Dissertativa Sem Recuo" ,
             "properties": ["position", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -1068,6 +1081,12 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_03_item_2",
+            "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+            "label": "03 Item 2",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_02_item_citado",
             "icon": "icons/components/icon_03_exercicio_alternativa.svg",
             "label": "02 Item Citado",
@@ -1077,6 +1096,12 @@
             "name": "css_03_item_container",
             "icon": "icons/components/icon_03_exercicio_alternativa.svg",
             "label": "03 Item Container",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_03_item_container_sobrescrito",
+            "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+            "label": "03 Item Container Sobrescrito",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -1158,6 +1183,12 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_03_exercicio_item_2",
+            "icon": "icons/components/icon_03_exercicio_item.svg",
+            "label": "03 Exercício Item 2",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_03_exercicio_item_alinhamento_1",
             "icon": "icons/components/icon_03_exercicio_item.svg",
             "label": "03 Exercício Item Alinhamento 1",
@@ -1197,6 +1228,12 @@
             "name": "css_03_exercicio_item_vf",
             "icon": "icons/components/icon_03_exercicio_item_romano.svg",
             "label": "03 Exercício Item VF",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_03_exercicio_item_vf_2",
+            "icon": "icons/components/icon_03_exercicio_item_romano.svg",
+            "label": "03 Exercício Item VF 2",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -1898,6 +1935,12 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_07_secao_exercicio_bullet_2",
+            "icon": "icons/components/icon_07_secao_exercicio_bullet.svg",
+            "label": "07 Seção Exercício Bullet 2",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_07_secao_exercicio_bullet_sub",
             "icon": "icons/components/icon_07_secao_exercicio_bullet.svg",
             "label": "07 Seção Exercício Bullet Sub",
@@ -2379,10 +2422,12 @@
             "container_questao_f",
             "container_questao_c",
             "container_questao_vf",
+            "container_questao_vf_2",
             "container_questao_soma",
             "container_questao_radio",
             "container_grupo_radio",
             "container_questao_dissertativa",
+            "container_questao_dissertativa_semrecuo",
             "container_questao_dissertativa_item"
             ]
     },
@@ -2441,8 +2486,10 @@
             "name": "numeradores",
             "components": [
                 "css_03_item",
+                "css_03_item_2",
                 "css_02_item_citado",
                 "css_03_item_container",
+                "css_03_item_container_sobrescrito",
                 "css_03_item_sobrescrito",
                 "css_03_item_sobrescrito_2",
                 "css_03_item_alinhamento_1",
@@ -2467,6 +2514,7 @@
                 "css_03_exercicio_resolvido_bullet",
                 "css_03_exercicio_resolvido_item",
                 "css_03_exercicio_item",
+                "css_03_exercicio_item_2",
                 "css_03_exercicio_item_alinhamento_1",
                 "css_03_exercicio_bullet",
                 "css_03_exercicio_bullet_sub",
@@ -2474,6 +2522,7 @@
                 "css_03_exercicio_continuacao",
                 "css_03_exercicio_item_romano",
                 "css_03_exercicio_item_vf",
+                "css_03_exercicio_item_vf_2",
                 "css_03_exercicio_citado_titulo",
                 "css_03_exercicio_citado"
             ]
@@ -2560,6 +2609,7 @@
                 "css_07_secao_exercicio_item",
                 "css_07_secao_exercicio_item_container",
                 "css_07_secao_exercicio_bullet",
+                "css_07_secao_exercicio_bullet_2",
                 "css_07_secao_exercicio_bullet_sub",
                 "css_07_secao_exercicio_alternativa",
                 "css_07_secao_exercicio_continuacao"
@@ -3298,6 +3348,39 @@
             "css_03_numero": "auto",
             "css_03_numero_cor_2": "auto",
             "css_03_exercicio_citado": "auto",
+            "css_03_exercicio_item_2": "auto",
+            "css_03_exercicio_citado_titulo": "auto",
+            "css_03_exercicio_texto": "auto",
+            "css_03_item": "auto",
+            "css_03_item_sobrescrito": "auto",
+            "css_03_item_sobrescrito_2": "auto",
+            "css_03_exercicio_continuacao": "auto",
+            "css_03_exercicio_alternativa": "auto",
+            "css_03_exercicio_item_vf": "auto",
+            "css_03_exercicio_item_vf_2": "auto"
+        },        
+        "css_03_exercicio_item_2": {
+            "css_03_exercicio_enunciado": "auto",
+            "css_03_numero": "auto",
+            "css_03_numero_cor_2": "auto",
+            "css_03_exercicio_citado": "auto",
+            "css_03_exercicio_item": "auto",
+            "css_03_exercicio_citado_titulo": "auto",
+            "css_03_exercicio_texto": "auto",
+            "css_03_item": "auto",
+            "css_03_item_sobrescrito": "auto",
+            "css_03_item_sobrescrito_2": "auto",
+            "css_03_exercicio_continuacao": "auto",
+            "css_03_exercicio_alternativa": "auto",
+            "css_03_exercicio_item_vf": "auto",
+            "css_03_exercicio_item_vf_2": "auto"
+        },        
+        "css_03_exercicio_item_vf_2": {
+            "css_03_exercicio_enunciado": "auto",
+            "css_03_numero": "auto",
+            "css_03_numero_cor_2": "auto",
+            "css_03_exercicio_citado": "auto",
+            "css_03_exercicio_item_2": "auto",
             "css_03_exercicio_citado_titulo": "auto",
             "css_03_exercicio_texto": "auto",
             "css_03_item": "auto",
@@ -3326,7 +3409,16 @@
             "css_03_item_container": "auto",
             "css_06_item_2": "auto",
             "css_02_item_citado": "auto",
-            "css_03_item_sobrescrito": "auto"
+            "css_03_item_sobrescrito": "auto",
+            "css_03_item_container_sobrescrito": "auto"
+        },        
+        "css_03_item_container_sobrescrito": {
+            "css_03_item_alinhamento_1": "auto",
+            "css_03_item_container": "auto",
+            "css_06_item_2": "auto",
+            "css_02_item_citado": "auto",
+            "css_03_item_sobrescrito": "auto",
+            "css_03_item": "auto"
         },        
         "css_02_item_citado": {
             "css_03_item_alinhamento_1": "auto",
@@ -3561,7 +3653,14 @@
         "css_07_secao_exercicio_bullet": {
             "css_02_texto_bullet": "auto",
             "css_02_texto_bullet_mancha_sub": "auto",
-            "css_07_secao_exercicio_bullet_sub": "auto"
+            "css_07_secao_exercicio_bullet_sub": "auto",
+            "css_07_secao_exercicio_bullet_2": "auto"
+        },
+        "css_07_secao_exercicio_bullet_2": {
+            "css_02_texto_bullet": "auto",
+            "css_02_texto_bullet_mancha_sub": "auto",
+            "css_07_secao_exercicio_bullet_sub": "auto",
+            "css_07_secao_exercicio_bullet": "auto"
         },                
         "css_07_secao_exercicio_bullet_sub": {
             "css_02_texto_bullet": "auto",

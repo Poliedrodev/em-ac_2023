@@ -2386,6 +2386,21 @@ span[style="text-decoration: line-through;"] {
   display: flex;
   justify-content: center; }
 
+.container_questao_vf_2 {
+  display: block;
+  color: #000000;
+  font-family: 'Noticia Text';
+  max-width: 26px;
+  max-height: 26px;
+  padding-top: 1px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  float: left;
+  margin: 12px 12px -8px 70px !important;
+  display: flex;
+  justify-content: center; }
+
 .container_questao_soma {
   font-family: 'Noticia Text';
   font-weight: 700;
@@ -3456,6 +3471,134 @@ blockquote {
       margin-left: 24px;
       z-index: 1; } }
   .container_questao_dissertativa .btn_submit {
+    bottom: 0.5em;
+    margin-top: 6px; }
+
+.container_questao_dissertativa_semrecuo {
+  min-height: 200px;
+  border: solid 1px #707070;
+  margin: 16px 0px 0px 32px;
+  border-radius: 6px;
+  /* media query */ }
+  .container_questao_dissertativa_semrecuo .label {
+    width: 93%;
+    height: 35px;
+    margin: 0px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .container_questao_dissertativa_semrecuo .label .arial {
+      width: 20%;
+      border-right: solid 1px #707070;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer; }
+      .container_questao_dissertativa_semrecuo .label .arial:after {
+        content: '';
+        width: 10px;
+        height: 10px;
+        background-image: url(img/arrow.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 10px; }
+      .container_questao_dissertativa_semrecuo .label .arial .textarrow:before {
+        content: 'Fonte';
+        font-family: "nunito sans";
+        font-size: 14px;
+        font-weight: 900; }
+    .container_questao_dissertativa_semrecuo .label .size {
+      width: 10%;
+      border-right: solid 1px #707070;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0px 10px 0px 10px;
+      cursor: pointer; }
+      .container_questao_dissertativa_semrecuo .label .size:after {
+        content: '';
+        width: 10px;
+        height: 10px;
+        background-image: url(img/arrow.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 10px; }
+      .container_questao_dissertativa_semrecuo .label .size .textarrow:before {
+        content: '11';
+        font-family: "nunito sans";
+        font-size: 14px;
+        font-weight: 900; }
+    .container_questao_dissertativa_semrecuo .label .type {
+      width: 70%;
+      display: flex;
+      align-items: center; }
+      .container_questao_dissertativa_semrecuo .label .type .textB {
+        content: '';
+        width: 10px;
+        height: 10px;
+        background-image: url(img/bold-text-option.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 10px;
+        cursor: pointer; }
+      .container_questao_dissertativa_semrecuo .label .type .textI {
+        content: '';
+        width: 10px;
+        height: 10px;
+        background-image: url(img/italics.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 10px;
+        cursor: pointer; }
+      .container_questao_dissertativa_semrecuo .label .type .textU {
+        content: '';
+        width: 10px;
+        height: 10px;
+        background-image: url(img/underline.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 10px;
+        cursor: pointer; }
+  .container_questao_dissertativa_semrecuo .textarea:valid {
+    max-width: 93%;
+    margin: 20px 20px 10px 16px !important;
+    border: 1px solid #888; }
+  .container_questao_dissertativa_semrecuo > *:first-child {
+    margin-top: 0; }
+    .container_questao_dissertativa_semrecuo > *:first-child._left + ._right {
+      margin-top: 0;
+      padding: 0 68 0 16px; }
+    .container_questao_dissertativa_semrecuo > *:first-child._right + ._left {
+      margin-top: 0;
+      padding: 0 16 0 68px; }
+  .container_questao_dissertativa_semrecuo > *:last-child {
+    margin-bottom: 0;
+    border-width: 0px; }
+  .container_questao_dissertativa_semrecuo > *._left + ._right:last-child {
+    margin-bottom: 20px;
+    padding: 0 68 0 16px; }
+  .container_questao_dissertativa_semrecuo > *._right + ._left:last-child {
+    margin-bottom: 20px;
+    padding: 0 16 0 68px; }
+  @media only screen and (min-width: 481px) {
+    .container_questao_dissertativa_semrecuo._left {
+      float: left;
+      clear: left;
+      width: 47%;
+      margin-right: 24px;
+      z-index: 1; }
+    .container_questao_dissertativa_semrecuo._right {
+      float: right;
+      clear: right;
+      width: 47%;
+      margin-left: 24px;
+      z-index: 1; } }
+  .container_questao_dissertativa_semrecuo .btn_submit {
     bottom: 0.5em;
     margin-top: 6px; }
 
@@ -5768,6 +5911,15 @@ blockquote {
   float: left;
   margin: 12px 0px 0px 32px !important; }
 
+.css_03_item_2 {
+  display: block;
+  color: #000000;
+  font-family: 'Noticia Text';
+  font-weight: 700;
+  font-size: 18px;
+  float: left;
+  margin: 12px 0px 0px 70px !important; }
+
 .css_02_item_citado {
   display: block;
   color: #000000;
@@ -5785,6 +5937,15 @@ blockquote {
   font-size: 18px;
   float: left;
   margin: 12px 0px 0px 10px !important; }
+
+.css_03_item_container {
+  display: block;
+  color: #000000;
+  font-family: 'Noticia Text';
+  font-weight: 700;
+  font-size: 18px;
+  float: left;
+  margin: 18px 0px 0px 10px !important; }
 
 .css_03_item_sobrescrito {
   display: block;
@@ -5950,6 +6111,15 @@ blockquote {
   margin: 12px 0px 0px 64px;
   line-height: 1.5em; }
 
+.css_03_exercicio_item_2 {
+  display: block;
+  font-family: 'Noticia Text';
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  margin: 12px 0px 0px 103px;
+  line-height: 1.5em; }
+
 .css_03_exercicio_item_alinhamento_1 {
   display: block;
   font-family: 'Noticia Text';
@@ -6021,6 +6191,15 @@ blockquote {
   color: #000000;
   font-size: 18px;
   margin: 12px 0px 0px 72px;
+  line-height: 1.5em; }
+
+.css_03_exercicio_item_vf_2 {
+  display: block;
+  font-family: 'Noticia Text';
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  margin: 12px 0px 0px 110px;
   line-height: 1.5em; }
 
 .css_03_exercicio_citado_titulo {
@@ -11366,6 +11545,17 @@ blockquote {
   font-size: 18px;
   margin: 16px 0px 0px 11px; }
   .css_07_secao_exercicio_bullet ul li {
+    padding-left: 12px; }
+
+.css_07_secao_exercicio_bullet_2 {
+  display: block;
+  font-family: 'Noticia Text';
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 18px;
+  margin: 16px 0px 0px -20px; }
+  .css_07_secao_exercicio_bullet_2 ul li {
     padding-left: 12px; }
 
 .css_07_secao_exercicio_bullet_sub {

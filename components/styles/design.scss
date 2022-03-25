@@ -40,6 +40,7 @@
 @import "container_questao_f";
 @import "container_questao_c";
 @import "container_questao_vf";
+@import "container_questao_vf_2";
 @import "container_questao_soma";
 @import "container_questao_radio";
 @import "container_coluna_falsa";
@@ -67,6 +68,7 @@
 @import "container_fica_a_dica";
 @import "container_fica_a_dica_teoria";
 @import "container_questao_dissertativa";
+@import "container_questao_dissertativa_semrecuo";
 @import "container_questao_dissertativa_item";
 @import "container_leitura_complementar";
 @import "container_connections";
@@ -123,8 +125,10 @@
 @import "css_02_texto_glossario_citado";
 @import "css_02_texto_vocabulario";
 @import "css_03_item";
+@import "css_03_item_2";
 @import "css_02_item_citado";
 @import "css_03_item_container";
+@import "css_03_item_container_sobrescrito";
 @import "css_03_item_sobrescrito";
 @import "css_03_item_sobrescrito_2";
 @import "css_03_item_alinhamento_1";
@@ -138,6 +142,7 @@
 @import "css_03_exercicio_resolvido_bullet";
 @import "css_03_exercicio_resolvido_item";
 @import "css_03_exercicio_item";
+@import "css_03_exercicio_item_2";
 @import "css_03_exercicio_item_alinhamento_1";
 @import "css_03_exercicio_bullet";
 @import "css_03_exercicio_bullet_sub";
@@ -145,6 +150,7 @@
 @import "css_03_exercicio_continuacao";
 @import "css_03_exercicio_item_romano";
 @import "css_03_exercicio_item_vf";
+@import "css_03_exercicio_item_vf_2";
 @import "css_03_exercicio_citado_titulo";
 @import "css_03_exercicio_citado";
 @import "css_04_professor_resposta";
@@ -260,6 +266,7 @@
 @import "css_07_secao_texto_em_foco";
 @import "css_07_secao_ponto_de_vista";
 @import "css_07_secao_exercicio_bullet";
+@import "css_07_secao_exercicio_bullet_2";
 @import "css_07_secao_exercicio_bullet_sub";
 @import "css_07_secao_exercicio_alternativa";
 @import "css_07_secao_exercicio_continuacao";
