@@ -30,6 +30,44 @@
             }
         },
         {
+            "name": "audio",
+            "icon": "icons/components/icon_00_arte.svg",
+            "label": "Componente Áudio",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "image_popup_center",
+            "icon": "icons/components/image.svg",
+            "label": "COMPONENTE_POPUP_CENTER",
+            "properties": [
+                { "name": "fitting", "defaultValue": "_fit-frame-height-to-content" },
+                "position",
+                "style",
+                "inside-caption",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "edit-image", "directiveKey": "image" },
+                { "name": "hyperlink", "directiveKey": "hyperlink" }
+            ]
+        },
+        {
+            "name": "video_popup_center",
+            "icon": "icons/components/video.svg",
+            "label": "VIDEO_POPUP_CENTER",
+            "selectionMethod": "handle",
+            "properties": [
+                { "name": "fitting", "defaultValue": "_fit-frame-height-to-content" },
+                "position",
+                "style",
+                "inside-caption",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "edit-image", "directiveKey": "image" }
+            ]
+        },
+        {
             "name": "image_cont_exercicios",
             "icon": "icons/components/image.svg",
             "label": "Imagem Container Exercícios",
@@ -272,6 +310,30 @@
             "name": "imagem_meia_coluna_container",
             "icon": "icons/components/image.svg",
             "label": "Imagem Meia Coluna Container",
+            "properties": [
+                { "name": "fitting", "defaultValue": "_fit-frame-height-to-content" },
+                "position",
+                "style",
+                "inside-caption",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "edit-image", "directiveKey": "image" },
+                { "name": "hyperlink", "directiveKey": "hyperlink" }
+            ],
+            "directiveOptions": {
+                "caption": {
+                    "autofill": {
+                        "source": "image",
+                        "metadataField": "ContentMetaData/Description"
+                    }
+                }
+            }
+        },        
+        {
+            "name": "imagem_meia_coluna_container_exercicios",
+            "icon": "icons/components/image.svg",
+            "label": "Imagem Meia Coluna em Boxes",
             "properties": [
                 { "name": "fitting", "defaultValue": "_fit-frame-height-to-content" },
                 "position",
@@ -2344,10 +2406,20 @@
             "image_inline",
             "imagem_meia_coluna",
             "imagem_meia_coluna_container",
+            "imagem_meia_coluna_container_exercicios",
             "author",
             "hero", 
             "product",
             "slideshow"
+    ]
+    },
+    {
+        "label": "Outros Assets",
+        "name": "outros_assets",
+        "components": [
+            "audio",
+            "image_popup_center",
+            "video_popup_center"
     ]
     },
     {
@@ -3034,6 +3106,7 @@
             "imagem_coluna_falsa": "auto",
             "imagem_meia_coluna": "auto",
             "imagem_meia_coluna_container": "auto",
+            "imagem_meia_coluna_container_exercicios": "auto",
             "hero": "auto",
             "author": "auto",
             "slideshow": {
@@ -3051,6 +3124,7 @@
             "imagem_coluna_falsa": "auto",
             "imagem_meia_coluna": "auto",
             "imagem_meia_coluna_container": "auto",
+            "imagem_meia_coluna_container_exercicios": "auto",
             "hero": "auto",
             "author": "auto",
             "slideshow": {
@@ -3068,6 +3142,7 @@
             "imagem_coluna_falsa": "auto",
             "imagem_meia_coluna": "auto",
             "imagem_meia_coluna_container": "auto",
+            "imagem_meia_coluna_container_exercicios": "auto",
             "hero": "auto",
             "author": "auto",
             "slideshow": {
@@ -3085,6 +3160,7 @@
             "imagem_coluna_falsa": "auto",
             "imagem_meia_coluna": "auto",
             "imagem_meia_coluna_container": "auto",
+            "imagem_meia_coluna_container_exercicios": "auto",
             "hero": "auto",
             "author": "auto",
             "slideshow": {
@@ -3099,6 +3175,7 @@
             "imagem_coluna_falsa": "auto",
             "imagem_meia_coluna": "auto",
             "imagem_meia_coluna_container": "auto",
+            "imagem_meia_coluna_container_exercicios": "auto",
             "hero": "auto",
             "author": "auto",
             "slideshow": {
@@ -3111,6 +3188,7 @@
             "imagem_sem_margem": "auto",
             "imagem_meia_coluna": "auto",
             "imagem_meia_coluna_container": "auto",
+            "imagem_meia_coluna_container_exercicios": "auto",
             "imagem_coluna_falsa": "auto",
             "image": "auto",
             "hero": "auto",
@@ -3125,6 +3203,7 @@
                 "imagem_sem_margem": "auto",
             "imagem_meia_coluna": "auto",
             "imagem_meia_coluna_container": "auto",
+            "imagem_meia_coluna_container_exercicios": "auto",
             "imagem_centralizada": "auto",
             "image": "auto",
             "hero": "auto",
@@ -3140,6 +3219,21 @@
             "imagem_centralizada": "auto",
             "imagem_coluna_falsa": "auto",
             "imagem_meia_coluna_container": "auto",
+            "imagem_meia_coluna_container_exercicios": "auto",
+            "hero": "auto",
+            "author": "auto",
+            "slideshow": {
+                "type": "to-container",
+                "container": "slideshow"},
+            "product": "auto"
+        },
+        "imagem_meia_coluna_container_exercicios": {
+            "image": "auto",
+            "imagem_sem_margem": "auto",
+            "imagem_centralizada": "auto",
+            "imagem_coluna_falsa": "auto",
+            "imagem_meia_coluna": "auto",
+            "imagem_meia_coluna_container": "auto",
             "hero": "auto",
             "author": "auto",
             "slideshow": {
@@ -3152,6 +3246,7 @@
             "imagem_sem_margem": "auto",
             "imagem_centralizada": "auto",
             "imagem_coluna_falsa": "auto",
+            "imagem_meia_coluna_container_exercicios": "auto",
             "imagem_meia_coluna": "auto",
             "hero": "auto",
             "author": "auto",

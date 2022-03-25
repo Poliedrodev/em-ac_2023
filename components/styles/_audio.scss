@@ -1,0 +1,75 @@
+$blue:  rgb(124, 192, 203);
+$icon:   $blue;
+.audio {
+    position: relative;
+    width: 360px;
+    margin: 50px 0;
+    float: left;
+    transition: all .3s;
+    border: 5px solid #abd16f;
+    border-radius: 4px;
+    min-height: 200px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    
+    .none {
+        display: none !important;
+    }
+    
+    audio {
+        display: none;
+    }
+    
+    &__image {        
+        background-image: url('img/barra-audio.png');
+        width: 224px;
+        height: 54px;
+        background-repeat: no-repeat;
+        background-position: right;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    
+    &__url {
+        border: 1px solid #ccc;
+        padding: 2px;
+        overflow: hidden;
+        height: 19px;
+        word-break: break-all;
+    }
+    
+    &__title {
+        color: #a7050d;
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 2px;
+    }
+    
+    &__text {
+        color: #666;
+    }
+    
+    .icon_player {
+        background: url(img/play-button.png) no-repeat #fff center;
+        position: absolute;
+        bottom: -14px;
+        width: 34px;
+        height: 24px;
+        cursor: pointer;
+        
+        &.icon_pause {
+            background: url(img/pause-button.png) no-repeat #fff center;
+        }
+    }
+    
+    .icon_stop {
+        background: url(img/stop-button.png) no-repeat #fff center;
+        position: absolute;
+        left: 61px;
+        bottom: -14px;
+        width: 34px;
+        height: 24px;
+        cursor: pointer;
+    }
+}
