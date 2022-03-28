@@ -903,6 +903,12 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "container_textos_item",
+            "icon": "icons/components/container.svg",
+            "label": "Container Textos Item",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "container_textos_exercicios",
             "icon": "icons/components/container.svg",
             "label": "Container Textos Exercícios",
@@ -2443,6 +2449,7 @@
             "container_saiba_mais",
             "container_saiba_mais_exercicios",
             "container_textos",
+            "container_textos_item",
             "container_textos_exercicios",
             "container_textos_exercicio_mancha",
             "container_textos_fundo_sepia",
