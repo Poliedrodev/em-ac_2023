@@ -8,7 +8,7 @@
   margin: 4px 0px 0px 24px;
 
   &.artes {
-    color: #000000;
+    color: $seg_lin_cor2;
     .line-legenda {
       width: 162px;
       height: 2px;
@@ -29,7 +29,7 @@
     }
   }
   &.lingua_inglesa {
-    color: #000000;
+    color: $seg_lin_cor2;
     .line-legenda {
       width: 162px;
       height: 2px;
@@ -50,7 +50,7 @@
     }
   }
   &.lingua_portuguesa {
-    color: #000000;
+    color: $seg_lin_cor2;
     .line-legenda {
       width: 162px;
       height: 2px;
@@ -71,7 +71,7 @@
     }
   }
   &.matematica {
-    color: #000000;
+    color: $seg_lin_cor2;
     .line-legenda {
       width: 162px;
       height: 2px;
