@@ -35,7 +35,7 @@ body {
     outline: none; }
 
 html {
-  background-color: #dfdaea; }
+  background-color: #d0e1f0; }
 
 body {
   max-width: 860px;
@@ -114,7 +114,7 @@ span[data-text-edit-color] a {
     overflow-x: hidden;
     overflow-y: auto; }
     .hero-js ._hero-content-box ._hero-content-wrapper {
-      background-color: #dfdaea; }
+      background-color: #d0e1f0; }
       .hero-js ._hero-content-box ._hero-content-wrapper ._hero-content-body {
         max-width: 860px;
         padding: 0 5px;
@@ -5388,30 +5388,30 @@ blockquote {
       width: 50%;
       z-index: 1; } }
 
-.container_textos_item {
+.container_textos {
   border: 2px solid #ccc;
   padding: 8px 16px 16px 16px;
-  margin: 20px 60x 0px 63px;
+  margin: 16px 0px 0px 32px;
   clear: both;
   display: block;
   /* media query */ }
-  .container_textos_item::after {
+  .container_textos::after {
     content: '';
     display: block;
     clear: both; }
-  .container_textos_item > *:first-child {
+  .container_textos > *:first-child {
     margin-top: 0; }
-    .container_textos_item > *:first-child._left + ._right {
+    .container_textos > *:first-child._left + ._right {
       margin-top: 0; }
-    .container_textos_item > *:first-child._right + ._left {
+    .container_textos > *:first-child._right + ._left {
       margin-top: 0; }
-  .container_textos_item > *:last-child {
+  .container_textos > *:last-child {
     margin-bottom: 0; }
-  .container_textos_item > *._left + ._right:last-child {
+  .container_textos > *._left + ._right:last-child {
     margin-bottom: 20px; }
-  .container_textos_item > *._right + ._left:last-child {
+  .container_textos > *._right + ._left:last-child {
     margin-bottom: 20px; }
-  .container_textos_item .box_green {
+  .container_textos .box_green {
     width: 93.5%;
     height: 23px;
     position: relative;
@@ -5426,55 +5426,55 @@ blockquote {
     font-family: "montserrat extrabold", "800";
     font-size: 16px;
     color: #000000; }
-    .container_textos_item .box_green:before {
+    .container_textos .box_green:before {
       content: '';
       display: block; }
-  .container_textos_item.artes .box_green {
+  .container_textos.artes .box_green {
     background: linear-gradient(-90deg, #64428C 0%, rgba(100, 66, 140, 0.7) 100%);
     border: solid 3px #64428C; }
-  .container_textos_item.biologia .box_green {
+  .container_textos.biologia .box_green {
     background: linear-gradient(-90deg, #45973d 0%, rgba(69, 151, 61, 0.7) 100%);
     border: solid 3px #45973d; }
-  .container_textos_item.filosofia .box_green {
+  .container_textos.filosofia .box_green {
     background: linear-gradient(-90deg, #536DA7 0%, rgba(83, 109, 167, 0.7) 100%);
     border: solid 3px #536DA7; }
-  .container_textos_item.fisica .box_green {
+  .container_textos.fisica .box_green {
     background: linear-gradient(-90deg, #00909B 0%, rgba(0, 144, 155, 0.7) 100%);
     border: solid 3px #00909B; }
-  .container_textos_item.geografia .box_green {
+  .container_textos.geografia .box_green {
     background: linear-gradient(-90deg, #D85509 0%, rgba(216, 85, 9, 0.7) 100%);
     border: solid 3px #D85509; }
-  .container_textos_item.historia .box_green {
+  .container_textos.historia .box_green {
     background: linear-gradient(-90deg, #951B81 0%, rgba(149, 27, 129, 0.7) 100%);
     border: solid 3px #951B81; }
-  .container_textos_item.lingua_inglesa .box_green {
+  .container_textos.lingua_inglesa .box_green {
     background: linear-gradient(-90deg, #069891 0%, rgba(6, 152, 145, 0.7) 100%);
     border: solid 3px #069891; }
-  .container_textos_item.lingua_portuguesa {
+  .container_textos.lingua_portuguesa {
     border: 2px solid #981711; }
-    .container_textos_item.lingua_portuguesa .box_green {
+    .container_textos.lingua_portuguesa .box_green {
       color: #981711;
       border-bottom: solid 2px #981711;
       border-left: solid 6px #E59798; }
-  .container_textos_item.matematica .box_green {
+  .container_textos.matematica .box_green {
     background: linear-gradient(-90deg, #1961AC 0%, rgba(25, 97, 172, 0.7) 100%);
     border: solid 3px #1961AC; }
-  .container_textos_item.producao_de_texto .box_green {
+  .container_textos.producao_de_texto .box_green {
     background: linear-gradient(-90deg, #0F83A6 0%, rgba(15, 131, 166, 0.7) 100%);
     border: solid 3px #0F83A6; }
-  .container_textos_item.quimica .box_green {
+  .container_textos.quimica .box_green {
     background: linear-gradient(-90deg, #B80071 0%, rgba(184, 0, 113, 0.7) 100%);
     border: solid 3px #B80071; }
-  .container_textos_item.sociologia .box_green {
+  .container_textos.sociologia .box_green {
     background: linear-gradient(-90deg, #C71553 0%, rgba(199, 21, 83, 0.7) 100%);
     border: solid 3px #C71553; }
   @media only screen and (min-width: 481px) {
-    .container_textos_item._left {
+    .container_textos._left {
       float: left;
       clear: left;
       width: 50%;
       z-index: 1; }
-    .container_textos_item._right {
+    .container_textos._right {
       float: right;
       clear: right;
       width: 50%;
@@ -11146,12 +11146,13 @@ blockquote {
   display: block; }
 
 .css_07_secao_titulo_citado {
-  text-align: center;
-  font-family: "montserrat bold", "700";
+  font-family: 'Montseerrat';
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.5em;
   font-size: 20px;
+  display: block;
   margin: 24px 0px 0px -212px;
-  padding: 0 68px;
-  color: #000;
   display: block; }
 
 .css_07_secao_texto_citado {

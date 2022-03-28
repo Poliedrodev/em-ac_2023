@@ -1,7 +1,7 @@
-.container_textos_item {
+.container_textos {
   border: 2px solid #ccc;
   padding: 8px 16px 16px 16px;
-  margin: 20px 60x 0px 63px;
+  margin: 16px 0px 0px 32px;
   clear: both;
   display: block;
   &::after {
@@ -16,7 +16,7 @@
               + ._right {
                   margin-top: 0;
               }
-          }
+          } 
           &._right {
               + ._left {
                   margin-top: 0;
