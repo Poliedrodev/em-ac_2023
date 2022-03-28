@@ -35,7 +35,7 @@ body {
     outline: none; }
 
 html {
-  background-color: #d0e1f0; }
+  background-color: #dfdaea; }
 
 body {
   max-width: 860px;
@@ -114,7 +114,7 @@ span[data-text-edit-color] a {
     overflow-x: hidden;
     overflow-y: auto; }
     .hero-js ._hero-content-box ._hero-content-wrapper {
-      background-color: #d0e1f0; }
+      background-color: #dfdaea; }
       .hero-js ._hero-content-box ._hero-content-wrapper ._hero-content-body {
         max-width: 860px;
         padding: 0 5px;
@@ -11138,7 +11138,7 @@ blockquote {
 
 .css_07_secao_titulo_citado {
   text-align: center;
-  font-family: "TheSerif-HP6SeBld" !important;
+  font-family: "montserrat bold", "700";
   font-size: 20px;
   margin: 24px 0px 0px 80px;
   padding: 0 68px;
@@ -11147,7 +11147,7 @@ blockquote {
 
 .css_07_secao_titulo_citado {
   text-align: center;
-  font-family: "TheSerif-HP6SeBld" !important;
+  font-family: "montserrat bold", "700";
   font-size: 20px;
   margin: 24px 0px 0px -212px;
   padding: 0 68px;
@@ -11155,7 +11155,7 @@ blockquote {
   display: block; }
 
 .css_07_secao_texto_citado {
-  font-family: "TheSerif-HP2ExLig";
+  font-family: 'Montserrat';
   font-size: 18px;
   color: #000;
   display: block;
@@ -11163,7 +11163,7 @@ blockquote {
   padding: 0 68px; }
 
 .css_07_secao_texto_citado_2 {
-  font-family: "TheSerif-HP2ExLig";
+  font-family: 'Montserrat';
   font-size: 18px;
   color: #000;
   display: block;
@@ -11221,7 +11221,7 @@ blockquote {
   font-weight: 400;
   color: #000000;
   font-size: 18px;
-  margin: 12px 0px 0px 32px;
+  margin: 18px 0px 0px 32px;
   line-height: 1.5em; }
 
 .css_07_secao_aplicando_conhecimentos {
