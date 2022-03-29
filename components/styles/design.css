@@ -1576,14 +1576,14 @@ span[style="text-decoration: line-through;"] {
       .imagem_meia_coluna_container_exercicios._left {
         float: left;
         clear: left;
-        width: 39%;
+        width: 35%;
         margin-right: 24px;
         padding: 0px !important;
         z-index: 1; }
       .imagem_meia_coluna_container_exercicios._right {
         float: right;
         clear: right;
-        width: 39%;
+        width: 35%;
         margin-left: 24px;
         padding: 0px !important;
         z-index: 1; } }
