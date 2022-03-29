@@ -1,12 +1,25 @@
 .css_01_titulo3 {
   display: block;
-  color: $seg_lin_cor2;
+  color: $title-color;
   font-family: 'Montserrat';
   font-weight: 800;
   font-size: 24px;
   font-variant: tabular-nums;
-  margin-top: 25px;
+  margin-top: 20px;
   padding: 0 68px;
   margin-bottom: 0px;
   line-height: 1.5em;
+
+  &.artes {
+    color: $art_cor1;
+  }
+  &.lingua_inglesa {
+    color: $ing_cor1;
+  }
+  &.lingua_portuguesa {
+    color: $por_cor1;
+  }
+  &.matematica {
+    color: $mat_cor1;
+  }
 }
