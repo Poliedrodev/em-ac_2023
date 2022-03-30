@@ -1,5 +1,5 @@
 {
-    "name": "default-components-mat",
+    "name": "default-components-teoria",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "css_02_texto_geral1",
@@ -38,7 +38,7 @@
         {
             "name": "image_popup_center",
             "icon": "icons/components/image.svg",
-            "label": "COMPONENTE_POPUP_CENTER",
+            "label": "Popup Imagem",
             "properties": [
                 { "name": "fitting", "defaultValue": "_fit-frame-height-to-content" },
                 "position",
@@ -3140,7 +3140,8 @@
             "slideshow": {
                 "type": "to-container",
                 "container": "slideshow"},
-            "product": "auto"
+            "product": "auto",
+            "image_popup_center": "auto"
         },
         "image_teoria": {
             "image_inline": "auto",

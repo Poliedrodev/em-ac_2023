@@ -73,22 +73,22 @@
             align-items: center;
             .textB{
                 content: '';
-                width: 10px;
-                height: 10px;
-                background-image: url(img/bold-text-option.png);
+                width: 20px;
+                height: 20px;
+                background-image: url(img/questao_dis_n.png);
                 background-position: center;
-                background-size: contain;
+                background-size: 100%;
                 background-repeat: no-repeat;
                 margin-right: 10px;
                 cursor: pointer;
             }
             .textI{
                 content: '';
-                width: 10px;
-                height: 10px;
-                background-image: url(img/italics.png);
+                width: 20px;
+                height: 20px;
+                background-image: url(img/questao_dis_i.png);
                 background-position: center;
-                background-size: contain;
+                background-size: 100%;
                 background-repeat: no-repeat;
                 margin-right: 10px;
                 cursor: pointer;
@@ -96,11 +96,11 @@
             }
             .textU{
                 content: '';
-                width: 10px;
-                height: 10px;
-                background-image: url(img/underline.png);
+                width: 20px;
+                height: 20px;
+                background-image: url(img/questao_dis_s.png);
                 background-position: center;
-                background-size: contain;
+                background-size: 100%;
                 background-repeat: no-repeat;
                 margin-right: 10px;
                 cursor: pointer;
@@ -169,6 +169,7 @@
   
     .btn_submit {
       bottom: 0.5em;
+      content: 'Clique para enviar';
       margin-top: 6px;
     }
 }
