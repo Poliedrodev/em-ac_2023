@@ -1059,6 +1059,24 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_02_texto_definicao_2",
+            "icon": "icons/components/icon_02_texto_definicao.svg",
+            "label": "02 Texto Definição Esquerdo",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_02_texto_definicao_30_2",
+            "icon": "icons/components/icon_02_texto_definicao.svg",
+            "label": "02 Texto Definição 30% Esquerdo",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_02_texto_definicao_60_2",
+            "icon": "icons/components/icon_02_texto_definicao.svg",
+            "label": "02 Texto Definição 60% Esquerdo",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_02_texto_destaque",
             "icon": "icons/components/icon_02_texto_destaque.svg",
             "label": "02 Texto Destaque 1",
@@ -2545,6 +2563,9 @@
                 "css_02_texto_definicao",
                 "css_02_texto_definicao_30",
                 "css_02_texto_definicao_60",
+                "css_02_texto_definicao_2",
+                "css_02_texto_definicao_30_2",
+                "css_02_texto_definicao_60_2",
                 "css_02_texto_destaque",
                 "css_02_texto_destaque2",
                 "css_02_texto_manuscrito",
