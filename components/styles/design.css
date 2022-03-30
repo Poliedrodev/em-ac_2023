@@ -6326,7 +6326,7 @@ blockquote {
   .css_02_texto_glossario_titulo.lingua_portuguesa {
     border: solid 2px #c9252c !important; }
   .css_02_texto_glossario_titulo.matematica {
-    border: solid 2px #1961AC !important; }
+    border: solid 2px #F1CB40 !important; }
 
 .css_02_texto_glossario {
   font-family: 'Noticia Text';
@@ -6345,7 +6345,7 @@ blockquote {
   .css_02_texto_glossario.lingua_portuguesa {
     border: solid 2px #c9252c !important; }
   .css_02_texto_glossario.matematica {
-    border: solid 2px #1961AC !important; }
+    border: solid 2px #F1CB40 !important; }
 
 .css_02_texto_glossario_citado {
   font-family: 'Noticia Text';
@@ -6364,7 +6364,7 @@ blockquote {
   .css_02_texto_glossario_citado.lingua_portuguesa {
     border: solid 2px #c9252c !important; }
   .css_02_texto_glossario_citado.matematica {
-    border: solid 2px #1961AC !important; }
+    border: solid 2px #F1CB40 !important; }
 
 .css_02_texto_vocabulario {
   display: block;
@@ -7515,11 +7515,12 @@ blockquote {
 
 .css_06_boxe_texto2 {
   display: block;
+  text-align: left;
   font-size: 18px;
   color: #000000;
-  font-family: 'Noticia Text';
-  margin: 16px 16px 0px 16px;
-  line-height: 1.5em; }
+  font-family: "noticia text", "700";
+  line-height: 1.5em;
+  margin: 16px 16px 0px 16px; }
 
 .css_06_boxe_texto2_competencias {
   font-size: 18px;
@@ -10980,6 +10981,20 @@ blockquote {
     list-style-type: disc;
     margin: 0px; }
   .css_06_boxe_bullet li {
+    padding-left: 12px; }
+
+.css_06_boxe_bullet_mat {
+  display: block;
+  font-family: 'Noticia Text';
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 16px;
+  margin: 0px 0px 0px 12px; }
+  .css_06_boxe_bullet_mat ul {
+    list-style-type: disc;
+    margin: 0px; }
+  .css_06_boxe_bullet_mat li {
     padding-left: 12px; }
 
 .css_06_boxe_exercicio {
