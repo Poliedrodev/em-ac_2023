@@ -4069,6 +4069,7 @@ blockquote {
 .container_leitura_complementar {
   padding: 8px 16px 16px 16px;
   margin: 48px 68px 0px 68px;
+  color: #000000;
   clear: both;
   display: block;
   /* media query */ }
@@ -4076,19 +4077,53 @@ blockquote {
     content: '';
     display: block;
     clear: both; }
+  .container_leitura_complementar.artes {
+    border: solid 2px #64428C !important; }
+    .container_leitura_complementar.artes .text-read2 {
+      border-bottom: solid 3px #000000;
+      color: #000000; }
+      .container_leitura_complementar.artes .text-read2.artes {
+        color: #3F1F71 !important;
+        border-bottom: solid 3px #B9A9CB !important; }
+  .container_leitura_complementar.lingua_inglesa {
+    border: solid 2px #069891 !important; }
+  .container_leitura_complementar.lingua_portuguesa {
+    border: solid 2px #c9252c !important; }
+  .container_leitura_complementar.matematica {
+    border: solid 2px #1961AC !important; }
   .container_leitura_complementar .text-read2 {
     font-size: 16px;
-    border-bottom: solid 3px #f2b8bc;
-    color: #981711;
+    border-bottom: solid 3px #000000;
+    color: #000000;
     width: 235px;
     text-align: center;
     padding: 3px;
     font-family: montserrat;
     font-weight: 700; }
+    .container_leitura_complementar .text-read2.artes {
+      color: #3F1F71;
+      border-bottom: solid 3px #B9A9CB; }
+    .container_leitura_complementar .text-read2.lingua_inglesa {
+      color: #015F5B;
+      border-bottom: solid 3px #8CCDD2; }
+    .container_leitura_complementar .text-read2.lingua_portuguesa {
+      color: #96171a;
+      border-bottom: solid 3px #E59798; }
+    .container_leitura_complementar .text-read2.matematica {
+      color: #033878;
+      border-bottom: solid 3px #97B7D9; }
   .container_leitura_complementar .line3 {
     width: 100%;
     height: 2px;
-    background-color: #981711; }
+    background-color: #000000; }
+    .container_leitura_complementar .line3 .artes {
+      background-color: #3F1F71; }
+    .container_leitura_complementar .line3 .lingua_inglesa {
+      background-color: #015F5B; }
+    .container_leitura_complementar .line3 .lingua_portuguesa {
+      background-color: #96171a; }
+    .container_leitura_complementar .line3 .matematica {
+      background-color: #033878; }
   .container_leitura_complementar > *:first-child {
     margin-top: 0; }
     .container_leitura_complementar > *:first-child._left + ._right {
@@ -4101,45 +4136,6 @@ blockquote {
     margin-bottom: 20px; }
   .container_leitura_complementar > *._right + ._left:last-child {
     margin-bottom: 20px; }
-  .container_leitura_complementar.artes .box_green {
-    background: linear-gradient(-90deg, #64428C 0%, rgba(100, 66, 140, 0.7) 100%);
-    border: solid 3px #64428C; }
-  .container_leitura_complementar.biologia .box_green {
-    background: linear-gradient(-90deg, #45973d 0%, rgba(69, 151, 61, 0.7) 100%);
-    border: solid 3px #45973d; }
-  .container_leitura_complementar.filosofia .box_green {
-    background: linear-gradient(-90deg, #536DA7 0%, rgba(83, 109, 167, 0.7) 100%);
-    border: solid 3px #536DA7; }
-  .container_leitura_complementar.fisica .box_green {
-    background: linear-gradient(-90deg, #00909B 0%, rgba(0, 144, 155, 0.7) 100%);
-    border: solid 3px #00909B; }
-  .container_leitura_complementar.geografia .box_green {
-    background: linear-gradient(-90deg, #D85509 0%, rgba(216, 85, 9, 0.7) 100%);
-    border: solid 3px #D85509; }
-  .container_leitura_complementar.historia .box_green {
-    background: linear-gradient(-90deg, #951B81 0%, rgba(149, 27, 129, 0.7) 100%);
-    border: solid 3px #951B81; }
-  .container_leitura_complementar.lingua_inglesa .box_green {
-    background: linear-gradient(-90deg, #069891 0%, rgba(6, 152, 145, 0.7) 100%);
-    border: solid 3px #069891; }
-  .container_leitura_complementar.lingua_portuguesa {
-    border: 2px solid #981711; }
-    .container_leitura_complementar.lingua_portuguesa .box_green {
-      color: #981711;
-      border-bottom: solid 2px #981711;
-      border-left: solid 6px #E59798; }
-  .container_leitura_complementar.matematica .box_green {
-    background: linear-gradient(-90deg, #1961AC 0%, rgba(25, 97, 172, 0.7) 100%);
-    border: solid 3px #1961AC; }
-  .container_leitura_complementar.producao_de_texto .box_green {
-    background: linear-gradient(-90deg, #0F83A6 0%, rgba(15, 131, 166, 0.7) 100%);
-    border: solid 3px #0F83A6; }
-  .container_leitura_complementar.quimica .box_green {
-    background: linear-gradient(-90deg, #B80071 0%, rgba(184, 0, 113, 0.7) 100%);
-    border: solid 3px #B80071; }
-  .container_leitura_complementar.sociologia .box_green {
-    background: linear-gradient(-90deg, #C71553 0%, rgba(199, 21, 83, 0.7) 100%);
-    border: solid 3px #C71553; }
   @media only screen and (min-width: 481px) {
     .container_leitura_complementar._left {
       float: left;
