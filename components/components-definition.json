@@ -1755,6 +1755,12 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_06_boxe_bullet_mat",
+            "icon": "icons/components/icon_06_boxe_bullet.svg",
+            "label": "06 Boxe Bullet Mat",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_06_boxe_exercicio",
             "icon": "icons/components/icon_06_boxe_exercicio.svg",
             "label": "06 Boxe Exercício",
@@ -2676,6 +2682,7 @@
                 "css_06_boxe_texto3",
                 "css_06_boxe_item",
                 "css_06_boxe_bullet",
+                "css_06_boxe_bullet_mat",
                 "css_06_boxe_exercicio",
                 "css_06_boxe_exercicio_continuacao",
                 "css_06_boxe_item",
