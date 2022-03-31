@@ -1,0 +1,28 @@
+.css_03_numero_mat_cap16_17{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 18px;
+  font-variant: tabular-nums;
+  color: #000000;
+  margin: 37px 0px -4px 0px !important;
+  float: left;
+  display: flex;
+  justify-content: left;
+
+  &.artes {    
+    color: $art_cor1 !important;
+    border-bottom: solid 3px $seg_lin_cor1;
+  }
+  &.lingua_inglesa {    
+    color: $ing_cor1 !important;
+    border-bottom: solid 3px $seg_lin_cor1;
+  }
+  &.lingua_portuguesa {    
+    color: $por_cor1 !important;
+    border-bottom: solid 3px $seg_lin_cor1;
+  }
+  &.matematica {    
+    color: $mat_cor1 !important;
+    border-bottom: solid 3px $seg_mat_cor1;
+  }
+}

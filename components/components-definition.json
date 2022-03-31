@@ -1,5 +1,5 @@
 {
-    "name": "default-components-mat",
+    "name": "default-components-teoria",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "css_02_texto_geral1",
@@ -16,7 +16,7 @@
                 "inside-caption",
                 "text-align",
                 "letter-spacing",
-                "line-height",
+                "line-height", 
                 { "name": "edit-image", "directiveKey": "image" },
                 { "name": "hyperlink", "directiveKey": "hyperlink" }
             ],
@@ -933,6 +933,24 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "container_texto_definição",
+            "icon": "icons/components/container.svg",
+            "label": "Definição",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_texto_definição_60",
+            "icon": "icons/components/container.svg",
+            "label": "Definição 60",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_texto_definição_30",
+            "icon": "icons/components/container.svg",
+            "label": "Definição 30",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "container_dados_mancha",
             "icon": "icons/components/container.svg",
             "label": "Container Dados",
@@ -1224,6 +1242,18 @@
             "name": "css_03_numero",
             "icon": "icons/components/icon_03_exercicio_alternativa.svg",
             "label": "03 Número Cor 1",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_03_numero_mat_cap16_5",
+            "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+            "label": "03 Número C16-05",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_03_numero_mat_cap16_17",
+            "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+            "label": "03 Número C16-17",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -2502,8 +2532,11 @@
             "botao_voltar",
             "container_dados_mancha",
             "container_dados_mancha_30",
-            "container_dados_mancha_60"
-    ]
+            "container_dados_mancha_60",
+            "container_texto_definição",
+            "container_texto_definição_30",
+            "container_texto_definição_60"
+        ]
     },
     {
         "label": "Lingua Inglesa",
@@ -2608,6 +2641,8 @@
                 "css_03_item_alinhamento_1",
                 "css_03_item_resolvido",
                 "css_03_numero",
+                "css_03_numero_mat_cap16_5",
+                "css_03_numero_mat_cap16_17",
                 "css_03_numero_inicial",
                 "css_06_item",
                 "css_06_item_2",
@@ -3537,7 +3572,9 @@
         "css_03_numero": {
             "css_03_numero_inicial": "auto",
             "css_03_numero_cor_2": "auto",
-            "css_03_item": "auto"
+            "css_03_item": "auto",
+            "css_03_numero_mat_cap16_5": "auto",
+            "css_03_numero_mat_cap16_17": "auto"
         },
         "css_03_numero_inicial": {
             "css_03_numero": "auto",

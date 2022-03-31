@@ -1,0 +1,81 @@
+.container_texto_definição_60 {
+  margin: 24px 180px 0px 180px;
+  padding: 18px 18px 18px 18px;
+  clear: both;
+  border-radius: 8px;
+  background-color: #ffffff;
+  &::after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+    /* class styles for the options properties of the container component */
+    &.lingua_portuguesa {
+      background-color: #ffffff  !important;
+      border: 3px solid #000000;
+    }
+     &.lingua_inglesa {
+      background-color: #ffffff !important;
+      border: 3px solid #000000;
+     }
+     &.artes {
+      background-color: #ffffff !important;
+      border: 3px solid #000000;
+    }
+    &.matematica {
+      background-color: #ffffff !important;
+      border: 3px solid #000000;
+     }
+  > * {
+      &:first-child {
+          margin-top: 0;
+          &._left {
+              + ._right {
+                  margin-top: 0;
+                  padding: 0 68 0 16px;
+              }
+          }
+          &._right {
+              + ._left {
+                  margin-top: 0;
+                  padding: 0 16 0 68px;
+              }
+          }
+      }
+      &:last-child {
+          margin-bottom: 0;
+      }
+      &._left {
+          + ._right:last-child {
+              margin-bottom: 20px;
+              padding: 0 68 0 16px;
+          }
+      }
+      &._right {
+          + ._left:last-child {
+              margin-bottom: 20px;
+              padding: 0 16 0 68px;
+          }
+      }
+  }
+
+  /* media query */
+  @media only screen and (min-width: $phone-max-width) {
+      &._left {
+          float: left;
+          clear: left;
+          width: 50%;
+          margin-left: 68px;
+          margin-right: 24px;
+          z-index: 1;
+      }
+      &._right {
+          float: right;
+          clear: right;
+          width: 50%;
+          margin-left: 24px;
+          margin-right: 68px;
+          z-index: 1;
+      }
+  }
+}
