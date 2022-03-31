@@ -1,0 +1,109 @@
+.container_leitura_complementar_mat {
+  padding: 8px 16px 16px 16px;
+  margin: 48px 68px 0px 68px;
+  clear: both;
+  display: block;
+  &::after {
+      content: '';
+      display: block;
+      clear: both;
+  }
+
+  .text-read2{
+    //border: solid 2px #981711; 
+    font-size: 16px;
+    border-bottom: solid 3px $mat_cor3;
+    color: $mat_cor1;
+    width: 235px;
+    text-align: center;
+    padding: 3px;
+    font-family: montserrat;
+    font-weight: 700;
+  }
+  .line3{
+    width: 100%;
+    height: 2px;
+    background-color: $mat_cor1;
+  }
+  > * {
+      &:first-child {
+          margin-top: 0;
+          &._left {
+              + ._right {
+                  margin-top: 0;
+              }
+          }
+          &._right {
+              + ._left {
+                  margin-top: 0;
+              }
+          }
+      }
+      &:last-child {
+          margin-bottom: 0;
+      }
+      &._left {
+          + ._right:last-child {
+              margin-bottom: 20px;
+          }
+      }
+      &._right {
+          + ._left:last-child {
+              margin-bottom: 20px;
+          }
+      }
+  }
+  
+
+  // .box_green{
+  //   width: 93.5%;
+  //   height: 23px;
+  //   position: relative;
+  //   display: flex;
+  //   top: 18px;
+  //   left: 16px;
+  //   padding: 1px 0px 0px 0px;
+  //   margin: 0px 0px 32px 0px;
+  //   border-bottom: solid 2px #000000;
+  //   border-left: solid 6px #999999;
+  //   text-decoration: overline;
+  //   font-family: $font-montserrat-extrabold;
+  //   font-size: 16px;
+  //   color: #000000;
+    
+  //   &:before {
+  //     content: '';
+  //     display: block;
+  //   }
+  // }
+
+  &.artes {
+    border: solid 2px $art_cor1 !important;
+  }
+  &.lingua_inglesa {
+    border: solid 2px $ing_cor1 !important;
+  }
+  &.lingua_portuguesa {
+    border: solid 2px $por_cor1 !important;
+  }
+  &.matematica {
+    border: solid 2px $mat_cor1 !important;
+  }
+
+  /* media query */
+  @media only screen and (min-width: $phone-max-width) {
+      &._left {
+          float: left;
+          clear: left;
+          width: 50%;
+          z-index: 1;
+      }
+      &._right {
+          float: right;
+          clear: right;
+          width: 50%;
+          z-index: 1;
+
+      }
+  }
+}

@@ -1,5 +1,5 @@
 {
-    "name": "default-components-teoria",
+    "name": "default-components-mat",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "css_02_texto_geral1",
@@ -816,6 +816,12 @@
             "name": "container_leitura_complementar",
             "icon": "icons/components/container.svg",
             "label": "Container Leitura Complementar",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_leitura_complementar_mat",
+            "icon": "icons/components/container.svg",
+            "label": "Container Leitura Complementar Matemática",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -2464,6 +2470,7 @@
             "container_take_a_tip",
             "container_fica_a_dica_teoria",
             "container_leitura_complementar",
+            "container_leitura_complementar_mat",
             "container_ler_e_escutar",
             "container_matema_tec",
             "container_tarja_secao",
@@ -3298,6 +3305,12 @@
         "container_slideshow_boxe": {
             "container_coluna_falsa": "auto",
             "container": "auto"
+        },
+        "container_leitura_complementar": {
+            "container_leitura_complementar_mat": "auto"
+        },
+        "container_leitura_complementar_mat": {
+            "container_leitura_complementar": "auto"
         }, 
         "container_coluna_falsa": {
             "container": "auto"
