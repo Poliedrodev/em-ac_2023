@@ -10,20 +10,20 @@
     }
     /* class styles for the options properties of the container component */
     &.lingua_portuguesa {
-      background-color: #ffffff  !important;
-      border: 3px solid #000000;
-    }
-     &.lingua_inglesa {
-      background-color: #ffffff !important;
-      border: 3px solid #000000;
-     }
-     &.artes {
-      background-color: #ffffff !important;
-      border: 3px solid #000000;
-    }
-    &.matematica {
-      background-color: #ffffff !important;
-      border: 3px solid #000000;
+        background-color: #ffffff  !important;
+        box-shadow: 0 0 5px 1px #ddd;
+      }
+       &.lingua_inglesa {
+        background-color: #ffffff !important;
+        box-shadow: 0 0 5px 1px #ddd;
+       }
+       &.artes {
+        background-color: #ffffff !important;
+        box-shadow: 0 0 5px 1px #ddd;
+      }
+      &.matematica {
+        background-color: #ffffff !important;
+        box-shadow: 0 0 5px 1px #ddd
      }
   > * {
       &:first-child {
