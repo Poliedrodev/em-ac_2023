@@ -35,7 +35,7 @@ body {
     outline: none; }
 
 html {
-  background-color: #ffffff; }
+  background-color: #d0e1f0; }
 
 body {
   max-width: 860px;
@@ -114,7 +114,7 @@ span[data-text-edit-color] a {
     overflow-x: hidden;
     overflow-y: auto; }
     .hero-js ._hero-content-box ._hero-content-wrapper {
-      background-color: #ffffff; }
+      background-color: #d0e1f0; }
       .hero-js ._hero-content-box ._hero-content-wrapper ._hero-content-body {
         max-width: 860px;
         padding: 0 5px;
@@ -5747,56 +5747,55 @@ blockquote {
       width: 50%;
       z-index: 1; } }
 
-.container_texto_definição {
+.container_texto_definicao {
   margin: 24px 68px 0px 68px;
   padding: 18px 18px 18px 18px;
   clear: both;
-  border-radius: 8px;
+  border-radius: 10px;
   background-color: #ffffff;
-  border: 3px solid #000000;
   /* class styles for the options properties of the container component */
   /* media query */ }
-  .container_texto_definição::after {
+  .container_texto_definicao::after {
     content: '';
     display: block;
     clear: both; }
-  .container_texto_definição.lingua_portuguesa {
+  .container_texto_definicao.lingua_portuguesa {
     background-color: #ffffff  !important;
     border: 3px solid #000000; }
-  .container_texto_definição.lingua_inglesa {
+  .container_texto_definicao.lingua_inglesa {
     background-color: #ffffff !important;
     border: 3px solid #000000; }
-  .container_texto_definição.artes {
+  .container_texto_definicao.artes {
     background-color: #ffffff !important;
     border: 3px solid #000000; }
-  .container_texto_definição.matematica {
+  .container_texto_definicao.matematica {
     background-color: #ffffff !important;
     border: 3px solid #000000; }
-  .container_texto_definição > *:first-child {
+  .container_texto_definicao > *:first-child {
     margin-top: 0; }
-    .container_texto_definição > *:first-child._left + ._right {
+    .container_texto_definicao > *:first-child._left + ._right {
       margin-top: 0;
       padding: 0 68 0 16px; }
-    .container_texto_definição > *:first-child._right + ._left {
+    .container_texto_definicao > *:first-child._right + ._left {
       margin-top: 0;
       padding: 0 16 0 68px; }
-  .container_texto_definição > *:last-child {
+  .container_texto_definicao > *:last-child {
     margin-bottom: 0; }
-  .container_texto_definição > *._left + ._right:last-child {
+  .container_texto_definicao > *._left + ._right:last-child {
     margin-bottom: 20px;
     padding: 0 68 0 16px; }
-  .container_texto_definição > *._right + ._left:last-child {
+  .container_texto_definicao > *._right + ._left:last-child {
     margin-bottom: 20px;
     padding: 0 16 0 68px; }
   @media only screen and (min-width: 481px) {
-    .container_texto_definição._left {
+    .container_texto_definicao._left {
       float: left;
       clear: left;
       width: 50%;
       margin-left: 68px;
       margin-right: 24px;
       z-index: 1; }
-    .container_texto_definição._right {
+    .container_texto_definicao._right {
       float: right;
       clear: right;
       width: 50%;
@@ -5804,55 +5803,54 @@ blockquote {
       margin-right: 68px;
       z-index: 1; } }
 
-.container_texto_definição_60 {
+.container_texto_definicao_60 {
   margin: 24px 180px 0px 180px;
   padding: 18px 18px 18px 18px;
-  clear: both;
-  border-radius: 8px;
+  border-radius: 10px;
   background-color: #ffffff;
   /* class styles for the options properties of the container component */
   /* media query */ }
-  .container_texto_definição_60::after {
+  .container_texto_definicao_60::after {
     content: '';
     display: block;
     clear: both; }
-  .container_texto_definição_60.lingua_portuguesa {
+  .container_texto_definicao_60.lingua_portuguesa {
     background-color: #ffffff  !important;
     border: 3px solid #000000; }
-  .container_texto_definição_60.lingua_inglesa {
+  .container_texto_definicao_60.lingua_inglesa {
     background-color: #ffffff !important;
     border: 3px solid #000000; }
-  .container_texto_definição_60.artes {
+  .container_texto_definicao_60.artes {
     background-color: #ffffff !important;
     border: 3px solid #000000; }
-  .container_texto_definição_60.matematica {
+  .container_texto_definicao_60.matematica {
     background-color: #ffffff !important;
     border: 3px solid #000000; }
-  .container_texto_definição_60 > *:first-child {
+  .container_texto_definicao_60 > *:first-child {
     margin-top: 0; }
-    .container_texto_definição_60 > *:first-child._left + ._right {
+    .container_texto_definicao_60 > *:first-child._left + ._right {
       margin-top: 0;
       padding: 0 68 0 16px; }
-    .container_texto_definição_60 > *:first-child._right + ._left {
+    .container_texto_definicao_60 > *:first-child._right + ._left {
       margin-top: 0;
       padding: 0 16 0 68px; }
-  .container_texto_definição_60 > *:last-child {
+  .container_texto_definicao_60 > *:last-child {
     margin-bottom: 0; }
-  .container_texto_definição_60 > *._left + ._right:last-child {
+  .container_texto_definicao_60 > *._left + ._right:last-child {
     margin-bottom: 20px;
     padding: 0 68 0 16px; }
-  .container_texto_definição_60 > *._right + ._left:last-child {
+  .container_texto_definicao_60 > *._right + ._left:last-child {
     margin-bottom: 20px;
     padding: 0 16 0 68px; }
   @media only screen and (min-width: 481px) {
-    .container_texto_definição_60._left {
+    .container_texto_definicao_60._left {
       float: left;
       clear: left;
       width: 50%;
       margin-left: 68px;
       margin-right: 24px;
       z-index: 1; }
-    .container_texto_definição_60._right {
+    .container_texto_definicao_60._right {
       float: right;
       clear: right;
       width: 50%;
@@ -5860,56 +5858,54 @@ blockquote {
       margin-right: 68px;
       z-index: 1; } }
 
-.container_texto_definição_30 {
+.container_texto_definicao_30 {
   margin: 24px 250px 0px 250px;
   padding: 18px 18px 18px 18px;
-  clear: both;
-  border-radius: 8px;
+  border-radius: 10px;
   background-color: #ffffff;
-  border: 3px solid #000000;
   /* class styles for the options properties of the container component */
   /* media query */ }
-  .container_texto_definição_30::after {
+  .container_texto_definicao_30::after {
     content: '';
     display: block;
     clear: both; }
-  .container_texto_definição_30.lingua_portuguesa {
+  .container_texto_definicao_30.lingua_portuguesa {
     background-color: #ffffff  !important;
     border: 3px solid #000000; }
-  .container_texto_definição_30.lingua_inglesa {
+  .container_texto_definicao_30.lingua_inglesa {
     background-color: #ffffff !important;
     border: 3px solid #000000; }
-  .container_texto_definição_30.artes {
+  .container_texto_definicao_30.artes {
     background-color: #ffffff !important;
     border: 3px solid #000000; }
-  .container_texto_definição_30.matematica {
+  .container_texto_definicao_30.matematica {
     background-color: #ffffff !important;
     border: 3px solid #000000; }
-  .container_texto_definição_30 > *:first-child {
+  .container_texto_definicao_30 > *:first-child {
     margin-top: 0; }
-    .container_texto_definição_30 > *:first-child._left + ._right {
+    .container_texto_definicao_30 > *:first-child._left + ._right {
       margin-top: 0;
       padding: 0 68 0 16px; }
-    .container_texto_definição_30 > *:first-child._right + ._left {
+    .container_texto_definicao_30 > *:first-child._right + ._left {
       margin-top: 0;
       padding: 0 16 0 68px; }
-  .container_texto_definição_30 > *:last-child {
+  .container_texto_definicao_30 > *:last-child {
     margin-bottom: 0; }
-  .container_texto_definição_30 > *._left + ._right:last-child {
+  .container_texto_definicao_30 > *._left + ._right:last-child {
     margin-bottom: 20px;
     padding: 0 68 0 16px; }
-  .container_texto_definição_30 > *._right + ._left:last-child {
+  .container_texto_definicao_30 > *._right + ._left:last-child {
     margin-bottom: 20px;
     padding: 0 16 0 68px; }
   @media only screen and (min-width: 481px) {
-    .container_texto_definição_30._left {
+    .container_texto_definicao_30._left {
       float: left;
       clear: left;
       width: 50%;
       margin-left: 68px;
       margin-right: 24px;
       z-index: 1; }
-    .container_texto_definição_30._right {
+    .container_texto_definicao_30._right {
       float: right;
       clear: right;
       width: 50%;

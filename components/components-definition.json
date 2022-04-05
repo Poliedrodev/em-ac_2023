@@ -1,5 +1,5 @@
 {
-    "name": "default-components-teoria",
+    "name": "default-components-mat",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "css_02_texto_geral1",
@@ -14,7 +14,7 @@
                 "position",
                 "style",
                 "inside-caption",
-                "text-align",
+                "text-align", 
                 "letter-spacing",
                 "line-height", 
                 { "name": "edit-image", "directiveKey": "image" },
@@ -933,19 +933,19 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
-            "name": "container_texto_definição",
+            "name": "container_texto_definicao",
             "icon": "icons/components/container.svg",
             "label": "Definição",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
-            "name": "container_texto_definição_60",
+            "name": "container_texto_definicao_60",
             "icon": "icons/components/container.svg",
             "label": "Definição 60",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
-            "name": "container_texto_definição_30",
+            "name": "container_texto_definicao_30",
             "icon": "icons/components/container.svg",
             "label": "Definição 30",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
@@ -2533,9 +2533,9 @@
             "container_dados_mancha",
             "container_dados_mancha_30",
             "container_dados_mancha_60",
-            "container_texto_definição",
-            "container_texto_definição_30",
-            "container_texto_definição_60"
+            "container_texto_definicao",
+            "container_texto_definicao_30",
+            "container_texto_definicao_60"
         ]
     },
     {
