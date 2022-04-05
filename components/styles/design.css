@@ -35,7 +35,7 @@ body {
     outline: none; }
 
 html {
-  background-color: #d0e1f0; }
+  background-color: #ffffff; }
 
 body {
   max-width: 860px;
@@ -114,7 +114,7 @@ span[data-text-edit-color] a {
     overflow-x: hidden;
     overflow-y: auto; }
     .hero-js ._hero-content-box ._hero-content-wrapper {
-      background-color: #d0e1f0; }
+      background-color: #ffffff; }
       .hero-js ._hero-content-box ._hero-content-wrapper ._hero-content-body {
         max-width: 860px;
         padding: 0 5px;
@@ -253,8 +253,8 @@ span[style="text-decoration: line-through;"] {
 
 .audio {
   position: relative;
-  width: 360px;
-  margin: 50px 0;
+  width: 84%;
+  margin: 15px 68px 0px 68px;
   float: left;
   transition: all .3s;
   border: 5px solid #abd16f;
@@ -404,8 +404,8 @@ span[style="text-decoration: line-through;"] {
 /* Image component style */
 .video_popup_center {
   position: relative;
-  width: 360px;
-  margin: 50px 0;
+  width: 83%;
+  margin: 15px 68px 0px 68px;
   float: left;
   transition: all .3s;
   border: 5px solid #c6dc49;
