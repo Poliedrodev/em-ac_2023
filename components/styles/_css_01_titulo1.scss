@@ -9,14 +9,13 @@
     .text{
       color: $art_cor2;
     }
-    
   }
   &.lingua_inglesa {
     .line{
       background-color: $seg_lin_cor1;
     }
     .text{
-      color: $ing_cor2;
+      color: $ing_cor1;
     }
   }
   &.lingua_portuguesa {

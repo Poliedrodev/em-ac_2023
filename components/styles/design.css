@@ -6256,7 +6256,7 @@ blockquote {
   .css_01_titulo1.lingua_inglesa .line {
     background-color: #bfd730; }
   .css_01_titulo1.lingua_inglesa .text {
-    color: #015F5B; }
+    color: #069891; }
   .css_01_titulo1.lingua_portuguesa .line {
     background-color: #bfd730; }
   .css_01_titulo1.lingua_portuguesa .text {
@@ -6410,6 +6410,21 @@ blockquote {
     font-family: 'Noticia Text';
     font-weight: 400;
     margin: -8px 68px -8px 50px;
+    line-height: 1.5em;
+    padding-left: 4px; }
+
+.css_02_texto_bullet_2 {
+  display: block;
+  font-size: 18px;
+  color: #000000;
+  font-family: 'Noticia Text';
+  font-weight: 400;
+  line-height: 1.5em; }
+  .css_02_texto_bullet_2 ul li {
+    font-size: 18px;
+    font-family: 'Noticia Text';
+    font-weight: 400;
+    margin: -8px 68px -8px 58px;
     line-height: 1.5em;
     padding-left: 4px; }
 

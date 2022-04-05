@@ -1059,6 +1059,12 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_02_texto_bullet_2",
+            "icon": "icons/components/icon_02_texto_bullet.svg",
+            "label": "02 Texto Bullet 2",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_02_texto_bullet_mancha_sub",
             "icon": "icons/components/icon_02_texto_bullet.svg",
             "label": "02 Texto Bullet Sub",
@@ -2617,6 +2623,7 @@
                 "css_02_texto_geral2",
                 "css_02_texto_geral3",
                 "css_02_texto_bullet",
+                "css_02_texto_bullet_2",
                 "css_02_texto_bullet_mancha_sub",
                 "css_02_texto_item",
                 "css_02_texto_definicao",
@@ -3837,6 +3844,13 @@
         },                
         "css_02_texto_bullet": {
             "css_02_texto_bullet_mancha_sub": "auto",
+            "css_02_texto_bullet_2": "auto",
+            "css_07_secao_exercicio_bullet": "auto",
+            "css_07_secao_exercicio_bullet_sub": "auto"
+        },
+        "css_02_texto_bullet_2": {
+            "css_02_texto_bullet_mancha_sub": "auto",
+            "css_02_texto_bullet": "auto",
             "css_07_secao_exercicio_bullet": "auto",
             "css_07_secao_exercicio_bullet_sub": "auto"
         },                
