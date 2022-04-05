@@ -1,5 +1,5 @@
 {
-    "name": "default-components-teoria",
+    "name": "default-components-mat",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "css_02_texto_geral1",
@@ -813,6 +813,12 @@
             "properties": ["position", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "container_questao_dissertativa_item_2",
+            "icon": "icons/components/container.svg",
+            "label": "Questão Dissertativa Item 2" ,
+            "properties": ["position", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "container_leitura_complementar",
             "icon": "icons/components/container.svg",
             "label": "Container Leitura Complementar",
@@ -1122,6 +1128,12 @@
             "name": "css_02_texto_citado_titulo",
             "icon": "icons/components/icon_02_texto_citado_titulo.svg",
             "label": "02 Texto Citado Título",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_02_texto_citado_titulo_2",
+            "icon": "icons/components/icon_02_texto_citado_titulo.svg",
+            "label": "02 Texto Citado Título 2",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -2571,7 +2583,8 @@
             "container_grupo_radio",
             "container_questao_dissertativa",
             "container_questao_dissertativa_semrecuo",
-            "container_questao_dissertativa_item"
+            "container_questao_dissertativa_item",
+            "container_questao_dissertativa_item_2"
             ]
     },
 {
@@ -2616,6 +2629,7 @@
                 "css_02_texto_destaque2",
                 "css_02_texto_manuscrito",
                 "css_02_texto_citado_titulo",
+                "css_02_texto_citado_titulo_2",
                 "css_02_texto_citado",
                 "css_02_texto_citado_bullet",
                 "css_02_texto_citado_romano",

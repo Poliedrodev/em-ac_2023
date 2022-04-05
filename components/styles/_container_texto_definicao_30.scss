@@ -10,21 +10,17 @@
     }
     /* class styles for the options properties of the container component */
     &.lingua_portuguesa {
-        background-color: #ffffff  !important;
         box-shadow: 0 0 5px 1px #ddd;
       }
        &.lingua_inglesa {
-        background-color: #ffffff !important;
         box-shadow: 0 0 5px 1px #ddd;
        }
        &.artes {
-        background-color: #ffffff !important;
         box-shadow: 0 0 5px 1px #ddd;
       }
       &.matematica {
-        background-color: #ffffff !important;
-        box-shadow: 0 0 5px 1px #ddd
-     }
+        box-shadow: 0 0 5px 1px #ddd; 
+       }
   > * {
       &:first-child {
           margin-top: 0;

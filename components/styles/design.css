@@ -4071,6 +4071,134 @@ blockquote {
     bottom: 0.5em;
     margin-top: 6px; }
 
+.container_questao_dissertativa_item_2 {
+  min-height: 200px;
+  border: solid 1px #707070;
+  margin: 16px 68px 0px 105px;
+  border-radius: 6px;
+  /* media query */ }
+  .container_questao_dissertativa_item_2 .label {
+    width: 93%;
+    height: 35px;
+    margin: 0px 20px 0px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .container_questao_dissertativa_item_2 .label .arial {
+      width: 20%;
+      border-right: solid 1px #707070;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer; }
+      .container_questao_dissertativa_item_2 .label .arial:after {
+        content: '';
+        width: 10px;
+        height: 10px;
+        background-image: url(img/arrow.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 10px; }
+      .container_questao_dissertativa_item_2 .label .arial .textarrow:before {
+        content: 'Fonte';
+        font-family: "nunito sans";
+        font-size: 14px;
+        font-weight: 900; }
+    .container_questao_dissertativa_item_2 .label .size {
+      width: 10%;
+      border-right: solid 1px #707070;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0px 10px 0px 10px;
+      cursor: pointer; }
+      .container_questao_dissertativa_item_2 .label .size:after {
+        content: '';
+        width: 10px;
+        height: 10px;
+        background-image: url(img/arrow.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 10px; }
+      .container_questao_dissertativa_item_2 .label .size .textarrow:before {
+        content: '11';
+        font-family: "nunito sans";
+        font-size: 14px;
+        font-weight: 900; }
+    .container_questao_dissertativa_item_2 .label .type {
+      width: 70%;
+      display: flex;
+      align-items: center; }
+      .container_questao_dissertativa_item_2 .label .type .textB {
+        content: '';
+        width: 10px;
+        height: 10px;
+        background-image: url(img/bold-text-option.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 10px;
+        cursor: pointer; }
+      .container_questao_dissertativa_item_2 .label .type .textI {
+        content: '';
+        width: 10px;
+        height: 10px;
+        background-image: url(img/italics.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 10px;
+        cursor: pointer; }
+      .container_questao_dissertativa_item_2 .label .type .textU {
+        content: '';
+        width: 10px;
+        height: 10px;
+        background-image: url(img/underline.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 10px;
+        cursor: pointer; }
+  .container_questao_dissertativa_item_2 .textarea:valid {
+    max-width: 93%;
+    margin: 20px 20px 10px 16px !important;
+    border: 1px solid #888; }
+  .container_questao_dissertativa_item_2 > *:first-child {
+    margin-top: 0; }
+    .container_questao_dissertativa_item_2 > *:first-child._left + ._right {
+      margin-top: 0;
+      padding: 0 68 0 16px; }
+    .container_questao_dissertativa_item_2 > *:first-child._right + ._left {
+      margin-top: 0;
+      padding: 0 16 0 68px; }
+  .container_questao_dissertativa_item_2 > *:last-child {
+    margin-bottom: 0;
+    border-width: 0px; }
+  .container_questao_dissertativa_item_2 > *._left + ._right:last-child {
+    margin-bottom: 20px;
+    padding: 0 68 0 16px; }
+  .container_questao_dissertativa_item_2 > *._right + ._left:last-child {
+    margin-bottom: 20px;
+    padding: 0 16 0 68px; }
+  @media only screen and (min-width: 481px) {
+    .container_questao_dissertativa_item_2._left {
+      float: left;
+      clear: left;
+      width: 47%;
+      margin-right: 24px;
+      z-index: 1; }
+    .container_questao_dissertativa_item_2._right {
+      float: right;
+      clear: right;
+      width: 47%;
+      margin-left: 24px;
+      z-index: 1; } }
+  .container_questao_dissertativa_item_2 .btn_submit {
+    bottom: 0.5em;
+    margin-top: 6px; }
+
 .container_leitura_complementar {
   padding: 8px 16px 16px 16px;
   margin: 48px 68px 0px 68px;
@@ -5752,7 +5880,6 @@ blockquote {
   padding: 18px 18px 18px 18px;
   clear: both;
   border-radius: 10px;
-  background-color: #ffffff;
   /* class styles for the options properties of the container component */
   /* media query */ }
   .container_texto_definicao::after {
@@ -5760,16 +5887,12 @@ blockquote {
     display: block;
     clear: both; }
   .container_texto_definicao.lingua_portuguesa {
-    background-color: #ffffff  !important;
     box-shadow: 0 0 5px 1px #ddd; }
   .container_texto_definicao.lingua_inglesa {
-    background-color: #ffffff !important;
     box-shadow: 0 0 5px 1px #ddd; }
   .container_texto_definicao.artes {
-    background-color: #ffffff !important;
     box-shadow: 0 0 5px 1px #ddd; }
   .container_texto_definicao.matematica {
-    background-color: #ffffff !important;
     box-shadow: 0 0 5px 1px #ddd; }
   .container_texto_definicao > *:first-child {
     margin-top: 0; }
@@ -5815,17 +5938,13 @@ blockquote {
     display: block;
     clear: both; }
   .container_texto_definicao_60.lingua_portuguesa {
-    background-color: #ffffff  !important;
-    border: 3px solid #000000; }
+    box-shadow: 0 0 5px 1px #ddd; }
   .container_texto_definicao_60.lingua_inglesa {
-    background-color: #ffffff !important;
-    border: 3px solid #000000; }
+    box-shadow: 0 0 5px 1px #ddd; }
   .container_texto_definicao_60.artes {
-    background-color: #ffffff !important;
-    border: 3px solid #000000; }
+    box-shadow: 0 0 5px 1px #ddd; }
   .container_texto_definicao_60.matematica {
-    background-color: #ffffff !important;
-    border: 3px solid #000000; }
+    box-shadow: 0 0 5px 1px #ddd; }
   .container_texto_definicao_60 > *:first-child {
     margin-top: 0; }
     .container_texto_definicao_60 > *:first-child._left + ._right {
@@ -5870,17 +5989,13 @@ blockquote {
     display: block;
     clear: both; }
   .container_texto_definicao_30.lingua_portuguesa {
-    background-color: #ffffff  !important;
-    border: 3px solid #000000; }
+    box-shadow: 0 0 5px 1px #ddd; }
   .container_texto_definicao_30.lingua_inglesa {
-    background-color: #ffffff !important;
-    border: 3px solid #000000; }
+    box-shadow: 0 0 5px 1px #ddd; }
   .container_texto_definicao_30.artes {
-    background-color: #ffffff !important;
-    border: 3px solid #000000; }
+    box-shadow: 0 0 5px 1px #ddd; }
   .container_texto_definicao_30.matematica {
-    background-color: #ffffff !important;
-    border: 3px solid #000000; }
+    box-shadow: 0 0 5px 1px #ddd; }
   .container_texto_definicao_30 > *:first-child {
     margin-top: 0; }
     .container_texto_definicao_30 > *:first-child._left + ._right {
@@ -6443,6 +6558,15 @@ blockquote {
   font-size: 20px;
   display: block;
   margin: 16px 15px 0px 15px; }
+
+.css_02_texto_citado_titulo_2 {
+  font-family: 'Noticia Text';
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 20px;
+  display: block;
+  margin: 16px 68px 0px 68px; }
 
 .css_02_texto_citado {
   display: block;
@@ -11460,7 +11584,7 @@ blockquote {
 
 .css_07_secao_texto_citado {
   font-family: 'Montserrat';
-  font-size: 18px;
+  font-size: 16px;
   color: #000;
   display: block;
   margin: 16px 0px 0px 40px;
@@ -11468,7 +11592,7 @@ blockquote {
 
 .css_07_secao_texto_citado_2 {
   font-family: 'Montserrat';
-  font-size: 18px;
+  font-size: 16px;
   color: #000;
   display: block;
   margin: 15px -56px 0px -68px;
