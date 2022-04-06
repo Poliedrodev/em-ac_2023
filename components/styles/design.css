@@ -35,7 +35,7 @@ body {
     outline: none; }
 
 html {
-  background-color: #ffffff; }
+  background-color: #d0e1f0; }
 
 body {
   max-width: 860px;
@@ -114,7 +114,7 @@ span[data-text-edit-color] a {
     overflow-x: hidden;
     overflow-y: auto; }
     .hero-js ._hero-content-box ._hero-content-wrapper {
-      background-color: #ffffff; }
+      background-color: #d0e1f0; }
       .hero-js ._hero-content-box ._hero-content-wrapper ._hero-content-body {
         max-width: 860px;
         padding: 0 5px;
@@ -6607,6 +6607,21 @@ blockquote {
     line-height: 1.5em;
     padding-left: 4px; }
 
+.css_02_texto_citado_bullet_2 {
+  display: block;
+  font-size: 16px;
+  color: #000000;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  line-height: 1.5em; }
+  .css_02_texto_citado_bullet_2 ul li {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    margin: -8px 16px -8px -7px;
+    line-height: 1.5em;
+    padding-left: 4px; }
+
 .css_02_texto_citado_romano {
   display: block;
   font-size: 16px;
@@ -6739,6 +6754,15 @@ blockquote {
   margin: 8px 0px 0px 18px !important; }
 
 .css_03_item_container {
+  display: block;
+  color: #000000;
+  font-family: 'Noticia Text';
+  font-weight: 700;
+  font-size: 18px;
+  float: left;
+  margin: 12px 0px 0px 10px !important; }
+
+.css_03_item_container_2 {
   display: block;
   color: #000000;
   font-family: 'Noticia Text';
