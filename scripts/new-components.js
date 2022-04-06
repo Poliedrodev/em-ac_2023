@@ -6,6 +6,7 @@ $(document).ready(function() {
         fullPopup();
         centerPopup();
         videoPopup();
+        audioPlayer();
         
     } else {        
         console.log('rodando na wooding');
@@ -139,3 +140,5 @@ function audioPlayer() {
         });
     });
 }
+
+
