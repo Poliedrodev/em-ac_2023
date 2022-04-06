@@ -27,7 +27,7 @@
                         "metadataField": "ContentMetaData/Description"
                     }
                 }
-            }
+            } 
         },
         {
             "name": "audio",
@@ -1272,6 +1272,12 @@
             "name": "css_03_numero",
             "icon": "icons/components/icon_03_exercicio_alternativa.svg",
             "label": "03 Número Cor 1",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_03_numero_C16_QR_1",
+            "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+            "label": "03 Número C16-QR1",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -2676,6 +2682,7 @@
                 "css_03_item_alinhamento_1",
                 "css_03_item_resolvido",
                 "css_03_numero",
+                "css_03_numero_C16_QR_1",
                 "css_03_numero_mat_cap16_5",
                 "css_03_numero_mat_cap16_17",
                 "css_03_numero_inicial",
@@ -3609,7 +3616,8 @@
             "css_03_numero_cor_2": "auto",
             "css_03_item": "auto",
             "css_03_numero_mat_cap16_5": "auto",
-            "css_03_numero_mat_cap16_17": "auto"
+            "css_03_numero_mat_cap16_17": "auto",
+            "css_03_numero_C16_QR_1": "auto"
         },
         "css_03_numero_inicial": {
             "css_03_numero": "auto",

@@ -6842,6 +6842,29 @@ blockquote {
     color: #1961AC !important;
     border-bottom: solid 3px #F1CB40; }
 
+.css_03_numero_C16_QR_1 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 18px;
+  font-variant: tabular-nums;
+  color: #000000;
+  margin: 41px 0px -4px 0px !important;
+  float: left;
+  display: flex;
+  justify-content: left; }
+  .css_03_numero_C16_QR_1.artes {
+    color: #64428C !important;
+    border-bottom: solid 3px #bfd730; }
+  .css_03_numero_C16_QR_1.lingua_inglesa {
+    color: #069891 !important;
+    border-bottom: solid 3px #bfd730; }
+  .css_03_numero_C16_QR_1.lingua_portuguesa {
+    color: #c9252c !important;
+    border-bottom: solid 3px #bfd730; }
+  .css_03_numero_C16_QR_1.matematica {
+    color: #1961AC !important;
+    border-bottom: solid 3px #F1CB40; }
+
 .css_03_numero_mat_cap16_5 {
   font-family: 'Montserrat';
   font-weight: 700;
