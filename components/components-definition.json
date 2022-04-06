@@ -1,5 +1,5 @@
 {
-    "name": "default-components-mat",
+    "name": "default-components-lin",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "css_02_texto_geral1",
@@ -382,6 +382,18 @@
             "name": "botao_voltar",
             "icon": "icons/components/icon_02_texto_destaque.svg",
             "label": "Botão Voltar",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "hyperlink", "directiveKey": "link-url" }
+            ]
+        },
+        {
+            "name": "botao_avancar",
+            "icon": "icons/components/icon_02_texto_destaque.svg",
+            "label": "Botão Avançar",
             "properties": [
                 "style",
                 "text-align",
@@ -2560,6 +2572,7 @@
             "secao_topo_produzir_e_compartilhar",
             "secao_topo_quiz",
             "botao_voltar",
+            "botao_avancar",
             "container_dados_mancha",
             "container_dados_mancha_30",
             "container_dados_mancha_60",
