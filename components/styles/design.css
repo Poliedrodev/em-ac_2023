@@ -35,7 +35,7 @@ body {
     outline: none; }
 
 html {
-  background-color: #d0e1f0; }
+  background-color: #dfdaea; }
 
 body {
   max-width: 860px;
@@ -114,7 +114,7 @@ span[data-text-edit-color] a {
     overflow-x: hidden;
     overflow-y: auto; }
     .hero-js ._hero-content-box ._hero-content-wrapper {
-      background-color: #d0e1f0; }
+      background-color: #dfdaea; }
       .hero-js ._hero-content-box ._hero-content-wrapper ._hero-content-body {
         max-width: 860px;
         padding: 0 5px;
@@ -1752,6 +1752,40 @@ span[style="text-decoration: line-through;"] {
     position: absolute; }
   .botao_voltar.matematica {
     background: url(img/voltar_mat.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute; }
+
+.botao_avancar {
+  height: 68px;
+  width: 68px;
+  background: url(img/avancar_por.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  margin: 20px 0px 0px 870px; }
+  .botao_avancar.artes {
+    background: url(img/avancar_lin.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute; }
+  .botao_avancar.lingua_inglesa {
+    background: url(img/go_ing.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute; }
+  .botao_avancar.lingua_portuguesa {
+    background: url(img/avancar_por.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute; }
+  .botao_avancar.matematica {
+    background: url(img/avancar_mat.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
