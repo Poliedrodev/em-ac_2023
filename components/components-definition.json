@@ -29,6 +29,23 @@
                 }
             } 
         },
+
+        {
+            "name": "image_zoom",
+            "icon": "icons/components/image.svg",
+            "label": "image_zoom",
+            "properties": [
+                { "name": "fitting", "defaultValue": "_fit-frame-height-to-content" },
+                "position",
+                "style",
+                "text-align", 
+                "letter-spacing",
+                "line-height", 
+                { "name": "edit-image", "directiveKey": "image" },
+                { "name": "hyperlink", "directiveKey": "hyperlink" }
+            ]
+        },
+
         {
             "name": "audio",
             "icon": "icons/components/icon_00_arte.svg",
@@ -234,7 +251,9 @@
                     }
                 }
             }
-        },        {
+        },
+
+            {
             "name": "imagem_centralizada",
             "icon": "icons/components/image.svg",
             "label": "Imagem Centralizada",
@@ -258,6 +277,57 @@
                 }
             }
         },        
+
+            {
+            "name": "imagem_centralizada_tamanho1",
+            "icon": "icons/components/image.svg",
+            "label": "Imagem Centralizada Tamanho 1",
+            "properties": [
+                { "name": "fitting", "defaultValue": "_fit-frame-height-to-content" },
+                "position",
+                "style",
+                "inside-caption",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "edit-image", "directiveKey": "image" },
+                { "name": "hyperlink", "directiveKey": "hyperlink" }
+            ],
+            "directiveOptions": {
+                "caption": {
+                    "autofill": {
+                        "source": "image",
+                        "metadataField": "ContentMetaData/Description"
+                    }
+                }
+            }
+        },        
+
+        {
+            "name": "imagem_centralizada_tamanho2",
+            "icon": "icons/components/image.svg",
+            "label": "Imagem Centralizada Tamanho 2",
+            "properties": [
+                { "name": "fitting", "defaultValue": "_fit-frame-height-to-content" },
+                "position",
+                "style",
+                "inside-caption",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "edit-image", "directiveKey": "image" },
+                { "name": "hyperlink", "directiveKey": "hyperlink" }
+            ],
+            "directiveOptions": {
+                "caption": {
+                    "autofill": {
+                        "source": "image",
+                        "metadataField": "ContentMetaData/Description"
+                    }
+                }
+            }
+        },        
+
         {
             "name": "imagem_coluna_falsa",
             "icon": "icons/components/image.svg",
@@ -394,6 +464,18 @@
             "name": "botao_avancar",
             "icon": "icons/components/icon_02_texto_destaque.svg",
             "label": "Botão Avançar",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "hyperlink", "directiveKey": "link-url" }
+            ]
+        },
+        {
+            "name": "botao_topo",
+            "icon": "icons/components/icon_02_texto_destaque.svg",
+            "label": "Botão Topo",
             "properties": [
                 "style",
                 "text-align",
@@ -649,13 +731,23 @@
             "label": "Quadrinho Soma",
             "properties": []
         },
+
         {
             "name": "container_questao_radio",
             "icon": "icons/components/container.svg",
             "selectionMethod": "handle",
-            "label": "Bolinha Escolha",
-            "properties": []
+            "label": "Checkbox Lado a Lado",
+            "properties": ["style"]
         },
+
+        {
+            "name": "container_questao_checkbox",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "label": "Checkbox em Linhas",
+            "properties": ["style"]
+        },
+
         {
             "name": "container_coluna_falsa",
             "icon": "icons/components/container.svg",
@@ -785,7 +877,7 @@
         {
             "name": "container_grupo_radio",
             "icon": "icons/components/container.svg",
-            "label": "Container Grupo Radio",
+            "label": "Container Grupo Checkbox",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -813,6 +905,12 @@
             "properties": ["position", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "container_quiz",
+            "icon": "icons/components/container.svg",
+            "label": "Conainer Quiz" ,
+            "properties": ["position", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "container_questao_dissertativa_semrecuo",
             "icon": "icons/components/container.svg",
             "label": "Questão Dissertativa Sem Recuo" ,
@@ -826,6 +924,30 @@
         },
         {
             "name": "container_questao_dissertativa_item_2",
+            "icon": "icons/components/container.svg",
+            "label": "Questão Dissertativa Item 2" ,
+            "properties": ["position", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_questao_dissertativa_ing",
+            "icon": "icons/components/container.svg",
+            "label": "Questão Dissertativa" ,
+            "properties": ["position", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_questao_dissertativa_semrecuo_ing",
+            "icon": "icons/components/container.svg",
+            "label": "Questão Dissertativa Sem Recuo" ,
+            "properties": ["position", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_questao_dissertativa_item_ing",
+            "icon": "icons/components/container.svg",
+            "label": "Questão Dissertativa Item" ,
+            "properties": ["position", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_questao_dissertativa_item_2_ing",
             "icon": "icons/components/container.svg",
             "label": "Questão Dissertativa Item 2" ,
             "properties": ["position", "text-align", "letter-spacing", "line-height"]
@@ -2516,6 +2638,8 @@
             "hero_tirinha",
             "imagem_sem_margem",
             "imagem_centralizada",
+            "imagem_centralizada_tamanho1",
+            "imagem_centralizada_tamanho2",
             "imagem_coluna_falsa",
             "image_inline",
             "imagem_meia_coluna",
@@ -2533,7 +2657,8 @@
         "components": [
             "audio",
             "image_popup_center",
-            "video_popup_center"
+            "video_popup_center",
+            "image_zoom"
     ]
     },
     {
@@ -2579,12 +2704,14 @@
             "secao_topo_quiz",
             "botao_voltar",
             "botao_avancar",
+            "botao_topo",
             "container_dados_mancha",
             "container_dados_mancha_30",
             "container_dados_mancha_60",
             "container_texto_definicao",
             "container_texto_definicao_30",
-            "container_texto_definicao_60"
+            "container_texto_definicao_60",
+            "container_quiz"
         ]
     },
     {
@@ -2603,7 +2730,11 @@
             "secao_topo_creating_and_sharing",
             "secao_topo_find_out_more",
             "secao_topo_extra_practice",            
-            "secao_topo_quiz"
+            "secao_topo_quiz",
+            "container_questao_dissertativa_ing",
+            "container_questao_dissertativa_semrecuo_ing",
+            "container_questao_dissertativa_item_ing",
+            "container_questao_dissertativa_item_2_ing"
     ]
     },
     {
@@ -2616,6 +2747,7 @@
             "container_questao_vf",
             "container_questao_vf_2",
             "container_questao_soma",
+            "container_questao_checkbox",
             "container_questao_radio",
             "container_grupo_radio",
             "container_questao_dissertativa",
@@ -3229,6 +3361,7 @@
             }
         },
         "image": {
+            "image_zoom": "auto",
             "image_inline": "auto",
             "image_teoria": "auto",
             "image_exercicio": "auto",
@@ -3317,6 +3450,8 @@
             "product": "auto"
         },
         "imagem_centralizada": {
+            "imagem_centralizada_tamanho1": "auto",
+            "imagem_centralizada_tamanho2": "auto",
             "image_inline": "auto",
             "imagem_sem_margem": "auto",
             "imagem_meia_coluna": "auto",

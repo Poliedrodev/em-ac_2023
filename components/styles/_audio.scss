@@ -3,15 +3,76 @@ $icon:   $blue;
 .audio {
     position: relative;
     width: 84%;
-    margin: 15px 68px 0px 68px;
-    float: left;
+    margin: 32px 68px 20px 68px;
     transition: all .3s;
-    border: 5px solid #abd16f;
+    border: 5px solid $seg_lin_cor1;
+    background-color: #fff;
     border-radius: 4px;
-    min-height: 200px;
-    padding: 10px 20px;
+    min-height: 104px;
+    padding: 16px 20px;
     box-sizing: border-box;
-    
+
+    &.artes {
+        border: 5px solid $seg_lin_cor1;
+        .audio__title {
+        color: $art_cor1;
+        }
+        .icon_player {
+        background: url(img/play-button-lin.png) no-repeat #fff center;
+        }
+            .icon_player.icon_pause {
+            background: url(img/pause-button-lin.png) no-repeat #fff center;
+            }
+        .icon_stop {
+        background: url(img/stop-button-lin.png) no-repeat #fff center;
+        }
+    }
+    &.lingua_inglesa {
+        border: 5px solid $seg_lin_cor1;
+        .audio__title {
+        color: $ing_cor1;
+        }
+        .icon_player {
+        background: url(img/play-button-ing.png) no-repeat #fff center;
+        }
+            .icon_player.icon_pause {
+            background: url(img/pause-button-ing.png) no-repeat #fff center;
+            }
+        .icon_stop {
+        background: url(img/stop-button-ing.png) no-repeat #fff center;
+        }
+    }
+    &.lingua_portuguesa {
+        border: 5px solid $seg_lin_cor1;
+        .audio__title {
+        color: $por_cor1;
+        }
+        .icon_player {
+        background: url(img/play-button.png) no-repeat #fff center;
+        }
+            .icon_player.icon_pause {
+            background: url(img/pause-button.png) no-repeat #fff center;
+            }
+        .icon_stop {
+        background: url(img/stop-button.png) no-repeat #fff center;
+        }
+    }
+    &.matematica {
+        border: 5px solid $seg_mat_cor1;
+        .audio__title {
+        color: $mat_cor1;
+        }
+        .icon_player {
+        background: url(img/play-button-mat.png) no-repeat #fff center;
+        }
+            .icon_player.icon_pause {
+            background: url(img/pause-button-mat.png) no-repeat #fff center;
+            }
+        .icon_stop {
+        background: url(img/stop-button-mat.png) no-repeat #fff center;
+        }
+    }
+
     .none {
         display: none !important;
     }
@@ -19,17 +80,7 @@ $icon:   $blue;
     audio {
         display: none;
     }
-    
-    &__image {        
-        background-image: url('img/barra-audio.png');
-        width: 224px;
-        height: 54px;
-        background-repeat: no-repeat;
-        background-position: right;
-        overflow: hidden;
-        margin: 0 auto;
-    }
-    
+        
     &__url {
         border: 1px solid #ccc;
         padding: 2px;
@@ -39,23 +90,28 @@ $icon:   $blue;
     }
     
     &__title {
-        color: #a7050d;
-        font-size: 12px;
-        font-weight: bold;
+        color: $por_cor1;
+        font-size: 16px;
+        font-weight: 700;
+        font-family: 'Montserrat';
         text-transform: uppercase;
         margin-bottom: 2px;
     }
-    
+            
     &__text {
         color: #666;
+        font-size: 14px;
+        font-family: 'Montserrat';
+        font-weight: 300;
     }
     
     .icon_player {
         background: url(img/play-button.png) no-repeat #fff center;
         position: absolute;
-        bottom: -14px;
+        border-radius: 18px;
+        bottom: -21px;
         width: 34px;
-        height: 24px;
+        height: 34px;
         cursor: pointer;
         
         &.icon_pause {
@@ -66,10 +122,11 @@ $icon:   $blue;
     .icon_stop {
         background: url(img/stop-button.png) no-repeat #fff center;
         position: absolute;
+        border-radius: 18px;
         left: 61px;
-        bottom: -14px;
+        bottom: -21px;
         width: 34px;
-        height: 24px;
+        height: 34px;
         cursor: pointer;
     }
 }

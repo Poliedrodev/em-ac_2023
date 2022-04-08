@@ -1,6 +1,6 @@
-.container_questao_dissertativa_item_2 {
-    border: solid 1px #707070;
-    margin: 16px 68px 0px 105px;
+.container_quiz {
+    border: solid 1px #bbbbbb;
+    margin: 16px 0px 0px 32px;
     border-radius: 6px;
     .label{
         width: 93%;
@@ -12,7 +12,7 @@
 
         .arial{
             width: 20%;
-            border-right: solid 1px #707070;
+            border-right: solid 1px #bbbbbb;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -40,7 +40,7 @@
         }
         .size{
             width: 10%;
-            border-right: solid 1px #707070;
+            border-right: solid 1px #bbbbbb;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -72,22 +72,22 @@
             align-items: center;
             .textB{
                 content: '';
-                width: 10px;
-                height: 10px;
-                background-image: url(img/bold-text-option.png);
+                width: 20px;
+                height: 20px;
+                background-image: url(img/questao_dis_n.png);
                 background-position: center;
-                background-size: contain;
+                background-size: 100%;
                 background-repeat: no-repeat;
                 margin-right: 10px;
                 cursor: pointer;
             }
             .textI{
                 content: '';
-                width: 10px;
-                height: 10px;
-                background-image: url(img/italics.png);
+                width: 20px;
+                height: 20px;
+                background-image: url(img/questao_dis_i.png);
                 background-position: center;
-                background-size: contain;
+                background-size: 100%;
                 background-repeat: no-repeat;
                 margin-right: 10px;
                 cursor: pointer;
@@ -95,11 +95,11 @@
             }
             .textU{
                 content: '';
-                width: 10px;
-                height: 10px;
-                background-image: url(img/underline.png);
+                width: 20px;
+                height: 20px;
+                background-image: url(img/questao_dis_s.png);
                 background-position: center;
-                background-size: contain;
+                background-size: 100%;
                 background-repeat: no-repeat;
                 margin-right: 10px;
                 cursor: pointer;
@@ -107,81 +107,21 @@
             }
         }
     }
-
-    .textarea {
-        width: -webkit-fill-available;
-        border: solid 1px #bbbbbb;
-        resize: vertical;
-        outline: none;
-        padding: 10px;
-    }
-
-    > * {
-        &:first-child {
-            margin-top: 0;
-            &._left {
-                + ._right {
-                    margin-top: 0;
-                    padding: 0 68 0 16px;
-                }
-            }
-            &._right {
-                + ._left {
-                    margin-top: 0;
-                    padding: 0 16 0 68px;
-                }
-            }
-        }
-        &:last-child {
-            margin-bottom: 0;
-            border-width: 0px;
-        }
-        &._left {
-            + ._right:last-child {
-                margin-bottom: 20px;
-                padding: 0 68 0 16px;
-            }
-        }
-        &._right {
-            + ._left:last-child {
-                margin-bottom: 20px;
-                padding: 0 16 0 68px;
-            }
-        }
-    }
-
-    /* media query */
-    @media only screen and (min-width: $phone-max-width) {
-        &._left {
-            float: left;
-            clear: left;
-            width: 47%;
-            margin-right: 24px;
-            z-index: 1;
-        }
-        &._right {
-            float: right;
-            clear: right;
-            width: 47%;
-            margin-left: 24px;
-            z-index: 1;
-        }
-    }
   
     .btn {
-        background-image: url(img/save.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-color: transparent;
-        border: 0px;
-        height: 30px;
-        width: 30px;
-        float: right;
-        margin-right: -4px;
-        display: block;
-        margin-top: 6px;
-        }
-        .btn:active {
-        background-image: url(img/save_ok.png);
-        }
+    background-image: url(img/save.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: 0px;
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-right: -4px;
+    display: block;
+    margin-top: 6px;
     }
+    .btn:active {
+    background-image: url(img/save_ok.png);
+    }
+}
