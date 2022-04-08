@@ -1,5 +1,5 @@
 {
-    "name": "default-components-lin",
+    "name": "default-components-teoria",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "css_02_texto_geral1",
@@ -394,6 +394,18 @@
             "name": "botao_avancar",
             "icon": "icons/components/icon_02_texto_destaque.svg",
             "label": "Botão Avançar",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                { "name": "hyperlink", "directiveKey": "link-url" }
+            ]
+        },
+        {
+            "name": "botao_topo",
+            "icon": "icons/components/icon_02_texto_destaque.svg",
+            "label": "Botão Topo",
             "properties": [
                 "style",
                 "text-align",
@@ -826,6 +838,30 @@
         },
         {
             "name": "container_questao_dissertativa_item_2",
+            "icon": "icons/components/container.svg",
+            "label": "Questão Dissertativa Item 2" ,
+            "properties": ["position", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_questao_dissertativa_ing",
+            "icon": "icons/components/container.svg",
+            "label": "Questão Dissertativa" ,
+            "properties": ["position", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_questao_dissertativa_semrecuo_ing",
+            "icon": "icons/components/container.svg",
+            "label": "Questão Dissertativa Sem Recuo" ,
+            "properties": ["position", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_questao_dissertativa_item_ing",
+            "icon": "icons/components/container.svg",
+            "label": "Questão Dissertativa Item" ,
+            "properties": ["position", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_questao_dissertativa_item_2_ing",
             "icon": "icons/components/container.svg",
             "label": "Questão Dissertativa Item 2" ,
             "properties": ["position", "text-align", "letter-spacing", "line-height"]
@@ -2579,6 +2615,7 @@
             "secao_topo_quiz",
             "botao_voltar",
             "botao_avancar",
+            "botao_topo",
             "container_dados_mancha",
             "container_dados_mancha_30",
             "container_dados_mancha_60",
@@ -2603,7 +2640,11 @@
             "secao_topo_creating_and_sharing",
             "secao_topo_find_out_more",
             "secao_topo_extra_practice",            
-            "secao_topo_quiz"
+            "secao_topo_quiz",
+            "container_questao_dissertativa_ing",
+            "container_questao_dissertativa_semrecuo_ing",
+            "container_questao_dissertativa_item_ing",
+            "container_questao_dissertativa_item_2_ing"
     ]
     },
     {

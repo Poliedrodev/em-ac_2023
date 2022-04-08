@@ -10,27 +10,64 @@
 .video_popup_center {
     position: relative;
     width: 83%;
-    margin: 15px 68px 0px 68px;
-    float: left;
+    margin: 32px 68px 20px 68px;
+    display: block;
+    background-color: #fff;
     transition: all .3s;
-    border: 5px solid #c6dc49;
+    border: 5px solid $seg_lin_cor1;
     border-radius: 4px;
     cursor: pointer;
+
+    &.artes {
+        border: 5px solid $seg_lin_cor1;
+        .video_popup__content .content-video__title {
+            color: $art_cor1;
+        }
+        &:before {
+        background-image: url(img/play-button-lin.png);
+        }
+    }
+    &.lingua_inglesa {
+        border: 5px solid $seg_lin_cor1;
+        .video_popup__content .content-video__title {
+            color: $ing_cor1;
+        }
+        &:before {
+        background-image: url(img/play-button-ing.png);
+        }
+    }
+    &.lingua_portuguesa {
+        border: 5px solid $seg_lin_cor1;
+        .video_popup__content .content-video__title {
+            color: $por_cor1;
+        }
+        &:before {
+        background-image: url(img/play-button.png);
+        }
+        }
+    &.matematica {
+        border: 5px solid $seg_mat_cor1;
+        .video_popup__content .content-video__title {
+        color: $mat_cor1;
+        }
+        &:before {
+        background-image: url(img/play-button-mat.png);
+        }
+    }
+
 
     &:before {
         content: '';
         position: absolute;
-        bottom: -14px;
+        bottom: -20px;
         left: 15px;
-        background-color: #a30000;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        border: 2px solid #fff;
-        background-image: url(img/search.png);
+        background-color: #fff;
+        width: 34px;
+        height: 34px;
+        border-radius: 18px;
+        background-image: url(img/play-button.png);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 60%;
     }
     
     &.__ready {        
@@ -112,7 +149,7 @@
         
         .video_popup__img {
             position: relative;
-            height: 190px !important;
+            height: 280px !important;
             padding: 0 !important;
             background-size: cover;
         }
@@ -130,9 +167,10 @@
             }
     
             &__title {
-                color: #a7050d;
-                font-size: 12px;
-                font-weight: bold;
+                color: $por_cor1;
+                font-size: 16px;
+                font-weight: 700;
+                font-family: 'Montserrat';
                 text-transform: uppercase;
                 border: 1px solid #ccc;
                 margin-bottom: 10px;
@@ -140,7 +178,11 @@
             
             &__text {
                 border: 1px solid #ccc;
-
+                color: #666;
+                font-size: 14px;
+                font-family: 'Montserrat';
+                font-weight: 300;
+        
                 span {                    
                     color: #666 !important;
                 }
