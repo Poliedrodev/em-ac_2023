@@ -4,6 +4,7 @@
 */
 @import "common";
 @import "image";
+@import "image_zoom";
 @import "audio";
 @import "image_popup_center";
 @import "video_popup_center";
@@ -15,6 +16,8 @@
 @import "imagem_sem_margem";
 @import "image_inline";
 @import "imagem_centralizada";
+@import "imagem_centralizada_tamanho1";
+@import "imagem_centralizada_tamanho2";
 @import "imagem_coluna_falsa";
 @import "imagem_meia_coluna";
 @import "imagem_meia_coluna_container";
@@ -49,6 +52,7 @@
 @import "container_questao_vf_2";
 @import "container_questao_soma";
 @import "container_questao_radio";
+@import "container_questao_checkbox";
 @import "container_coluna_falsa";
 @import "body";
 @import "title";
@@ -74,6 +78,7 @@
 @import "container_fica_a_dica";
 @import "container_fica_a_dica_teoria";
 @import "container_questao_dissertativa";
+@import "container_quiz";
 @import "container_questao_dissertativa_semrecuo";
 @import "container_questao_dissertativa_item";
 @import "container_questao_dissertativa_item_2";

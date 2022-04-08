@@ -26,6 +26,9 @@
         &:before {
         background-image: url(img/play-button-lin.png);
         }
+        .video_popup_center.popup_actived {
+            background-color: #452848bf;
+        }
     }
     &.lingua_inglesa {
         border: 5px solid $seg_lin_cor1;
@@ -34,6 +37,9 @@
         }
         &:before {
         background-image: url(img/play-button-ing.png);
+        }
+        .video_popup_center.popup_actived {
+            background-color: #284847bf;
         }
     }
     &.lingua_portuguesa {
@@ -44,7 +50,10 @@
         &:before {
         background-image: url(img/play-button.png);
         }
+        .video_popup_center.popup_actived {
+            background-color: #482828bf;
         }
+    }
     &.matematica {
         border: 5px solid $seg_mat_cor1;
         .video_popup__content .content-video__title {
@@ -52,6 +61,9 @@
         }
         &:before {
         background-image: url(img/play-button-mat.png);
+        }
+        .video_popup_center.popup_actived {
+            background-color: #282f48bf;
         }
     }
 

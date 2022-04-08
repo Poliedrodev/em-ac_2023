@@ -11,8 +11,9 @@
 }
 .num{
   font-family: 'Noticia Text';
-  max-width: 26px;
-  max-height: 26px;
+  max-width: 300px;
+  max-height: 30px;
+  resize: none;
   font-weight: 700;
   font-size: 18px;
   color: #000000;
@@ -20,10 +21,24 @@
   float: left;
   display: flex;
   justify-content: center;
+  border-color: lightgray;
 }
   
-.btn_submit {
-  bottom: 0.5em;
-  margin-left: 6px;
-  display: block;
+.btn {
+  background-image: url(img/save.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: 0px;
+  height: 30px;
+  width: 30px;
+  float: left;
+  margin-left: 5px;
+  margin-top: 1px;
+  cursor: pointer;
+  z-index: 1;
+
+  .btn:active {
+  background-image: url(img/save_ok.png);
+  }
 }
