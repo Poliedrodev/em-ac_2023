@@ -2,9 +2,8 @@
   display: block;
   color: #000000;
   font-family: 'Noticia Text';
-  max-width: 26px;
-  max-height: 26px;
-  padding-top: 1px;
+  max-width: 35px;
+  max-height: 31px;
   text-align: center;
   font-weight: 700;
   font-size: 18px;
@@ -12,4 +11,19 @@
   margin: 12px 12px -8px 70px !important;
   display: flex;
   justify-content: center;
+}
+.num_vf{
+  font-family: 'Noticia Text';
+  max-width: 45px;
+  max-height: 45px;
+  resize: none;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+  margin: 0px 0px 0px 4px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  border-color: lightgray;
 }
