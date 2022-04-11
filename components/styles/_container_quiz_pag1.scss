@@ -1,4 +1,4 @@
-.container_quiz {
+.container_quiz_pag1 {
     inline-size: min-content;
     display: flex;
     flex-wrap: nowrap;
@@ -14,10 +14,10 @@
         background-image: url(img/lin_voltar.png);
         background-position: center;
         background-size: 100%;
+        opacity: 30%;
         background-repeat: no-repeat;
         background-color: #fff;
-        cursor: pointer;
-        }
+    }
 
     .pages{
         font-family: 'Nunito Sans';

@@ -5329,107 +5329,183 @@ blockquote {
     background-image: url(img/save_ok.png); }
 
 .container_quiz {
-  border: solid 1px #bbbbbb;
-  margin: 16px 0px 0px 32px;
-  border-radius: 6px; }
-  .container_quiz .label {
-    width: 93%;
-    height: 35px;
-    margin: 0px 20px 0px 16px;
+  inline-size: min-content;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto; }
+  .container_quiz .but_voltar {
+    width: 64px;
+    height: 64px;
+    border: none;
+    background-image: url(img/lin_voltar.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    cursor: pointer; }
+  .container_quiz .pages {
+    font-family: 'Nunito Sans';
+    font-size: 18px;
+    font-weight: 600;
+    color: #666666;
+    width: 100%;
+    height: 20px;
     display: flex;
     justify-content: center;
-    align-items: center; }
-    .container_quiz .label .arial {
-      width: 20%;
-      border-right: solid 1px #bbbbbb;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      cursor: pointer; }
-      .container_quiz .label .arial:after {
-        content: '';
-        width: 10px;
-        height: 10px;
-        background-image: url(img/arrow.svg);
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin-right: 10px; }
-      .container_quiz .label .arial .textarrow:before {
-        content: 'Fonte';
-        font-family: "nunito sans";
-        font-size: 14px;
-        font-weight: 900; }
-    .container_quiz .label .size {
-      width: 10%;
-      border-right: solid 1px #bbbbbb;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin: 0px 10px 0px 10px;
-      cursor: pointer; }
-      .container_quiz .label .size:after {
-        content: '';
-        width: 10px;
-        height: 10px;
-        background-image: url(img/arrow.svg);
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin-right: 10px; }
-      .container_quiz .label .size .textarrow:before {
-        content: '11';
-        font-family: "nunito sans";
-        font-size: 14px;
-        font-weight: 900; }
-    .container_quiz .label .type {
-      width: 70%;
-      display: flex;
-      align-items: center; }
-      .container_quiz .label .type .textB {
-        content: '';
-        width: 20px;
-        height: 20px;
-        background-image: url(img/questao_dis_n.png);
-        background-position: center;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        margin-right: 10px;
-        cursor: pointer; }
-      .container_quiz .label .type .textI {
-        content: '';
-        width: 20px;
-        height: 20px;
-        background-image: url(img/questao_dis_i.png);
-        background-position: center;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        margin-right: 10px;
-        cursor: pointer; }
-      .container_quiz .label .type .textU {
-        content: '';
-        width: 20px;
-        height: 20px;
-        background-image: url(img/questao_dis_s.png);
-        background-position: center;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        margin-right: 10px;
-        cursor: pointer; }
-  .container_quiz .btn {
-    background-image: url(img/save.png);
-    background-repeat: no-repeat;
+    align-items: center;
+    align-content: center;
+    padding: 0px 4px; }
+  .container_quiz .but_seguir {
+    width: 64px;
+    height: 64px;
+    border: none;
+    background-image: url(img/lin_seguir.png);
     background-position: center;
-    background-color: transparent;
-    border: 0px;
-    height: 30px;
-    width: 30px;
-    float: right;
-    margin-right: -4px;
-    display: block;
-    margin-top: 6px; }
-  .container_quiz .btn:active {
-    background-image: url(img/save_ok.png); }
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    background-color: #fff;
+    cursor: pointer; }
+
+.container_quiz_pag1 {
+  inline-size: min-content;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto; }
+  .container_quiz_pag1 .but_voltar {
+    width: 64px;
+    height: 64px;
+    border: none;
+    background-image: url(img/lin_voltar.png);
+    background-position: center;
+    background-size: 100%;
+    opacity: 30%;
+    background-repeat: no-repeat;
+    background-color: #fff; }
+  .container_quiz_pag1 .pages {
+    font-family: 'Nunito Sans';
+    font-size: 18px;
+    font-weight: 600;
+    color: #666666;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0px 4px; }
+  .container_quiz_pag1 .but_seguir {
+    width: 64px;
+    height: 64px;
+    border: none;
+    background-image: url(img/lin_seguir.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    background-color: #fff;
+    cursor: pointer; }
+
+.container_quiz_pag_final {
+  inline-size: min-content;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto; }
+  .container_quiz_pag_final .but_voltar {
+    width: 64px;
+    height: 64px;
+    border: none;
+    background-image: url(img/lin_voltar.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    cursor: pointer; }
+  .container_quiz_pag_final .pages {
+    font-family: 'Nunito Sans';
+    font-size: 18px;
+    font-weight: 600;
+    color: #666666;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0px 4px; }
+  .container_quiz_pag_final .but_seguir {
+    width: 64px;
+    height: 64px;
+    border: none;
+    background-image: url(img/lin_seguir.png);
+    background-position: center;
+    background-size: 100%;
+    opacity: 30%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    background-color: #fff;
+    cursor: pointer; }
+
+.container_quiz_botoes {
+  inline-size: min-content;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-top: 13px;
+  float: right; }
+  .container_quiz_botoes .but_refazer {
+    width: 38px;
+    height: 38px;
+    border: none;
+    background-image: url(img/lin_refazer.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    cursor: pointer; }
+  .container_quiz_botoes .but_dica {
+    width: 38px;
+    height: 38px;
+    border: none;
+    background-image: url(img/lin_dica.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    background-color: #fff;
+    cursor: pointer; }
+  .container_quiz_botoes .but_salvar {
+    width: 38px;
+    height: 38px;
+    border: none;
+    background-image: url(img/lin_save.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    background-color: #fff;
+    cursor: pointer; }
+    .container_quiz_botoes .but_salvar .but_salvar:active {
+      background-image: url(img/lin_save_ok.png); }
+
+.container_quiz_alinhamento {
+  inline-size: min-content;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-top: 13px;
+  float: left;
+  width: 124px;
+  height: 20px; }
 
 .container_questao_dissertativa_semrecuo {
   border: solid 1px #707070;

@@ -904,12 +904,42 @@
             "label": "Questão Dissertativa" ,
             "properties": ["position", "text-align", "letter-spacing", "line-height"]
         },
+
         {
             "name": "container_quiz",
             "icon": "icons/components/container.svg",
-            "label": "Conainer Quiz" ,
+            "label": "Container Quiz" ,
             "properties": ["position", "text-align", "letter-spacing", "line-height"]
         },
+
+        {
+            "name": "container_quiz_pag1",
+            "icon": "icons/components/container.svg",
+            "label": "Container Quiz Primeira Página" ,
+            "properties": ["position", "text-align", "letter-spacing", "line-height"]
+        },
+
+        {
+            "name": "container_quiz_pag_final",
+            "icon": "icons/components/container.svg",
+            "label": "Container Quiz Página Final" ,
+            "properties": ["position", "text-align", "letter-spacing", "line-height"]
+        },
+
+        {
+            "name": "container_quiz_botoes",
+            "icon": "icons/components/container.svg",
+            "label": "Botões Quiz" ,
+            "properties": ["position", "text-align", "letter-spacing", "line-height"]
+        },
+
+        {
+            "name": "container_quiz_alinhamento",
+            "icon": "icons/components/container.svg",
+            "label": "Botões Quiz Alinhamento" ,
+            "properties": ["position", "text-align", "letter-spacing", "line-height"]
+        },
+
         {
             "name": "container_questao_dissertativa_semrecuo",
             "icon": "icons/components/container.svg",
@@ -2711,7 +2741,11 @@
             "container_texto_definicao",
             "container_texto_definicao_30",
             "container_texto_definicao_60",
-            "container_quiz"
+            "container_quiz",
+            "container_quiz_pag1",
+            "container_quiz_pag_final",
+            "container_quiz_botoes",
+            "container_quiz_alinhamento"
         ]
     },
     {
@@ -4266,7 +4300,23 @@
             "css_06_boxe1": "auto",
             "css_06_boxe2": "auto",
             "css_07_boxe1": "auto"
+        },
+
+        "container_quiz": {
+            "container_quiz_pag1": "auto",
+            "container_quiz_pag_final": "auto"
+        },
+
+        "container_quiz_pag1": {
+            "container_quiz": "auto",
+            "container_quiz_pag_final": "auto"
+        },
+
+        "container_quiz_pag_final": {
+            "container_quiz": "auto",
+            "container_quiz_pag1": "auto"
         }
+
     },
 
     "shortcuts": {
