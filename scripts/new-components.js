@@ -1,15 +1,11 @@
-$(document).ready(function() {
-    //[variables] btn close for popup and popup center
-
+$(document).ready(function() {    
     if (location.href.indexOf('file') != -1) {
-        
         fullPopup();
         centerPopup();
         videoPopup();
         audioPlayer();
-        
     } else {        
-        console.log('rodando na wooding');
+        console.log('rodando na wooding 18');
     }   
 });
 
@@ -33,20 +29,35 @@ function fullPopup() {
 }
 
 function centerPopup() {
-    var btnCloseModalCenter = $('.image_popup_center .image_popup__content a');
-    var popupCenter = $('.image_popup_center');    
+    var popupCenter = $('.image_popup_center');
 
     popupCenter.addClass('__ready');
 
-    $('.articleContent').each(function(){
-        popupCenter.on('click', function(){
-            $(this).addClass('popup_actived');
-        }); 
+    $('.image_popup_center').each(function(){
+        if($(this).find('.image_popup__final-content a img').attr('src') == "") {
+            var oneStep = $(this).find('.image_popup__img').attr('style').substring(23)
+            var lastStep = oneStep.substring(0, 13);
+            var textImg = $(this).find('.image_popup__text').text();
+            var rndInt = Math.floor(Math.random() * 9738) + 1;
 
-        btnCloseModalCenter.on('click', function(){
-            popupCenter.removeClass('popup_actived');
-            return false;
-        });
+            console.log(rndInt);
+            console.log(lastStep);
+            console.log(textImg);
+
+            $(this).find('.image_popup__final-content').attr('id', 'lightgallery' + rndInt);
+            $(this).find('.thumb-popup-img').attr('href', lastStep);
+            $(this).find('.thumb-popup-img img').attr('src', lastStep);
+            //$(this).find('.thumb-popup-img img').attr('alt', textImg);
+            $(this).find('.desc-img').text(textImg);            
+
+            lightGallery(document.getElementById('lightgallery' + rndInt), {
+                download: false,
+                share: false,
+                lgComment: true
+            });
+        } else {
+            console.log('JA TEM IMAGEM');
+        }
     });
 }
 
@@ -140,5 +151,3 @@ function audioPlayer() {
         });
     });
 }
-
-
