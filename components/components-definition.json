@@ -31,22 +31,6 @@
         },
 
         {
-            "name": "image_zoom",
-            "icon": "icons/components/image.svg",
-            "label": "image_zoom",
-            "properties": [
-                { "name": "fitting", "defaultValue": "_fit-frame-height-to-content" },
-                "position",
-                "style",
-                "text-align", 
-                "letter-spacing",
-                "line-height", 
-                { "name": "edit-image", "directiveKey": "image" },
-                { "name": "hyperlink", "directiveKey": "hyperlink" }
-            ]
-        },
-
-        {
             "name": "audio",
             "icon": "icons/components/icon_00_arte.svg",
             "label": "Componente Áudio",
@@ -55,7 +39,7 @@
         {
             "name": "image_popup_center",
             "icon": "icons/components/image.svg",
-            "label": "Popup Imagem",
+            "label": "Imagem Popup",
             "properties": [
                 { "name": "fitting", "defaultValue": "_fit-frame-height-to-content" },
                 "position",
@@ -66,7 +50,15 @@
                 "line-height",
                 { "name": "edit-image", "directiveKey": "image" },
                 { "name": "hyperlink", "directiveKey": "hyperlink" }
-            ]
+            ],
+            "directiveOptions": {
+                "caption": {
+                    "autofill": {
+                        "source": "image",
+                        "metadataField": "ContentMetaData/Description"
+                    }
+                }
+            } 
         },
         {
             "name": "video_popup_center",
@@ -2686,9 +2678,9 @@
         "name": "outros_assets",
         "components": [
             "audio",
-            "image_popup_center",
             "video_popup_center",
-            "image_zoom"
+            "image_popup_center"
+
     ]
     },
     {
@@ -3395,7 +3387,7 @@
             }
         },
         "image": {
-            "image_zoom": "auto",
+            "image_popup_center": "auto",
             "image_inline": "auto",
             "image_teoria": "auto",
             "image_exercicio": "auto",
@@ -3411,8 +3403,8 @@
             "slideshow": {
                 "type": "to-container",
                 "container": "slideshow"},
-            "product": "auto",
-            "image_popup_center": "auto"
+            "product": "auto"
+
         },
         "image_teoria": {
             "image_inline": "auto",

@@ -35,13 +35,14 @@
         }
     }
     > figcaption {
-        color: #000000;
-        margin-top: 4px;
-        margin-bottom: 2px;
-        font-size: 14px;
+        display: block;
         color: $textColor;
         font-family: 'Montserrat';
-        font-weight: 300;
+        font-weight: 400;
+        font-size: 14px;
+        font-variant: tabular-nums;
+        margin-top: 10px;
+        margin-bottom: 2px;
     }
 
     %caption-shared {
@@ -131,4 +132,111 @@
             z-index: 1;
         }
     }
+
+    &.artes {
+    color: #000000;
+    .line-legenda {
+      width: 162px;
+      height: 2px;
+      background-color: $seg_lin_cor1;
+      top: 8px;
+      margin-bottom: 4px;
+      &.artes {
+        background-color: $seg_lin_cor1;
+      }
+      &.lingua_inglesa {
+        background-color: $seg_lin_cor1;
+      }
+      &.lingua_portuguesa {
+        background-color: $seg_lin_cor1;
+      }
+      &.matematica {
+        background-color: $seg_mat_cor1;
+      }
+    }
+  }
+  &.lingua_inglesa {
+    color: #000000;
+    .line-legenda {
+      width: 162px;
+      height: 2px;
+      background-color: $seg_lin_cor1;
+      top: 8px;
+      margin-bottom: 4px;
+      &.artes {
+        background-color: $seg_lin_cor1;
+      }
+      &.lingua_inglesa {
+        background-color: $seg_lin_cor1;
+      }
+      &.lingua_portuguesa {
+        background-color: $seg_lin_cor1;
+      }
+      &.matematica {
+        background-color: $seg_mat_cor1;
+      }
+    }
+  }
+  &.lingua_portuguesa {
+    color: #000000;
+    .line-legenda {
+      width: 162px;
+      height: 2px;
+      background-color: $seg_lin_cor1;
+      top: 8px;
+      margin-bottom: 4px;
+      &.artes {
+        background-color: $seg_lin_cor1;
+      }
+      &.lingua_inglesa {
+        background-color: $seg_lin_cor1;
+      }
+      &.lingua_portuguesa {
+        background-color: $seg_lin_cor1;
+      }
+      &.matematica {
+        background-color: $seg_mat_cor1;
+      }
+    }
+  }
+  &.matematica {
+    color: #000000;
+    .line-legenda {
+      width: 162px;
+      height: 2px;
+      background-color: $seg_mat_cor1;
+      top: 8px;
+      margin-bottom: 4px;
+      &.artes {
+        background-color: $seg_lin_cor1;
+      }
+      &.lingua_inglesa {
+        background-color: $seg_lin_cor1;
+      }
+      &.lingua_portuguesa {
+        background-color: $seg_lin_cor1;
+      }
+      &.matematica {
+        background-color: $seg_mat_cor1;
+      }
+    }
+  }
+    .line-legenda {
+        width: 162px;
+        height: 2px;
+        top: 8px;
+        background-color: #000;
+        &.artes {
+          background-color: $seg_lin_cor1;
+        }
+        &.lingua_inglesa {
+          background-color: $seg_lin_cor1;
+        }
+        &.lingua_portuguesa {
+          background-color: $seg_lin_cor1;
+        }
+        &.matematica {
+          background-color: $seg_mat_cor1;
+        }
+      }
 }
