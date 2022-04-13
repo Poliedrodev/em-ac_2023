@@ -1155,6 +1155,16 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
       bottom: 0;
       right: 0;
       left: 0; }
+  .image .legenda_externa {
+    height: fit-content;
+    display: block;
+    color: #000000;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    margin-top: 10px;
+    margin-bottom: 2px; }
   .image > figcaption {
     display: block;
     color: #000000;
@@ -1162,7 +1172,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     font-weight: 400;
     font-size: 14px;
     font-variant: tabular-nums;
-    margin-top: 4px;
+    margin-top: 10px;
     margin-bottom: 2px; }
   .image._caption-inside > figcaption, .image._caption-top > figcaption, .image._caption-top-left > figcaption, .image._caption-top-right > figcaption, .image._caption-bottom-left > figcaption, .image._caption-bottom-right > figcaption, .image .image_popup_center .image_popup__content._caption-inside > figcaption, .image_popup_center .image .image_popup__content._caption-inside > figcaption, .image .image_popup_center .image_popup__content._caption-top > figcaption, .image_popup_center .image .image_popup__content._caption-top > figcaption, .image .image_popup_center .image_popup__content._caption-top-left > figcaption, .image_popup_center .image .image_popup__content._caption-top-left > figcaption, .image .image_popup_center .image_popup__content._caption-top-right > figcaption, .image_popup_center .image .image_popup__content._caption-top-right > figcaption, .image .image_popup_center .image_popup__content._caption-bottom-left > figcaption, .image_popup_center .image .image_popup__content._caption-bottom-left > figcaption, .image .image_popup_center .image_popup__content._caption-bottom-right > figcaption, .image_popup_center .image .image_popup__content._caption-bottom-right > figcaption, .image .image_cont_exercicios._caption-inside > figcaption, .image .image_cont_exercicios._caption-top > figcaption, .image .image_cont_exercicios._caption-top-left > figcaption, .image .image_cont_exercicios._caption-top-right > figcaption, .image .image_cont_exercicios._caption-bottom-left > figcaption, .image .image_cont_exercicios._caption-bottom-right > figcaption, .image .image_teoria._caption-inside > figcaption, .image .image_teoria._caption-top > figcaption, .image .image_teoria._caption-top-left > figcaption, .image .image_teoria._caption-top-right > figcaption, .image .image_teoria._caption-bottom-left > figcaption, .image .image_teoria._caption-bottom-right > figcaption, .image .image_saiba_mais._caption-inside > figcaption, .image .image_saiba_mais._caption-top > figcaption, .image .image_saiba_mais._caption-top-left > figcaption, .image .image_saiba_mais._caption-top-right > figcaption, .image .image_saiba_mais._caption-bottom-left > figcaption, .image .image_saiba_mais._caption-bottom-right > figcaption, .image .image_exercicio._caption-inside > figcaption, .image .image_exercicio._caption-top > figcaption, .image .image_exercicio._caption-top-left > figcaption, .image .image_exercicio._caption-top-right > figcaption, .image .image_exercicio._caption-bottom-left > figcaption, .image .image_exercicio._caption-bottom-right > figcaption, .image .hero_tirinha._caption-inside > figcaption, .image .hero_tirinha._caption-top > figcaption, .image .hero_tirinha._caption-top-left > figcaption, .image .hero_tirinha._caption-top-right > figcaption, .image .hero_tirinha._caption-bottom-left > figcaption, .image .hero_tirinha._caption-bottom-right > figcaption, .image .imagem_sem_margem._caption-inside > figcaption, .image .imagem_sem_margem._caption-top > figcaption, .image .imagem_sem_margem._caption-top-left > figcaption, .image .imagem_sem_margem._caption-top-right > figcaption, .image .imagem_sem_margem._caption-bottom-left > figcaption, .image .imagem_sem_margem._caption-bottom-right > figcaption, .image .imagem_inline._caption-inside > figcaption, .image .imagem_inline._caption-top > figcaption, .image .imagem_inline._caption-top-left > figcaption, .image .imagem_inline._caption-top-right > figcaption, .image .imagem_inline._caption-bottom-left > figcaption, .image .imagem_inline._caption-bottom-right > figcaption, .image .imagem_centralizada._caption-inside > figcaption, .image .imagem_centralizada._caption-top > figcaption, .image .imagem_centralizada._caption-top-left > figcaption, .image .imagem_centralizada._caption-top-right > figcaption, .image .imagem_centralizada._caption-bottom-left > figcaption, .image .imagem_centralizada._caption-bottom-right > figcaption, .image .imagem_centralizada_tamanho1._caption-inside > figcaption, .image .imagem_centralizada_tamanho1._caption-top > figcaption, .image .imagem_centralizada_tamanho1._caption-top-left > figcaption, .image .imagem_centralizada_tamanho1._caption-top-right > figcaption, .image .imagem_centralizada_tamanho1._caption-bottom-left > figcaption, .image .imagem_centralizada_tamanho1._caption-bottom-right > figcaption, .image .imagem_centralizada_tamanho2._caption-inside > figcaption, .image .imagem_centralizada_tamanho2._caption-top > figcaption, .image .imagem_centralizada_tamanho2._caption-top-left > figcaption, .image .imagem_centralizada_tamanho2._caption-top-right > figcaption, .image .imagem_centralizada_tamanho2._caption-bottom-left > figcaption, .image .imagem_centralizada_tamanho2._caption-bottom-right > figcaption, .image .imagem_coluna_falsa._caption-inside > figcaption, .image .imagem_coluna_falsa._caption-top > figcaption, .image .imagem_coluna_falsa._caption-top-left > figcaption, .image .imagem_coluna_falsa._caption-top-right > figcaption, .image .imagem_coluna_falsa._caption-bottom-left > figcaption, .image .imagem_coluna_falsa._caption-bottom-right > figcaption, .image .imagem_meia_coluna._caption-inside > figcaption, .image .imagem_meia_coluna._caption-top > figcaption, .image .imagem_meia_coluna._caption-top-left > figcaption, .image .imagem_meia_coluna._caption-top-right > figcaption, .image .imagem_meia_coluna._caption-bottom-left > figcaption, .image .imagem_meia_coluna._caption-bottom-right > figcaption, .image .imagem_meia_coluna_container._caption-inside > figcaption, .image .imagem_meia_coluna_container._caption-top > figcaption, .image .imagem_meia_coluna_container._caption-top-left > figcaption, .image .imagem_meia_coluna_container._caption-top-right > figcaption, .image .imagem_meia_coluna_container._caption-bottom-left > figcaption, .image .imagem_meia_coluna_container._caption-bottom-right > figcaption, .image .imagem_meia_coluna_container_exercicios._caption-inside > figcaption, .image .imagem_meia_coluna_container_exercicios._caption-top > figcaption, .image .imagem_meia_coluna_container_exercicios._caption-top-left > figcaption, .image .imagem_meia_coluna_container_exercicios._caption-top-right > figcaption, .image .imagem_meia_coluna_container_exercicios._caption-bottom-left > figcaption, .image .imagem_meia_coluna_container_exercicios._caption-bottom-right > figcaption {
     position: absolute;
@@ -1217,9 +1227,74 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         width: 50%;
         margin-left: 24px;
         z-index: 1; } }
+  .image.artes {
+    color: #000000; }
+    .image.artes .line-legenda {
+      width: 162px;
+      height: 2px;
+      background-color: #bfd730;
+      top: 8px;
+      margin-bottom: 4px; }
+      .image.artes .line-legenda.artes {
+        background-color: #bfd730; }
+      .image.artes .line-legenda.lingua_inglesa {
+        background-color: #bfd730; }
+      .image.artes .line-legenda.lingua_portuguesa {
+        background-color: #bfd730; }
+      .image.artes .line-legenda.matematica {
+        background-color: #F1CB40; }
+  .image.lingua_inglesa {
+    color: #000000; }
+    .image.lingua_inglesa .line-legenda {
+      width: 162px;
+      height: 2px;
+      background-color: #bfd730;
+      top: 8px;
+      margin-bottom: 4px; }
+      .image.lingua_inglesa .line-legenda.artes {
+        background-color: #bfd730; }
+      .image.lingua_inglesa .line-legenda.lingua_inglesa {
+        background-color: #bfd730; }
+      .image.lingua_inglesa .line-legenda.lingua_portuguesa {
+        background-color: #bfd730; }
+      .image.lingua_inglesa .line-legenda.matematica {
+        background-color: #F1CB40; }
+  .image.lingua_portuguesa {
+    color: #000000; }
+    .image.lingua_portuguesa .line-legenda {
+      width: 162px;
+      height: 2px;
+      background-color: #bfd730;
+      top: 8px;
+      margin-bottom: 4px; }
+      .image.lingua_portuguesa .line-legenda.artes {
+        background-color: #bfd730; }
+      .image.lingua_portuguesa .line-legenda.lingua_inglesa {
+        background-color: #bfd730; }
+      .image.lingua_portuguesa .line-legenda.lingua_portuguesa {
+        background-color: #bfd730; }
+      .image.lingua_portuguesa .line-legenda.matematica {
+        background-color: #F1CB40; }
+  .image.matematica {
+    color: #000000; }
+    .image.matematica .line-legenda {
+      width: 162px;
+      height: 2px;
+      background-color: #F1CB40;
+      top: 8px;
+      margin-bottom: 4px; }
+      .image.matematica .line-legenda.artes {
+        background-color: #bfd730; }
+      .image.matematica .line-legenda.lingua_inglesa {
+        background-color: #bfd730; }
+      .image.matematica .line-legenda.lingua_portuguesa {
+        background-color: #bfd730; }
+      .image.matematica .line-legenda.matematica {
+        background-color: #F1CB40; }
   .image .line-legenda {
     width: 162px;
     height: 2px;
+    top: 8px;
     background-color: #000; }
     .image .line-legenda.artes {
       background-color: #bfd730; }
