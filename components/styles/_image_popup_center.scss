@@ -106,7 +106,7 @@
             background-color: $mat_cor2;
         }
     }
-    
+
     .image_popup__content {        
         .image_popup__img {
             position: relative;
@@ -121,76 +121,6 @@
             color: $textColor;
             font-size: 14px;
             padding: 15px 0px 10px 0px;
-        }
-
-        %caption-shared {
-            position: absolute;
-            padding: 8px 12px;
-            background-color: rgba(255, 255, 255, 0.8);
-            font-weight: 400;
-            color: #3f3e3e;
-            margin: 0;
-            /* before represents the placeholder text*/
-            &::before {
-                color: #3f3e3e;
-            }
-        }
-
-        /* class styles for the captions properties of the image component */
-        &._caption-inside {
-            > figcaption {
-                @extend %caption-shared;
-                right: 0;
-                bottom: 0;
-                left: 0;
-            }
-        }
-        &._caption-none {
-            > figcaption {
-                display: none;
-            }
-        }
-        &._caption-top {
-            > figcaption {
-                @extend %caption-shared;
-                right: 0;
-                top: 0;
-                left: 0;
-            }
-        }
-        &._caption-top-left {
-            > figcaption {
-                @extend %caption-shared;
-                right: 0;
-                top: 0;
-                left: 0;
-                width: 30%;
-            }
-        }
-        &._caption-top-right {
-            > figcaption {
-                @extend %caption-shared;
-                right: 0;
-                top: 0;
-                width: 30%;
-            }
-        }
-        &._caption-bottom-left {
-            > figcaption {
-                @extend %caption-shared;
-                right: 0;
-                bottom: 0;
-                left: 0;
-                width: 30%;
-            }
-        }
-        &._caption-bottom-right {
-            > figcaption {
-                @extend %caption-shared;
-                right: 0;
-                bottom: 0;
-                width: 30%;
-            }
         }
     }
 
