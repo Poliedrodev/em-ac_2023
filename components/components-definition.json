@@ -716,11 +716,20 @@
             "label": "Quadrinho Verdadeiro Falso 2",
             "properties": []
         },
+
         {
             "name": "container_questao_soma",
             "icon": "icons/components/container.svg",
             "selectionMethod": "handle",
             "label": "Quadrinho Soma",
+            "properties": []
+        },
+
+        {
+            "name": "container_questao_total",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "label": "Quadrinho Total",
             "properties": []
         },
 
@@ -804,12 +813,21 @@
             "label": { "key": "COMPONENT_QUOTE_LABEL" },
             "properties": ["position", "style", "text-align", "letter-spacing", "line-height"]
         },
+
+        {
+            "name": "quebra_pagina",
+            "icon": "icons/components/separator.svg",
+            "label": "Quebra de página",
+            "properties": ["style"]
+        },
+
         {
             "name": "separator",
             "icon": "icons/components/separator.svg",
             "label": { "key": "COMPONENT_SEPARATOR_LABEL" },
             "properties": ["style"]
         },
+
         {
             "name": "social-media",
             "icon": "icons/components/social-media.svg",
@@ -2737,7 +2755,9 @@
             "container_quiz_pag1",
             "container_quiz_pag_final",
             "container_quiz_botoes",
-            "container_quiz_alinhamento"
+            "container_quiz_alinhamento",
+            "container_questao_total",
+            "quebra_pagina"
         ]
     },
     {

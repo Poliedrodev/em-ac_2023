@@ -1,0 +1,23 @@
+.quebra_pagina {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    margin-top: 32px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border: none;
+    height: 16px;
+    background-color: #eeeeee;
+    clear: both;
+    &::before {
+        content: 'Quebra de página';
+        font-family: 'Montserrat';
+        font-size: 12px;
+        font-weight: 400;
+        display: block;
+        margin-left: 43.10345%;
+        margin-right: 43.10345%;
+        border-top: 1px solid white;
+    }
+}
