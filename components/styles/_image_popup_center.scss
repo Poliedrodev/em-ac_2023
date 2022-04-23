@@ -13,8 +13,20 @@
             content: none;
         }
 
-        .image_popup__content {            
-            display: none;
+        .image_popup__content {
+            .image_popup__img {
+                display: none !important;
+            }
+            .image_popup__text {
+                display: none !important;
+
+                &.active {
+                    position: absolute;
+                    z-index: 99999999;
+                    bottom: 0;
+                    display: block !important;
+                }
+            }
         }
 
         .image_popup__final-content {
@@ -35,6 +47,7 @@
                 background-position: center;
                 background-size: 60%;
                 z-index: 9;
+                pointer-events: none;
             }
 
             .thumb-popup-img {
@@ -47,23 +60,6 @@
                 }
             }
         }
-    }    
-
-    &:before {
-        content: '';
-        position: absolute;
-        bottom: 31px;
-        left: 15px;
-        background-color: #a30000;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        border: 2px solid #fff;
-        background-image: url(img/search.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 60%;
-        z-index: 9;
     }
     
     .image_popup__content {        
@@ -71,7 +67,25 @@
             position: relative;
             width: 100%;
             height: 500px;
-            background-size: cover;      
+            background-size: cover;
+            overflow: initial !important;
+
+            &:before {
+                content: '';
+                position: absolute;
+                background-color: #a30000;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                border: 2px solid #fff;
+                background-image: url(img/search.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 60%;
+                z-index: 9;
+                bottom: -15px;
+                left: 10px;
+            }
         }
 
         .image_popup__text {

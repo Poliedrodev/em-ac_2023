@@ -2,10 +2,11 @@ $(document).ready(function() {
     if (location.href.indexOf('file') != -1) {
         fullPopup();
         centerPopup();
+        centerPopupArtes();
         videoPopup();
         audioPlayer();
     } else {        
-        console.log('rodando na wooding 18');
+        console.log('rodando na wooding 01');
     }   
 });
 
@@ -40,17 +41,49 @@ function centerPopup() {
             var textImg = $(this).find('.image_popup__text').text();
             var rndInt = Math.floor(Math.random() * 9738) + 1;
 
-            console.log(rndInt);
-            console.log(lastStep);
-            console.log(textImg);
-
             $(this).find('.image_popup__final-content').attr('id', 'lightgallery' + rndInt);
             $(this).find('.thumb-popup-img').attr('href', lastStep);
             $(this).find('.thumb-popup-img img').attr('src', lastStep);
-            //$(this).find('.thumb-popup-img img').attr('alt', textImg);
             $(this).find('.desc-img').text(textImg);            
 
             lightGallery(document.getElementById('lightgallery' + rndInt), {
+                download: false,
+                share: false,
+                lgComment: true
+            });
+
+            $('.image_popup__final-content').on('click', function(){
+                $('.image_popup_center .image_popup__content .image_popup__text').addClass('active');
+            });
+        } else {
+            console.log('JA TEM IMAGEM');
+        }
+    });
+}
+
+function centerPopupArtes() {
+    var popupCenterArtes = $('.image_popup_center_artes');
+
+    popupCenterArtes.addClass('__ready');
+
+    popupCenterArtes.each(function(){
+        if($(this).find('.image_popup__final-content-artes a img').attr('src') == "") {
+            var oneStepArtes = $(this).find('.image_popup__img').attr('style').substring(23)
+            var lastStepArtes = oneStepArtes.substring(0, 13);
+            var textImgArtes = $(this).find('.image_popup__text').text();
+            var rndIntArtes = Math.floor(Math.random() * 9738) + 1;
+
+            console.log(rndIntArtes);
+            console.log(lastStepArtes);
+            console.log(textImgArtes);
+
+            $(this).find('.image_popup__final-content-artes').attr('id', 'lightgallery' + rndIntArtes);
+            $(this).find('.thumb-popup-img').attr('href', lastStepArtes);
+            $(this).find('.thumb-popup-img img').attr('src', lastStepArtes);
+            //$(this).find('.thumb-popup-img img').attr('alt', textImg);
+            $(this).find('.desc-img').text(textImgArtes);            
+
+            lightGallery(document.getElementById('lightgallery' + rndIntArtes), {
                 download: false,
                 share: false,
                 lgComment: true
