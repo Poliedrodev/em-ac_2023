@@ -1,28 +1,24 @@
-.container_questao_vf_2 {
-  display: block;
-  color: #000000;
+.container_questao_total{
   font-family: 'Noticia Text';
-  max-width: 35px;
-  max-height: 31px;
-  text-align: center;
   font-weight: 700;
   font-size: 18px;
-  float: left;
-  margin: 12px 12px -8px 70px !important;
+  color: #000000;
+  margin: 16px 0px 0px 32px;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: stretch;
 }
-.num_vf{
+.num{
   font-family: 'Noticia Text';
-  max-width: 45px;
-  max-height: 45px;
+  max-width: 30px;
+  max-height: 30px;
   resize: none;
   font-weight: 700;
   font-size: 18px;
-  text-align: center;
   color: #000000;
+  text-align: center;
   margin: 0px 0px 0px 4px;
-  float: left;
   display: flex;
   justify-content: center;
   border-color: lightgray;

@@ -1,0 +1,50 @@
+.container_quiz_botoes {
+    inline-size: min-content;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 13px;
+    float: right;
+
+    .but_refazer{
+        width: 38px;
+        height: 38px;
+        border: none;
+        background-image: url(img/lin_refazer.png);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #fff;
+        cursor: pointer;
+        }
+
+    .but_dica{
+        width: 38px;
+        height: 38px;
+        border: none;
+        background-image: url(img/lin_dica.png);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-left: 5px;
+        background-color: #fff;
+        cursor: pointer;
+    }
+
+    .but_salvar{
+        width: 38px;
+        height: 38px;
+        border: none;
+        background-image: url(img/lin_save.png);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-left: 5px;
+        background-color: #fff;
+        cursor: pointer;
+        .but_salvar:active {
+            background-image: url(img/lin_save_ok.png);
+            }
+    }
+
+}
