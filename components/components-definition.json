@@ -13,7 +13,7 @@
             "properties": [
                 {
                     "name": "fitting",
-                    "defaultValue": "_fit-frame-height-to-content"
+                    "defaultValue": "_fit-frame-to-content"
                 },
                 "position",
                 "style",
@@ -57,7 +57,7 @@
             "properties": [
                 {
                     "name": "fitting",
-                    "defaultValue": "_fit-frame-height-to-content"
+                    "defaultValue": "_fit-frame-to-content"
                 },
                 "position",
                 "style",
@@ -83,7 +83,7 @@
             "properties": [
                 {
                     "name": "fitting",
-                    "defaultValue": "_fit-frame-height-to-content"
+                    "defaultValue": "_fit-frame-to-content"
                 },
                 "position",
                 "style",
@@ -104,7 +104,7 @@
             "properties": [
                 {
                     "name": "fitting",
-                    "defaultValue": "_fit-frame-height-to-content"
+                    "defaultValue": "_fit-frame-to-content"
                 },
                 "position",
                 "style",
@@ -137,7 +137,7 @@
             "properties": [
                 {
                     "name": "fitting",
-                    "defaultValue": "_fit-frame-height-to-content"
+                    "defaultValue": "_fit-frame-to-content"
                 },
                 "position",
                 "style",
@@ -170,7 +170,7 @@
             "properties": [
                 {
                     "name": "fitting",
-                    "defaultValue": "_fit-frame-height-to-content"
+                    "defaultValue": "_fit-frame-to-content"
                 },
                 "position",
                 "style",
@@ -203,7 +203,7 @@
             "properties": [
                 {
                     "name": "fitting",
-                    "defaultValue": "_fit-frame-height-to-content"
+                    "defaultValue": "_fit-frame-to-content"
                 },
                 "position",
                 "style",
@@ -236,7 +236,7 @@
             "properties": [
                 {
                     "name": "fitting",
-                    "defaultValue": "_fit-frame-height-to-content"
+                    "defaultValue": "_fit-frame-to-content"
                 },
                 "position",
                 "style",
@@ -269,7 +269,7 @@
             "properties": [
                 {
                     "name": "fitting",
-                    "defaultValue": "_fit-frame-height-to-content"
+                    "defaultValue": "_fit-frame-to-content"
                 },
                 "position",
                 "style",
@@ -302,7 +302,7 @@
             "properties": [
                 {
                     "name": "fitting",
-                    "defaultValue": "_fit-frame-height-to-content"
+                    "defaultValue": "_fit-frame-to-content"
                 },
                 "position",
                 "style",
@@ -335,7 +335,7 @@
             "properties": [
                 {
                     "name": "fitting",
-                    "defaultValue": "_fit-frame-height-to-content"
+                    "defaultValue": "_fit-frame-to-content"
                 },
                 "position",
                 "style",
@@ -368,7 +368,7 @@
             "properties": [
                 {
                     "name": "fitting",
-                    "defaultValue": "_fit-frame-height-to-content"
+                    "defaultValue": "_fit-frame-to-content"
                 },
                 "position",
                 "style",
@@ -401,7 +401,7 @@
             "properties": [
                 {
                     "name": "fitting",
-                    "defaultValue": "_fit-frame-height-to-content"
+                    "defaultValue": "_fit-frame-to-content"
                 },
                 "position",
                 "style",
@@ -434,7 +434,7 @@
             "properties": [
                 {
                     "name": "fitting",
-                    "defaultValue": "_fit-frame-height-to-content"
+                    "defaultValue": "_fit-frame-to-content"
                 },
                 "position",
                 "style",
@@ -467,7 +467,7 @@
             "properties": [
                 {
                     "name": "fitting",
-                    "defaultValue": "_fit-frame-height-to-content"
+                    "defaultValue": "_fit-frame-to-content"
                 },
                 "position",
                 "style",
