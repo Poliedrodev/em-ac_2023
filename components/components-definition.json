@@ -1891,6 +1891,17 @@
             ]
         },
         {
+            "name": "css_02_texto_citado_titulo-teste",
+            "icon": "icons/components/icon_02_texto_citado_titulo.svg",
+            "label": "02 Texto Citado Título [Teste-Luiza]",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ]
+        },
+        {
             "name": "css_02_texto_citado_titulo_2",
             "icon": "icons/components/icon_02_texto_citado_titulo.svg",
             "label": "02 Texto Citado Título 2",
