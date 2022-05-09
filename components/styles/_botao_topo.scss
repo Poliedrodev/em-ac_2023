@@ -1,0 +1,41 @@
+.botao_topo {
+    height: 68px;
+    width: 724px;
+    background: url(img/topo_por.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: white;
+    position: absolute;
+    margin: 20px 68px 0px 68px;
+    display: block;
+
+    &.artes {
+        background: url(img/topo_lin.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        position: absolute;
+    }
+    &.lingua_inglesa {
+        background: url(img/top_ing.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        position: absolute;
+    }
+    &.lingua_portuguesa {
+        background: url(img/topo_por.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        position: absolute;
+        }
+    &.matematica {
+        background: url(img/topo_mat.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        position: absolute;
+          }
+}

@@ -34,13 +34,16 @@
             left: 0;
         }
     }
+
     > figcaption {
-        color: #000000;
-        margin-top: 4px;
-        margin-bottom: 2px;
-        font-size: 16px;
+        display: block;
         color: $textColor;
-        font-family: $font-proximaNova-light;      
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 14px;
+        font-variant: tabular-nums;
+        margin-top: 10px;
+        margin-bottom: 2px;
     }
 
     %caption-shared {

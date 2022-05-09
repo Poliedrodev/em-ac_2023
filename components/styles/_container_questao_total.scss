@@ -1,0 +1,25 @@
+.container_questao_total{
+  font-family: 'Noticia Text';
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+  margin: 16px 0px 0px 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+.num{
+  font-family: 'Noticia Text';
+  max-width: 30px;
+  max-height: 30px;
+  resize: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+  margin: 0px 0px 0px 4px;
+  display: flex;
+  justify-content: center;
+  border-color: lightgray;
+}

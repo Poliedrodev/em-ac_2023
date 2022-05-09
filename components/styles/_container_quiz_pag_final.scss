@@ -1,0 +1,49 @@
+.container_quiz_pag_final {
+    inline-size: min-content;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    .but_voltar{
+        width: 64px;
+        height: 64px;
+        border: none;
+        background-image: url(img/lin_voltar.png);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #fff;
+        cursor: pointer;
+        }
+
+    .pages{
+        font-family: 'Nunito Sans';
+        font-size: 18px;
+        font-weight: 600;
+        color: #666666;
+        width: 100%;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: 0px 4px;
+    }
+                
+    .but_seguir{
+        width: 64px;
+        height: 64px;
+        border: none;
+        background-image: url(img/lin_seguir.png);
+        background-position: center;
+        background-size: 100%;
+        opacity: 30%;
+        background-repeat: no-repeat;
+        margin-right: 10px;
+        background-color: #fff;
+        cursor: pointer;
+    }
+}

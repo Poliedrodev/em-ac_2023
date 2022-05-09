@@ -1,5 +1,5 @@
 {
-    "name": "default-components-lin",
+    "name": "default-components-teoria",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "css_02_texto_geral1",
@@ -53,7 +53,7 @@
         {
             "name": "image_popup_center",
             "icon": "icons/components/image.svg",
-            "label": "Popup Imagem",
+            "label": "Imagem Popup",
             "properties": [
                 {
                     "name": "fitting",
@@ -550,6 +550,21 @@
             ]
         },
         {
+            "name": "botao_topo",
+            "icon": "icons/components/icon_02_texto_destaque.svg",
+            "label": "Botão Topo",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                {
+                    "name": "hyperlink",
+                    "directiveKey": "link-url"
+                }
+            ]
+        },
+        {
             "name": "secao_produzir_e_compartilhar",
             "icon": "icons/components/icon_02_texto_destaque.svg",
             "label": "Seção Produzir e Compartilhar",
@@ -975,11 +990,29 @@
             "properties": []
         },
         {
+            "name": "container_questao_total",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "label": "Quadrinho Total",
+            "properties": []
+        },
+        {
             "name": "container_questao_radio",
             "icon": "icons/components/container.svg",
             "selectionMethod": "handle",
-            "label": "Bolinha Escolha",
-            "properties": []
+            "label": "Checkbox Lado a Lado",
+            "properties": [
+                "style"
+            ]
+        },
+        {
+            "name": "container_questao_checkbox",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "label": "Checkbox em Linhas",
+            "properties": [
+                "style"
+            ]
         },
         {
             "name": "container_coluna_falsa",
@@ -1107,6 +1140,14 @@
                 "text-align",
                 "letter-spacing",
                 "line-height"
+            ]
+        },
+        {
+            "name": "quebra_pagina",
+            "icon": "icons/components/separator.svg",
+            "label": "Quebra de página",
+            "properties": [
+                "style"
             ]
         },
         {
@@ -1277,6 +1318,61 @@
             ]
         },
         {
+            "name": "container_quiz",
+            "icon": "icons/components/container.svg",
+            "label": "Container Quiz",
+            "properties": [
+                "position",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ]
+        },
+        {
+            "name": "container_quiz_pag1",
+            "icon": "icons/components/container.svg",
+            "label": "Container Quiz Primeira Página",
+            "properties": [
+                "position",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ]
+        },
+        {
+            "name": "container_quiz_pag_final",
+            "icon": "icons/components/container.svg",
+            "label": "Container Quiz Página Final",
+            "properties": [
+                "position",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ]
+        },
+        {
+            "name": "container_quiz_botoes",
+            "icon": "icons/components/container.svg",
+            "label": "Botões Quiz",
+            "properties": [
+                "position",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ]
+        },
+        {
+            "name": "container_quiz_alinhamento",
+            "icon": "icons/components/container.svg",
+            "label": "Botões Quiz Alinhamento",
+            "properties": [
+                "position",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ]
+        },
+        {
             "name": "container_questao_dissertativa_semrecuo",
             "icon": "icons/components/container.svg",
             "label": "Questão Dissertativa Sem Recuo",
@@ -1300,6 +1396,50 @@
         },
         {
             "name": "container_questao_dissertativa_item_2",
+            "icon": "icons/components/container.svg",
+            "label": "Questão Dissertativa Item 2",
+            "properties": [
+                "position",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ]
+        },
+        {
+            "name": "container_questao_dissertativa_ing",
+            "icon": "icons/components/container.svg",
+            "label": "Questão Dissertativa",
+            "properties": [
+                "position",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ]
+        },
+        {
+            "name": "container_questao_dissertativa_semrecuo_ing",
+            "icon": "icons/components/container.svg",
+            "label": "Questão Dissertativa Sem Recuo",
+            "properties": [
+                "position",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ]
+        },
+        {
+            "name": "container_questao_dissertativa_item_ing",
+            "icon": "icons/components/container.svg",
+            "label": "Questão Dissertativa Item",
+            "properties": [
+                "position",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ]
+        },
+        {
+            "name": "container_questao_dissertativa_item_2_ing",
             "icon": "icons/components/container.svg",
             "label": "Questão Dissertativa Item 2",
             "properties": [
@@ -1883,17 +2023,6 @@
             "name": "css_02_texto_citado_titulo",
             "icon": "icons/components/icon_02_texto_citado_titulo.svg",
             "label": "02 Texto Citado Título",
-            "properties": [
-                "style",
-                "text-align",
-                "letter-spacing",
-                "line-height"
-            ]
-        },
-        {
-            "name": "css_02_texto_citado_titulo-teste",
-            "icon": "icons/components/icon_02_texto_citado_titulo.svg",
-            "label": "02 Texto Citado Título [Teste-Luiza]",
             "properties": [
                 "style",
                 "text-align",
@@ -4216,8 +4345,7 @@
                 "author",
                 "hero",
                 "product",
-                "slideshow",
-                "slideshow-header"
+                "slideshow"
             ]
         },
         {
@@ -4225,8 +4353,8 @@
             "name": "outros_assets",
             "components": [
                 "audio",
-                "image_popup_center",
-                "video_popup_center"
+                "video_popup_center",
+                "image_popup_center"
             ]
         },
         {
@@ -4272,12 +4400,20 @@
                 "secao_topo_quiz",
                 "botao_voltar",
                 "botao_avancar",
+                "botao_topo",
                 "container_dados_mancha",
                 "container_dados_mancha_30",
                 "container_dados_mancha_60",
                 "container_texto_definicao",
                 "container_texto_definicao_30",
-                "container_texto_definicao_60"
+                "container_texto_definicao_60",
+                "container_quiz",
+                "container_quiz_pag1",
+                "container_quiz_pag_final",
+                "container_quiz_botoes",
+                "container_quiz_alinhamento",
+                "container_questao_total",
+                "quebra_pagina"
             ]
         },
         {
@@ -4296,7 +4432,11 @@
                 "secao_topo_creating_and_sharing",
                 "secao_topo_find_out_more",
                 "secao_topo_extra_practice",
-                "secao_topo_quiz"
+                "secao_topo_quiz",
+                "container_questao_dissertativa_ing",
+                "container_questao_dissertativa_semrecuo_ing",
+                "container_questao_dissertativa_item_ing",
+                "container_questao_dissertativa_item_2_ing"
             ]
         },
         {
@@ -4309,6 +4449,7 @@
                 "container_questao_vf",
                 "container_questao_vf_2",
                 "container_questao_soma",
+                "container_questao_checkbox",
                 "container_questao_radio",
                 "container_grupo_radio",
                 "container_questao_dissertativa",
@@ -5050,6 +5191,7 @@
             }
         },
         "image": {
+            "image_popup_center": "auto",
             "image_inline": "auto",
             "image_teoria": "auto",
             "image_exercicio": "auto",
@@ -5960,6 +6102,18 @@
             "css_06_boxe1": "auto",
             "css_06_boxe2": "auto",
             "css_07_boxe1": "auto"
+        },
+        "container_quiz": {
+            "container_quiz_pag1": "auto",
+            "container_quiz_pag_final": "auto"
+        },
+        "container_quiz_pag1": {
+            "container_quiz": "auto",
+            "container_quiz_pag_final": "auto"
+        },
+        "container_quiz_pag_final": {
+            "container_quiz": "auto",
+            "container_quiz_pag1": "auto"
         }
     },
     "shortcuts": {

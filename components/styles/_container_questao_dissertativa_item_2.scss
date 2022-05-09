@@ -1,5 +1,4 @@
 .container_questao_dissertativa_item_2 {
-    min-height: 200px;
     border: solid 1px #707070;
     margin: 16px 68px 0px 105px;
     border-radius: 6px;
@@ -109,10 +108,12 @@
         }
     }
 
-    .textarea:valid{
-        max-width: 93%;
-        margin: 20px 20px 10px 16px!important;
-        border:1px solid #888;
+    .textarea {
+        width: -webkit-fill-available;
+        border: solid 1px #bbbbbb;
+        resize: vertical;
+        outline: none;
+        padding: 10px;
     }
 
     > * {
@@ -167,8 +168,20 @@
         }
     }
   
-    .btn_submit {
-      bottom: 0.5em;
-      margin-top: 6px;
+    .btn {
+        background-image: url(img/save.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: transparent;
+        border: 0px;
+        height: 30px;
+        width: 30px;
+        float: right;
+        margin-right: -4px;
+        display: block;
+        margin-top: 6px;
+        }
+        .btn:active {
+        background-image: url(img/save_ok.png);
+        }
     }
-}

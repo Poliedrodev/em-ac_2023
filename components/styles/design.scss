@@ -23,6 +23,7 @@
 @import "container_tarja_secao";
 @import "botao_voltar";
 @import "botao_avancar";
+@import "botao_topo";
 @import "secao_produzir_e_compartilhar";
 @import "secao_topo_produzir_e_compartilhar";
 @import "secao_topo_quiz";
@@ -51,7 +52,9 @@
 @import "container_questao_vf";
 @import "container_questao_vf_2";
 @import "container_questao_soma";
+@import "container_questao_total";
 @import "container_questao_radio";
+@import "container_questao_checkbox";
 @import "container_coluna_falsa";
 @import "body";
 @import "title";
@@ -62,6 +65,7 @@
 @import "headline";
 @import "intro";
 @import "quote";
+@import "quebra_pagina";
 @import "separator";
 @import "social-media";
 @import "video";
@@ -77,9 +81,18 @@
 @import "container_fica_a_dica";
 @import "container_fica_a_dica_teoria";
 @import "container_questao_dissertativa";
+@import "container_quiz";
+@import "container_quiz_pag1";
+@import "container_quiz_pag_final";
+@import "container_quiz_botoes";
+@import "container_quiz_alinhamento";
 @import "container_questao_dissertativa_semrecuo";
 @import "container_questao_dissertativa_item";
 @import "container_questao_dissertativa_item_2";
+@import "container_questao_dissertativa_ing";
+@import "container_questao_dissertativa_semrecuo_ing";
+@import "container_questao_dissertativa_item_ing";
+@import "container_questao_dissertativa_item_2_ing";
 @import "container_leitura_complementar";
 @import "container_leitura_complementar_mat";
 @import "container_connections";
