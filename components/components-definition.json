@@ -914,7 +914,12 @@
             "label": "Questão Dissertativa" ,
             "properties": ["position", "text-align", "letter-spacing", "line-height"]
         },
-
+        {
+            "name": "container_questao_dissertativa_mancha",
+            "icon": "icons/components/container.svg",
+            "label": "Questão Dissertativa Mancha" ,
+            "properties": ["position", "text-align", "letter-spacing", "line-height"]
+        },
         {
             "name": "container_quiz",
             "icon": "icons/components/container.svg",
@@ -1227,6 +1232,12 @@
             "properties": ["drop-capital", "style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_02_texto_geral4",
+            "icon": "icons/components/icon_02_texto_geral1.svg",
+            "label": "02 Texto Geral 4",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_02_texto_bullet",
             "icon": "icons/components/icon_02_texto_bullet.svg",
             "label": "02 Texto Bullet",
@@ -1386,6 +1397,12 @@
             "name": "css_03_item",
             "icon": "icons/components/icon_03_exercicio_alternativa.svg",
             "label": "03 Item",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_03_item_secao_identado",
+            "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+            "label": "03 Item seção indentado",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -1641,6 +1658,12 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_05_legenda_mancha",
+            "icon": "icons/components/icon_05_legenda.svg",
+            "label": "05 Legenda Mancha",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_05_legenda_cont_exercicios",
             "icon": "icons/components/icon_05_legenda.svg",
             "label": "05 Legenda Container exercicios",
@@ -1782,6 +1805,12 @@
             "name": "css_06_boxe_texto2",
             "icon": "icons/components/icon_06_boxe_texto2.svg",
             "label": "06 Boxe Texto 2",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_06_boxe_texto_identado",
+            "icon": "icons/components/icon_06_boxe_texto2.svg",
+            "label": "06 Boxe Texto Identado",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -1977,6 +2006,12 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_06_boxe1_exercicio",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "06 Boxe 1 Exercício",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_06_boxe2",
             "icon": "icons/components/icon_06_boxe_item.svg",
             "label": "06 Boxe 2",
@@ -2106,6 +2141,12 @@
             "name": "css_07_secao_texto2",
             "icon": "icons/components/icon_07_secao_texto2.svg",
             "label": "07 Seção Texto 2",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_07_secao_texto_identado",
+            "icon": "icons/components/icon_07_secao_texto1.svg",
+            "label": "07 Seção Texto Identado",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -2728,6 +2769,7 @@
             "container_textos_exercicio_mancha",
             "container_textos_fundo_sepia",
             "css_06_boxe1",
+            "css_06_boxe1_exercicio",
             "css_06_boxe2",
             "css_06_boxe3",
             "css_06_boxe4",
@@ -2797,6 +2839,7 @@
             "container_questao_radio",
             "container_grupo_radio",
             "container_questao_dissertativa",
+            "container_questao_dissertativa_mancha",
             "container_questao_dissertativa_semrecuo",
             "container_questao_dissertativa_item",
             "container_questao_dissertativa_item_2"
@@ -2831,6 +2874,7 @@
                 "css_02_texto_geral1",
                 "css_02_texto_geral2",
                 "css_02_texto_geral3",
+                "css_02_texto_geral4",
                 "css_02_texto_bullet",
                 "css_02_texto_bullet_2",
                 "css_02_texto_bullet_mancha_sub",
@@ -2863,6 +2907,7 @@
             "name": "numeradores",
             "components": [
                 "css_03_item",
+                "css_03_item_secao_identado",
                 "css_03_item_2",
                 "css_02_item_citado",
                 "css_03_item_container",
@@ -2927,6 +2972,7 @@
                 "css_05_credito1",
                 "css_05_credito2",
                 "css_05_legenda",
+                "css_05_legenda_mancha",
                 "css_05_legenda_cont_exercicios",
                 "css_05_legenda_teoria",
                 "css_05_legenda_exercicio",
@@ -2955,6 +3001,7 @@
                 "css_06_boxe_texto1",
                 "css_06_boxe_texto2",
                 "css_06_boxe_texto3",
+                "css_06_boxe_texto_identado",
                 "css_06_boxe_item",
                 "css_06_boxe_bullet",
                 "css_06_boxe_bullet_mat",
@@ -2979,6 +3026,7 @@
                 "css_07_secao_titulo4",
                 "css_07_secao_texto1",
                 "css_07_secao_texto2",
+                "css_07_secao_texto_identado",
                 "css_07_secao_texto_le_comp",
                 "css_07_secao_titulo_citado",
                 "css_07_secao_titulo_citado_2",
@@ -3651,20 +3699,30 @@
         "css_02_texto_geral": {
             "css_02_texto_geral1": "auto",
             "css_02_texto_geral2": "auto",
-            "css_02_texto_geral3": "auto"
+            "css_02_texto_geral3": "auto",
+            "css_02_texto_geral4": "auto"
         },        
         "css_02_texto_geral1": {
             "css_02_texto_geral2": "auto",
             "css_02_texto_geral3": "auto",
-            "css_02_texto_item": "auto"
+            "css_02_texto_item": "auto",
+            "css_02_texto_geral4": "auto"
         },        
         "css_02_texto_geral2": {
             "css_02_texto_geral1": "auto",
-            "css_02_texto_geral3": "auto"
+            "css_02_texto_geral3": "auto",
+            "css_02_texto_geral4": "auto"
         },        
         "css_02_texto_geral3": {
             "css_02_texto_geral1": "auto",
-            "css_02_texto_geral2": "auto"
+            "css_02_texto_geral2": "auto",
+            "css_02_texto_geral4": "auto"
+        },        
+        "css_02_texto_geral4": {
+            "css_02_texto_geral2": "auto",
+            "css_02_texto_geral3": "auto",
+            "css_02_texto_item": "auto",
+            "css_02_texto_geral1": "auto"
         },        
         "css_02_texto_item": {
             "css_02_texto_geral1": "auto"
@@ -3826,10 +3884,20 @@
             "css_03_item_alinhamento_1": "auto",
             "css_03_item_container": "auto",
             "css_06_item_2": "auto",
+            "css_03_item_secao_identado": "auto",
             "css_02_item_citado": "auto",
             "css_03_item_sobrescrito": "auto",
             "css_03_item_container_sobrescrito": "auto"
-        },        
+        },  
+        "css_03_item_secao_identado": {
+            "css_03_item_alinhamento_1": "auto",
+            "css_03_item_container": "auto",
+            "css_06_item_2": "auto",
+            "css_03_item": "auto",
+            "css_02_item_citado": "auto",
+            "css_03_item_sobrescrito": "auto",
+            "css_03_item_container_sobrescrito": "auto"
+        },      
         "css_03_item_container_sobrescrito": {
             "css_03_item_alinhamento_1": "auto",
             "css_03_item_container": "auto",
@@ -3991,7 +4059,24 @@
             "css_07_secao_texto_le_comp": "auto",
             "css_03_item": "auto",
             "css_07_secao_exercicio_item": "auto",
-            "css_07_secao_exercicio_continuacao": "auto"
+            "css_07_secao_exercicio_continuacao": "auto",
+            "css_07_secao_texto_identado": "auto"
+        },
+        "css_07_secao_texto_identado": {
+            "css_03_numero": "auto",
+            "css_03_numero_cor_2": "auto",
+            "css_07_secao_exercicio1": "auto",
+            "css_07_secao_exercicio2": "auto",
+            "css_07_secao_exercicio3": "auto",
+            "css_07_secao_exercicio4": "auto",
+            "css_07_secao_titulo_citado": "auto",
+            "css_07_secao_texto_citado": "auto",
+            "css_07_secao_texto2": "auto",
+            "css_07_secao_texto_le_comp": "auto",
+            "css_03_item": "auto",
+            "css_07_secao_exercicio_item": "auto",
+            "css_07_secao_exercicio_continuacao": "auto",
+            "css_07_secao_texto1": "auto"
         },
         "css_07_secao_texto_le_comp": {
             "css_03_numero": "auto",
@@ -4278,6 +4363,13 @@
         "css_05_legenda": {
             "css_05_legenda_sem_margem": "auto",
             "css_05_legenda_saiba_mais": "auto",
+            "css_05_legenda_mancha": "auto",
+            "css_05_legenda_exercicio": "auto"
+        },
+        "css_05_legenda_mancha": {
+            "css_05_legenda_sem_margem": "auto",
+            "css_05_legenda_saiba_mais": "auto",
+            "css_05_legenda": "auto",
             "css_05_legenda_exercicio": "auto"
         },
         "css_05_legenda_saiba_mais": {
@@ -4296,7 +4388,14 @@
         "css_06_boxe1": {
             "css_06_boxe2": "auto",
             "css_07_boxe1": "auto",
-            "css_07_boxe2": "auto"
+            "css_07_boxe2": "auto",
+            "css_06_boxe1_exercicio": "auto"
+        },
+        "css_06_boxe1_exercicio": {
+            "css_06_boxe2": "auto",
+            "css_07_boxe1": "auto",
+            "css_07_boxe2": "auto",
+            "css_06_boxe1": "auto"
         },
         "css_07_boxe1": {
             "css_06_boxe1": "auto",
