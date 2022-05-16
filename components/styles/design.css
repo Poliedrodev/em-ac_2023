@@ -9109,6 +9109,25 @@ blockquote {
   .css_02_texto_glossario.matematica {
     border: solid 2px #F1CB40 !important; }
 
+.css_02_texto_glossario_boxe {
+  font-family: 'Noticia Text';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5em;
+  color: #000000;
+  display: block;
+  margin: 24px 0px 0px 20px;
+  padding: 8px 16px;
+  border: solid 2px #000000; }
+  .css_02_texto_glossario_boxe.artes {
+    border: solid 2px #64428C !important; }
+  .css_02_texto_glossario_boxe.lingua_inglesa {
+    border: solid 2px #069891 !important; }
+  .css_02_texto_glossario_boxe.lingua_portuguesa {
+    border: solid 2px #c9252c !important; }
+  .css_02_texto_glossario_boxe.matematica {
+    border: solid 2px #F1CB40 !important; }
+
 .css_02_texto_glossario_citado {
   font-family: 'Noticia Text';
   font-weight: 400;

@@ -1382,6 +1382,12 @@
             "properties": ["style", "text-align", "position", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_02_texto_glossario_boxe",
+            "icon": "icons/components/icon_02_texto_glossario.svg",
+            "label": "02 Texto Glossário Boxe",
+            "properties": ["style", "text-align", "position", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_02_texto_glossario_citado",
             "icon": "icons/components/icon_02_texto_glossario.svg",
             "label": "02 Texto Glossário Citado",
@@ -2904,6 +2910,7 @@
                 "css_02_texto_citado_fonte_2",
                 "css_02_texto_citado_fonte_saiba_mais",
                 "css_02_texto_glossario",
+                "css_02_texto_glossario_boxe",
                 "css_02_texto_glossario_citado",
                 "css_02_texto_vocabulario"
             ]
