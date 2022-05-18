@@ -1,5 +1,5 @@
 {
-    "name": "default-components-ing",
+    "name": "default-components-art",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "css_02_texto_geral1",
@@ -2776,6 +2776,7 @@
         "label": "Containers",
         "name": "containers",
         "components": [
+            "container_slideshow_saiba_mais",
             "container",
             "container_slideshow_boxe",
             "container_coluna_falsa",
