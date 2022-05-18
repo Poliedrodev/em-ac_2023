@@ -1,5 +1,5 @@
 {
-    "name": "default-components-mat",
+    "name": "default-components-teoria",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "css_02_texto_geral1",
@@ -1085,6 +1085,12 @@
             "name": "container_fast_facts",
             "icon": "icons/components/container.svg",
             "label": "Container Fast Facts",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "container_fast_facts_exercicios",
+            "icon": "icons/components/container.svg",
+            "label": "Container Fast Facts Exercicios",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -2834,6 +2840,7 @@
             "container_connections",
             "container_culture_box",
             "container_fast_facts",
+            "container_fast_facts_exercicios",
             "container_read_more",
             "container_reading_and_writing",
             "container_reflecting_and_studying",

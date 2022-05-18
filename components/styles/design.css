@@ -35,7 +35,7 @@ body {
     outline: none; }
 
 html {
-  background-color: #d0e1f0; }
+  background-color: #ffffff; }
 
 body {
   max-width: 860px;
@@ -114,7 +114,7 @@ span[data-text-edit-color] a {
     overflow-x: hidden;
     overflow-y: auto; }
     .hero-js ._hero-content-box ._hero-content-wrapper {
-      background-color: #d0e1f0; }
+      background-color: #ffffff; }
       .hero-js ._hero-content-box ._hero-content-wrapper ._hero-content-body {
         max-width: 860px;
         padding: 0 5px;
@@ -7852,6 +7852,87 @@ blockquote {
       width: 33%;
       z-index: 1; }
     .container_fast_facts._right {
+      float: right;
+      clear: right;
+      width: 33%;
+      z-index: 1; } }
+
+.container_fast_facts_exercicios {
+  position: relative;
+  box-sizing: border-box;
+  margin: 32px 0px 0px 0px;
+  padding: 0px 28px 8px 28px;
+  border-radius: 5px;
+  transition: all 0.3;
+  background-color: #ECF0A6;
+  /* media query */ }
+  .container_fast_facts_exercicios input[type=checkbox] {
+    display: none; }
+  .container_fast_facts_exercicios input[type=checkbox]:checked ~ label {
+    background: url(img/icons8-minus-close_white.png) left 5px top 9px no-repeat; }
+  .container_fast_facts_exercicios input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    display: block;
+    transition: all 0.25s ease-out; }
+  .container_fast_facts_exercicios input[type=checkbox]:checked ~ .line-box {
+    display: block;
+    transition: all 0.25s ease-out; }
+  .container_fast_facts_exercicios label {
+    width: 100%;
+    height: 40px;
+    background: url(img/icons8-plus-open_white.png) left 5px top 9px no-repeat;
+    position: relative;
+    background-size: 18px !important;
+    display: block;
+    left: -13px; }
+    .container_fast_facts_exercicios label:before {
+      content: 'FAST FACTS';
+      font-family: "nunito sans";
+      font-size: 14px;
+      font-weight: 900;
+      color: #62883b;
+      position: absolute;
+      left: 28px;
+      top: 10px; }
+  .container_fast_facts_exercicios .text-box {
+    min-width: 200px;
+    font-family: "nunito sans", "900";
+    font-size: 14px;
+    color: #84A214;
+    position: absolute;
+    left: 50px;
+    top: 10px; }
+  .container_fast_facts_exercicios .line-box {
+    border-left: 3px solid #FFF;
+    display: none; }
+  .container_fast_facts_exercicios .txt_boxe_collapsed {
+    display: none; }
+  .container_fast_facts_exercicios .doc_container {
+    position: relative;
+    padding: 16px;
+    box-sizing: border-box; }
+  .container_fast_facts_exercicios.artes {
+    background-color: #ECF0A6; }
+    .container_fast_facts_exercicios.artes .text-box {
+      color: #C8D300; }
+  .container_fast_facts_exercicios.lingua_inglesa {
+    background-color: #ECF0A6; }
+    .container_fast_facts_exercicios.lingua_inglesa .text-box {
+      color: #C8D300; }
+  .container_fast_facts_exercicios.lingua_portuguesa {
+    background-color: #ECF0A6; }
+    .container_fast_facts_exercicios.lingua_portuguesa .text-box {
+      color: #84A214; }
+  .container_fast_facts_exercicios.matematica {
+    background-color: #FAEDBC; }
+    .container_fast_facts_exercicios.matematica .text-box {
+      color: #C09100; }
+  @media only screen and (min-width: 481px) {
+    .container_fast_facts_exercicios._left {
+      float: left;
+      clear: left;
+      width: 33%;
+      z-index: 1; }
+    .container_fast_facts_exercicios._right {
       float: right;
       clear: right;
       width: 33%;
