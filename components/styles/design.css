@@ -8133,6 +8133,98 @@ blockquote {
       width: 50%;
       z-index: 1; } }
 
+.container_slideshow_saiba_mais {
+  border: 0px solid #ccc;
+  padding: 0px 0px 0px 0px;
+  margin: 20px 0px 0px 182px;
+  clear: both;
+  display: block;
+  /* media query */ }
+  .container_slideshow_saiba_mais::after {
+    content: '';
+    display: block;
+    clear: both; }
+  .container_slideshow_saiba_mais > *:first-child {
+    margin-top: 0; }
+    .container_slideshow_saiba_mais > *:first-child._left + ._right {
+      margin-top: 0; }
+    .container_slideshow_saiba_mais > *:first-child._right + ._left {
+      margin-top: 0; }
+  .container_slideshow_saiba_mais > *:last-child {
+    margin-bottom: 0; }
+  .container_slideshow_saiba_mais > *._left + ._right:last-child {
+    margin-bottom: 20px; }
+  .container_slideshow_saiba_mais > *._right + ._left:last-child {
+    margin-bottom: 20px; }
+  .container_slideshow_saiba_mais .box_green {
+    width: 93.5%;
+    height: 23px;
+    position: relative;
+    display: flex;
+    top: 18px;
+    left: 16px;
+    padding: 1px 0px 0px 0px;
+    margin: 0px 0px 32px 0px;
+    border-bottom: solid 2px #000000;
+    border-left: solid 6px #999999;
+    text-decoration: overline;
+    font-family: "montserrat extrabold", "800";
+    font-size: 16px;
+    color: #000000; }
+    .container_slideshow_saiba_mais .box_green:before {
+      content: '';
+      display: block; }
+  .container_slideshow_saiba_mais.artes .box_green {
+    background: linear-gradient(-90deg, #64428C 0%, rgba(100, 66, 140, 0.7) 100%);
+    border: solid 3px #64428C; }
+  .container_slideshow_saiba_mais.biologia .box_green {
+    background: linear-gradient(-90deg, #45973d 0%, rgba(69, 151, 61, 0.7) 100%);
+    border: solid 3px #45973d; }
+  .container_slideshow_saiba_mais.filosofia .box_green {
+    background: linear-gradient(-90deg, #536DA7 0%, rgba(83, 109, 167, 0.7) 100%);
+    border: solid 3px #536DA7; }
+  .container_slideshow_saiba_mais.fisica .box_green {
+    background: linear-gradient(-90deg, #00909B 0%, rgba(0, 144, 155, 0.7) 100%);
+    border: solid 3px #00909B; }
+  .container_slideshow_saiba_mais.geografia .box_green {
+    background: linear-gradient(-90deg, #D85509 0%, rgba(216, 85, 9, 0.7) 100%);
+    border: solid 3px #D85509; }
+  .container_slideshow_saiba_mais.historia .box_green {
+    background: linear-gradient(-90deg, #951B81 0%, rgba(149, 27, 129, 0.7) 100%);
+    border: solid 3px #951B81; }
+  .container_slideshow_saiba_mais.lingua_inglesa .box_green {
+    background: linear-gradient(-90deg, #069891 0%, rgba(6, 152, 145, 0.7) 100%);
+    border: solid 3px #069891; }
+  .container_slideshow_saiba_mais.lingua_portuguesa {
+    border: 2px solid #981711; }
+    .container_slideshow_saiba_mais.lingua_portuguesa .box_green {
+      color: #981711;
+      border-bottom: solid 2px #981711;
+      border-left: solid 6px #E59798; }
+  .container_slideshow_saiba_mais.matematica .box_green {
+    background: linear-gradient(-90deg, #1961AC 0%, rgba(25, 97, 172, 0.7) 100%);
+    border: solid 3px #1961AC; }
+  .container_slideshow_saiba_mais.producao_de_texto .box_green {
+    background: linear-gradient(-90deg, #0F83A6 0%, rgba(15, 131, 166, 0.7) 100%);
+    border: solid 3px #0F83A6; }
+  .container_slideshow_saiba_mais.quimica .box_green {
+    background: linear-gradient(-90deg, #B80071 0%, rgba(184, 0, 113, 0.7) 100%);
+    border: solid 3px #B80071; }
+  .container_slideshow_saiba_mais.sociologia .box_green {
+    background: linear-gradient(-90deg, #C71553 0%, rgba(199, 21, 83, 0.7) 100%);
+    border: solid 3px #C71553; }
+  @media only screen and (min-width: 481px) {
+    .container_slideshow_saiba_mais._left {
+      float: left;
+      clear: left;
+      width: 50%;
+      z-index: 1; }
+    .container_slideshow_saiba_mais._right {
+      float: right;
+      clear: right;
+      width: 50%;
+      z-index: 1; } }
+
 .container_textos_exercicio_mancha {
   border: 2px solid #ccc;
   padding: 8px 16px 16px 16px;
@@ -14030,6 +14122,20 @@ blockquote {
     list-style-type: disc;
     margin: 0px; }
   .css_06_boxe_bullet li {
+    padding-left: 12px; }
+
+.css_06_boxe_bullet_citado_saiba_mais {
+  display: block;
+  font-family: "TheSerif-HP6SeBld" !important;
+  font-weight: 400;
+  color: #62883b;
+  line-height: 1.5em;
+  font-size: 20px;
+  margin: 0px 0px 0px 0px; }
+  .css_06_boxe_bullet_citado_saiba_mais ul {
+    list-style-type: disc;
+    margin: 0px; }
+  .css_06_boxe_bullet_citado_saiba_mais li {
     padding-left: 12px; }
 
 .css_06_boxe_bullet_mat {

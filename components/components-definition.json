@@ -1106,6 +1106,12 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "container_slideshow_saiba_mais",
+            "icon": "icons/components/container.svg",
+            "label": "Container Slideshow Saiba Mais",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "container_textos_exercicio_mancha",
             "icon": "icons/components/container.svg",
             "label": "Container Textos Exercícios",
@@ -2048,6 +2054,12 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_06_boxe_bullet_citado_saiba_mais",
+            "icon": "icons/components/icon_06_boxe_bullet.svg",
+            "label": "06 Boxe Bullet Citado Saiba Mais",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_06_boxe_bullet_mat",
             "icon": "icons/components/icon_06_boxe_bullet.svg",
             "label": "06 Boxe Bullet Mat",
@@ -2778,6 +2790,7 @@
             "container_textos",
             "container_textos_item",
             "container_textos_exercicios",
+            "container_textos_exercicios",
             "container_textos_exercicio_mancha",
             "container_textos_fundo_sepia",
             "css_06_boxe1",
@@ -3018,6 +3031,7 @@
                 "css_06_boxe_texto_identado",
                 "css_06_boxe_item",
                 "css_06_boxe_bullet",
+                "css_06_boxe_bullet_citado_saiba_mais",
                 "css_06_boxe_bullet_mat",
                 "css_06_boxe_exercicio",
                 "css_06_boxe_exercicio_continuacao",
