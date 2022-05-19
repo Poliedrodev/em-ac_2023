@@ -4,9 +4,7 @@ $(document).ready(function() {
         centerPopup();
         videoPopup();
         audioPlayer();
-    } else {        
-        console.log('rodando na wooding 18');
-    }   
+    }
 });
 
 function fullPopup() {   
