@@ -2,6 +2,8 @@
     "COMPONENT_AUTHOR_LABEL": "Autor",
     "COMPONENT_BODY_LABEL": "Corpo",
     "COMPONENT_CONTAINER_LABEL": "Container",
+    "COMPONENT_CHECKBOX_SIDE_LABEL": "Container Grupo Checkbox Lado a Lado",
+    "COMPONENT_CHECKBOX_LABEL": "Container Grupo Checkbox em Linha",
     "COMPONENT_CROSSHEAD_LABEL": "Crosshead",
     "COMPONENT_EMBED_LABEL": "Embutir",
     "COMPONENT_FOOTER_LABEL": "Rodapé",
@@ -64,6 +66,7 @@
     "TEMPLATE_AUTHOR_LOCATION_PLACEHOLDER": "Local",
     "TEMPLATE_HEADLINE_SECTION_PLACEHOLDER": "Seção",
     "TEMPLATE_PRODUCT_DESCRIPTION_PLACEHOLDER": "Escreva uma breve descrição do produto.",
+    "TEMPLATE_RADIO":"Escreva a resposta.",
     "TEMPLATE_PRODUCT_LINK_PLACEHOLDER": "www.example.com",
     "TEMPLATE_PRODUCT_PRICE_PLACEHOLDER": "Preço do produto",
     "TEMPLATE_PRODUCT_TITLE_PLACEHOLDER": "Nome do produto"
