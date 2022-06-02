@@ -51,6 +51,21 @@
             ]
         },
         {
+            "name": "audio_em-ac_2023",
+            "icon": "icons/components/icon_00_arte.svg",
+            "label": "Componente Áudio Lumen Mais",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                {
+                    "name": "embed-code",
+                    "directiveKey": "html"
+                  }
+            ]
+        },
+        {
             "name": "image_popup_center",
             "icon": "icons/components/image.svg",
             "label": "Imagem Popup",
@@ -97,6 +112,28 @@
                 }
             ]
         },
+        {
+            "name": "video_em-ac_2023",
+            "icon": "icons/components/video.svg",
+            "label": "VIDEO_POPUP_CENTER_LUMEN_MAIS",
+            "selectionMethod": "handle",
+      "properties": [
+        {
+          "name": "fitting",
+          "defaultValue": "_fit-frame-to-content"
+        },
+        "position",
+        "style",
+        {
+          "name": "embed-code",
+          "directiveKey": "html"
+        },
+        "inside-caption",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
         {
             "name": "image_cont_exercicios",
             "icon": "icons/components/image.svg",
@@ -1202,6 +1239,7 @@
                 "style"
             ]
         },
+      
         {
             "name": "css_00_arte",
             "icon": "icons/components/icon_00_arte.svg",
@@ -4364,7 +4402,9 @@
             "name": "outros_assets",
             "components": [
                 "audio",
+                "audio_em-ac_2023",
                 "video_popup_center",
+                "video_em-ac_2023",
                 "image_popup_center"
             ]
         },
@@ -4739,6 +4779,7 @@
                 "embed",
                 "social-media",
                 "video"
+                
             ]
         }
     ],
