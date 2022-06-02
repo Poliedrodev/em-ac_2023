@@ -4790,141 +4790,6 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   justify-content: center;
   border-color: lightgray; }
 
-.group_checkbox,
-.container_grupo_checkbox,
-.container_grupo_checkbox_lado_a_lado {
-  margin-top: 15px;
-  /* Customize the label (the container) */ }
-  .group_checkbox.artes input:checked ~ .checkmark,
-  .container_grupo_checkbox.artes input:checked ~ .checkmark,
-  .container_grupo_checkbox_lado_a_lado.artes input:checked ~ .checkmark {
-    background-color: #64428C; }
-  .group_checkbox.lingua_inglesa input:checked ~ .checkmark,
-  .container_grupo_checkbox.lingua_inglesa input:checked ~ .checkmark,
-  .container_grupo_checkbox_lado_a_lado.lingua_inglesa input:checked ~ .checkmark {
-    background-color: #069891; }
-  .group_checkbox.lingua_portuguesa input:checked ~ .checkmark,
-  .container_grupo_checkbox.lingua_portuguesa input:checked ~ .checkmark,
-  .container_grupo_checkbox_lado_a_lado.lingua_portuguesa input:checked ~ .checkmark {
-    background-color: #c9252c; }
-  .group_checkbox.matematica input:checked ~ .checkmark,
-  .container_grupo_checkbox.matematica input:checked ~ .checkmark,
-  .container_grupo_checkbox_lado_a_lado.matematica input:checked ~ .checkmark {
-    background-color: #1961AC; }
-  .group_checkbox::after,
-  .container_grupo_checkbox::after,
-  .container_grupo_checkbox_lado_a_lado::after {
-    content: '';
-    display: block;
-    clear: both; }
-  .group_checkbox > *:first-child,
-  .container_grupo_checkbox > *:first-child,
-  .container_grupo_checkbox_lado_a_lado > *:first-child {
-    margin-top: 0; }
-    .group_checkbox > *:first-child._left + ._right,
-    .container_grupo_checkbox > *:first-child._left + ._right,
-    .container_grupo_checkbox_lado_a_lado > *:first-child._left + ._right {
-      margin-top: 0;
-      padding: 0 68 0 16px; }
-    .group_checkbox > *:first-child._right + ._left,
-    .container_grupo_checkbox > *:first-child._right + ._left,
-    .container_grupo_checkbox_lado_a_lado > *:first-child._right + ._left {
-      margin-top: 0;
-      padding: 0 16 0 68px; }
-  .group_checkbox > *:last-child,
-  .container_grupo_checkbox > *:last-child,
-  .container_grupo_checkbox_lado_a_lado > *:last-child {
-    margin-bottom: 0; }
-  .group_checkbox > *._left + ._right:last-child,
-  .container_grupo_checkbox > *._left + ._right:last-child,
-  .container_grupo_checkbox_lado_a_lado > *._left + ._right:last-child {
-    margin-bottom: 20px;
-    padding: 0 68 0 16px; }
-  .group_checkbox > *._right + ._left:last-child,
-  .container_grupo_checkbox > *._right + ._left:last-child,
-  .container_grupo_checkbox_lado_a_lado > *._right + ._left:last-child {
-    margin-bottom: 20px;
-    padding: 0 16 0 68px; }
-  .group_checkbox .container_questao_checkbox,
-  .container_grupo_checkbox .container_questao_checkbox,
-  .container_grupo_checkbox_lado_a_lado .container_questao_checkbox {
-    position: relative;
-    padding-left: 35px;
-    cursor: pointer;
-    font-size: 22px;
-    margin-top: 16px;
-    user-select: none;
-    /* Hide the browser's default radio button */
-    /* Create a custom radio button */
-    /* On mouse-over, add a grey background color */
-    /* On mouse-over, add a grey background color */
-    /* When the radio button is checked, add a blue background */
-    /* Create the indicator (the dot/circle - hidden when not checked) */
-    /* Show the indicator (dot/circle) when checked */
-    /* Style the indicator (dot/circle) */ }
-    .group_checkbox .container_questao_checkbox .container input,
-    .container_grupo_checkbox .container_questao_checkbox .container input,
-    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .container input {
-      position: absolute;
-      opacity: 0;
-      cursor: pointer;
-      height: 0;
-      width: 0; }
-    .group_checkbox .container_questao_checkbox .checkmark,
-    .container_grupo_checkbox .container_questao_checkbox .checkmark,
-    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .checkmark {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 25px;
-      width: 25px;
-      border-radius: 50%; }
-    .group_checkbox .container_questao_checkbox .container:hover input ~ .checkmark,
-    .container_grupo_checkbox .container_questao_checkbox .container:hover input ~ .checkmark,
-    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .container:hover input ~ .checkmark {
-      background-color: #ddd; }
-    .group_checkbox .container_questao_checkbox .container:hover input ~ .checkmark,
-    .container_grupo_checkbox .container_questao_checkbox .container:hover input ~ .checkmark,
-    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .container:hover input ~ .checkmark {
-      background-color: #ddd; }
-    .group_checkbox .container_questao_checkbox .container .checkmark,
-    .container_grupo_checkbox .container_questao_checkbox .container .checkmark,
-    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .container .checkmark {
-      background-color: #eee; }
-    .group_checkbox .container_questao_checkbox .checkmark:after,
-    .container_grupo_checkbox .container_questao_checkbox .checkmark:after,
-    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .checkmark:after {
-      content: "";
-      position: absolute;
-      display: none; }
-    .group_checkbox .container_questao_checkbox .container input:checked ~ .checkmark:after,
-    .container_grupo_checkbox .container_questao_checkbox .container input:checked ~ .checkmark:after,
-    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .container input:checked ~ .checkmark:after {
-      display: block; }
-    .group_checkbox .container_questao_checkbox .container .checkmark:after,
-    .container_grupo_checkbox .container_questao_checkbox .container .checkmark:after,
-    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .container .checkmark:after {
-      top: 9px;
-      left: 9px;
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: white; }
-    .group_checkbox .container_questao_checkbox .textradio_inline,
-    .container_grupo_checkbox .container_questao_checkbox .textradio_inline,
-    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .textradio_inline {
-      font-family: 'Noticia Text';
-      font-weight: 400;
-      font-size: 16px;
-      color: #000000;
-      text-align: start;
-      margin: 0; }
-
-.container_grupo_checkbox_lado_a_lado .container_questao_checkbox {
-  display: inline-block;
-  margin-top: 16px;
-  margin-right: 1rem; }
-
 /* Container component style*/
 .container_coluna_falsa {
   margin: 20px 68px 0px 68px;
@@ -5489,6 +5354,141 @@ blockquote {
       clear: right;
       width: 50%;
       z-index: 1; } }
+
+.group_checkbox,
+.container_grupo_checkbox,
+.container_grupo_checkbox_lado_a_lado {
+  margin-top: 15px;
+  /* Customize the label (the container) */ }
+  .group_checkbox.artes input:checked ~ .checkmark,
+  .container_grupo_checkbox.artes input:checked ~ .checkmark,
+  .container_grupo_checkbox_lado_a_lado.artes input:checked ~ .checkmark {
+    background-color: #64428C; }
+  .group_checkbox.lingua_inglesa input:checked ~ .checkmark,
+  .container_grupo_checkbox.lingua_inglesa input:checked ~ .checkmark,
+  .container_grupo_checkbox_lado_a_lado.lingua_inglesa input:checked ~ .checkmark {
+    background-color: #069891; }
+  .group_checkbox.lingua_portuguesa input:checked ~ .checkmark,
+  .container_grupo_checkbox.lingua_portuguesa input:checked ~ .checkmark,
+  .container_grupo_checkbox_lado_a_lado.lingua_portuguesa input:checked ~ .checkmark {
+    background-color: #c9252c; }
+  .group_checkbox.matematica input:checked ~ .checkmark,
+  .container_grupo_checkbox.matematica input:checked ~ .checkmark,
+  .container_grupo_checkbox_lado_a_lado.matematica input:checked ~ .checkmark {
+    background-color: #1961AC; }
+  .group_checkbox::after,
+  .container_grupo_checkbox::after,
+  .container_grupo_checkbox_lado_a_lado::after {
+    content: '';
+    display: block;
+    clear: both; }
+  .group_checkbox > *:first-child,
+  .container_grupo_checkbox > *:first-child,
+  .container_grupo_checkbox_lado_a_lado > *:first-child {
+    margin-top: 0; }
+    .group_checkbox > *:first-child._left + ._right,
+    .container_grupo_checkbox > *:first-child._left + ._right,
+    .container_grupo_checkbox_lado_a_lado > *:first-child._left + ._right {
+      margin-top: 0;
+      padding: 0 68 0 16px; }
+    .group_checkbox > *:first-child._right + ._left,
+    .container_grupo_checkbox > *:first-child._right + ._left,
+    .container_grupo_checkbox_lado_a_lado > *:first-child._right + ._left {
+      margin-top: 0;
+      padding: 0 16 0 68px; }
+  .group_checkbox > *:last-child,
+  .container_grupo_checkbox > *:last-child,
+  .container_grupo_checkbox_lado_a_lado > *:last-child {
+    margin-bottom: 0; }
+  .group_checkbox > *._left + ._right:last-child,
+  .container_grupo_checkbox > *._left + ._right:last-child,
+  .container_grupo_checkbox_lado_a_lado > *._left + ._right:last-child {
+    margin-bottom: 20px;
+    padding: 0 68 0 16px; }
+  .group_checkbox > *._right + ._left:last-child,
+  .container_grupo_checkbox > *._right + ._left:last-child,
+  .container_grupo_checkbox_lado_a_lado > *._right + ._left:last-child {
+    margin-bottom: 20px;
+    padding: 0 16 0 68px; }
+  .group_checkbox .container_questao_checkbox,
+  .container_grupo_checkbox .container_questao_checkbox,
+  .container_grupo_checkbox_lado_a_lado .container_questao_checkbox {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 22px;
+    margin-top: 16px;
+    user-select: none;
+    /* Hide the browser's default radio button */
+    /* Create a custom radio button */
+    /* On mouse-over, add a grey background color */
+    /* On mouse-over, add a grey background color */
+    /* When the radio button is checked, add a blue background */
+    /* Create the indicator (the dot/circle - hidden when not checked) */
+    /* Show the indicator (dot/circle) when checked */
+    /* Style the indicator (dot/circle) */ }
+    .group_checkbox .container_questao_checkbox .container input,
+    .container_grupo_checkbox .container_questao_checkbox .container input,
+    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .container input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0; }
+    .group_checkbox .container_questao_checkbox .checkmark,
+    .container_grupo_checkbox .container_questao_checkbox .checkmark,
+    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      border-radius: 50%; }
+    .group_checkbox .container_questao_checkbox .container:hover input ~ .checkmark,
+    .container_grupo_checkbox .container_questao_checkbox .container:hover input ~ .checkmark,
+    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .container:hover input ~ .checkmark {
+      background-color: #ddd; }
+    .group_checkbox .container_questao_checkbox .container:hover input ~ .checkmark,
+    .container_grupo_checkbox .container_questao_checkbox .container:hover input ~ .checkmark,
+    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .container:hover input ~ .checkmark {
+      background-color: #ddd; }
+    .group_checkbox .container_questao_checkbox .container .checkmark,
+    .container_grupo_checkbox .container_questao_checkbox .container .checkmark,
+    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .container .checkmark {
+      background-color: #eee; }
+    .group_checkbox .container_questao_checkbox .checkmark:after,
+    .container_grupo_checkbox .container_questao_checkbox .checkmark:after,
+    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none; }
+    .group_checkbox .container_questao_checkbox .container input:checked ~ .checkmark:after,
+    .container_grupo_checkbox .container_questao_checkbox .container input:checked ~ .checkmark:after,
+    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .container input:checked ~ .checkmark:after {
+      display: block; }
+    .group_checkbox .container_questao_checkbox .container .checkmark:after,
+    .container_grupo_checkbox .container_questao_checkbox .container .checkmark:after,
+    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .container .checkmark:after {
+      top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white; }
+    .group_checkbox .container_questao_checkbox .textradio_inline,
+    .container_grupo_checkbox .container_questao_checkbox .textradio_inline,
+    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .textradio_inline {
+      font-family: 'Noticia Text';
+      font-weight: 400;
+      font-size: 16px;
+      color: #000000;
+      text-align: start;
+      margin: 0; }
+
+.container_grupo_checkbox_lado_a_lado .container_questao_checkbox {
+  display: inline-block;
+  margin-top: 16px;
+  margin-right: 1rem; }
 
 .container_grupo_radio {
   min-width: 50%;

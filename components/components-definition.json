@@ -997,143 +997,6 @@
       "properties": []
     },
     {
-      "name": "container_grupo_checkbox",
-      "icon": "icons/components/container.svg",
-      "selectionMethod": "handle",
-      "allowNesting": "one-level",
-      "label": {
-        "key": "COMPONENT_CHECKBOX_LABEL"
-      },
-      "properties": [
-        "style",
-        "position",
-        "background-color"
-      ],
-      "restrictChildren": {
-        "container_grupo_checkbox_1": {},
-        "container_grupo_checkbox_2": {},
-        "container_grupo_checkbox_3": {},
-        "container_grupo_checkbox_4": {},
-        "container_grupo_checkbox_5": {}
-      },
-      "directiveOptions": {
-        "main": {
-          "groups": [
-            {
-              "label": "Checkbox",
-              "name": "Checkbox",
-              "components": [
-                "container_grupo_checkbox_1",
-                "container_grupo_checkbox_2",
-                "container_grupo_checkbox_3",
-                "container_grupo_checkbox_4",
-                "container_grupo_checkbox_5"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "name": "container_grupo_checkbox_lado_a_lado",
-      "icon": "icons/components/container.svg",
-      "selectionMethod": "handle",
-      "allowNesting": "one-level",
-      "label": {
-        "key": "COMPONENT_CHECKBOX_SIDE_LABEL"
-      },
-      "properties": [
-        "style",
-        "position",
-        "background-color",
-        "text-align"
-      ],
-      "restrictChildren": {
-        "container_grupo_checkbox_1": {},
-        "container_grupo_checkbox_2": {},
-        "container_grupo_checkbox_3": {},
-        "container_grupo_checkbox_4": {},
-        "container_grupo_checkbox_5": {}
-      },
-      "directiveOptions": {
-        "main": {
-          "groups": [
-            {
-              "label": "Checkbox",
-              "name": "Checkbox",
-              "components": [
-                "container_grupo_checkbox_1",
-                "container_grupo_checkbox_2",
-                "container_grupo_checkbox_3",
-                "container_grupo_checkbox_4",
-                "container_grupo_checkbox_5"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "name": "container_grupo_checkbox_1",
-      "icon": "icons/components/container.svg",
-      "selectionMethod": "handle",
-      "label": "Checkbox 1",
-      "properties": [
-        "style",
-        "text-align",
-        "letter-spacing",
-        "line-height"
-      ]
-    },
-    {
-      "name": "container_grupo_checkbox_2",
-      "icon": "icons/components/container.svg",
-      "selectionMethod": "handle",
-      "label": "Checkbox 2",
-      "properties": [
-        "style",
-        "text-align",
-        "letter-spacing",
-        "line-height"
-      ]
-    },
-    {
-      "name": "container_grupo_checkbox_3",
-      "icon": "icons/components/container.svg",
-      "selectionMethod": "handle",
-      "label": "Checkbox 3",
-      "properties": [
-        "style",
-        "text-align",
-        "letter-spacing",
-        "line-height"
-      ]
-    },
-    {
-      "name": "container_grupo_checkbox_4",
-      "icon": "icons/components/container.svg",
-      "selectionMethod": "handle",
-      "label": "Checkbox 4",
-      "properties": [
-        "style",
-        "text-align",
-        "letter-spacing",
-        "line-height"
-      ]
-    },
-    {
-      "name": "container_grupo_checkbox_5",
-      "icon": "icons/components/container.svg",
-      "selectionMethod": "handle",
-      "label": "Checkbox 5",
-      "properties": [
-        "style",
-        "text-align",
-        "letter-spacing",
-        "line-height"
-      ]
-    },
-    {
       "name": "container_coluna_falsa",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
@@ -1382,6 +1245,198 @@
       ]
     },
     {
+      "name": "container_grupo_checkbox",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "one-level",
+      "label": {
+        "key": "COMPONENT_CHECKBOX_LABEL"
+      },
+      "properties": [
+        "style",
+        "position",
+        "background-color"
+      ],
+      "restrictChildren": {
+        "container_grupo_checkbox_1": {},
+        "container_grupo_checkbox_2": {},
+        "container_grupo_checkbox_3": {},
+        "container_grupo_checkbox_4": {},
+        "container_grupo_checkbox_5": {}
+      },
+      "directiveOptions": {
+        "main": {
+          "groups": [
+            {
+              "label": "Checkbox",
+              "name": "Checkbox",
+              "components": [
+                "container_grupo_checkbox_1",
+                "container_grupo_checkbox_2",
+                "container_grupo_checkbox_3",
+                "container_grupo_checkbox_4",
+                "container_grupo_checkbox_5"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "container_grupo_checkbox_lado_a_lado",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "one-level",
+      "label": {
+        "key": "COMPONENT_CHECKBOX_SIDE_LABEL"
+      },
+      "properties": [
+        "style",
+        "position",
+        "background-color",
+        "text-align"
+      ],
+      "restrictChildren": {
+        "container_grupo_checkbox_1": {},
+        "container_grupo_checkbox_2": {},
+        "container_grupo_checkbox_3": {},
+        "container_grupo_checkbox_4": {},
+        "container_grupo_checkbox_5": {}
+      },
+      "directiveOptions": {
+        "main": {
+          "groups": [
+            {
+              "label": "Checkbox",
+              "name": "Checkbox",
+              "components": [
+                "container_grupo_checkbox_1",
+                "container_grupo_checkbox_2",
+                "container_grupo_checkbox_3",
+                "container_grupo_checkbox_4",
+                "container_grupo_checkbox_5"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "container_grupo_checkbox_1",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "label": "Checkbox 1",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "checkbox1": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "container_grupo_checkbox_2",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "label": "Checkbox 2",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "checkbox1": {
+          "stripStylingOnPaste": true
+        },
+        "checkbox2": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "container_grupo_checkbox_3",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "label": "Checkbox 3",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "checkbox1": {
+          "stripStylingOnPaste": true
+        },
+        "checkbox2": {
+          "stripStylingOnPaste": true
+        },
+        "checkbox3": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "container_grupo_checkbox_4",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "label": "Checkbox 4",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "checkbox1": {
+          "stripStylingOnPaste": true
+        },
+        "checkbox2": {
+          "stripStylingOnPaste": true
+        },
+        "checkbox3": {
+          "stripStylingOnPaste": true
+        },
+        "checkbox4": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "container_grupo_checkbox_5",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "label": "Checkbox 5",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "checkbox1": {
+          "stripStylingOnPaste": true
+        },
+        "checkbox2": {
+          "stripStylingOnPaste": true
+        },
+        "checkbox3": {
+          "stripStylingOnPaste": true
+        },
+        "checkbox4": {
+          "stripStylingOnPaste": true
+        },
+        "checkbox5": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
       "name": "container_grupo_radio_linha",
       "icon": "icons/components/container.svg",
       "label": "Container Grupo Radio em Linha",
@@ -1456,7 +1511,15 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "radio1": {
+          "stripStylingOnPaste": true
+        },
+        "radio2": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "container_grupo_radio_3",
@@ -1468,7 +1531,18 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "radio1": {
+          "stripStylingOnPaste": true
+        },
+        "radio2": {
+          "stripStylingOnPaste": true
+        },
+        "radio3": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "container_grupo_radio_4",
@@ -1480,7 +1554,21 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "radio1": {
+          "stripStylingOnPaste": true
+        },
+        "radio2": {
+          "stripStylingOnPaste": true
+        },
+        "radio3": {
+          "stripStylingOnPaste": true
+        },
+        "radio4": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "container_grupo_radio_5",
@@ -1492,7 +1580,24 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions": {
+        "radio1": {
+          "stripStylingOnPaste": true
+        },
+        "radio2": {
+          "stripStylingOnPaste": true
+        },
+        "radio3": {
+          "stripStylingOnPaste": true
+        },
+        "radio4": {
+          "stripStylingOnPaste": true
+        },
+        "radio5": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "container_take_a_tip",
