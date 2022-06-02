@@ -181,7 +181,8 @@ span[style="text-decoration: line-through;"] {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.lg-actions .lg-next, .lg-actions .lg-prev {
+.lg-actions .lg-next,
+.lg-actions .lg-prev {
   background-color: rgba(0, 0, 0, 0.45);
   border-radius: 2px;
   color: #999;
@@ -197,11 +198,13 @@ span[style="text-decoration: line-through;"] {
   border: none;
   background-color: transparent; }
 
-.lg-actions .lg-next.disabled, .lg-actions .lg-prev.disabled {
+.lg-actions .lg-next.disabled,
+.lg-actions .lg-prev.disabled {
   pointer-events: none;
   opacity: 0.5; }
 
-.lg-actions .lg-next:hover, .lg-actions .lg-prev:hover {
+.lg-actions .lg-next:hover,
+.lg-actions .lg-prev:hover {
   color: #FFF; }
 
 .lg-actions .lg-next {
@@ -357,7 +360,9 @@ span[style="text-decoration: line-through;"] {
   padding-top: 12px;
   vertical-align: middle; }
 
-.lg-toolbar, .lg-prev, .lg-next {
+.lg-toolbar,
+.lg-prev,
+.lg-next {
   opacity: 1;
   -webkit-transition: -webkit-transform 0.35s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.35s cubic-bezier(0, 0, 0.25, 1) 0s, color 0.2s linear;
   -moz-transition: -moz-transform 0.35s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.35s cubic-bezier(0, 0, 0.25, 1) 0s, color 0.2s linear;
@@ -455,7 +460,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     -o-transition: border-color 0.25s ease;
     transition: border-color 0.25s ease; } }
 
-.lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover {
+.lg-outer .lg-thumb-item.active,
+.lg-outer .lg-thumb-item:hover {
   border-color: #a90707; }
 
 .lg-outer .lg-thumb-item img {
@@ -567,7 +573,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .lg-outer .lg-has-video .lg-video-object {
   visibility: hidden; }
 
-.lg-outer .lg-has-video.lg-video-playing .lg-object, .lg-outer .lg-has-video.lg-video-playing .lg-video-play {
+.lg-outer .lg-has-video.lg-video-playing .lg-object,
+.lg-outer .lg-has-video.lg-video-playing .lg-video-play {
   display: none; }
 
 .lg-outer .lg-has-video.lg-video-playing .lg-video-object {
@@ -604,7 +611,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .lg-show-autoplay .lg-autoplay-button:after {
   content: "\e01a"; }
 
-.lg-outer.lg-css3.lg-zoom-dragging .lg-item.lg-complete.lg-zoomable .lg-img-wrap, .lg-outer.lg-css3.lg-zoom-dragging .lg-item.lg-complete.lg-zoomable .lg-image {
+.lg-outer.lg-css3.lg-zoom-dragging .lg-item.lg-complete.lg-zoomable .lg-img-wrap,
+.lg-outer.lg-css3.lg-zoom-dragging .lg-item.lg-complete.lg-zoomable .lg-image {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
@@ -725,7 +733,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   transition: box-shadow 0.3s ease 0s;
   width: 12px; }
 
-.lg-outer .lg-pager:hover, .lg-outer .lg-pager:focus {
+.lg-outer .lg-pager:hover,
+.lg-outer .lg-pager:focus {
   box-shadow: 0 0 0 8px white inset; }
 
 .lg-outer .lg-caret {
@@ -762,7 +771,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   -o-transition: visibility 0s linear 0.18s, opacity 0.18s linear 0s;
   transition: visibility 0s linear 0.18s, opacity 0.18s linear 0s; }
 
-.lg-outer.lg-dropdown-active .lg-dropdown, .lg-outer.lg-dropdown-active #lg-dropdown-overlay {
+.lg-outer.lg-dropdown-active .lg-dropdown,
+.lg-outer.lg-dropdown-active #lg-dropdown-overlay {
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
   -moz-transform: translate3d(0, 0px, 0);
@@ -813,7 +823,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .lg-outer .lg-dropdown > li:last-child {
   margin-bottom: 0px; }
 
-.lg-outer .lg-dropdown > li:hover a, .lg-outer .lg-dropdown > li:hover .lg-icon {
+.lg-outer .lg-dropdown > li:hover a,
+.lg-outer .lg-dropdown > li:hover .lg-icon {
   color: #333; }
 
 .lg-outer .lg-dropdown a {
@@ -821,7 +832,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   display: block;
   white-space: pre;
   padding: 4px 12px;
-  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px; }
 
 .lg-outer .lg-dropdown a:hover {
@@ -893,7 +904,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .lg-rotate-right:after {
   content: "\e901"; }
 
-.lg-icon.lg-flip-hor, .lg-icon.lg-flip-ver {
+.lg-icon.lg-flip-hor,
+.lg-icon.lg-flip-ver {
   font-size: 26px; }
 
 .lg-flip-hor:after {
@@ -905,7 +917,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .lg-group {
   *zoom: 1; }
 
-.lg-group:before, .lg-group:after {
+.lg-group:before,
+.lg-group:after {
   display: table;
   content: "";
   line-height: 0; }
@@ -934,13 +947,17 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .lg-outer.lg-visible {
   opacity: 1; }
 
-.lg-outer.lg-css3 .lg-item.lg-prev-slide, .lg-outer.lg-css3 .lg-item.lg-next-slide, .lg-outer.lg-css3 .lg-item.lg-current {
+.lg-outer.lg-css3 .lg-item.lg-prev-slide,
+.lg-outer.lg-css3 .lg-item.lg-next-slide,
+.lg-outer.lg-css3 .lg-item.lg-current {
   -webkit-transition-duration: inherit !important;
   transition-duration: inherit !important;
   -webkit-transition-timing-function: inherit !important;
   transition-timing-function: inherit !important; }
 
-.lg-outer.lg-css3.lg-dragging .lg-item.lg-prev-slide, .lg-outer.lg-css3.lg-dragging .lg-item.lg-next-slide, .lg-outer.lg-css3.lg-dragging .lg-item.lg-current {
+.lg-outer.lg-css3.lg-dragging .lg-item.lg-prev-slide,
+.lg-outer.lg-css3.lg-dragging .lg-item.lg-next-slide,
+.lg-outer.lg-css3.lg-dragging .lg-item.lg-current {
   -webkit-transition-duration: 0s !important;
   transition-duration: 0s !important;
   opacity: 1; }
@@ -982,20 +999,24 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   background: url("../img/loading.gif") no-repeat scroll center center transparent;
   display: none !important; }
 
-.lg-outer.lg-css3 .lg-prev-slide, .lg-outer.lg-css3 .lg-current, .lg-outer.lg-css3 .lg-next-slide {
+.lg-outer.lg-css3 .lg-prev-slide,
+.lg-outer.lg-css3 .lg-current,
+.lg-outer.lg-css3 .lg-next-slide {
   display: inline-block !important; }
 
 .lg-outer.lg-css .lg-current {
   display: inline-block !important; }
 
-.lg-outer .lg-item, .lg-outer .lg-img-wrap {
+.lg-outer .lg-item,
+.lg-outer .lg-img-wrap {
   display: inline-block;
   text-align: center;
   position: absolute;
   width: 100%;
   height: 100%; }
 
-.lg-outer .lg-item:before, .lg-outer .lg-img-wrap:before {
+.lg-outer .lg-item:before,
+.lg-outer .lg-img-wrap:before {
   content: "";
   display: inline-block;
   height: 50%;
@@ -1024,13 +1045,15 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   width: auto !important;
   height: auto !important; }
 
-.lg-outer.lg-show-after-load .lg-item .lg-object, .lg-outer.lg-show-after-load .lg-item .lg-video-play {
+.lg-outer.lg-show-after-load .lg-item .lg-object,
+.lg-outer.lg-show-after-load .lg-item .lg-video-play {
   opacity: 0;
   -webkit-transition: opacity 0.15s ease 0s;
   -o-transition: opacity 0.15s ease 0s;
   transition: opacity 0.15s ease 0s; }
 
-.lg-outer.lg-show-after-load .lg-item.lg-complete .lg-object, .lg-outer.lg-show-after-load .lg-item.lg-complete .lg-video-play {
+.lg-outer.lg-show-after-load .lg-item.lg-complete .lg-object,
+.lg-outer.lg-show-after-load .lg-item.lg-complete .lg-video-play {
   opacity: 1; }
 
 .lg-outer .lg-empty-html {
@@ -1055,7 +1078,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .lg-backdrop.in {
   opacity: 1; }
 
-.lg-css3.lg-no-trans .lg-prev-slide, .lg-css3.lg-no-trans .lg-next-slide, .lg-css3.lg-no-trans .lg-current {
+.lg-css3.lg-no-trans .lg-prev-slide,
+.lg-css3.lg-no-trans .lg-next-slide,
+.lg-css3.lg-no-trans .lg-current {
   -webkit-transition: none 0s ease 0s !important;
   -moz-transition: none 0s ease 0s !important;
   -o-transition: none 0s ease 0s !important;
@@ -1077,7 +1102,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .lg-css3.lg-fade .lg-item.lg-current {
   opacity: 1; }
 
-.lg-css3.lg-fade .lg-item.lg-prev-slide, .lg-css3.lg-fade .lg-item.lg-next-slide, .lg-css3.lg-fade .lg-item.lg-current {
+.lg-css3.lg-fade .lg-item.lg-prev-slide,
+.lg-css3.lg-fade .lg-item.lg-next-slide,
+.lg-css3.lg-fade .lg-item.lg-current {
   -webkit-transition: opacity 0.1s ease 0s;
   -moz-transition: opacity 0.1s ease 0s;
   -o-transition: opacity 0.1s ease 0s;
@@ -1099,7 +1126,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   transform: translate3d(0, 0, 0);
   opacity: 1; }
 
-.lg-css3.lg-slide.lg-use-css3 .lg-item.lg-prev-slide, .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-next-slide, .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
+.lg-css3.lg-slide.lg-use-css3 .lg-item.lg-prev-slide,
+.lg-css3.lg-slide.lg-use-css3 .lg-item.lg-next-slide,
+.lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
   -webkit-transition: -webkit-transform 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.1s ease 0s;
   -moz-transition: -moz-transform 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.1s ease 0s;
   -o-transition: -o-transform 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.1s ease 0s;
@@ -1120,7 +1149,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   left: 0;
   opacity: 1; }
 
-.lg-css3.lg-slide.lg-use-left .lg-item.lg-prev-slide, .lg-css3.lg-slide.lg-use-left .lg-item.lg-next-slide, .lg-css3.lg-slide.lg-use-left .lg-item.lg-current {
+.lg-css3.lg-slide.lg-use-left .lg-item.lg-prev-slide,
+.lg-css3.lg-slide.lg-use-left .lg-item.lg-next-slide,
+.lg-css3.lg-slide.lg-use-left .lg-item.lg-current {
   -webkit-transition: left 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.1s ease 0s;
   -moz-transition: left 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.1s ease 0s;
   -o-transition: left 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.1s ease 0s;
@@ -16001,3 +16032,827 @@ blockquote {
   color: #000;
   font-family: "Proxima Nova Lt" !important;
   margin: 16px 0px 16px 0px; }
+
+.CSSgal {
+  position: relative;
+  overflow: hidden;
+  border-radius: 7px;
+  min-height: 400px;
+  height: 600px;
+  /* Or set a fixed height */ }
+  .CSSgal.artes .prevNext a {
+    background-color: #3F1F71; }
+  .CSSgal.artes .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #3F1F71;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.artes .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #3F1F71;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_portuguesa .prevNext a {
+    background-color: #96171a; }
+  .CSSgal.lingua_portuguesa .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #96171a;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_portuguesa .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #96171a;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.matematica .prevNext a {
+    background-color: #033878; }
+  .CSSgal.matematica .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #033878;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.matematica .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #033878;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_inglesa .prevNext a {
+    background-color: #015F5B; }
+  .CSSgal.lingua_inglesa .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #015F5B;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_inglesa .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #015F5B;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+
+/* carroussel */
+.flex-direction-collumn {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; }
+
+.CSSgal .carroussel-box {
+  /*   height: 700px; */
+  white-space: nowrap;
+  font-size: 0;
+  transition: 0.8s; }
+
+.slider-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  color: black;
+  text-align: left;
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 2px; }
+
+.slider-credit {
+  font-family: "Montserrat", sans-serif;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  color: black;
+  text-align: left;
+  font-size: 10px;
+  margin-top: 4px;
+  margin-bottom: 2px; }
+
+.carroussel-content {
+  width: 100%;
+  height: 100%; }
+
+.slider-border-section {
+  height: fit-content !important;
+  border-bottom: 2px solid grey; }
+
+/* SLIDES */
+.CSSgal .carroussel-box > * {
+  font-size: 1rem;
+  /*     display: inline-flex; */
+  white-space: normal;
+  vertical-align: top;
+  height: 100%;
+  width: 100%;
+  background: none 50% no-repeat;
+  background-size: cover; }
+
+/* PREV/NEXT, CONTAINERS & ANCHORS */
+.CSSgal .prevNext {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  width: 100%;
+  height: 0; }
+
+.CSSgal .prevNext > div + div {
+  visibility: hidden;
+  /* Hide all but first P/N container */ }
+
+.CSSgal .prevNext a {
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.5);
+  background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_mat_cap08_abertura/slideshow-left-arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 11px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  line-height: 60px;
+  /* If you want to place numbers */
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 25px;
+  top: -40px; }
+
+.CSSgal .prevNext a:hover {
+  opacity: 0.7; }
+
+.CSSgal .prevNext a + a {
+  left: auto;
+  right: 25px;
+  background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_mat_cap08_abertura/slideshow-right-arrow.png);
+  background-size: 11px; }
+
+/* NAVIGATION BUTTONS */
+/* ALL: */
+.CSSgal > s:target ~ .bullets > * {
+  background: rgba(255, 255, 255, 0.5); }
+
+/* ACTIVE */
+#s1:target ~ .bullets > *:nth-child(1) {
+  background: white; }
+
+#s2:target ~ .bullets > *:nth-child(2) {
+  background: white; }
+
+#s3:target ~ .bullets > *:nth-child(3) {
+  background: white; }
+
+#s4:target ~ .bullets > *:nth-child(4) {
+  background: white; }
+
+/* More slides? Add here more rules */
+/* PREV/NEXT CONTAINERS VISIBILITY */
+/* ALL: */
+.CSSgal > s:target ~ .prevNext > * {
+  visibility: hidden; }
+
+/* ACTIVE: */
+#s1:target ~ .prevNext > *:nth-child(1) {
+  visibility: visible; }
+
+#s2:target ~ .prevNext > *:nth-child(2) {
+  visibility: visible; }
+
+#s3:target ~ .prevNext > *:nth-child(3) {
+  visibility: visible; }
+
+#s4:target ~ .prevNext > *:nth-child(4) {
+  visibility: visible; }
+
+/* More slides? Add here more rules */
+/* carroussel ANIMATION POSITIONS */
+#s1:target ~ .carroussel-box {
+  transform: translateX(0%);
+  -webkit-transform: translateX(0%); }
+
+#s2:target ~ .carroussel-box {
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%); }
+
+#s3:target ~ .carroussel-box {
+  transform: translateX(-200%);
+  -webkit-transform: translateX(-200%); }
+
+#s4:target ~ .carroussel-box {
+  transform: translateX(-300%);
+  -webkit-transform: translateX(-300%); }
+
+/* More slides? Add here more rules */
+/* YOU'RE THE DESIGNER! 
+____________________
+All above was mainly to get it working :)
+CSSgal CUSTOM STYLES / OVERRIDES HERE: */
+#s1,
+#s2,
+#s3,
+#s4 {
+  position: absolute;
+  top: -20vh; }
+
+.CSSgal {
+  color: #fff;
+  text-align: center; }
+
+.CSSgal .carroussel-box h2 {
+  margin-top: 40vh;
+  font-weight: 200;
+  letter-spacing: -0.06em;
+  word-spacing: 0.2em;
+  font-size: 3em; }
+
+.CSSgal a {
+  border-radius: 50%;
+  margin: 0 3px;
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none; }
+
+.slide-content .boxe-arrow-orange {
+  gap: .5rem; }
+
+.slide-content img {
+  max-width: 100%;
+  border-radius: 7px; }
+
+.slide-content .boxe-arrow-orange img {
+  width: 16px;
+  height: 16px;
+  transform: rotate(-90deg); }
+
+.CSSgal {
+  position: relative;
+  overflow: hidden;
+  border-radius: 7px;
+  min-height: 400px;
+  /* Or set a fixed height */ }
+  .CSSgal.artes .prevNext a {
+    background-color: #3F1F71; }
+  .CSSgal.artes .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #3F1F71;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.artes .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #3F1F71;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_portuguesa .prevNext a {
+    background-color: #96171a; }
+  .CSSgal.lingua_portuguesa .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #96171a;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_portuguesa .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #96171a;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.matematica .prevNext a {
+    background-color: #033878; }
+  .CSSgal.matematica .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #033878;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.matematica .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #033878;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_inglesa .prevNext a {
+    background-color: #015F5B; }
+  .CSSgal.lingua_inglesa .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #015F5B;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_inglesa .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #015F5B;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+
+/* carroussel */
+.CSSgal .carroussel-box {
+  /*   height: 700px; */
+  white-space: nowrap;
+  font-size: 0;
+  transition: 0.8s; }
+
+.slider-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  color: black;
+  text-align: left;
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 2px; }
+
+.slider-credit {
+  font-family: "Montserrat", sans-serif;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  color: black;
+  text-align: left;
+  font-size: 10px;
+  margin-top: 4px;
+  margin-bottom: 2px; }
+
+.carroussel-content {
+  width: 100%;
+  height: 100%; }
+
+/* SLIDES */
+.CSSgal .carroussel-box > * {
+  font-size: 1rem;
+  /*     display: inline-flex; */
+  white-space: normal;
+  vertical-align: top;
+  height: 100%;
+  width: 100%;
+  background: none 50% no-repeat;
+  background-size: cover; }
+
+/* PREV/NEXT, CONTAINERS & ANCHORS */
+.CSSgal .prevNext {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  width: 100%;
+  height: 0; }
+
+.CSSgal .prevNext > div + div {
+  visibility: hidden;
+  /* Hide all but first P/N container */ }
+
+.CSSgal .prevNext a {
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_mat_cap08_abertura/slideshow-left-arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 11px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  line-height: 60px;
+  /* If you want to place numbers */
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 25px;
+  top: -40px; }
+
+.CSSgal .prevNext a:hover {
+  opacity: 0.7; }
+
+.CSSgal .prevNext a + a {
+  left: auto;
+  right: 25px;
+  background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_mat_cap08_abertura/slideshow-right-arrow.png);
+  background-size: 11px; }
+
+/* NAVIGATION BUTTONS */
+/* ALL: */
+.CSSgal > s:target ~ .bullets > * {
+  background: rgba(255, 255, 255, 0.5); }
+
+/* ACTIVE */
+#s1:target ~ .bullets > *:nth-child(1) {
+  background: white; }
+
+#s2:target ~ .bullets > *:nth-child(2) {
+  background: white; }
+
+#s3:target ~ .bullets > *:nth-child(3) {
+  background: white; }
+
+#s4:target ~ .bullets > *:nth-child(4) {
+  background: white; }
+
+/* More slides? Add here more rules */
+/* PREV/NEXT CONTAINERS VISIBILITY */
+/* ALL: */
+.CSSgal > s:target ~ .prevNext > * {
+  visibility: hidden; }
+
+/* ACTIVE: */
+#s1:target ~ .prevNext > *:nth-child(1) {
+  visibility: visible; }
+
+#s2:target ~ .prevNext > *:nth-child(2) {
+  visibility: visible; }
+
+#s3:target ~ .prevNext > *:nth-child(3) {
+  visibility: visible; }
+
+#s4:target ~ .prevNext > *:nth-child(4) {
+  visibility: visible; }
+
+/* More slides? Add here more rules */
+/* carroussel ANIMATION POSITIONS */
+#s1:target ~ .carroussel-box {
+  transform: translateX(0%);
+  -webkit-transform: translateX(0%); }
+
+#s2:target ~ .carroussel-box {
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%); }
+
+#s3:target ~ .carroussel-box {
+  transform: translateX(-200%);
+  -webkit-transform: translateX(-200%); }
+
+#s4:target ~ .carroussel-box {
+  transform: translateX(-300%);
+  -webkit-transform: translateX(-300%); }
+
+/* More slides? Add here more rules */
+/* YOU'RE THE DESIGNER! 
+____________________
+All above was mainly to get it working :)
+CSSgal CUSTOM STYLES / OVERRIDES HERE: */
+#s1,
+#s2,
+#s3,
+#s4 {
+  position: absolute;
+  top: -20vh; }
+
+.CSSgal {
+  color: #fff;
+  text-align: center; }
+
+.CSSgal .carroussel-box h2 {
+  margin-top: 40vh;
+  font-weight: 200;
+  letter-spacing: -0.06em;
+  word-spacing: 0.2em;
+  font-size: 3em; }
+
+.CSSgal a {
+  border-radius: 50%;
+  margin: 0 3px;
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none; }
+
+.slide-content .boxe-arrow-orange {
+  gap: .5rem; }
+
+.slide-content img {
+  max-width: 100%;
+  border-radius: 7px; }
+
+.slide-content .boxe-arrow-orange img {
+  width: 16px;
+  height: 16px;
+  transform: rotate(-90deg); }
+
+.CSSgal {
+  position: relative;
+  overflow: hidden;
+  border-radius: 7px;
+  min-height: 400px;
+  /* Or set a fixed height */ }
+  .CSSgal.artes .prevNext a {
+    background-color: #3F1F71; }
+  .CSSgal.artes .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #3F1F71;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.artes .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #3F1F71;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_portuguesa .prevNext a {
+    background-color: #96171a; }
+  .CSSgal.lingua_portuguesa .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #96171a;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_portuguesa .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #96171a;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.matematica .prevNext a {
+    background-color: #033878; }
+  .CSSgal.matematica .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #033878;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.matematica .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #033878;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_inglesa .prevNext a {
+    background-color: #015F5B; }
+  .CSSgal.lingua_inglesa .slider-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #015F5B;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+  .CSSgal.lingua_inglesa .slider-credit {
+    font-family: "Montserrat", sans-serif;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: #015F5B;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px; }
+
+/* carroussel */
+.CSSgal .carroussel-box {
+  /*     height: 700px;
+ */
+  white-space: nowrap;
+  font-size: 0;
+  transition: 0.8s; }
+
+.slider-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  color: black;
+  text-align: left;
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 2px; }
+
+.slider-credit {
+  font-family: "Montserrat", sans-serif;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  color: black;
+  text-align: left;
+  font-size: 10px;
+  margin-top: 4px;
+  margin-bottom: 2px; }
+
+.carroussel-content {
+  width: 100%;
+  height: 100%; }
+
+/* SLIDES */
+.CSSgal .carroussel-box > * {
+  font-size: 1rem;
+  /*     display: inline-flex; */
+  white-space: normal;
+  vertical-align: top;
+  height: 100%;
+  width: 100%;
+  background: none 50% no-repeat;
+  background-size: cover; }
+
+/* PREV/NEXT, CONTAINERS & ANCHORS */
+.CSSgal .prevNext {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  width: 100%;
+  height: 0; }
+
+.CSSgal .prevNext > div + div {
+  visibility: hidden;
+  /* Hide all but first P/N container */ }
+
+.CSSgal .prevNext a {
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_mat_cap08_abertura/slideshow-left-arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 11px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  line-height: 60px;
+  /* If you want to place numbers */
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 25px;
+  top: -40px; }
+
+.CSSgal .prevNext a:hover {
+  opacity: 0.7; }
+
+.CSSgal .prevNext a + a {
+  left: auto;
+  right: 25px;
+  background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_mat_cap08_abertura/slideshow-right-arrow.png);
+  background-size: 11px; }
+
+/* NAVIGATION BUTTONS */
+/* ALL: */
+.CSSgal > s:target ~ .bullets > * {
+  background: rgba(255, 255, 255, 0.5); }
+
+/* ACTIVE */
+#s1:target ~ .bullets > *:nth-child(1) {
+  background: white; }
+
+#s2:target ~ .bullets > *:nth-child(2) {
+  background: white; }
+
+#s3:target ~ .bullets > *:nth-child(3) {
+  background: white; }
+
+#s4:target ~ .bullets > *:nth-child(4) {
+  background: white; }
+
+/* More slides? Add here more rules */
+/* PREV/NEXT CONTAINERS VISIBILITY */
+/* ALL: */
+.CSSgal > s:target ~ .prevNext > * {
+  visibility: hidden; }
+
+/* ACTIVE: */
+#s1:target ~ .prevNext > *:nth-child(1) {
+  visibility: visible; }
+
+#s2:target ~ .prevNext > *:nth-child(2) {
+  visibility: visible; }
+
+#s3:target ~ .prevNext > *:nth-child(3) {
+  visibility: visible; }
+
+#s4:target ~ .prevNext > *:nth-child(4) {
+  visibility: visible; }
+
+/* More slides? Add here more rules */
+/* carroussel ANIMATION POSITIONS */
+#s1:target ~ .carroussel-box {
+  transform: translateX(0%);
+  -webkit-transform: translateX(0%); }
+
+#s2:target ~ .carroussel-box {
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%); }
+
+#s3:target ~ .carroussel-box {
+  transform: translateX(-200%);
+  -webkit-transform: translateX(-200%); }
+
+#s4:target ~ .carroussel-box {
+  transform: translateX(-300%);
+  -webkit-transform: translateX(-300%); }
+
+/* More slides? Add here more rules */
+/* YOU'RE THE DESIGNER! 
+____________________
+All above was mainly to get it working :)
+CSSgal CUSTOM STYLES / OVERRIDES HERE: */
+#s1,
+#s2,
+#s3,
+#s4 {
+  position: absolute;
+  top: -20vh; }
+
+.CSSgal {
+  color: #fff;
+  text-align: center; }
+
+.CSSgal .carroussel-box h2 {
+  margin-top: 40vh;
+  font-weight: 200;
+  letter-spacing: -0.06em;
+  word-spacing: 0.2em;
+  font-size: 3em; }
+
+.CSSgal a {
+  border-radius: 50%;
+  margin: 0 3px;
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none; }
+
+.slide-content .boxe-arrow-orange {
+  gap: .5rem; }
+
+.slide-content img {
+  max-width: 100%;
+  border-radius: 7px; }
+
+.slide-content .boxe-arrow-orange img {
+  width: 16px;
+  height: 16px;
+  transform: rotate(-90deg); }
