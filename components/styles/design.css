@@ -13048,6 +13048,78 @@ blockquote {
     .css_06_boxe_watch_out.sociologia label:after {
       background-image: url(img/css_06_boxe_fique_ligado_sociologia.png); }
 
+.body-book.artes {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_ART.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.biologia {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_BIO.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.filosofia {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_FIL.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.fisica {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_FIS.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.geografia {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_GEO.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.historia {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_HIS.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.lingua_inglesa {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_ING.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.lingua_portuguesa {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_POR.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.matematica {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_MAT.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.producao_de_texto {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_PXT.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.quimica {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_QUI.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.sociologia {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_SOC.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
 .css_06_container_boxe_watch_out {
   float: left;
   position: relative;

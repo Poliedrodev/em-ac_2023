@@ -3114,6 +3114,16 @@
             ]
         },
         {
+            "name": "background",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "allowNesting": "one-level",
+            "label": "Background Livro",
+            "properties": [
+              "style_lumen_mais"
+            ]
+          },
+        {
             "name": "css_06_container_boxe_watch_out",
             "icon": "icons/components/icon_06_boxe_item.svg",
             "label": "Container Boxe Watch Out",
@@ -4412,6 +4422,7 @@
             "label": "Containers",
             "name": "containers",
             "components": [
+                "background",
                 "container",
                 "container_slideshow_boxe",
                 "container_coluna_falsa",
@@ -4924,6 +4935,59 @@
             },
             "dataType": "styles"
         },
+        {
+            "name": "style_lumen_mais",
+            "label": {
+              "key": "PROPERTY_VARIANT_LABEL"
+            },
+            "control": {
+              "type": "select",
+              "options": [
+                {
+                  "caption": {
+                    "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+                  }
+                },
+                {
+                  "caption": {
+                    "key": "PROPERTY_VARIANT_STYLE_OPTION",
+                    "values": {
+                      "0": "Artes"
+                    }
+                  },
+                  "value": "artes"
+                },
+                {
+                  "caption": {
+                    "key": "PROPERTY_VARIANT_STYLE_OPTION",
+                    "values": {
+                      "0": "Língua Inglesa"
+                    }
+                  },
+                  "value": "lingua_inglesa"
+                },
+                {
+                  "caption": {
+                    "key": "PROPERTY_VARIANT_STYLE_OPTION",
+                    "values": {
+                      "0": "Língua Portuguesa"
+                    }
+                  },
+                  "value": "lingua_portuguesa"
+                },
+                {
+                  "caption": {
+                    "key": "PROPERTY_VARIANT_STYLE_OPTION",
+                    "values": {
+                      "0": "Matemática"
+                    }
+                  },
+                  "value": "matematica"
+                }
+              ]
+            },
+            "dataType": "styles"
+          },
         {
             "name": "fixed-background",
             "label": {
