@@ -51,6 +51,21 @@
             ]
         },
         {
+            "name": "audio_em-ac_2023",
+            "icon": "icons/components/icon_00_arte.svg",
+            "label": "Componente Áudio Lumen Mais",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                {
+                    "name": "embed-code",
+                    "directiveKey": "html"
+                }
+            ]
+        },
+        {
             "name": "image_popup_center",
             "icon": "icons/components/image.svg",
             "label": "Imagem Popup",
@@ -103,6 +118,28 @@
                     "name": "edit-image",
                     "directiveKey": "image"
                 }
+            ]
+        },
+        {
+            "name": "video_em-ac_2023",
+            "icon": "icons/components/video.svg",
+            "label": "VIDEO_POPUP_CENTER_LUMEN_MAIS",
+            "selectionMethod": "handle",
+            "properties": [
+                {
+                    "name": "fitting",
+                    "defaultValue": "_fit-frame-to-content"
+                },
+                "position",
+                "style",
+                {
+                    "name": "embed-code",
+                    "directiveKey": "html"
+                },
+                "inside-caption",
+                "text-align",
+                "letter-spacing",
+                "line-height"
             ]
         },
         {
@@ -676,6 +713,17 @@
             ]
         },
         {
+            "name": "secao_topo_para_aprofundar",
+            "icon": "icons/components/icon_02_texto_destaque.svg",
+            "label": "Topo Para Aprofundar",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ]
+        },
+        {
             "name": "secao_para_aprofundar",
             "icon": "icons/components/icon_02_texto_destaque.svg",
             "label": "Seção Para Aprofundar",
@@ -863,6 +911,119 @@
                 "text-align",
                 "letter-spacing",
                 "line-height"
+            ],
+            "restrictChildren": {
+                "image": {
+                    "withContent": "image"
+                }
+            }
+        },
+        {
+            "name": "container",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "allowNesting": "one-level",
+            "label": {
+                "key": "COMPONENT_CONTAINER_LABEL"
+            },
+            "properties": [
+                "style",
+                "position",
+                "background-color"
+            ]
+        },
+        {
+            "name": "container_slideshow_boxe",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "allowNesting": "one-level",
+            "label": "Container Slideshow Boxe",
+            "properties": [
+                "style",
+                "position",
+                "background-color"
+            ]
+        },
+        {
+            "name": "slideshow-img2",
+            "icon": "icons/components/slideshow.svg",
+            "label": "2 Imagens",
+            "properties": [
+                {
+                    "name": "slides",
+                    "directiveKey": "slideshow"
+                },
+                {
+                    "control": {
+                        "type": "header"
+                    },
+                    "label": {
+                        "key": "COMPONENT_SLIDESHOW_PROPERTIES_HEADER_LABEL"
+                    }
+                },
+                "fitting",
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                {
+                    "name": "edit-image",
+                    "directiveKey": "image"
+                },
+                {
+                    "name": "hyperlink",
+                    "directiveKey": "hyperlink"
+                }
+            ],
+            "restrictChildren": {
+                "image": {
+                    "withContent": "image"
+                }
+            }
+        },
+        {
+            "name": "slideshow-img3",
+            "icon": "icons/components/slideshow.svg",
+            "label": "3 Imagens",
+            "properties": [
+                "fitting",
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                {
+                    "name": "edit-image",
+                    "directiveKey": "image"
+                },
+                {
+                    "name": "hyperlink",
+                    "directiveKey": "hyperlink"
+                }
+            ],
+            "restrictChildren": {
+                "image": {
+                    "withContent": "image"
+                }
+            }
+        },
+        {
+            "name": "slideshow-img4",
+            "icon": "icons/components/slideshow.svg",
+            "label": "4 Imagens",
+            "properties": [
+                "fitting",
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                {
+                    "name": "edit-image",
+                    "directiveKey": "image"
+                },
+                {
+                    "name": "hyperlink",
+                    "directiveKey": "hyperlink"
+                }
             ],
             "restrictChildren": {
                 "image": {
@@ -1214,7 +1375,7 @@
         {
             "name": "container_grupo_radio",
             "icon": "icons/components/container.svg",
-            "label": "Container Grupo Checkbox",
+            "label": "Container Grupo Radio",
             "properties": [
                 "style",
                 "text-align",
@@ -3114,6 +3275,16 @@
             ]
         },
         {
+            "name": "background",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "allowNesting": "one-level",
+            "label": "Background Livro",
+            "properties": [
+                "style_lumen_mais"
+            ]
+        },
+        {
             "name": "css_06_container_boxe_watch_out",
             "icon": "icons/components/icon_06_boxe_item.svg",
             "label": "Container Boxe Watch Out",
@@ -4823,7 +4994,21 @@
                 "css_06_boxe_texto_citado",
                 "css_06_boxe_titulo_citado_saiba_mais",
                 "css_06_boxe_subtitulo_citado_saiba_mais",
-                "css_06_boxe_texto_citado_saiba_mais"
+                "css_06_boxe_texto_citado_saiba_mais",
+                "css_06_boxe_em_arte",
+                "css_06_boxe_em_biologia",
+                "css_06_boxe_em_filosofia",
+                "css_06_boxe_em_fisica",
+                "css_06_boxe_em_geografia",
+                "css_06_boxe_em_historia",
+                "css_06_boxe_em_lingua_inglesa",
+                "css_06_boxe_em_lingua_portuguesa",
+                "css_06_boxe_em_literatura",
+                "css_06_boxe_em_matematica",
+                "css_06_boxe_em_producao_de_texto",
+                "css_06_boxe_em_quimica",
+                "css_06_boxe_em_sociologia",
+                "css_06_boxe_fique_ligado"
             ]
         },
         {
@@ -5055,6 +5240,59 @@
                             "key": "PROPERTY_CAPTION_BOTTOM_RIGHT_OPTION"
                         },
                         "value": "_caption-bottom-right"
+                    }
+                ]
+            },
+            "dataType": "styles"
+        },
+        {
+            "name": "style_lumen_mais",
+            "label": {
+                "key": "PROPERTY_VARIANT_LABEL"
+            },
+            "control": {
+                "type": "select",
+                "options": [
+                    {
+                        "caption": {
+                            "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+                        }
+                    },
+                    {
+                        "caption": {
+                            "key": "PROPERTY_VARIANT_STYLE_OPTION",
+                            "values": {
+                                "0": "Artes"
+                            }
+                        },
+                        "value": "artes"
+                    },
+                    {
+                        "caption": {
+                            "key": "PROPERTY_VARIANT_STYLE_OPTION",
+                            "values": {
+                                "0": "Língua Inglesa"
+                            }
+                        },
+                        "value": "lingua_inglesa"
+                    },
+                    {
+                        "caption": {
+                            "key": "PROPERTY_VARIANT_STYLE_OPTION",
+                            "values": {
+                                "0": "Língua Portuguesa"
+                            }
+                        },
+                        "value": "lingua_portuguesa"
+                    },
+                    {
+                        "caption": {
+                            "key": "PROPERTY_VARIANT_STYLE_OPTION",
+                            "values": {
+                                "0": "Matemática"
+                            }
+                        },
+                        "value": "matematica"
                     }
                 ]
             },
@@ -5305,8 +5543,7 @@
                 "key": "PROPERTY_EDIT_IMAGE_LABEL"
             },
             "control": {
-                "type": "image-editor",
-                "focuspoint": true
+                "type": "image-editor"
             },
             "dataType": "doc-image"
         },
@@ -5473,8 +5710,6 @@
             "product": "auto"
         },
         "imagem_centralizada": {
-            "imagem_centralizada_tamanho1": "auto",
-            "imagem_centralizada_tamanho2": "auto",
             "image_inline": "auto",
             "imagem_sem_margem": "auto",
             "imagem_meia_coluna": "auto",

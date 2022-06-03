@@ -1,220 +1,151 @@
-.css_06_boxe_em_lingua_inglesa {
-    float: left;
-    position: relative;
-    box-sizing: border-box;
-    margin: 32px 68px 56px 68px;
-    width: 83%;
-    min-height: 50px;
-    background: linear-gradient(180deg, rgba(252,225,188,1) 25%, rgba(255,255,255,1) 100%);
-
-    input[type=checkbox] {
-        display: none;
-    }
-
-    input[type=checkbox]:checked ~ label {
-        background: url(img/icon-box-collapsed-open.png) right -3px no-repeat;
-    }
-
-    input[type=checkbox]:checked ~ .txt_boxe_collapsed {
-        display: block;
-    }
-
-    label {
-        width: 100%;
-        height: 40px;
-        background: url(img/icon-box-collapsed-close.png) right -3px no-repeat;
-        position: relative;
-        float: left;
-
-        &:before {
-            content: 'Em Língua Inglesa, vemos que...';
-            font-size: 20px;
-            color: #BD8432;
-            position: absolute;
-            left: 50px;
-            top: 10px;
-            font-family: $font-prelo-extraBold;
-        }
-
-        &:after {
-            content: '';
-            width: 30px;
-            height: 30px;
-            position: absolute;
-            left: 14px;
-            background-size: contain !important;
-            background-repeat: no-repeat;
-            background-position: center;
-            top: 8px;
-            background-image: url(img/css_06_boxe_em_lingua_inglesa_artes.png);
-        }
-    }
-
-    .txt_boxe_collapsed {
-        position: relative;
-        float: left;
-        width: 100%;
-        padding: 15px;
-        box-sizing: border-box;
-        font-family: $font-proximaNova-light;
-        font-size: 16px;        
-        display: none; 
-    }
-    
-    &.artes {
-        background: linear-gradient(180deg, rgba(132,162,20,1) 25%, rgba(255,255,255,1) 100%);
-
-        label {
-            &:before {
-                color: #BD8432;
-            }
-
-            &:after {                
-                background-image: url(img/css_06_boxe_em_lingua_inglesa_artes.png);
-            }
-        }
-    }
-    &.biologia {
-        background: linear-gradient(180deg, rgba(252,225,188,1) 25%, rgba(255,255,255,1) 100%);
-
-        label {
-            &:before {
-                color: #BD8432;
-            }
-            
-            &:after {                
-                background-image: url(img/css_06_boxe_em_lingua_inglesa_biologia.png);
-            }
-        }
-    }
-    &.filosofia {
-        background: linear-gradient(180deg, rgba(215,237,227,1) 25%, rgba(255,255,255,1) 100%);
-
-        label {
-            &:before {
-                color: #208F6D;
-            }
-            
-            &:after {                
-                background-image: url(img/css_06_boxe_em_lingua_inglesa_filosofia.png);
-            }
-        }
-    } 
-    &.fisica {
-        background: linear-gradient(180deg, rgba(252,225,188,1) 25%, rgba(255,255,255,1) 100%);
-
-        label {
-            &:before {
-                color: #BD8432;
-            }
-            
-            &:after {                
-                background-image: url(img/css_06_boxe_em_lingua_inglesa_fisica.png);
-            }
-        }
-    }
-    &.geografia {
-        background: linear-gradient(180deg, rgba(215,237,227,1) 25%, rgba(255,255,255,1) 100%);
-
-        label {
-            &:before {
-                color: #208F6D;
-            }
-            
-            &:after {                
-                background-image: url(img/css_06_boxe_em_lingua_inglesa_geografia.png);
-            }
-        }
-    }
-    &.historia {
-        background: linear-gradient(180deg, rgba(215,237,227,1) 25%, rgba(255,255,255,1) 100%);
-
-        label {
-            &:before {
-                color: #208F6D;
-            }
-            
-            &:after {                
-                background-image: url(img/css_06_boxe_em_lingua_inglesa_historia.png);
-            }
-        }
-    }
-    &.lingua_inglesa {
-        background: linear-gradient(180deg, rgba(132,162,20,1) 25%, rgba(255,255,255,1) 100%);
-
-        label {
-            &:before {
-                color: #BD8432;
-            }
-            
-            &:after {                
-                background-image: url(img/css_06_boxe_em_lingua_inglesa_lingua_inglesa.png);
-            }
-        }
-    }
-    &.lingua_portuguesa {
-        background: linear-gradient(180deg, rgba(132,162,20,1) 25%, rgba(255,255,255,1) 100%);
-
-        label {
-            &:before {
-                color: #BD8432;
-            }
-            
-            &:after {                
-                background-image: url(img/css_06_boxe_em_lingua_inglesa_lingua_portuguesa.png);
-            }
-        }
-    }
-    &.matematica {
-        background: linear-gradient(180deg, rgba(250,237,188,1) 25%, rgba(255,255,255,1) 100%);
-
-        label {
-            &:before {
-                color: #C09100;
-            }
-            
-            &:after {                
-                background-image: url(img/css_06_boxe_em_lingua_inglesa_matematica.png);
-            }
-        }
-    }
-    &.producao_de_texto {
-        background: linear-gradient(180deg, rgba(132,162,20,1) 25%, rgba(255,255,255,1) 100%);
-
-        label {
-            &:before {
-                color: #BD8432;
-            }
-            
-            &:after {                
-                background-image: url(img/css_06_boxe_em_lingua_inglesa_producao_de_texto.png);
-            }
-        }
-    }
-    &.quimica {
-        background: linear-gradient(180deg, rgba(252,225,188,1) 25%, rgba(255,255,255,1) 100%);
-
-        label {
-            &:before {
-                color: #BD8432;
-            }
-            
-            &:after {                
-                background-image: url(img/css_06_boxe_em_lingua_inglesa_quimica.png);
-            }
-        }
-    }
-    &.sociologia {
-        background: linear-gradient(180deg, rgba(215,237,227,1) 25%, rgba(255,255,255,1) 100%);
-
-        label {
-            &:before {
-                color: #208F6D;
-            }
-            
-            &:after {
-                background-image: url(img/css_06_boxe_em_lingua_inglesa_sociologia.png);
-            }
-        }
-    }
+._css_06_container_boxe_em_lingua_inglesa {
+    margin-bottom: 1.2rem;
 }
+
+
+
+._css_06_container_boxe_em_lingua_inglesa h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.125rem;
+}
+
+._css_06_container_boxe_em_lingua_inglesa h4 {
+    margin: 0;
+    padding: 0;
+    padding-top: 1rem;
+    font-size: 1.125rem;
+    text-align: left;
+}
+
+._css_06_container_boxe_em_lingua_inglesa p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.125rem;
+}
+
+._css_06_container_boxe_em_lingua_inglesa p:not(:first-child) {
+    padding-top: 1rem;
+}
+
+._css_06_container_boxe_em_lingua_inglesa .double-columned-content {
+    align-items: start;
+}
+
+._css_06_container_boxe_em_lingua_inglesa .text-credit {
+    padding: 0 !important;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+._css_06_container_boxe_em_lingua_inglesa .img-description {
+    padding-top: 0.5rem !important;
+    font-size: 0.75rem;
+}
+
+._css_06_container_boxe_em_lingua_inglesa ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+/*  */
+
+/*  */
+.wrap-fonte .text-credit.exercicio-fonte {
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+    margin-right: 1.75rem;
+    text-align: right;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.lbl-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%);
+    color: #bd8432;
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+    margin: 32px 68px 0px 68px;
+
+}
+
+.toggle:checked+.lbl-toggle+.collapsible-content {
+    max-height: 90rem;
+}
+
+.toggle:checked+.lbl-toggle .ion-md-add {
+    display: none;
+}
+
+.toggle:checked+.lbl-toggle .ion-md-remove {
+    display: block;
+}
+
+.ion-md-remove {
+    display: none;
+}
+
+.toggle:checked+.lbl-toggle {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.collapsible-content .content-inner {
+    padding: 0 1rem;
+}
+
+.content-inner .text-content-area {
+    padding: 0 1rem 1rem 1rem;
+}
+
+.content-inner .text-content-area .general-text {
+    font-family: "Proxima Nova Lt", sans-serif;
+}
+
+label img {
+    width: 2rem;
+}
+
+.collapsible-title {
+    padding: 0 !important;
+    margin: 0px !important;
+    font-size: 1.25rem !important;
+    font-family: "Prelo ExtraBold";
+    font-size: 20px;
+    color: #BD8432;
+
+}
+
+.collapsible-content {
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 1) 0%,
+            #fce1bc 100%);
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.25s ease-in-out;
+    margin: 0px 68px;
+
+}
+
+.flex-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* .border-gloss {
+    border-radius: 8px;
+} */

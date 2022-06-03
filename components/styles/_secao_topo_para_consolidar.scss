@@ -1,44 +1,103 @@
 .secao_topo_para_consolidar {
     height: 32px;
-    margin: 40px 68px 0px 68px;
+    width: 80%;
+    margin: 40px 60px 0px 63px;
     padding: 0 0 0 38px;
     display: flex;
     align-items: center;
+    position: relative;
+    justify-content: flex-start;
     font-family: 'Barlow Condensed';
     font-weight: 700;
     font-size: 20px;
-    color: $por_cor2;
-    background: url(img/por_topo_consolidar.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-
+  
+  
+  
     &.artes {
         color: $art_cor2;
-        background: url(img/lin_topo_consolidar.png);
-        background-repeat: no-repeat;
+        background-color: #f4f2f7;
+        border-right: 3px solid #dfdaea;
+        
+        .icone_disciplina_consolidar_topo{
+        background-image:url("https://livro-digital.p4ed.com/assets/icons/lumen/LGG_para_consolidar.svg");
+        width: 32px;
+        height: 32px;
+        align-items: left;
+        margin: 0;
+        background-size: cover;
         background-position: center;
-        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -10px;
+        top: -1px;
         }
+      
+    }
+        
     &.lingua_inglesa {
         color: $ing_cor2;
-        background: url(img/ing_top_practice.png);
-        background-repeat: no-repeat;
+        background-color: #edf8f7;
+        border-right: 3px solid #ccebe9;
+        
+        .icone_disciplina_consolidar_topo{
+        background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/ING_para_consolidar.svg");
+        width: 32px;
+        height: 32px;
+        align-items: left;
+        margin: 0;
+        background-size: cover;
         background-position: center;
-        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -10px;
+        top: -1px;
         }
+       
+    }
     &.lingua_portuguesa {
         color: $por_cor2;
-        background: url(img/por_topo_consolidar.png);
-        background-repeat: no-repeat;
+        background-color: #fbf0f0;
+        border-right: 3px solid #f4d3d5;
+
+        .icone_disciplina_consolidar_topo{
+        background-image:url("https://livro-digital.p4ed.com/assets/icons/lumen/LPO_para_consolidar.svg");
+        width: 32px;
+        height: 32px;
+        align-items: left;
+        margin: 0;
+        background-size: cover;
         background-position: center;
-        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -10px;
+        top: -1px;
         }
+       
+        
+    }
     &.matematica {
         color: $mat_cor2;
-        background: url(img/mat_topo_consolidar.png);
-        background-repeat: no-repeat;
+        background-color: #eef4fa;
+        border-right: 3px solid #d6e5f2;
+
+        .icone_disciplina_consolidar_topo{
+        background-image:url("https://livro-digital.p4ed.com/assets/icons/lumen/MAT_para_consolidar.svg");
+        width: 32px;
+        height: 32px;
+        align-items: left;
+        margin: 0;
+        background-size: cover;
         background-position: center;
-        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -10px;
+        top: -1px;
         }
+          
+    }
 }
+
+.alinhamento{
+    display: flex;
+    align-items: center;
+    }
