@@ -18,7 +18,7 @@ const scriptsDir = path.join(__dirname, './scripts');
 const scriptFiles = [
     // JQuery libraries used by below support scripts
     path.join(scriptsDir, 'jquery.js'),
-    
+
     //img popup zoom    
     path.join(scriptsDir, 'lightgallery.min.js'),
     path.join(scriptsDir, 'lg-fullscreen.min.js'),
@@ -27,6 +27,7 @@ const scriptFiles = [
     path.join(scriptsDir, 'new-components.js'),
     path.join(scriptsDir, 'inline.js'),
     path.join(scriptsDir, 'dropdown.js'),
+    path.join(scriptsDir, 'radio.js'),
 
     // Support scripts for slideshows components
     path.join(scriptsDir, 'jssor.js'),
@@ -35,7 +36,7 @@ const scriptFiles = [
 
     // Support script for parallax effect hero components
     path.join(scriptsDir, 'heroes.js'),
-    
+
 
 ];
 const stylesDir = path.join(__dirname, './components/styles');

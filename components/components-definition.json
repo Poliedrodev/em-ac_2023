@@ -51,21 +51,6 @@
             ]
         },
         {
-            "name": "audio_em-ac_2023",
-            "icon": "icons/components/icon_00_arte.svg",
-            "label": "Componente Áudio Lumen Mais",
-            "properties": [
-                "style",
-                "text-align",
-                "letter-spacing",
-                "line-height",
-                {
-                    "name": "embed-code",
-                    "directiveKey": "html"
-                }
-            ]
-        },
-        {
             "name": "image_popup_center",
             "icon": "icons/components/image.svg",
             "label": "Imagem Popup",
@@ -118,28 +103,6 @@
                     "name": "edit-image",
                     "directiveKey": "image"
                 }
-            ]
-        },
-        {
-            "name": "video_em-ac_2023",
-            "icon": "icons/components/video.svg",
-            "label": "VIDEO_POPUP_CENTER_LUMEN_MAIS",
-            "selectionMethod": "handle",
-            "properties": [
-                {
-                    "name": "fitting",
-                    "defaultValue": "_fit-frame-to-content"
-                },
-                "position",
-                "style",
-                {
-                    "name": "embed-code",
-                    "directiveKey": "html"
-                },
-                "inside-caption",
-                "text-align",
-                "letter-spacing",
-                "line-height"
             ]
         },
         {
@@ -1116,15 +1079,6 @@
             ]
         },
         {
-            "name": "container_questao_checkbox",
-            "icon": "icons/components/container.svg",
-            "selectionMethod": "handle",
-            "label": "Checkbox em Linhas",
-            "properties": [
-                "style"
-            ]
-        },
-        {
             "name": "container_coluna_falsa",
             "icon": "icons/components/container.svg",
             "selectionMethod": "handle",
@@ -1365,17 +1319,6 @@
             "name": "container_exercicios",
             "icon": "icons/components/container.svg",
             "label": "Container Exercícios",
-            "properties": [
-                "style",
-                "text-align",
-                "letter-spacing",
-                "line-height"
-            ]
-        },
-        {
-            "name": "container_grupo_radio",
-            "icon": "icons/components/container.svg",
-            "label": "Container Grupo Radio",
             "properties": [
                 "style",
                 "text-align",
@@ -3281,7 +3224,7 @@
             "allowNesting": "one-level",
             "label": "Background Livro",
             "properties": [
-                "style_lumen_mais"
+                "style"
             ]
         },
         {
@@ -4676,6 +4619,408 @@
                     "withContent": "image"
                 }
             }
+        },
+        {
+            "name": "background",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "allowNesting": "one-level",
+            "label": "Background Livro",
+            "properties": [
+                "style_lumen_mais"
+            ]
+        },
+        {
+            "name": "audio_lumen_mais",
+            "icon": "icons/components/icon_00_arte.svg",
+            "label": "Componente Áudio Lumen Mais",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                {
+                    "name": "embed-code",
+                    "directiveKey": "html"
+                }
+            ]
+        },
+        {
+            "name": "video_popup_center_lumen_mais",
+            "icon": "icons/components/video.svg",
+            "label": "VIDEO_POPUP_CENTER_LUMEN_MAIS",
+            "selectionMethod": "handle",
+            "properties": [
+                {
+                    "name": "fitting",
+                    "defaultValue": "_fit-frame-to-content"
+                },
+                "position",
+                "style",
+                {
+                    "name": "embed-code",
+                    "directiveKey": "html"
+                },
+                "inside-caption",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ]
+        },
+        {
+            "name": "container_grupo_checkbox",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "allowNesting": "one-level",
+            "label": {
+                "key": "COMPONENT_CHECKBOX_LABEL"
+            },
+            "properties": [
+                "style",
+                "position",
+                "background-color"
+            ],
+            "restrictChildren": {
+                "container_grupo_checkbox_1": {},
+                "container_grupo_checkbox_2": {},
+                "container_grupo_checkbox_3": {},
+                "container_grupo_checkbox_4": {},
+                "container_grupo_checkbox_5": {}
+            },
+            "directiveOptions": {
+                "main": {
+                    "groups": [
+                        {
+                            "label": "Checkbox",
+                            "name": "Checkbox",
+                            "components": [
+                                "container_grupo_checkbox_1",
+                                "container_grupo_checkbox_2",
+                                "container_grupo_checkbox_3",
+                                "container_grupo_checkbox_4",
+                                "container_grupo_checkbox_5"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "container_grupo_checkbox_lado_a_lado",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "allowNesting": "one-level",
+            "label": {
+                "key": "COMPONENT_CHECKBOX_SIDE_LABEL"
+            },
+            "properties": [
+                "style",
+                "position",
+                "background-color",
+                "text-align"
+            ],
+            "restrictChildren": {
+                "container_grupo_checkbox_1": {},
+                "container_grupo_checkbox_2": {},
+                "container_grupo_checkbox_3": {},
+                "container_grupo_checkbox_4": {},
+                "container_grupo_checkbox_5": {}
+            },
+            "directiveOptions": {
+                "main": {
+                    "groups": [
+                        {
+                            "label": "Checkbox",
+                            "name": "Checkbox",
+                            "components": [
+                                "container_grupo_checkbox_1",
+                                "container_grupo_checkbox_2",
+                                "container_grupo_checkbox_3",
+                                "container_grupo_checkbox_4",
+                                "container_grupo_checkbox_5"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "container_grupo_checkbox_1",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "label": "Checkbox 1",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ],
+            "directiveOptions": {
+                "checkbox1": {
+                    "stripStylingOnPaste": true
+                }
+            }
+        },
+        {
+            "name": "container_grupo_checkbox_2",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "label": "Checkbox 2",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ],
+            "directiveOptions": {
+                "checkbox1": {
+                    "stripStylingOnPaste": true
+                },
+                "checkbox2": {
+                    "stripStylingOnPaste": true
+                }
+            }
+        },
+        {
+            "name": "container_grupo_checkbox_3",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "label": "Checkbox 3",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ],
+            "directiveOptions": {
+                "checkbox1": {
+                    "stripStylingOnPaste": true
+                },
+                "checkbox2": {
+                    "stripStylingOnPaste": true
+                },
+                "checkbox3": {
+                    "stripStylingOnPaste": true
+                }
+            }
+        },
+        {
+            "name": "container_grupo_checkbox_4",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "label": "Checkbox 4",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ],
+            "directiveOptions": {
+                "checkbox1": {
+                    "stripStylingOnPaste": true
+                },
+                "checkbox2": {
+                    "stripStylingOnPaste": true
+                },
+                "checkbox3": {
+                    "stripStylingOnPaste": true
+                },
+                "checkbox4": {
+                    "stripStylingOnPaste": true
+                }
+            }
+        },
+        {
+            "name": "container_grupo_checkbox_5",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "label": "Checkbox 5",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ],
+            "directiveOptions": {
+                "checkbox1": {
+                    "stripStylingOnPaste": true
+                },
+                "checkbox2": {
+                    "stripStylingOnPaste": true
+                },
+                "checkbox3": {
+                    "stripStylingOnPaste": true
+                },
+                "checkbox4": {
+                    "stripStylingOnPaste": true
+                },
+                "checkbox5": {
+                    "stripStylingOnPaste": true
+                }
+            }
+        },
+        {
+            "name": "container_grupo_radio_linha",
+            "icon": "icons/components/container.svg",
+            "label": "Container Grupo Radio em Linha",
+            "properties": [
+                "style",
+                "letter-spacing",
+                "line-height"
+            ],
+            "restrictChildren": {
+                "container_grupo_radio_2": {},
+                "container_grupo_radio_3": {},
+                "container_grupo_radio_4": {},
+                "container_grupo_radio_5": {}
+            },
+            "directiveOptions": {
+                "main": {
+                    "groups": [
+                        {
+                            "label": "Radios",
+                            "name": "Radios",
+                            "components": [
+                                "container_grupo_radio_2",
+                                "container_grupo_radio_3",
+                                "container_grupo_radio_4",
+                                "container_grupo_radio_5"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "container_grupo_radio_lado_a_lado",
+            "icon": "icons/components/container.svg",
+            "label": "Container Grupo Radio Lado a Lado",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ],
+            "restrictChildren": {
+                "container_grupo_radio_2": {},
+                "container_grupo_radio_3": {},
+                "container_grupo_radio_4": {},
+                "container_grupo_radio_5": {}
+            },
+            "directiveOptions": {
+                "main": {
+                    "groups": [
+                        {
+                            "label": "Radios",
+                            "name": "Radios",
+                            "components": [
+                                "container_grupo_radio_2",
+                                "container_grupo_radio_3",
+                                "container_grupo_radio_4",
+                                "container_grupo_radio_5"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "container_grupo_radio_2",
+            "label": "2 Radio",
+            "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+            "defaultComponentOnEnter": "container_grupo_radio_2",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ],
+            "directiveOptions": {
+                "radio1": {
+                    "stripStylingOnPaste": true
+                },
+                "radio2": {
+                    "stripStylingOnPaste": true
+                }
+            }
+        },
+        {
+            "name": "container_grupo_radio_3",
+            "label": "3 Radio",
+            "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+            "defaultComponentOnEnter": "container_grupo_radio_3",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ],
+            "directiveOptions": {
+                "radio1": {
+                    "stripStylingOnPaste": true
+                },
+                "radio2": {
+                    "stripStylingOnPaste": true
+                },
+                "radio3": {
+                    "stripStylingOnPaste": true
+                }
+            }
+        },
+        {
+            "name": "container_grupo_radio_4",
+            "label": "4 Radio",
+            "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+            "defaultComponentOnEnter": "container_grupo_radio_4",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ],
+            "directiveOptions": {
+                "radio1": {
+                    "stripStylingOnPaste": true
+                },
+                "radio2": {
+                    "stripStylingOnPaste": true
+                },
+                "radio3": {
+                    "stripStylingOnPaste": true
+                },
+                "radio4": {
+                    "stripStylingOnPaste": true
+                }
+            }
+        },
+        {
+            "name": "container_grupo_radio_5",
+            "label": "5 Radio",
+            "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+            "defaultComponentOnEnter": "container_grupo_radio_5",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ],
+            "directiveOptions": {
+                "radio1": {
+                    "stripStylingOnPaste": true
+                },
+                "radio2": {
+                    "stripStylingOnPaste": true
+                },
+                "radio3": {
+                    "stripStylingOnPaste": true
+                },
+                "radio4": {
+                    "stripStylingOnPaste": true
+                },
+                "radio5": {
+                    "stripStylingOnPaste": true
+                }
+            }
         }
     ],
     "groups": [
@@ -4714,7 +5059,9 @@
             "components": [
                 "audio",
                 "video_popup_center",
-                "image_popup_center"
+                "image_popup_center",
+                "video_popup_center_lumen_mais",
+                "audio_lumen_mais"
             ]
         },
         {
@@ -4813,14 +5160,16 @@
                 "container_questao_vf",
                 "container_questao_vf_2",
                 "container_questao_soma",
-                "container_questao_checkbox",
                 "container_questao_radio",
-                "container_grupo_radio",
                 "container_questao_dissertativa",
                 "container_questao_dissertativa_mancha",
                 "container_questao_dissertativa_semrecuo",
                 "container_questao_dissertativa_item",
-                "container_questao_dissertativa_item_2"
+                "container_questao_dissertativa_item_2",
+                "container_grupo_checkbox",
+                "container_grupo_checkbox_lado_a_lado",
+                "container_grupo_radio_linha",
+                "container_grupo_radio_lado_a_lado"
             ]
         },
         {

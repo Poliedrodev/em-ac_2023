@@ -5,10 +5,8 @@
 @import "common";
 @import "image";
 @import "audio";
-@import "audio_em-ac_2023";
 @import "image_popup_center";
 @import "video_popup_center";
-@import "video_em-ac_2023";
 @import "image_cont_exercicios";
 @import "image_teoria";
 @import "image_saiba_mais";
@@ -60,7 +58,6 @@
 @import "container_questao_soma";
 @import "container_questao_total";
 @import "container_questao_radio";
-@import "container_questao_checkbox";
 @import "container_coluna_falsa";
 @import "body";
 @import "title";
@@ -82,7 +79,6 @@
 @import "css_00_ilustracao";
 @import "css_00_revisao";
 @import "container_exercicios";
-@import "container_grupo_radio";
 @import "container_take_a_tip";
 @import "container_fica_a_dica";
 @import "container_fica_a_dica_teoria";
@@ -372,3 +368,19 @@
 @import "slideshow_3_images";
 @import "slideshow_4_images";
 @import "slideshow_img";
+@import "background";
+@import "audio_lumen_mais";
+@import "video_popup_center_lumen_mais";
+@import "container_grupo_checkbox";
+@import "container_grupo_checkbox_lado_a_lado";
+@import "container_grupo_checkbox_1";
+@import "container_grupo_checkbox_2";
+@import "container_grupo_checkbox_3";
+@import "container_grupo_checkbox_4";
+@import "container_grupo_checkbox_5";
+@import "container_grupo_radio_linha";
+@import "container_grupo_radio_lado_a_lado";
+@import "container_grupo_radio_2";
+@import "container_grupo_radio_3";
+@import "container_grupo_radio_4";
+@import "container_grupo_radio_5";

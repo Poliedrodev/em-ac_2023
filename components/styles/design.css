@@ -1342,57 +1342,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     height: 34px;
     cursor: pointer; }
 
-.audio_lumen_mais {
-  position: relative;
-  width: 84%;
-  margin: 32px 68px 20px 68px;
-  transition: all .3s;
-  border: 5px solid #bfd730;
-  background-color: #fff;
-  border-radius: 4px;
-  min-height: 104px;
-  padding: 16px 20px;
-  box-sizing: border-box; }
-  .audio_lumen_mais .audio-box audio {
-    background-color: #f1f3f4;
-    width: 100%; }
-  .audio_lumen_mais.artes {
-    border: 5px solid #bfd730; }
-    .audio_lumen_mais.artes .audio__title {
-      color: #64428C; }
-  .audio_lumen_mais.lingua_inglesa {
-    border: 5px solid #bfd730; }
-    .audio_lumen_mais.lingua_inglesa .audio__title {
-      color: #069891; }
-  .audio_lumen_mais.lingua_portuguesa {
-    border: 5px solid #bfd730; }
-    .audio_lumen_mais.lingua_portuguesa .audio__title {
-      color: #c9252c; }
-  .audio_lumen_mais.matematica {
-    border: 5px solid #F1CB40; }
-    .audio_lumen_mais.matematica .audio__title {
-      color: #1961AC; }
-  .audio_lumen_mais .none {
-    display: none !important; }
-  .audio_lumen_mais__url {
-    border: 1px solid #ccc;
-    padding: 2px;
-    overflow: hidden;
-    height: 19px;
-    word-break: break-all; }
-  .audio_lumen_mais__title {
-    color: #c9252c;
-    font-size: 16px;
-    font-weight: 700;
-    font-family: 'Montserrat';
-    text-transform: uppercase;
-    margin-bottom: 2px; }
-  .audio_lumen_mais__text {
-    color: #666;
-    font-size: 14px;
-    font-family: 'Montserrat';
-    font-weight: 300; }
-
 /* Image component style */
 .image_popup_center {
   clear: both;
@@ -1634,137 +1583,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   .video_popup_center .video_popup__content #playerDefault, .video_popup_center .video_popup__content #playerYoutube {
     display: none; }
   .video_popup_center .video_popup__content #playerDefault {
-    width: 100%; }
-
-/* Video component style */
-.doc-section [doc-editable]:empty {
-  background: transparent !important; }
-
-.none {
-  display: none !important; }
-
-/* Image component style */
-.video_popup_center_lumen_mais {
-  position: relative;
-  width: 83%;
-  margin: 32px 68px 20px 68px;
-  display: block;
-  background-color: #fff;
-  transition: all .3s;
-  border: 5px solid #bfd730;
-  border-radius: 4px;
-  cursor: pointer; }
-  .video_popup_center_lumen_mais.artes {
-    border: 5px solid #bfd730; }
-    .video_popup_center_lumen_mais.artes .video_popup__content .content-video__title {
-      color: #64428C; }
-    .video_popup_center_lumen_mais.artes:before {
-      background-image: url(img/play-button-lin.png); }
-    .video_popup_center_lumen_mais.artes .video_popup_center.popup_actived {
-      background-color: #452848bf; }
-  .video_popup_center_lumen_mais.lingua_inglesa {
-    border: 5px solid #bfd730; }
-    .video_popup_center_lumen_mais.lingua_inglesa .video_popup__content .content-video__title {
-      color: #069891; }
-    .video_popup_center_lumen_mais.lingua_inglesa:before {
-      background-image: url(img/play-button-ing.png); }
-    .video_popup_center_lumen_mais.lingua_inglesa .video_popup_center.popup_actived {
-      background-color: #284847bf; }
-  .video_popup_center_lumen_mais.lingua_portuguesa {
-    border: 5px solid #bfd730; }
-    .video_popup_center_lumen_mais.lingua_portuguesa .video_popup__content .content-video__title {
-      color: #c9252c; }
-    .video_popup_center_lumen_mais.lingua_portuguesa:before {
-      background-image: url(img/play-button.png); }
-    .video_popup_center_lumen_mais.lingua_portuguesa .video_popup_center.popup_actived {
-      background-color: #482828bf; }
-  .video_popup_center_lumen_mais.matematica {
-    border: 5px solid #F1CB40; }
-    .video_popup_center_lumen_mais.matematica .video_popup__content .content-video__title {
-      color: #1961AC; }
-    .video_popup_center_lumen_mais.matematica:before {
-      background-image: url(img/play-button-mat.png); }
-    .video_popup_center_lumen_mais.matematica .video_popup_center.popup_actived {
-      background-color: #282f48bf; }
-  .video_popup_center_lumen_mais.__ready .video_popup__content .content-video__url {
-    border: 0; }
-  .video_popup_center_lumen_mais.__ready .video_popup__content .content-video__title {
-    border: 0; }
-  .video_popup_center_lumen_mais.__ready .video_popup__content .content-video__text {
-    border: 0; }
-  .video_popup_center_lumen_mais.popup_actived {
-    position: fixed;
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: #000000bf;
-    visibility: visible;
-    opacity: 1;
-    transition-delay: 0s;
-    border: 0;
-    z-index: 9; }
-    .video_popup_center_lumen_mais.popup_actived:before {
-      content: none; }
-    .video_popup_center_lumen_mais.popup_actived .video_popup__content {
-      width: 60%;
-      margin: 0 auto;
-      height: 100%;
-      padding: 5%;
-      box-sizing: border-box; }
-      .video_popup_center_lumen_mais.popup_actived .video_popup__content a {
-        display: block; }
-      .video_popup_center_lumen_mais.popup_actived .video_popup__content .video_popup__img,
-      .video_popup_center_lumen_mais.popup_actived .video_popup__content .content-video {
-        display: none !important; }
-      .video_popup_center_lumen_mais.popup_actived .video_popup__content #playerYoutube.show {
-        display: block !important; }
-      .video_popup_center_lumen_mais.popup_actived .video_popup__content #playerDefault.show {
-        display: block !important; }
-  .video_popup_center_lumen_mais .video_popup__content a {
-    width: 25px;
-    height: 25px;
-    display: none;
-    background-image: url("img/btn-modal-close.png");
-    position: absolute;
-    z-index: 9;
-    right: 20px;
-    top: 15px; }
-  .video_popup_center_lumen_mais .video_popup__content .video_popup__img {
-    position: relative;
-    height: 280px !important;
-    padding: 0 !important;
-    background-size: cover; }
-  .video_popup_center_lumen_mais .video_popup__content .content-video {
-    padding: 20px; }
-    .video_popup_center_lumen_mais .video_popup__content .content-video__url {
-      padding: 2px;
-      overflow: hidden;
-      height: 19px;
-      word-break: break-all;
-      border: 1px solid #ccc;
-      margin-bottom: 10px; }
-    .video_popup_center_lumen_mais .video_popup__content .content-video__title {
-      color: #c9252c;
-      font-size: 16px;
-      font-weight: 700;
-      font-family: 'Montserrat';
-      text-transform: uppercase;
-      border: 1px solid #ccc;
-      margin-bottom: 10px; }
-    .video_popup_center_lumen_mais .video_popup__content .content-video__text {
-      border: 1px solid #ccc;
-      color: #666;
-      font-size: 14px;
-      font-family: 'Montserrat';
-      font-weight: 300; }
-      .video_popup_center_lumen_mais .video_popup__content .content-video__text span {
-        color: #666 !important; }
-  .video_popup_center_lumen_mais .video_popup__content #playerDefault,
-  .video_popup_center_lumen_mais .video_popup__content #playerYoutube {
-    display: none; }
-  .video_popup_center_lumen_mais .video_popup__content #playerDefault {
     width: 100%; }
 
 /* Image component style */
@@ -4880,22 +4698,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     background-color: #B80071 !important; }
   .container.sociologia {
     background-color: #C71553 !important; }
-  .container > *:first-child {
-    margin-top: 0; }
-    .container > *:first-child._left + ._right {
-      margin-top: 0;
-      padding: 0 68 0 16px; }
-    .container > *:first-child._right + ._left {
-      margin-top: 0;
-      padding: 0 16 0 68px; }
-  .container > *:last-child {
-    margin-bottom: 0; }
-  .container > *._left + ._right:last-child {
-    margin-bottom: 20px;
-    padding: 0 68 0 16px; }
-  .container > *._right + ._left:last-child {
-    margin-bottom: 20px;
-    padding: 0 16 0 68px; }
   @media only screen and (min-width: 481px) {
     .container._left {
       float: left;
@@ -5649,22 +5451,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     background-color: #B80071 !important; }
   .container.sociologia {
     background-color: #C71553 !important; }
-  .container > *:first-child {
-    margin-top: 0; }
-    .container > *:first-child._left + ._right {
-      margin-top: 0;
-      padding: 0 68 0 16px; }
-    .container > *:first-child._right + ._left {
-      margin-top: 0;
-      padding: 0 16 0 68px; }
-  .container > *:last-child {
-    margin-bottom: 0; }
-  .container > *._left + ._right:last-child {
-    margin-bottom: 20px;
-    padding: 0 68 0 16px; }
-  .container > *._right + ._left:last-child {
-    margin-bottom: 20px;
-    padding: 0 16 0 68px; }
   @media only screen and (min-width: 481px) {
     .container._left {
       float: left;
@@ -6060,80 +5846,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   font-size: 16px;
   color: #000000;
   height: 30px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: stretch; }
-
-/* Customize the label (the container) */
-.container_questao_checkbox {
-  position: relative;
-  padding-left: 35px;
-  cursor: pointer;
-  margin-left: 40px;
-  font-size: 22px;
-  display: block;
-  user-select: none; }
-  .container_questao_checkbox.artes .checkmark {
-    background-color: #64428C; }
-  .container_questao_checkbox.lingua_inglesa .checkmark {
-    background-color: #069891; }
-  .container_questao_checkbox.lingua_portuguesa .checkmark {
-    background-color: #c9252c; }
-  .container_questao_checkbox.matematica .checkmark {
-    background-color: #1961AC; }
-
-/* Hide the browser's default radio button */
-.container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0; }
-
-/* Create a custom radio button */
-.checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #c9252c;
-  border-radius: 50%; }
-
-/* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
-  background-color: #ddd; }
-
-/* When the radio button is checked, add a blue background */
-.container input:checked ~ .checkmark {
-  background-color: #eee; }
-
-/* Create the indicator (the dot/circle - hidden when not checked) */
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none; }
-
-/* Show the indicator (dot/circle) when checked */
-.container input:checked ~ .checkmark:after {
-  display: block; }
-
-/* Style the indicator (dot/circle) */
-.container .checkmark:after {
-  top: 9px;
-  left: 9px;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: white; }
-
-.textradio {
-  font-family: 'Noticia Text';
-  font-weight: 400;
-  font-size: 16px;
-  color: #000000;
-  height: 24px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -6702,71 +6414,6 @@ blockquote {
       float: right;
       clear: right;
       width: 50%;
-      z-index: 1; } }
-
-/* Container component style*/
-.container_grupo_radio {
-  margin: 0px !important;
-  text-align: -webkit-center;
-  /* class styles for the options properties of the container component */
-  /* media query */ }
-  .container_grupo_radio::after {
-    content: '';
-    display: block;
-    clear: both; }
-  .container_grupo_radio.artes {
-    background-color: #64428C !important;
-    color: #FFF !important; }
-  .container_grupo_radio.biologia {
-    background-color: #45973D !important; }
-  .container_grupo_radio.filosofia {
-    background-color: #536DA7 !important; }
-  .container_grupo_radio.fisica {
-    background-color: #00909B !important; }
-  .container_grupo_radio.geografia {
-    background-color: #D85509 !important; }
-  .container_grupo_radio.historia {
-    background-color: #951B81 !important; }
-  .container_grupo_radio.lingua_inglesa {
-    background-color: #069891 !important; }
-  .container_grupo_radio.lingua_portuguesa {
-    background-color: #C51A1B !important; }
-  .container_grupo_radio.matematica {
-    background-color: #1961AC !important; }
-  .container_grupo_radio.producao_de_texto {
-    background-color: #0F83A6 !important; }
-  .container_grupo_radio.quimica {
-    background-color: #B80071 !important; }
-  .container_grupo_radio.sociologia {
-    background-color: #C71553 !important; }
-  .container_grupo_radio > *:first-child {
-    margin-top: 0; }
-    .container_grupo_radio > *:first-child._left + ._right {
-      margin-top: 0;
-      padding: 0 68 0 16px; }
-    .container_grupo_radio > *:first-child._right + ._left {
-      margin-top: 0;
-      padding: 0 16 0 68px; }
-  .container_grupo_radio > *:last-child {
-    margin-bottom: 0; }
-  .container_grupo_radio > *._left + ._right:last-child {
-    margin-bottom: 20px;
-    padding: 0 68 0 16px; }
-  .container_grupo_radio > *._right + ._left:last-child {
-    margin-bottom: 20px;
-    padding: 0 16 0 68px; }
-  @media only screen and (min-width: 481px) {
-    .container_grupo_radio._left {
-      float: left;
-      clear: left;
-      width: 47%;
-      margin-right: 24px;
-      z-index: 1; }
-    .container_grupo_radio._right {
-      float: right;
-      clear: right;
-      width: 47%;
-      margin-left: 24px;
       z-index: 1; } }
 
 .container_take_a_tip {
@@ -18718,3 +18365,526 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 .slider-border-section {
   border-bottom: 2px solid #707070;
   padding: 2px; }
+
+.body-book.artes {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_ART.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.biologia {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_BIO.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.filosofia {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_FIL.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.fisica {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_FIS.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.geografia {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_GEO.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.historia {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_HIS.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.lingua_inglesa {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_ING.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.lingua_portuguesa {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_POR.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.matematica {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_MAT.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.producao_de_texto {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_PXT.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.quimica {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_QUI.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.body-book.sociologia {
+  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_SOC.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; }
+
+.audio_lumen_mais {
+  position: relative;
+  width: 84%;
+  margin: 32px 68px 20px 68px;
+  transition: all .3s;
+  border: 5px solid #bfd730;
+  background-color: #fff;
+  border-radius: 4px;
+  min-height: 104px;
+  padding: 16px 20px;
+  box-sizing: border-box; }
+  .audio_lumen_mais .audio-box audio {
+    background-color: #f1f3f4;
+    width: 100%; }
+  .audio_lumen_mais.artes {
+    border: 5px solid #bfd730; }
+    .audio_lumen_mais.artes .audio__title {
+      color: #64428C; }
+  .audio_lumen_mais.lingua_inglesa {
+    border: 5px solid #bfd730; }
+    .audio_lumen_mais.lingua_inglesa .audio__title {
+      color: #069891; }
+  .audio_lumen_mais.lingua_portuguesa {
+    border: 5px solid #bfd730; }
+    .audio_lumen_mais.lingua_portuguesa .audio__title {
+      color: #c9252c; }
+  .audio_lumen_mais.matematica {
+    border: 5px solid #F1CB40; }
+    .audio_lumen_mais.matematica .audio__title {
+      color: #1961AC; }
+  .audio_lumen_mais .none {
+    display: none !important; }
+  .audio_lumen_mais__url {
+    border: 1px solid #ccc;
+    padding: 2px;
+    overflow: hidden;
+    height: 19px;
+    word-break: break-all; }
+  .audio_lumen_mais__title {
+    color: #c9252c;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    margin-bottom: 2px; }
+  .audio_lumen_mais__text {
+    color: #666;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 300; }
+
+/* Video component style */
+.doc-section [doc-editable]:empty {
+  background: transparent !important; }
+
+.none {
+  display: none !important; }
+
+/* Image component style */
+.video_popup_center_lumen_mais {
+  position: relative;
+  width: 83%;
+  margin: 32px 68px 20px 68px;
+  display: block;
+  background-color: #fff;
+  transition: all .3s;
+  border: 5px solid #bfd730;
+  border-radius: 4px;
+  cursor: pointer; }
+  .video_popup_center_lumen_mais.artes {
+    border: 5px solid #bfd730; }
+    .video_popup_center_lumen_mais.artes .video_popup__content .content-video__title {
+      color: #64428C; }
+    .video_popup_center_lumen_mais.artes:before {
+      background-image: url(img/play-button-lin.png); }
+    .video_popup_center_lumen_mais.artes .video_popup_center.popup_actived {
+      background-color: #452848bf; }
+  .video_popup_center_lumen_mais.lingua_inglesa {
+    border: 5px solid #bfd730; }
+    .video_popup_center_lumen_mais.lingua_inglesa .video_popup__content .content-video__title {
+      color: #069891; }
+    .video_popup_center_lumen_mais.lingua_inglesa:before {
+      background-image: url(img/play-button-ing.png); }
+    .video_popup_center_lumen_mais.lingua_inglesa .video_popup_center.popup_actived {
+      background-color: #284847bf; }
+  .video_popup_center_lumen_mais.lingua_portuguesa {
+    border: 5px solid #bfd730; }
+    .video_popup_center_lumen_mais.lingua_portuguesa .video_popup__content .content-video__title {
+      color: #c9252c; }
+    .video_popup_center_lumen_mais.lingua_portuguesa:before {
+      background-image: url(img/play-button.png); }
+    .video_popup_center_lumen_mais.lingua_portuguesa .video_popup_center.popup_actived {
+      background-color: #482828bf; }
+  .video_popup_center_lumen_mais.matematica {
+    border: 5px solid #F1CB40; }
+    .video_popup_center_lumen_mais.matematica .video_popup__content .content-video__title {
+      color: #1961AC; }
+    .video_popup_center_lumen_mais.matematica:before {
+      background-image: url(img/play-button-mat.png); }
+    .video_popup_center_lumen_mais.matematica .video_popup_center.popup_actived {
+      background-color: #282f48bf; }
+  .video_popup_center_lumen_mais.__ready .video_popup__content .content-video__url {
+    border: 0; }
+  .video_popup_center_lumen_mais.__ready .video_popup__content .content-video__title {
+    border: 0; }
+  .video_popup_center_lumen_mais.__ready .video_popup__content .content-video__text {
+    border: 0; }
+  .video_popup_center_lumen_mais.popup_actived {
+    position: fixed;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000000bf;
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+    border: 0;
+    z-index: 9; }
+    .video_popup_center_lumen_mais.popup_actived:before {
+      content: none; }
+    .video_popup_center_lumen_mais.popup_actived .video_popup__content {
+      width: 60%;
+      margin: 0 auto;
+      height: 100%;
+      padding: 5%;
+      box-sizing: border-box; }
+      .video_popup_center_lumen_mais.popup_actived .video_popup__content a {
+        display: block; }
+      .video_popup_center_lumen_mais.popup_actived .video_popup__content .video_popup__img,
+      .video_popup_center_lumen_mais.popup_actived .video_popup__content .content-video {
+        display: none !important; }
+      .video_popup_center_lumen_mais.popup_actived .video_popup__content #playerYoutube.show {
+        display: block !important; }
+      .video_popup_center_lumen_mais.popup_actived .video_popup__content #playerDefault.show {
+        display: block !important; }
+  .video_popup_center_lumen_mais .video_popup__content a {
+    width: 25px;
+    height: 25px;
+    display: none;
+    background-image: url("img/btn-modal-close.png");
+    position: absolute;
+    z-index: 9;
+    right: 20px;
+    top: 15px; }
+  .video_popup_center_lumen_mais .video_popup__content .video_popup__img {
+    position: relative;
+    height: 280px !important;
+    padding: 0 !important;
+    background-size: cover; }
+  .video_popup_center_lumen_mais .video_popup__content .content-video {
+    padding: 20px; }
+    .video_popup_center_lumen_mais .video_popup__content .content-video__url {
+      padding: 2px;
+      overflow: hidden;
+      height: 19px;
+      word-break: break-all;
+      border: 1px solid #ccc;
+      margin-bottom: 10px; }
+    .video_popup_center_lumen_mais .video_popup__content .content-video__title {
+      color: #c9252c;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: 'Montserrat';
+      text-transform: uppercase;
+      border: 1px solid #ccc;
+      margin-bottom: 10px; }
+    .video_popup_center_lumen_mais .video_popup__content .content-video__text {
+      border: 1px solid #ccc;
+      color: #666;
+      font-size: 14px;
+      font-family: 'Montserrat';
+      font-weight: 300; }
+      .video_popup_center_lumen_mais .video_popup__content .content-video__text span {
+        color: #666 !important; }
+  .video_popup_center_lumen_mais .video_popup__content #playerDefault,
+  .video_popup_center_lumen_mais .video_popup__content #playerYoutube {
+    display: none; }
+  .video_popup_center_lumen_mais .video_popup__content #playerDefault {
+    width: 100%; }
+
+.group_checkbox,
+.container_grupo_checkbox,
+.container_grupo_checkbox_lado_a_lado {
+  margin-top: 15px;
+  /* Customize the label (the container) */ }
+  .group_checkbox.artes input:checked ~ .checkmark,
+  .container_grupo_checkbox.artes input:checked ~ .checkmark,
+  .container_grupo_checkbox_lado_a_lado.artes input:checked ~ .checkmark {
+    background-color: #64428C; }
+  .group_checkbox.lingua_inglesa input:checked ~ .checkmark,
+  .container_grupo_checkbox.lingua_inglesa input:checked ~ .checkmark,
+  .container_grupo_checkbox_lado_a_lado.lingua_inglesa input:checked ~ .checkmark {
+    background-color: #069891; }
+  .group_checkbox.lingua_portuguesa input:checked ~ .checkmark,
+  .container_grupo_checkbox.lingua_portuguesa input:checked ~ .checkmark,
+  .container_grupo_checkbox_lado_a_lado.lingua_portuguesa input:checked ~ .checkmark {
+    background-color: #c9252c; }
+  .group_checkbox.matematica input:checked ~ .checkmark,
+  .container_grupo_checkbox.matematica input:checked ~ .checkmark,
+  .container_grupo_checkbox_lado_a_lado.matematica input:checked ~ .checkmark {
+    background-color: #1961AC; }
+  .group_checkbox::after,
+  .container_grupo_checkbox::after,
+  .container_grupo_checkbox_lado_a_lado::after {
+    content: '';
+    display: block;
+    clear: both; }
+  .group_checkbox > *:first-child,
+  .container_grupo_checkbox > *:first-child,
+  .container_grupo_checkbox_lado_a_lado > *:first-child {
+    margin-top: 0; }
+    .group_checkbox > *:first-child._left + ._right,
+    .container_grupo_checkbox > *:first-child._left + ._right,
+    .container_grupo_checkbox_lado_a_lado > *:first-child._left + ._right {
+      margin-top: 0;
+      padding: 0 68 0 16px; }
+    .group_checkbox > *:first-child._right + ._left,
+    .container_grupo_checkbox > *:first-child._right + ._left,
+    .container_grupo_checkbox_lado_a_lado > *:first-child._right + ._left {
+      margin-top: 0;
+      padding: 0 16 0 68px; }
+  .group_checkbox > *:last-child,
+  .container_grupo_checkbox > *:last-child,
+  .container_grupo_checkbox_lado_a_lado > *:last-child {
+    margin-bottom: 0; }
+  .group_checkbox > *._left + ._right:last-child,
+  .container_grupo_checkbox > *._left + ._right:last-child,
+  .container_grupo_checkbox_lado_a_lado > *._left + ._right:last-child {
+    margin-bottom: 20px;
+    padding: 0 68 0 16px; }
+  .group_checkbox > *._right + ._left:last-child,
+  .container_grupo_checkbox > *._right + ._left:last-child,
+  .container_grupo_checkbox_lado_a_lado > *._right + ._left:last-child {
+    margin-bottom: 20px;
+    padding: 0 16 0 68px; }
+  .group_checkbox .container_questao_checkbox,
+  .container_grupo_checkbox .container_questao_checkbox,
+  .container_grupo_checkbox_lado_a_lado .container_questao_checkbox {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 22px;
+    margin-top: 16px;
+    user-select: none;
+    /* Hide the browser's default radio button */
+    /* Create a custom radio button */
+    /* On mouse-over, add a grey background color */
+    /* On mouse-over, add a grey background color */
+    /* When the radio button is checked, add a blue background */
+    /* Create the indicator (the dot/circle - hidden when not checked) */
+    /* Show the indicator (dot/circle) when checked */
+    /* Style the indicator (dot/circle) */ }
+    .group_checkbox .container_questao_checkbox .container input,
+    .container_grupo_checkbox .container_questao_checkbox .container input,
+    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .container input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0; }
+    .group_checkbox .container_questao_checkbox .checkmark,
+    .container_grupo_checkbox .container_questao_checkbox .checkmark,
+    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      border-radius: 50%; }
+    .group_checkbox .container_questao_checkbox .container:hover input ~ .checkmark,
+    .container_grupo_checkbox .container_questao_checkbox .container:hover input ~ .checkmark,
+    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .container:hover input ~ .checkmark {
+      background-color: #ddd; }
+    .group_checkbox .container_questao_checkbox .container:hover input ~ .checkmark,
+    .container_grupo_checkbox .container_questao_checkbox .container:hover input ~ .checkmark,
+    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .container:hover input ~ .checkmark {
+      background-color: #ddd; }
+    .group_checkbox .container_questao_checkbox .container .checkmark,
+    .container_grupo_checkbox .container_questao_checkbox .container .checkmark,
+    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .container .checkmark {
+      background-color: #eee; }
+    .group_checkbox .container_questao_checkbox .checkmark:after,
+    .container_grupo_checkbox .container_questao_checkbox .checkmark:after,
+    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none; }
+    .group_checkbox .container_questao_checkbox .container input:checked ~ .checkmark:after,
+    .container_grupo_checkbox .container_questao_checkbox .container input:checked ~ .checkmark:after,
+    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .container input:checked ~ .checkmark:after {
+      display: block; }
+    .group_checkbox .container_questao_checkbox .container .checkmark:after,
+    .container_grupo_checkbox .container_questao_checkbox .container .checkmark:after,
+    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .container .checkmark:after {
+      top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white; }
+    .group_checkbox .container_questao_checkbox .textradio_inline,
+    .container_grupo_checkbox .container_questao_checkbox .textradio_inline,
+    .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .textradio_inline {
+      font-family: 'Noticia Text';
+      font-weight: 400;
+      font-size: 16px;
+      color: #000000;
+      text-align: start;
+      margin: 0; }
+
+.container_grupo_checkbox_lado_a_lado .container_questao_checkbox {
+  display: inline-block;
+  margin-top: 16px;
+  margin-right: 1rem; }
+
+.container_grupo_radio {
+  min-width: 50%;
+  margin-top: 15px;
+  /* class styles for the options properties of the container component */
+  /* media query */ }
+  .container_grupo_radio::after {
+    content: '';
+    display: block;
+    clear: both; }
+  .container_grupo_radio.artes {
+    background-color: #64428C;
+    color: #FFF; }
+  .container_grupo_radio.biologia {
+    background-color: #45973D; }
+  .container_grupo_radio.filosofia {
+    background-color: #536DA7; }
+  .container_grupo_radio.fisica {
+    background-color: #00909B; }
+  .container_grupo_radio.geografia {
+    background-color: #D85509; }
+  .container_grupo_radio.historia {
+    background-color: #951B81; }
+  .container_grupo_radio.lingua_inglesa {
+    background-color: #069891; }
+  .container_grupo_radio.lingua_portuguesa {
+    background-color: #C51A1B; }
+  .container_grupo_radio.matematica {
+    background-color: #1961AC; }
+  .container_grupo_radio.producao_de_texto {
+    background-color: #0F83A6; }
+  .container_grupo_radio.quimica {
+    background-color: #B80071; }
+  .container_grupo_radio.sociologia {
+    background-color: #C71553; }
+  .container_grupo_radio > *:first-child {
+    margin-top: 0; }
+    .container_grupo_radio > *:first-child._left + ._right {
+      margin-top: 0;
+      padding: 0 68 0 16px; }
+    .container_grupo_radio > *:first-child._right + ._left {
+      margin-top: 0;
+      padding: 0 16 0 68px; }
+  .container_grupo_radio > *:last-child {
+    margin-bottom: 0; }
+  .container_grupo_radio > *._left + ._right:last-child {
+    margin-bottom: 20px;
+    padding: 0 68 0 16px; }
+  .container_grupo_radio > *._right + ._left:last-child {
+    margin-bottom: 20px;
+    padding: 0 16 0 68px; }
+  @media only screen and (min-width: 481px) {
+    .container_grupo_radio._left {
+      float: left;
+      clear: left;
+      width: 47%;
+      margin-right: 24px;
+      z-index: 1; }
+    .container_grupo_radio._right {
+      float: right;
+      clear: right;
+      width: 47%;
+      margin-left: 24px;
+      z-index: 1; } }
+
+.group-radio {
+  width: 100%;
+  /* Customize the label (the container) */ }
+  .group-radio.artes .container input:checked ~ .checkmark {
+    background-color: #64428C; }
+  .group-radio.lingua_inglesa .container input:checked ~ .checkmark {
+    background-color: #069891; }
+  .group-radio.lingua_portuguesa .container input:checked ~ .checkmark {
+    background-color: #c9252c; }
+  .group-radio.matematica .container input:checked ~ .checkmark {
+    background-color: #1961AC; }
+  .group-radio .container_questao_radio {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+    margin-top: 16px;
+    /* Hide the browser's default radio button */
+    /* Create a custom radio button */
+    /* On mouse-over, add a grey background color */
+    /* When the radio button is checked, add a blue background */
+    /* Create the indicator (the dot/circle - hidden when not checked) */
+    /* Show the indicator (dot/circle) when checked */
+    /* Style the indicator (dot/circle) */ }
+    .group-radio .container_questao_radio .container input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0; }
+    .group-radio .container_questao_radio .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      border-radius: 50%; }
+    .group-radio .container_questao_radio .container:hover input ~ .checkmark {
+      background-color: #ddd; }
+    .group-radio .container_questao_radio .container .checkmark {
+      background-color: #eee; }
+    .group-radio .container_questao_radio .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none; }
+    .group-radio .container_questao_radio .container input:checked ~ .checkmark:after {
+      display: block; }
+    .group-radio .container_questao_radio .container .checkmark:after {
+      top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white; }
+    .group-radio .container_questao_radio .textradio_inline {
+      font-family: 'Noticia Text';
+      font-weight: 400;
+      font-size: 16px;
+      color: #000000;
+      text-align: start;
+      margin: 0; }
+
+.container_grupo_radio_linha .container_questao_radio .textradio_inline {
+  height: fit-content; }
+
+.container_grupo_radio_lado_a_lado .container_questao_radio {
+  display: inline-block;
+  margin-right: 1rem; }
