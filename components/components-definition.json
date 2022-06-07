@@ -5068,6 +5068,7 @@
             "label": "Containers",
             "name": "containers",
             "components": [
+                "background",
                 "container_slideshow_saiba_mais",
                 "container",
                 "container_slideshow_boxe",
