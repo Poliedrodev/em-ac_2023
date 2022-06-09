@@ -18342,6 +18342,55 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   background-repeat: no-repeat;
   height: 100%; }
 
+/* Container component style*/
+.container_nivel1 {
+  margin: 24px 0px 0px 0px;
+  padding: 0px 68px 0px 68px;
+  background: white;
+  clear: both;
+  /* class styles for the options properties of the container component */
+  /* media query */ }
+  .container_nivel1::after {
+    content: '';
+    display: block;
+    clear: both; }
+  .container_nivel1._option1 {
+    background-color: #141414; }
+    .container_nivel1._option1 .title,
+    .container_nivel1._option1 .subtitle,
+    .container_nivel1._option1 .intro,
+    .container_nivel1._option1 .body,
+    .container_nivel1._option1 .footer,
+    .container_nivel1._option1 blockquote {
+      color: #ffffff; }
+  .container_nivel1._option2 {
+    background-color: #f2c43d; }
+  .container_nivel1._option3 {
+    background-color: #c191d6; }
+  .container_nivel1 > *:first-child {
+    margin-top: 0; }
+    .container_nivel1 > *:first-child._left + ._right {
+      margin-top: 0; }
+    .container_nivel1 > *:first-child._right + ._left {
+      margin-top: 0; }
+  .container_nivel1 > *:last-child {
+    margin-bottom: 0; }
+  .container_nivel1 > *._left + ._right:last-child {
+    margin-bottom: 20px; }
+  .container_nivel1 > *._right + ._left:last-child {
+    margin-bottom: 20px; }
+  @media only screen and (min-width: 481px) {
+    .container_nivel1._left {
+      float: left;
+      clear: left;
+      width: 50%;
+      z-index: 1; }
+    .container_nivel1._right {
+      float: right;
+      clear: right;
+      width: 50%;
+      z-index: 1; } }
+
 .audio_lumen_mais {
   position: relative;
   width: 84%;
