@@ -1,0 +1,346 @@
+.secoes_ingles {
+  width: 100%;
+  height: fit-content;
+  margin-top: 16px;
+  margin-bottom: 8px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  font-family: $fontName;
+  font-size: 1.5rem;
+  color: $secoes_ingles;
+
+  .wrap_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+
+    .secoes_icon {
+      min-width: 32px;
+      min-height: 32px;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .text_abre_secao {
+      width: 100%;
+      text-align: left;
+      letter-spacing: 0px;
+      white-space: nowrap;
+    }
+  }
+
+  .container_abre_secao {
+    .remove_number {
+      .background_number:first-child {
+        &::before {
+          display: none !important;
+        }
+      }
+    }
+
+    .background_number {
+      background: $secoes_ingles  !important;
+    }
+  }
+
+  .line {
+    height: 2px;
+    width: 100%;
+    position: relative;
+    background-color: $secoes_ingles;
+
+    &::after {
+      content: '';
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      right: 0;
+      top: -4px;
+      background: $secoes_ingles;
+    }
+  }
+
+  //variações
+
+  &.i_can_integrate {
+    .wrap_content {
+      .secoes_icon {
+        background-image: url(https://livro-digital.p4ed.com/assets/icons/I_can_integrate.svg);
+      }
+
+      .text_abre_secao {
+        &::before {
+          content: 'I can integrate';
+        }
+      }
+    }
+
+    .background_number:first-child {
+      &::before {
+        color: #ffffff;
+        font-weight: 700;
+        counter-increment: i_can_integrate;
+        content: counter(i_can_integrate, decimal) "";
+      }
+    }
+  }
+
+  &.i_can_listen {
+    .wrap_content {
+      .secoes_icon {
+        background-image: url(https://livro-digital.p4ed.com/assets/icons/I_can_listen.svg);
+      }
+
+      .text_abre_secao {
+        &::before {
+          content: 'I can listen';
+        }
+      }
+    }
+
+    .background_number:first-child {
+      &::before {
+        color: #ffffff;
+        font-weight: 700;
+        counter-increment: i_can_listen;
+        content: counter(i_can_listen, decimal) "";
+      }
+    }
+  }
+
+  &.i_can_understand {
+    .wrap_content {
+      .secoes_icon {
+        background-image: url(https://livro-digital.p4ed.com/assets/icons/I_can_understand.svg);
+      }
+
+      .text_abre_secao {
+        &::before {
+          content: 'I can understand';
+        }
+      }
+    }
+
+    .background_number:first-child {
+      &::before {
+        color: #ffffff;
+        font-weight: 700;
+        counter-increment: i_can_understand;
+        content: counter(i_can_understand, decimal) "";
+      }
+    }
+  }
+
+  &.i_can_classify {
+    .wrap_content {
+      .secoes_icon {
+        background-image: url(https://livro-digital.p4ed.com/assets/icons/I_can_classify.svg);
+      }
+
+      .text_abre_secao {
+        &::before {
+          content: 'I can classify';
+        }
+      }
+    }
+
+    .background_number:first-child {
+      &::before {
+        color: #ffffff;
+        font-weight: 700;
+        counter-increment: i_can_classify;
+        content: counter(i_can_classify, decimal) "";
+      }
+    }
+  }
+
+  &.i_can_rewrite {
+    .wrap_content {
+      .secoes_icon {
+        background-image: url(https://livro-digital.p4ed.com/assets/icons/I_can_rewrite.svg);
+      }
+
+      .text_abre_secao {
+        &::before {
+          content: 'I can rewrite';
+        }
+      }
+    }
+
+    .background_number:first-child {
+      &::before {
+        color: #ffffff;
+        font-weight: 700;
+        counter-increment: i_can_rewrite;
+        content: counter(i_can_rewrite, decimal) "";
+      }
+    }
+  }
+
+  &.i_can_write {
+    .wrap_content {
+      .secoes_icon {
+        background-image: url(https://livro-digital.p4ed.com/assets/icons/I_can_write.svg);
+      }
+
+      .text_abre_secao {
+        &::before {
+          content: 'I can write';
+        }
+      }
+    }
+
+    .background_number:first-child {
+      &::before {
+        color: #ffffff;
+        font-weight: 700;
+        counter-increment: i_can_write;
+        content: counter(i_can_write, decimal) "";
+      }
+    }
+  }
+
+  &.i_can_use {
+    .wrap_content {
+      .secoes_icon {
+        background-image: url(https://livro-digital.p4ed.com/assets/icons/I_can_use.svg);
+      }
+
+      .text_abre_secao {
+        &::before {
+          content: 'I can use';
+        }
+      }
+    }
+
+    .background_number:first-child {
+      &::before {
+        color: #ffffff;
+        font-weight: 700;
+        counter-increment: i_can_use;
+        content: counter(i_can_use, decimal) "";
+      }
+    }
+  }
+
+  &.i_can_do_more {
+    .wrap_content {
+      .secoes_icon {
+        background-image: url(https://livro-digital.p4ed.com/assets/icons/I_can_do_more.svg);
+      }
+
+      .text_abre_secao {
+        &::before {
+          content: 'I can do more';
+        }
+      }
+    }
+
+    .background_number:first-child {
+      &::before {
+        color: #ffffff;
+        font-weight: 700;
+        counter-increment: i_can_do_more;
+        content: counter(i_can_do_more, decimal) "";
+      }
+    }
+  }
+
+  &.i_can_say {
+    .wrap_content {
+      .secoes_icon {
+        background-image: url(https://livro-digital.p4ed.com/assets/icons/I_can_say.svg);
+      }
+
+      .text_abre_secao {
+        &::before {
+          content: 'I can say';
+        }
+      }
+    }
+
+    .background_number:first-child {
+      &::before {
+        color: #ffffff;
+        font-weight: 700;
+        counter-increment: i_can_say;
+        content: counter(i_can_say, decimal) "";
+      }
+    }
+  }
+
+  &.CLIL_Climb {
+    .wrap_content {
+      .secoes_icon {
+        background-image: url(https://livro-digital.p4ed.com/assets/icons/CLIL_Climb.svg);
+      }
+
+      .text_abre_secao {
+        &::before {
+          content: 'CLIL Climb';
+        }
+      }
+    }
+
+    .background_number:first-child {
+      &::before {
+        color: #ffffff;
+        font-weight: 700;
+        counter-increment: CLIL_Climb;
+        content: counter(CLIL_Climb, decimal) "";
+      }
+    }
+  }
+
+  &.break_it_down {
+    .wrap_content {
+      .secoes_icon {
+        background-image: url(https://livro-digital.p4ed.com/assets/icons/Break_it_down.svg);
+      }
+
+      .text_abre_secao {
+        &::before {
+          content: 'Break it down';
+        }
+      }
+    }
+
+    .background_number:first-child {
+      &::before {
+        color: #ffffff;
+        font-weight: 700;
+        counter-increment: break_it_down;
+        content: counter(break_it_down, decimal) "";
+      }
+    }
+  }
+
+  &.reading_the_lines {
+    .wrap_content {
+      .secoes_icon {
+        background-image: url(https://livro-digital.p4ed.com/assets/icons/Reading_the_lines.svg);
+      }
+
+      .text_abre_secao {
+        &::before {
+          content: 'Reading the lines';
+        }
+      }
+    }
+  }
+
+  .background_number:first-child {
+    &::before {
+      color: #ffffff;
+      font-weight: 700;
+      counter-increment: reading_the_lines;
+      content: counter(reading_the_lines, decimal) "";
+    }
+  }
+}

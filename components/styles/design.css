@@ -29,7 +29,8 @@
   word-wrap: break-word;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
-  -webkit-overflow-scrolling: touch; }
+  -webkit-overflow-scrolling: touch;
+  counter-reset: atividades desafio reflexão sintese pontos_e_letras leitura_complementar arte_e_voce diario_do_artista i_can_integrate i_can_listen i_can_understand i_can_classify i_can_rewrite i_can_write i_can_use i_can_do_more i_can_say CLIL_Climb break_it_down reading_the_lines; }
   .body :focus,
   .body-book :focus {
     outline: none; }
@@ -42,7 +43,8 @@
   padding: 0;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 16px; }
+  padding-bottom: 16px;
+  overflow-x: hidden; }
   .body::after {
     content: ' ';
     display: block;
@@ -10577,6 +10579,35 @@ blockquote {
   font-size: 18px;
   margin: 15px 20px 0px 20px; }
 
+.css_02_2texto_bullet {
+  display: block;
+  font-size: 18px;
+  color: #000000;
+  font-family: "Lato";
+  font-weight: 400;
+  line-height: 1.5em;
+  padding-inline-start: 20px; }
+
+.css_02_2texto_bullet_itens {
+  font-size: 18px;
+  font-family: "Lato";
+  font-weight: 400;
+  line-height: 1.5em;
+  padding-left: 4px;
+  margin-top: 16px; }
+  .css_02_2texto_bullet_itens:first-child {
+    margin: 0 !important; }
+
+.css_02_2texto_bullet_item_texto {
+  font-size: 18px;
+  font-family: "Lato";
+  font-weight: 400;
+  line-height: 1.5em;
+  padding-left: 4px;
+  margin-top: 16px; }
+  .css_02_2texto_bullet_item_texto:first-child {
+    margin: 0 !important; }
+
 .css_02_texto_bullet {
   display: block;
   font-size: 18px;
@@ -11163,6 +11194,578 @@ blockquote {
   .css_03_numero_cor_2.matematica {
     color: #1961AC !important;
     border-bottom: solid 3px #F1CB40; }
+
+.secoes {
+  width: 100%;
+  height: fit-content;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: "Lato";
+  font-size: 1.5rem; }
+  .secoes .wrap_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px; }
+    .secoes .wrap_content .secoes_icon {
+      min-width: 32px;
+      min-height: 32px;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat; }
+    .secoes .wrap_content .text_abre_secao {
+      width: 100%;
+      text-align: left;
+      letter-spacing: 0px;
+      white-space: nowrap; }
+  .secoes .line {
+    height: 2px;
+    width: 100%;
+    position: relative; }
+    .secoes .line::after {
+      content: '';
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      right: 0;
+      top: -4px; }
+  .secoes .container_abre_secao .remove_number .background_number:first-child::before {
+    display: none !important; }
+  .secoes.atividades {
+    color: #B47E20; }
+    .secoes.atividades .wrap_content .secoes_icon {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/dig_secao_01.svg); }
+    .secoes.atividades .wrap_content .text_abre_secao::before {
+      content: 'Atividades'; }
+    .secoes.atividades .line {
+      background-color: #B47E20; }
+      .secoes.atividades .line::after {
+        background: #B47E20; }
+    .secoes.atividades .container_abre_secao .background_number {
+      background: #B47E20 !important;
+      color: #ffffff;
+      font-weight: 700; }
+    .secoes.atividades .container_abre_secao .background_number:first-child::before {
+      counter-increment: atividades;
+      content: counter(atividades, decimal) ""; }
+  .secoes.desafio {
+    color: #522057; }
+    .secoes.desafio .wrap_content .secoes_icon {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/dig_secao_02.svg); }
+    .secoes.desafio .wrap_content .text_abre_secao::before {
+      content: 'Desafio'; }
+    .secoes.desafio .line {
+      background-color: #522057; }
+      .secoes.desafio .line::after {
+        background: #522057; }
+    .secoes.desafio .container_abre_secao .background_number {
+      background: #522057 !important;
+      color: #ffffff;
+      font-weight: 700; }
+    .secoes.desafio .container_abre_secao .background_number:first-child::before {
+      counter-increment: desafio;
+      content: counter(desafio, decimal) ""; }
+  .secoes.reflexão {
+    color: #1C3055; }
+    .secoes.reflexão .wrap_content .secoes_icon {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/dig_secao_03.svg); }
+    .secoes.reflexão .wrap_content .text_abre_secao::before {
+      content: 'Reflexão'; }
+    .secoes.reflexão .line {
+      background-color: #1C3055; }
+      .secoes.reflexão .line::after {
+        background: #1C3055; }
+    .secoes.reflexão .container_abre_secao .background_number {
+      background: #1C3055 !important;
+      color: #ffffff;
+      font-weight: 700; }
+    .secoes.reflexão .container_abre_secao .background_number:first-child::before {
+      counter-increment: reflexão;
+      content: counter(reflexão, decimal) ""; }
+  .secoes.sintese {
+    color: #881D12; }
+    .secoes.sintese .wrap_content .secoes_icon {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/dig_secao_04.svg); }
+    .secoes.sintese .wrap_content .text_abre_secao::before {
+      content: 'Síntese'; }
+    .secoes.sintese .line {
+      background-color: #881D12; }
+      .secoes.sintese .line::after {
+        background: #881D12; }
+    .secoes.sintese .container_abre_secao .background_number {
+      background: #881D12 !important;
+      color: #ffffff;
+      font-weight: 700; }
+    .secoes.sintese .container_abre_secao .background_number:first-child::before {
+      counter-increment: sintese;
+      content: counter(sintese, decimal) ""; }
+  .secoes.pontos_e_letras {
+    color: #98134B; }
+    .secoes.pontos_e_letras .wrap_content .secoes_icon {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/dig_secao_05.svg); }
+    .secoes.pontos_e_letras .wrap_content .text_abre_secao::before {
+      content: 'Pontos & Letras'; }
+    .secoes.pontos_e_letras .line {
+      background-color: #98134B; }
+      .secoes.pontos_e_letras .line::after {
+        background: #98134B; }
+    .secoes.pontos_e_letras .container_abre_secao .background_number {
+      background: #98134B !important;
+      color: #ffffff;
+      font-weight: 700; }
+    .secoes.pontos_e_letras .container_abre_secao .background_number:first-child::before {
+      counter-increment: pontos_e_letras;
+      content: counter(pontos_e_letras, decimal) ""; }
+  .secoes.leitura_complementar {
+    color: #98134B; }
+    .secoes.leitura_complementar .wrap_content .secoes_icon {
+      background-image: url(https://livro-digital.p4ed.com/assets/icons/dig_secao_05.svg); }
+    .secoes.leitura_complementar .wrap_content .text_abre_secao::before {
+      content: 'Leitura complementar'; }
+    .secoes.leitura_complementar .line {
+      background-color: #98134B; }
+      .secoes.leitura_complementar .line::after {
+        background: #98134B; }
+    .secoes.leitura_complementar .container_abre_secao .background_number {
+      background: #98134B !important;
+      color: #ffffff;
+      font-weight: 700; }
+    .secoes.leitura_complementar .container_abre_secao .background_number:first-child::before {
+      counter-increment: leitura_complementar;
+      content: counter(leitura_complementar, decimal) ""; }
+  .secoes.arte_e_voce {
+    color: #B47E20; }
+    .secoes.arte_e_voce .secoes_icon {
+      display: none; }
+    .secoes.arte_e_voce .wrap_content .text_abre_secao::before {
+      content: 'Arte e você'; }
+    .secoes.arte_e_voce .line {
+      background-color: #B47E20; }
+      .secoes.arte_e_voce .line::after {
+        background: #B47E20; }
+    .secoes.arte_e_voce .container_abre_secao .background_number {
+      background: #B47E20 !important;
+      color: #ffffff;
+      font-weight: 700; }
+    .secoes.arte_e_voce .container_abre_secao .background_number:first-child::before {
+      counter-increment: arte_e_voce;
+      content: counter(arte_e_voce, decimal) ""; }
+  .secoes.diario_do_artista {
+    color: #B47E20; }
+    .secoes.diario_do_artista .wrap_content .secoes_icon {
+      display: none; }
+    .secoes.diario_do_artista .wrap_content .text_abre_secao::before {
+      content: 'Diário do artista'; }
+    .secoes.diario_do_artista .line {
+      background-color: #B47E20; }
+      .secoes.diario_do_artista .line::after {
+        background: #B47E20; }
+    .secoes.diario_do_artista .container_abre_secao .background_number {
+      background: #B47E20 !important;
+      color: #ffffff;
+      font-weight: 700; }
+    .secoes.diario_do_artista .container_abre_secao .background_number:first-child::before {
+      counter-increment: diario_do_artista;
+      content: counter(diario_do_artista, decimal) ""; }
+
+.secoes_ingles {
+  width: 100%;
+  height: fit-content;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: "Lato";
+  font-size: 1.5rem;
+  color: #E94E1B; }
+  .secoes_ingles .wrap_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px; }
+    .secoes_ingles .wrap_content .secoes_icon {
+      min-width: 32px;
+      min-height: 32px;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat; }
+    .secoes_ingles .wrap_content .text_abre_secao {
+      width: 100%;
+      text-align: left;
+      letter-spacing: 0px;
+      white-space: nowrap; }
+  .secoes_ingles .container_abre_secao .remove_number .background_number:first-child::before {
+    display: none !important; }
+  .secoes_ingles .container_abre_secao .background_number {
+    background: #E94E1B !important; }
+  .secoes_ingles .line {
+    height: 2px;
+    width: 100%;
+    position: relative;
+    background-color: #E94E1B; }
+    .secoes_ingles .line::after {
+      content: '';
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      right: 0;
+      top: -4px;
+      background: #E94E1B; }
+  .secoes_ingles.i_can_integrate .wrap_content .secoes_icon {
+    background-image: url(https://livro-digital.p4ed.com/assets/icons/I_can_integrate.svg); }
+  .secoes_ingles.i_can_integrate .wrap_content .text_abre_secao::before {
+    content: 'I can integrate'; }
+  .secoes_ingles.i_can_integrate .background_number:first-child::before {
+    color: #ffffff;
+    font-weight: 700;
+    counter-increment: i_can_integrate;
+    content: counter(i_can_integrate, decimal) ""; }
+  .secoes_ingles.i_can_listen .wrap_content .secoes_icon {
+    background-image: url(https://livro-digital.p4ed.com/assets/icons/I_can_listen.svg); }
+  .secoes_ingles.i_can_listen .wrap_content .text_abre_secao::before {
+    content: 'I can listen'; }
+  .secoes_ingles.i_can_listen .background_number:first-child::before {
+    color: #ffffff;
+    font-weight: 700;
+    counter-increment: i_can_listen;
+    content: counter(i_can_listen, decimal) ""; }
+  .secoes_ingles.i_can_understand .wrap_content .secoes_icon {
+    background-image: url(https://livro-digital.p4ed.com/assets/icons/I_can_understand.svg); }
+  .secoes_ingles.i_can_understand .wrap_content .text_abre_secao::before {
+    content: 'I can understand'; }
+  .secoes_ingles.i_can_understand .background_number:first-child::before {
+    color: #ffffff;
+    font-weight: 700;
+    counter-increment: i_can_understand;
+    content: counter(i_can_understand, decimal) ""; }
+  .secoes_ingles.i_can_classify .wrap_content .secoes_icon {
+    background-image: url(https://livro-digital.p4ed.com/assets/icons/I_can_classify.svg); }
+  .secoes_ingles.i_can_classify .wrap_content .text_abre_secao::before {
+    content: 'I can classify'; }
+  .secoes_ingles.i_can_classify .background_number:first-child::before {
+    color: #ffffff;
+    font-weight: 700;
+    counter-increment: i_can_classify;
+    content: counter(i_can_classify, decimal) ""; }
+  .secoes_ingles.i_can_rewrite .wrap_content .secoes_icon {
+    background-image: url(https://livro-digital.p4ed.com/assets/icons/I_can_rewrite.svg); }
+  .secoes_ingles.i_can_rewrite .wrap_content .text_abre_secao::before {
+    content: 'I can rewrite'; }
+  .secoes_ingles.i_can_rewrite .background_number:first-child::before {
+    color: #ffffff;
+    font-weight: 700;
+    counter-increment: i_can_rewrite;
+    content: counter(i_can_rewrite, decimal) ""; }
+  .secoes_ingles.i_can_write .wrap_content .secoes_icon {
+    background-image: url(https://livro-digital.p4ed.com/assets/icons/I_can_write.svg); }
+  .secoes_ingles.i_can_write .wrap_content .text_abre_secao::before {
+    content: 'I can write'; }
+  .secoes_ingles.i_can_write .background_number:first-child::before {
+    color: #ffffff;
+    font-weight: 700;
+    counter-increment: i_can_write;
+    content: counter(i_can_write, decimal) ""; }
+  .secoes_ingles.i_can_use .wrap_content .secoes_icon {
+    background-image: url(https://livro-digital.p4ed.com/assets/icons/I_can_use.svg); }
+  .secoes_ingles.i_can_use .wrap_content .text_abre_secao::before {
+    content: 'I can use'; }
+  .secoes_ingles.i_can_use .background_number:first-child::before {
+    color: #ffffff;
+    font-weight: 700;
+    counter-increment: i_can_use;
+    content: counter(i_can_use, decimal) ""; }
+  .secoes_ingles.i_can_do_more .wrap_content .secoes_icon {
+    background-image: url(https://livro-digital.p4ed.com/assets/icons/I_can_do_more.svg); }
+  .secoes_ingles.i_can_do_more .wrap_content .text_abre_secao::before {
+    content: 'I can do more'; }
+  .secoes_ingles.i_can_do_more .background_number:first-child::before {
+    color: #ffffff;
+    font-weight: 700;
+    counter-increment: i_can_do_more;
+    content: counter(i_can_do_more, decimal) ""; }
+  .secoes_ingles.i_can_say .wrap_content .secoes_icon {
+    background-image: url(https://livro-digital.p4ed.com/assets/icons/I_can_say.svg); }
+  .secoes_ingles.i_can_say .wrap_content .text_abre_secao::before {
+    content: 'I can say'; }
+  .secoes_ingles.i_can_say .background_number:first-child::before {
+    color: #ffffff;
+    font-weight: 700;
+    counter-increment: i_can_say;
+    content: counter(i_can_say, decimal) ""; }
+  .secoes_ingles.CLIL_Climb .wrap_content .secoes_icon {
+    background-image: url(https://livro-digital.p4ed.com/assets/icons/CLIL_Climb.svg); }
+  .secoes_ingles.CLIL_Climb .wrap_content .text_abre_secao::before {
+    content: 'CLIL Climb'; }
+  .secoes_ingles.CLIL_Climb .background_number:first-child::before {
+    color: #ffffff;
+    font-weight: 700;
+    counter-increment: CLIL_Climb;
+    content: counter(CLIL_Climb, decimal) ""; }
+  .secoes_ingles.break_it_down .wrap_content .secoes_icon {
+    background-image: url(https://livro-digital.p4ed.com/assets/icons/Break_it_down.svg); }
+  .secoes_ingles.break_it_down .wrap_content .text_abre_secao::before {
+    content: 'Break it down'; }
+  .secoes_ingles.break_it_down .background_number:first-child::before {
+    color: #ffffff;
+    font-weight: 700;
+    counter-increment: break_it_down;
+    content: counter(break_it_down, decimal) ""; }
+  .secoes_ingles.reading_the_lines .wrap_content .secoes_icon {
+    background-image: url(https://livro-digital.p4ed.com/assets/icons/Reading_the_lines.svg); }
+  .secoes_ingles.reading_the_lines .wrap_content .text_abre_secao::before {
+    content: 'Reading the lines'; }
+  .secoes_ingles .background_number:first-child::before {
+    color: #ffffff;
+    font-weight: 700;
+    counter-increment: reading_the_lines;
+    content: counter(reading_the_lines, decimal) ""; }
+
+.css_03_2exercicio_container {
+  width: 100%;
+  margin-top: 31px;
+  display: grid;
+  grid-template-columns: min-content auto;
+  gap: 8px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 18px;
+  align-items: baseline; }
+  .css_03_2exercicio_container .content_number {
+    width: 34px; }
+    .css_03_2exercicio_container .content_number .background_number {
+      width: 34px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: #A90F09; }
+      .css_03_2exercicio_container .content_number .background_number .number_exercicio {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 700; }
+  .css_03_2exercicio_container .group_exercicio {
+    margin: 0; }
+    .css_03_2exercicio_container .group_exercicio::first-child {
+      margin: 0; }
+
+.css_03_2exercicio_container_edit {
+  width: 100%;
+  margin-top: 31px;
+  display: grid;
+  grid-template-columns: min-content auto;
+  gap: 8px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 18px;
+  align-items: baseline; }
+  .css_03_2exercicio_container_edit .content_number {
+    width: 34px; }
+    .css_03_2exercicio_container_edit .content_number .background_number {
+      width: 34px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: #A90F09; }
+      .css_03_2exercicio_container_edit .content_number .background_number .number_exercicio {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 700; }
+  .css_03_2exercicio_container_edit .group_exercicio {
+    margin: 0; }
+    .css_03_2exercicio_container_edit .group_exercicio::first-child {
+      margin: 0; }
+
+.css_03_2alternativa {
+  margin-top: 16px;
+  font-family: "Lato";
+  font-weight: 300;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 18px;
+  align-items: baseline;
+  list-style: none;
+  position: relative; }
+  .css_03_2alternativa::before {
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 600;
+    counter-increment: list;
+    content: counter(list, lower-alpha) ")";
+    position: absolute;
+    left: -30px; }
+
+.css_03_2exercicio_alternativa_edit {
+  margin-top: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 18px;
+  padding-inline-start: 32px; }
+
+.css_03_2exercicio_alternativa {
+  margin-top: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 18px;
+  counter-reset: list;
+  padding-inline-start: 32px; }
+
+.css_03_2alternativa_edit {
+  margin-top: 16px;
+  display: grid;
+  gap: 8px;
+  font-family: "Lato";
+  font-weight: 300;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 18px;
+  align-items: baseline;
+  list-style: none;
+  position: relative; }
+  .css_03_2alternativa_edit .number_alternativa_edit {
+    width: 32px;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    left: -32px; }
+
+.css_03_exercicio_alternativa {
+  display: block;
+  font-family: 'Noticia Text';
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  margin: 12px 0px 0px 64px;
+  line-height: 1.5em; }
+
+.css_03_2exercicio_alternativa_assinalar {
+  margin-top: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 18px;
+  align-items: baseline;
+  padding-inline-start: 32px; }
+
+.css_03_2exercicio_alternativa_assinalar_itens {
+  margin-top: 16px;
+  font-family: "Lato";
+  font-weight: 300;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 18px;
+  align-items: baseline;
+  list-style: none;
+  position: relative; }
+  .css_03_2exercicio_alternativa_assinalar_itens::after {
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 600;
+    content: "(";
+    position: absolute;
+    left: -32px;
+    top: 0; }
+  .css_03_2exercicio_alternativa_assinalar_itens::before {
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 600;
+    content: ")";
+    position: absolute;
+    left: -16px; }
+
+.css_03_2exercicio_continuacao {
+  width: 100%;
+  margin-top: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 18px; }
+
+.css_03_2exercicio_enunciado {
+  width: 100%;
+  margin-top: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 18px; }
+
+.css_03_2exercicio_item_romano {
+  margin-top: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 18px;
+  counter-reset: list;
+  padding-inline-start: 32px; }
+
+.css_03_2exercicio_item_romano_itens {
+  margin-top: 16px;
+  font-family: "Lato";
+  font-weight: 300;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 18px;
+  align-items: baseline;
+  list-style: none;
+  position: relative; }
+  .css_03_2exercicio_item_romano_itens::before {
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 600;
+    counter-increment: list;
+    content: counter(list, upper-roman) ".";
+    position: absolute;
+    left: -32px; }
+
+.css_03_2exercicio_item {
+  margin-top: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 18px;
+  counter-reset: list;
+  padding-inline-start: 32px; }
+
+.css_03_2exercicio_itens {
+  margin-top: 16px;
+  font-family: "Lato";
+  font-weight: 300;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 18px;
+  align-items: baseline;
+  list-style: none;
+  position: relative; }
+  .css_03_2exercicio_itens::before {
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 600;
+    counter-increment: list;
+    content: counter(list) ".";
+    position: absolute;
+    left: -32px; }
 
 .css_03_exercicio_enunciado {
   display: block;

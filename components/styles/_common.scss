@@ -64,6 +64,21 @@ $font-noticia-text-bold: 'noticia text', '700';
 $font-nunito-sans-black: 'nunito sans', '900';
 $font-barlow-condensed-bold: 'barlow condensed', '700';
 
+// abre secoes
+$atividades: #B47E20;
+$desafio: #522057;
+$reflexão: #1C3055;
+$sintese: #881D12;
+$pontos_e_letras: #98134B;
+$leitura_complementar: #98134B;
+$arte_e_voce: #B47E20;
+$diario_do_artista: #B47E20;
+$secoes_ingles: #E94E1B;
+
+// Question
+$fontSizeQuestion: 18px;
+$fontSizeIndiceQuestion: 18px;
+
 /* Mixin's helpers, more info: http://sass-lang.com/guide#topic-6*/
 @mixin display-flex() {
   display: -webkit-flex;
@@ -103,6 +118,8 @@ $font-barlow-condensed-bold: 'barlow condensed', '700';
   :focus {
     outline: none;
   }
+
+  counter-reset: atividades desafio reflexão sintese pontos_e_letras leitura_complementar arte_e_voce diario_do_artista i_can_integrate i_can_listen i_can_understand i_can_classify i_can_rewrite i_can_write i_can_use i_can_do_more i_can_say CLIL_Climb break_it_down reading_the_lines;
 }
 
 .body-book {
@@ -115,6 +132,7 @@ $font-barlow-condensed-bold: 'barlow condensed', '700';
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 16px;
+  overflow-x: hidden;
 
   &::after {
     content: ' ';
