@@ -40,7 +40,7 @@
             }
         },
         {
-            "name": "image2",
+            "name": "image_lumen_mais",
             "icon": "icons/components/image.svg",
             "label": {
                 "key": "COMPONENT_IMAGE2_LABEL"
@@ -4807,7 +4807,6 @@
                 "style_lumen_mais"
             ]
         },
-
         {
             "name": "container_nivel1",
             "icon": "icons/components/container.svg",
@@ -4815,8 +4814,7 @@
             "allowNesting": "yes",
             "label": "container",
             "properties": []
-          },
-      
+        },
         {
             "name": "audio_lumen_mais",
             "icon": "icons/components/icon_00_arte.svg",
@@ -5216,7 +5214,7 @@
             "name": "imagens",
             "components": [
                 "image",
-                "image2",
+                "image_lumen_mais",
                 "image_cont_exercicios",
                 "image_teoria",
                 "image_exercicio",
@@ -6220,173 +6218,34 @@
             }
         },
         "image": {
-            "image_popup_center": "auto",
-            "image_inline": "auto",
-            "image_teoria": "auto",
-            "image_exercicio": "auto",
-            "image_saiba_mais": "auto",
-            "imagem_sem_margem": "auto",
-            "imagem_centralizada": "auto",
-            "imagem_coluna_falsa": "auto",
-            "imagem_meia_coluna": "auto",
-            "imagem_meia_coluna_container": "auto",
-            "imagem_meia_coluna_container_exercicios": "auto",
-            "hero": "auto",
-            "author": "auto",
-            "slideshow": {
-                "type": "to-container",
-                "container": "slideshow"
-            },
-            "product": "auto"
+            "image_lumen_mais": "auto"
         },
         "image_teoria": {
-            "image_inline": "auto",
-            "image": "auto",
-            "image_exercicio": "auto",
-            "image_saiba_mais": "auto",
-            "imagem_sem_margem": "auto",
-            "imagem_centralizada": "auto",
-            "imagem_coluna_falsa": "auto",
-            "imagem_meia_coluna": "auto",
-            "imagem_meia_coluna_container": "auto",
-            "imagem_meia_coluna_container_exercicios": "auto",
-            "hero": "auto",
-            "author": "auto",
-            "slideshow": {
-                "type": "to-container",
-                "container": "slideshow"
-            },
-            "product": "auto"
+            "image_lumen_mais": "auto"
         },
         "image_saiba_mais": {
-            "image_inline": "auto",
-            "image_teoria": "auto",
-            "image_exercicio": "auto",
-            "image": "auto",
-            "imagem_sem_margem": "auto",
-            "imagem_centralizada": "auto",
-            "imagem_coluna_falsa": "auto",
-            "imagem_meia_coluna": "auto",
-            "imagem_meia_coluna_container": "auto",
-            "imagem_meia_coluna_container_exercicios": "auto",
-            "hero": "auto",
-            "author": "auto",
-            "slideshow": {
-                "type": "to-container",
-                "container": "slideshow"
-            },
-            "product": "auto"
+            "image_lumen_mais": "auto"
         },
         "image_exercicio": {
-            "image_inline": "auto",
-            "image_teoria": "auto",
-            "image_exercicio": "auto",
-            "image": "auto",
-            "imagem_sem_margem": "auto",
-            "imagem_centralizada": "auto",
-            "imagem_coluna_falsa": "auto",
-            "imagem_meia_coluna": "auto",
-            "imagem_meia_coluna_container": "auto",
-            "imagem_meia_coluna_container_exercicios": "auto",
-            "hero": "auto",
-            "author": "auto",
-            "slideshow": {
-                "type": "to-container",
-                "container": "slideshow"
-            },
-            "product": "auto"
+            "image_lumen_mais": "auto"
         },
         "imagem_sem_margem": {
-            "image_inline": "auto",
-            "image": "auto",
-            "imagem_centralizada": "auto",
-            "imagem_coluna_falsa": "auto",
-            "imagem_meia_coluna": "auto",
-            "imagem_meia_coluna_container": "auto",
-            "imagem_meia_coluna_container_exercicios": "auto",
-            "hero": "auto",
-            "author": "auto",
-            "slideshow": {
-                "type": "to-container",
-                "container": "slideshow"
-            },
-            "product": "auto"
+            "image_lumen_mais": "auto"
         },
         "imagem_centralizada": {
-            "image_inline": "auto",
-            "imagem_sem_margem": "auto",
-            "imagem_meia_coluna": "auto",
-            "imagem_meia_coluna_container": "auto",
-            "imagem_meia_coluna_container_exercicios": "auto",
-            "imagem_coluna_falsa": "auto",
-            "image": "auto",
-            "hero": "auto",
-            "author": "auto",
-            "slideshow": {
-                "type": "to-container",
-                "container": "slideshow"
-            },
-            "product": "auto"
+            "image_lumen_mais": "auto"
         },
         "imagem_coluna_falsa": {
-            "imagem_sem_margem": "auto",
-            "imagem_meia_coluna": "auto",
-            "imagem_meia_coluna_container": "auto",
-            "imagem_meia_coluna_container_exercicios": "auto",
-            "imagem_centralizada": "auto",
-            "image": "auto",
-            "hero": "auto",
-            "author": "auto",
-            "slideshow": {
-                "type": "to-container",
-                "container": "slideshow"
-            },
-            "product": "auto"
+            "image_lumen_mais": "auto"
         },
         "imagem_meia_coluna": {
-            "image": "auto",
-            "imagem_sem_margem": "auto",
-            "imagem_centralizada": "auto",
-            "imagem_coluna_falsa": "auto",
-            "imagem_meia_coluna_container": "auto",
-            "imagem_meia_coluna_container_exercicios": "auto",
-            "hero": "auto",
-            "author": "auto",
-            "slideshow": {
-                "type": "to-container",
-                "container": "slideshow"
-            },
-            "product": "auto"
+            "image_lumen_mais": "auto"
         },
         "imagem_meia_coluna_container_exercicios": {
-            "image": "auto",
-            "imagem_sem_margem": "auto",
-            "imagem_centralizada": "auto",
-            "imagem_coluna_falsa": "auto",
-            "imagem_meia_coluna": "auto",
-            "imagem_meia_coluna_container": "auto",
-            "hero": "auto",
-            "author": "auto",
-            "slideshow": {
-                "type": "to-container",
-                "container": "slideshow"
-            },
-            "product": "auto"
+            "image_lumen_mais": "auto"
         },
         "imagem_meia_coluna_container": {
-            "image": "auto",
-            "imagem_sem_margem": "auto",
-            "imagem_centralizada": "auto",
-            "imagem_coluna_falsa": "auto",
-            "imagem_meia_coluna_container_exercicios": "auto",
-            "imagem_meia_coluna": "auto",
-            "hero": "auto",
-            "author": "auto",
-            "slideshow": {
-                "type": "to-container",
-                "container": "slideshow"
-            },
-            "product": "auto"
+            "image_lumen_mais": "auto"
         },
         "container": {
             "container_coluna_falsa": "auto",
