@@ -1,0 +1,45 @@
+.css_03_2exercicio_container_edit {
+  width: 100%;
+  margin-top: 31px;
+
+  display: grid;
+  grid-template-columns: min-content auto;
+  gap: 8px;
+
+  font-family: $fontName;
+  font-weight: 400;
+  color: $textColor;
+  line-height: 1.5em;
+  font-size: $fontSizeQuestion;
+  align-items: baseline;
+
+  .content_number {
+    width: 34px;
+
+    .background_number {
+      width: 34px;
+      height: 24px;
+
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: #A90F09;
+
+      .number_exercicio {
+        color: #ffffff;
+        font-size: $fontSizeIndiceQuestion;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .group_exercicio {
+    margin: 0;
+
+    &::first-child {
+      margin: 0;
+    }
+  }
+}

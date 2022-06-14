@@ -1,0 +1,377 @@
+.secoes {
+  width: 100%;
+  height: fit-content;
+  margin-top: 16px;
+  margin-bottom: 8px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  font-family: $fontName;
+  font-size: 1.5rem;
+
+  .wrap_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+
+    .secoes_icon {
+      min-width: 32px;
+      min-height: 32px;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .text_abre_secao {
+      width: 100%;
+      text-align: left;
+      letter-spacing: 0px;
+      white-space: nowrap;
+    }
+  }
+
+  .line {
+    height: 2px;
+    width: 100%;
+    position: relative;
+
+    &::after {
+      content: '';
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      right: 0;
+      top: -4px;
+    }
+  }
+
+  .container_abre_secao{
+    .remove_number{
+      .background_number:first-child {
+        &::before {
+         display: none !important;
+        }
+      }
+    }
+  }
+
+  //variações
+
+  &.atividades {
+    color: $atividades;
+
+    .wrap_content {
+      .secoes_icon {
+        background-image: url(https://livro-digital.p4ed.com/assets/icons/dig_secao_01.svg);
+      }
+
+      .text_abre_secao {
+        &::before {
+          content: 'Atividades';
+        }
+      }
+    }
+
+    .line {
+      background-color: $atividades;
+
+      &::after {
+        background: $atividades;
+      }
+    }
+
+    .container_abre_secao {
+      .background_number {
+        background: $atividades  !important;
+        color: #ffffff;
+        font-weight: 700;
+      }
+
+      .background_number:first-child {
+        &::before {
+          counter-increment: atividades;
+          content: counter(atividades, decimal) "";
+        }
+      }
+    }
+  }
+
+
+
+  &.desafio {
+    color: $desafio;
+
+    .wrap_content {
+      .secoes_icon {
+        background-image: url(https://livro-digital.p4ed.com/assets/icons/dig_secao_02.svg);
+      }
+
+      .text_abre_secao {
+        &::before {
+          content: 'Desafio';
+        }
+      }
+    }
+
+    .line {
+      background-color: $desafio;
+
+      &::after {
+        background: $desafio;
+      }
+    }
+
+    .container_abre_secao {
+      .background_number {
+        background: $desafio  !important;
+        color: #ffffff;
+        font-weight: 700;
+      }
+
+      .background_number:first-child {
+        &::before {
+          counter-increment: desafio;
+          content: counter(desafio, decimal) "";
+        }
+      }
+    }
+  }
+
+  &.reflexão {
+    color: $reflexão;
+
+    .wrap_content {
+      .secoes_icon {
+        background-image: url(https://livro-digital.p4ed.com/assets/icons/dig_secao_03.svg);
+      }
+
+      .text_abre_secao {
+        &::before {
+          content: 'Reflexão';
+        }
+      }
+    }
+
+    .line {
+      background-color: $reflexão;
+
+      &::after {
+        background: $reflexão;
+      }
+    }
+
+    .container_abre_secao {
+      .background_number {
+        background: $reflexão  !important;
+        color: #ffffff;
+        font-weight: 700;
+      }
+
+      .background_number:first-child {
+        &::before {
+          counter-increment: reflexão;
+          content: counter(reflexão, decimal) "";
+        }
+      }
+    }
+  }
+
+  &.sintese {
+    color: $sintese;
+
+    .wrap_content {
+      .secoes_icon {
+        background-image: url(https://livro-digital.p4ed.com/assets/icons/dig_secao_04.svg);
+      }
+
+      .text_abre_secao {
+        &::before {
+          content: 'Síntese';
+        }
+      }
+    }
+
+    .line {
+      background-color: $sintese;
+
+      &::after {
+        background: $sintese;
+      }
+    }
+
+    .container_abre_secao {
+      .background_number {
+        background: $sintese  !important;
+        color: #ffffff;
+        font-weight: 700;
+      }
+
+      .background_number:first-child {
+        &::before {
+          counter-increment: sintese;
+          content: counter(sintese, decimal) "";
+        }
+      }
+    }
+  }
+
+  &.pontos_e_letras {
+    color: $pontos_e_letras;
+
+    .wrap_content {
+      .secoes_icon {
+        background-image: url(https://livro-digital.p4ed.com/assets/icons/dig_secao_05.svg);
+      }
+
+      .text_abre_secao {
+        &::before {
+          content: 'Pontos & Letras';
+        }
+      }
+    }
+
+    .line {
+      background-color: $pontos_e_letras;
+
+      &::after {
+        background: $pontos_e_letras;
+      }
+    }
+
+    .container_abre_secao {
+      .background_number {
+        background: $pontos_e_letras  !important;
+        color: #ffffff;
+        font-weight: 700;
+      }
+
+      .background_number:first-child {
+        &::before {
+          counter-increment: pontos_e_letras;
+          content: counter(pontos_e_letras, decimal) "";
+        }
+      }
+    }
+  }
+
+  &.leitura_complementar {
+    color: $leitura_complementar;
+
+    .wrap_content {
+      .secoes_icon {
+        background-image: url(https://livro-digital.p4ed.com/assets/icons/dig_secao_05.svg);
+      }
+
+      .text_abre_secao {
+        &::before {
+          content: 'Leitura complementar';
+        }
+      }
+    }
+
+    .line {
+      background-color: $leitura_complementar;
+
+      &::after {
+        background: $leitura_complementar;
+      }
+    }
+
+    .container_abre_secao {
+      .background_number {
+        background: $leitura_complementar  !important;
+        color: #ffffff;
+        font-weight: 700;
+      }
+
+      .background_number:first-child {
+        &::before {
+          counter-increment: leitura_complementar;
+          content: counter(leitura_complementar, decimal) "";
+        }
+      }
+    }
+  }
+
+  &.arte_e_voce {
+    color: $arte_e_voce;
+
+    .secoes_icon {
+      display: none;
+    }
+
+    .wrap_content {
+      .text_abre_secao {
+        &::before {
+          content: 'Arte e você';
+        }
+      }
+    }
+
+    .line {
+      background-color: $arte_e_voce;
+
+      &::after {
+        background: $arte_e_voce;
+      }
+    }
+
+    .container_abre_secao {
+      .background_number {
+        background: $arte_e_voce  !important;
+        color: #ffffff;
+        font-weight: 700;
+      }
+
+      .background_number:first-child {
+        &::before {
+          counter-increment: arte_e_voce;
+          content: counter(arte_e_voce, decimal) "";
+        }
+      }
+    }
+  }
+
+  &.diario_do_artista {
+    color: $diario_do_artista;
+
+    .wrap_content {
+      .secoes_icon {
+        display: none;
+      }
+
+      .text_abre_secao {
+        &::before {
+          content: 'Diário do artista';
+        }
+      }
+    }
+
+    .line {
+      background-color: $diario_do_artista;
+
+      &::after {
+        background: $diario_do_artista;
+      }
+    }
+
+    .container_abre_secao {
+      .background_number {
+        background: $diario_do_artista  !important;
+        color: #ffffff;
+        font-weight: 700;
+      }
+
+      .background_number:first-child {
+        &::before {
+          counter-increment: diario_do_artista;
+          content: counter(diario_do_artista, decimal) "";
+        }
+      }
+    }
+  }
+}
