@@ -18665,3 +18665,32 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   font-size: 18px;
   counter-reset: list;
   padding-inline-start: 32px; }
+
+.css_02_2texto_bullet {
+  display: block;
+  font-size: 18px;
+  color: #000000;
+  font-family: "Lato";
+  font-weight: 400;
+  line-height: 1.5em;
+  padding-inline-start: 20px; }
+
+.css_02_2texto_bullet_itens {
+  font-size: 18px;
+  font-family: "Lato";
+  font-weight: 400;
+  line-height: 1.5em;
+  padding-left: 4px;
+  margin-top: 16px; }
+  .css_02_2texto_bullet_itens:first-child {
+    margin: 0 !important; }
+
+.css_02_2texto_bullet_item_texto {
+  font-size: 18px;
+  font-family: "Lato";
+  font-weight: 400;
+  line-height: 1.5em;
+  padding-left: 4px;
+  margin-top: 16px; }
+  .css_02_2texto_bullet_item_texto:first-child {
+    margin: 0 !important; }

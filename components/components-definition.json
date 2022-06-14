@@ -5487,6 +5487,65 @@
                     ]
                 }
             }
+        },
+        {
+            "name": "css_02_2texto_bullet",
+            "icon": "icons/components/icon_02_texto_bullet.svg",
+            "label": "02 Texto Bullet",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ],
+            "restrictChildren": {
+                "css_02_2texto_bullet_itens": {}
+            },
+            "directiveOptions": {
+                "main": {
+                    "groups": [
+                        {
+                            "label": "Texto Bullet",
+                            "name": "Texto Bullet",
+                            "components": [
+                                "css_02_2texto_bullet_itens"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "css_02_2texto_bullet_itens",
+            "icon": "icons/components/icon_02_texto_bullet.svg",
+            "label": "Texto Bullet",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ],
+            "directiveOptions": {
+                "text": {
+                    "stripStylingOnPaste": true
+                }
+            }
+        },
+        {
+            "name": "css_02_2texto_bullet_item_texto",
+            "icon": "icons/components/icon_02_texto_bullet.svg",
+            "label": "Texto Bullet",
+            "properties": [
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height"
+            ],
+            "directiveOptions": {
+                "text": {
+                    "stripStylingOnPaste": true
+                }
+            }
         }
     ],
     "groups": [
@@ -5667,7 +5726,8 @@
                 "css_02_texto_geral2",
                 "css_02_texto_geral3",
                 "css_02_texto_geral4",
-                "css_02_texto_bullet",
+                "css_02_2texto_bullet",
+                "css_02_2texto_bullet_item_texto",
                 "css_02_texto_bullet_2",
                 "css_02_texto_bullet_mancha_sub",
                 "css_02_texto_item",
