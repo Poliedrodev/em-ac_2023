@@ -1,5 +1,5 @@
 {
-    "name": "default-components-art",
+    "name": "template_lumen_mais_2023",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "css_02_texto_geral1",
@@ -4801,12 +4801,22 @@
             "name": "background",
             "icon": "icons/components/container.svg",
             "selectionMethod": "handle",
-            "allowNesting": "one-level",
+            "allowNesting": "yes",
             "label": "Background Livro",
             "properties": [
                 "style_lumen_mais"
             ]
         },
+
+        {
+            "name": "container_nivel1",
+            "icon": "icons/components/container.svg",
+            "selectionMethod": "handle",
+            "allowNesting": "yes",
+            "label": "container",
+            "properties": []
+          },
+      
         {
             "name": "audio_lumen_mais",
             "icon": "icons/components/icon_00_arte.svg",
@@ -5266,6 +5276,7 @@
             "name": "containers",
             "components": [
                 "background",
+                "container_nivel1",
                 "container_slideshow_saiba_mais",
                 "container",
                 "container_slideshow_boxe",
