@@ -936,6 +936,14 @@
       ]
     },
     {
+      "name": "container_nivel1",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "label": "container nivel 1",
+      "properties": ["style", "position", "background-color"]
+  },
+    {
       "name": "container_slideshow_boxe",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
@@ -4583,6 +4591,7 @@
       "name": "containers",
       "components": [
         "container",
+        "container_nivel1",
         "container_slideshow_boxe",
         "container_coluna_falsa",
         "container_exercicios",
