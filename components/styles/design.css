@@ -17,8 +17,10 @@
 ol,
 ul,
 li,
-p {
-  margin: 0; }
+p,
+h1 {
+  margin: 0;
+  padding: 0; }
 
 /* Mixin's helpers, more info: http://sass-lang.com/guide#topic-6*/
 /* Font embeds, examples see: https://www.google.com/fonts */
@@ -1364,7 +1366,7 @@ span[style="text-decoration: line-through;"] {
 .audio {
   position: relative;
   width: 84%;
-  margin: 32px 68px 20px 68px;
+  margin: 32px 0px 20px 0px;
   transition: all .3s;
   border: 5px solid #bfd730;
   background-color: #fff;
@@ -1567,7 +1569,7 @@ span[style="text-decoration: line-through;"] {
 .video_popup_center {
   position: relative;
   width: 83%;
-  margin: 32px 68px 20px 68px;
+  margin: 32px 0px 20px 0px;
   display: block;
   background-color: #fff;
   transition: all .3s;
@@ -1790,7 +1792,7 @@ span[style="text-decoration: line-through;"] {
 /* Image component style */
 .image_teoria {
   clear: both;
-  margin: 20px 68px 0px 68px;
+  margin-top: 20px;
   position: relative;
   /* class styles for the captions properties of the image component */ }
   .image_teoria.full-screen {
@@ -2610,7 +2612,7 @@ span[style="text-decoration: line-through;"] {
 
 /* Image component style */
 .imagem_coluna_falsa {
-  margin: 20px 68px 0px 68px;
+  margin-top: 20px;
   position: relative;
   clear: both;
   /* class styles for the captions properties of the image component */ }
@@ -2700,7 +2702,7 @@ span[style="text-decoration: line-through;"] {
 
 /* Image component style */
 .imagem_meia_coluna {
-  margin: 20px 68px 0px 68px;
+  margin-top: 20px;
   position: relative;
   clear: both;
   /* class styles for the captions properties of the image component */ }
@@ -3180,7 +3182,7 @@ span[style="text-decoration: line-through;"] {
   background-size: contain;
   background-color: white;
   position: absolute;
-  margin: 20px 68px 0px 68px;
+  margin-top: 20px;
   display: block; }
   .botao_topo.artes {
     background: url(img/topo_lin.png);
@@ -5965,7 +5967,7 @@ span[style="text-decoration: line-through;"] {
 
 /* Container component style*/
 .container_coluna_falsa {
-  margin: 20px 68px 0px 68px;
+  margin-top: 20px;
   clear: both;
   /* class styles for the options properties of the container component */
   /* media query */ }
@@ -6453,7 +6455,7 @@ blockquote {
 
 .container_exercicios {
   padding: 24px;
-  margin: 48px 68px 0px 68px;
+  margin-top: 48px;
   border-radius: 8px;
   box-shadow: 0 0 5px 1px #ddd;
   clear: both;
@@ -6531,7 +6533,7 @@ blockquote {
 .container_take_a_tip {
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 0px 68px;
+  margin-top: 32px;
   padding: 0px 28px 8px 28px;
   border-radius: 5px;
   transition: all 0.3;
@@ -6693,7 +6695,7 @@ blockquote {
 .container_fica_a_dica_teoria {
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 0px 68px;
+  margin-top: 32px;
   padding: 0px 28px 8px 28px;
   border-radius: 5px;
   transition: all 0.3;
@@ -7512,7 +7514,7 @@ blockquote {
 
 .container_questao_dissertativa_item_2 {
   border: solid 1px #707070;
-  margin: 16px 68px 0px 105px;
+  margin: 16px 0px 0px 0px;
   border-radius: 6px;
   /* media query */ }
   .container_questao_dissertativa_item_2 .label {
@@ -8072,7 +8074,7 @@ blockquote {
 
 .container_questao_dissertativa_item_2_ing {
   border: solid 1px #707070;
-  margin: 16px 68px 0px 105px;
+  margin: 16px 0px 0px 0px;
   border-radius: 6px;
   /* media query */ }
   .container_questao_dissertativa_item_2_ing .label {
@@ -8212,7 +8214,7 @@ blockquote {
 
 .container_leitura_complementar {
   padding: 8px 16px 16px 16px;
-  margin: 48px 68px 0px 68px;
+  margin-top: 48px;
   clear: both;
   display: block;
   /* media query */ }
@@ -8267,7 +8269,7 @@ blockquote {
 
 .container_leitura_complementar_mat {
   padding: 8px 16px 16px 16px;
-  margin: 48px 68px 0px 68px;
+  margin-top: 48px;
   clear: both;
   display: block;
   /* media query */ }
@@ -8322,7 +8324,7 @@ blockquote {
 
 .container_connections {
   padding: 8px 16px 16px 16px;
-  margin: 48px 68px 0px 68px;
+  margin-top: 48px;
   clear: both;
   display: block;
   /* media query */ }
@@ -8408,7 +8410,7 @@ blockquote {
 
 .container_read_more {
   padding: 8px 16px 16px 16px;
-  margin: 48px 68px 0px 68px;
+  margin-top: 48px;
   clear: both;
   display: block;
   /* media query */ }
@@ -8495,7 +8497,7 @@ blockquote {
 .container_ler_e_escutar {
   border: 2px solid #96171a;
   padding: 24px;
-  margin: 48px 68px 0px 68px;
+  margin-top: 48px;
   border-radius: 5px;
   display: block;
   /* media query */ }
@@ -8573,7 +8575,7 @@ blockquote {
 .container_reading_and_writing {
   border: 2px solid #96171a;
   padding: 24px;
-  margin: 48px 68px 0px 68px;
+  margin-top: 48px;
   border-radius: 5px;
   display: block;
   /* media query */ }
@@ -8651,7 +8653,7 @@ blockquote {
 .container_matema_tec {
   border: 2px solid #96171a;
   padding: 24px;
-  margin: 48px 68px 0px 68px;
+  margin-top: 48px;
   border-radius: 5px;
   display: block;
   /* media query */ }
@@ -8729,7 +8731,7 @@ blockquote {
 .container_refletir_e_analisar {
   border: 2px solid #96171a;
   padding: 24px;
-  margin: 48px 68px 0px 68px;
+  margin-top: 48px;
   border-radius: 5px;
   display: block;
   /* media query */ }
@@ -8807,7 +8809,7 @@ blockquote {
 .container_reflecting_and_studying {
   border: 2px solid #96171a;
   padding: 24px;
-  margin: 48px 68px 0px 68px;
+  margin-top: 48px;
   border-radius: 5px;
   display: block;
   /* media query */ }
@@ -8990,7 +8992,7 @@ blockquote {
 .container_repertorio_cultural_teoria {
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 0px 68px;
+  margin-top: 32px;
   padding: 0px 28px 8px 28px;
   transition: all 0.3;
   background-color: #ECF0A6;
@@ -9095,7 +9097,7 @@ blockquote {
 .container_culture_box {
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 0px 68px;
+  margin-top: 32px;
   padding: 0px 28px 8px 28px;
   border-radius: 5px;
   transition: all 0.3;
@@ -9176,7 +9178,7 @@ blockquote {
 .container_saiba_mais {
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 0px 68px;
+  margin-top: 32px;
   padding: 0px 28px 8px 28px;
   transition: all 0.3;
   background-color: #ECF0A6;
@@ -9386,7 +9388,7 @@ blockquote {
 .container_fast_facts {
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 0px 68px;
+  margin-top: 32px;
   padding: 0px 28px 8px 28px;
   border-radius: 5px;
   transition: all 0.3;
@@ -9548,7 +9550,7 @@ blockquote {
 .container_textos {
   border: 2px solid #ccc;
   padding: 8px 16px 16px 16px;
-  margin: 20px 68px 0px 68px;
+  margin-top: 20px;
   clear: both;
   display: block;
   /* media query */ }
@@ -10008,7 +10010,7 @@ blockquote {
 .container_textos_fundo_sepia {
   border: 2px solid #ccc;
   padding: 8px 16px 16px 16px;
-  margin: 48px 68px 0px 68px;
+  margin-top: 48px;
   clear: both;
   background-color: #e2eced;
   display: block;
@@ -10269,7 +10271,7 @@ blockquote {
       z-index: 1; } }
 
 .container_dados_mancha_30 {
-  margin: 16px 228px 16px 268px;
+  margin: 16px 0px 16px 0px;
   padding: 4px 16px 4px 0px;
   clear: both;
   border-radius: 10px;
@@ -12009,7 +12011,7 @@ blockquote {
   color: #000000;
   border-top: 2px solid #000;
   font-family: "Proxima Nova Lt" !important;
-  margin: 32px 68px 0px 68px;
+  margin-top: 32px;
   padding: 8px 0px 0px 0px; }
 
 .css_05_grafico_titulo {
@@ -13932,7 +13934,7 @@ input[type="checkbox"] {
   color: #bd8432;
   cursor: pointer;
   transition: all 0.25s ease-out;
-  margin: 32px 68px 0px 68px; }
+  margin-top: 32px; }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
   max-height: 90rem; }
@@ -14051,7 +14053,7 @@ input[type="checkbox"] {
   color: #bd8432;
   cursor: pointer;
   transition: all 0.25s ease-out;
-  margin: 32px 68px 0px 68px; }
+  margin-top: 32px; }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
   max-height: 90rem; }
@@ -14170,7 +14172,7 @@ input[type="checkbox"] {
   color: #bd8432;
   cursor: pointer;
   transition: all 0.25s ease-out;
-  margin: 32px 68px 0px 68px; }
+  margin-top: 32px; }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
   max-height: 90rem; }
@@ -14289,7 +14291,7 @@ input[type="checkbox"] {
   color: #bd8432;
   cursor: pointer;
   transition: all 0.25s ease-out;
-  margin: 32px 68px 0px 68px; }
+  margin-top: 32px; }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
   max-height: 90rem; }
@@ -14408,7 +14410,7 @@ input[type="checkbox"] {
   color: #bd8432;
   cursor: pointer;
   transition: all 0.25s ease-out;
-  margin: 32px 68px 0px 68px; }
+  margin-top: 32px; }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
   max-height: 90rem; }
@@ -14527,7 +14529,7 @@ input[type="checkbox"] {
   color: #bd8432;
   cursor: pointer;
   transition: all 0.25s ease-out;
-  margin: 32px 68px 0px 68px; }
+  margin-top: 32px; }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
   max-height: 90rem; }
@@ -14646,7 +14648,7 @@ input[type="checkbox"] {
   color: #bd8432;
   cursor: pointer;
   transition: all 0.25s ease-out;
-  margin: 32px 68px 0px 68px; }
+  margin-top: 32px; }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
   max-height: 90rem; }
@@ -14765,7 +14767,7 @@ input[type="checkbox"] {
   color: #bd8432;
   cursor: pointer;
   transition: all 0.25s ease-out;
-  margin: 32px 68px 0px 68px; }
+  margin-top: 32px; }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
   max-height: 90rem; }
@@ -14884,7 +14886,7 @@ input[type="checkbox"] {
   color: #bd8432;
   cursor: pointer;
   transition: all 0.25s ease-out;
-  margin: 32px 68px 0px 68px; }
+  margin-top: 32px; }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
   max-height: 90rem; }
@@ -15003,7 +15005,7 @@ input[type="checkbox"] {
   color: #bd8432;
   cursor: pointer;
   transition: all 0.25s ease-out;
-  margin: 32px 68px 0px 68px; }
+  margin-top: 32px; }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
   max-height: 90rem; }
@@ -15122,7 +15124,7 @@ input[type="checkbox"] {
   color: #bd8432;
   cursor: pointer;
   transition: all 0.25s ease-out;
-  margin: 32px 68px 0px 68px; }
+  margin-top: 32px; }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
   max-height: 90rem; }
@@ -15241,7 +15243,7 @@ input[type="checkbox"] {
   color: #bd8432;
   cursor: pointer;
   transition: all 0.25s ease-out;
-  margin: 32px 68px 0px 68px; }
+  margin-top: 32px; }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
   max-height: 90rem; }
@@ -15360,7 +15362,7 @@ input[type="checkbox"] {
   color: #bd8432;
   cursor: pointer;
   transition: all 0.25s ease-out;
-  margin: 32px 68px 0px 68px; }
+  margin-top: 32px; }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
   max-height: 90rem; }
@@ -17992,7 +17994,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 .audio_lumen_mais {
   position: relative;
   width: 84%;
-  margin: 32px 68px 20px 68px;
+  margin: 32px 0px 20px 0px;
   transition: all .3s;
   border: 5px solid #bfd730;
   background-color: #fff;
@@ -18051,7 +18053,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 .video_popup_center_lumen_mais {
   position: relative;
   width: 83%;
-  margin: 32px 68px 20px 68px;
+  margin: 32px 0px 20px 0px;
   display: block;
   background-color: #fff;
   transition: all .3s;

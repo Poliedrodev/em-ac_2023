@@ -1639,6 +1639,39 @@
       ]
     },
     {
+      "name": "container_fica_a_dica_lumen_mais",
+      "icon": "icons/components/container.svg",
+      "label": "Container Read More",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
+      "name": "container_repertorio_cultural_lumen_mais",
+      "icon": "icons/components/container.svg",
+      "label": "Container Repertório Cultural",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
+      "name": "container_saiba_mais_lumen_mais",
+      "icon": "icons/components/container.svg",
+      "label": "Container Saiba Mais",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
       "name": "container_reflecting_and_studying",
       "icon": "icons/components/container.svg",
       "label": "Container Reflecting and Studying",
@@ -5606,6 +5639,9 @@
         "container_matema_tec",
         "container_tarja_secao",
         "container_refletir_e_analisar",
+        "container_fica_a_dica_lumen_mais",
+        "container_repertorio_cultural_lumen_mais",
+        "container_saiba_mais_lumen_mais",
         "container_repertorio_cultural",
         "container_repertorio_cultural_teoria",
         "container_saiba_mais",
