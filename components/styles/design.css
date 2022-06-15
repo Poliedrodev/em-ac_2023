@@ -6,9 +6,6 @@
 /* Cores */
 /* Constants */
 /* Fontes */
-/* Mixin's helpers, more info: http://sass-lang.com/guide#topic-6*/
-/* Font embeds, examples see: https://www.google.com/fonts */
-/* Imports the style from the google fonts cdn */
 @import url(https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap);
@@ -17,6 +14,15 @@
 @import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Cookie&display=swap);
 @import url(https://perugluglu.net/poliedro/stylesheet.css);
+ol,
+ul,
+li,
+p {
+  margin: 0; }
+
+/* Mixin's helpers, more info: http://sass-lang.com/guide#topic-6*/
+/* Font embeds, examples see: https://www.google.com/fonts */
+/* Imports the style from the google fonts cdn */
 /* Article view style */
 .body,
 .body-book {
@@ -30,7 +36,7 @@
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
   -webkit-overflow-scrolling: touch;
-  counter-reset: atividades desafio reflexão sintese pontos_e_letras leitura_complementar arte_e_voce diario_do_artista i_can_integrate i_can_listen i_can_understand i_can_classify i_can_rewrite i_can_write i_can_use i_can_do_more i_can_say CLIL_Climb break_it_down reading_the_lines; }
+  counter-reset: artes lingua_inglesa lingua_portuguesa matematica; }
   .body :focus,
   .body-book :focus {
     outline: none; }
@@ -18455,15 +18461,40 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
       align-items: center;
       justify-content: center;
       text-align: center;
-      background: #A90F09; }
-      .css_03_2exercicio_container .content_number .background_number .number_exercicio {
-        color: #ffffff;
-        font-size: 18px;
-        font-weight: 700; }
+      font-size: 18px;
+      font-weight: 700; }
   .css_03_2exercicio_container .group_exercicio {
     margin: 0; }
     .css_03_2exercicio_container .group_exercicio::first-child {
       margin: 0; }
+  .css_03_2exercicio_container.artes .background_number {
+    font-weight: 700;
+    color: #64428C; }
+  .css_03_2exercicio_container.artes .background_number:first-child::before {
+    border-bottom: solid 3px #bfd730;
+    counter-increment: artes;
+    content: counter(artes, decimal) ""; }
+  .css_03_2exercicio_container.lingua_inglesa .background_number {
+    font-weight: 700;
+    color: #069891; }
+  .css_03_2exercicio_container.lingua_inglesa .background_number:first-child::before {
+    border-bottom: solid 3px #bfd730;
+    counter-increment: lingua_inglesa;
+    content: counter(artes, decimal) ""; }
+  .css_03_2exercicio_container.lingua_portuguesa .background_number {
+    font-weight: 700;
+    color: #c9252c; }
+  .css_03_2exercicio_container.lingua_portuguesa .background_number:first-child::before {
+    border-bottom: solid 3px #bfd730;
+    counter-increment: lingua_portuguesa;
+    content: counter(artes, decimal) ""; }
+  .css_03_2exercicio_container.matematica .background_number {
+    font-weight: 700;
+    color: #1961AC; }
+  .css_03_2exercicio_container.matematica .background_number:first-child::before {
+    border-bottom: solid 3px #F1CB40;
+    counter-increment: matematica;
+    content: counter(artes, decimal) ""; }
 
 .css_03_2exercicio_container_edit {
   width: 100%;
@@ -18485,16 +18516,34 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
       display: flex;
       align-items: center;
       justify-content: center;
-      text-align: center;
-      background: #A90F09; }
+      text-align: center; }
       .css_03_2exercicio_container_edit .content_number .background_number .number_exercicio {
-        color: #ffffff;
         font-size: 18px;
         font-weight: 700; }
   .css_03_2exercicio_container_edit .group_exercicio {
     margin: 0; }
     .css_03_2exercicio_container_edit .group_exercicio::first-child {
       margin: 0; }
+  .css_03_2exercicio_container_edit.artes .background_number {
+    font-weight: 700; }
+    .css_03_2exercicio_container_edit.artes .background_number .number_exercicio {
+      color: #64428C;
+      border-bottom: solid 3px #bfd730; }
+  .css_03_2exercicio_container_edit.lingua_inglesa .background_number {
+    font-weight: 700; }
+    .css_03_2exercicio_container_edit.lingua_inglesa .background_number .number_exercicio {
+      color: #069891;
+      border-bottom: solid 3px #bfd730; }
+  .css_03_2exercicio_container_edit.lingua_portuguesa .background_number {
+    font-weight: 700; }
+    .css_03_2exercicio_container_edit.lingua_portuguesa .background_number .number_exercicio {
+      color: #c9252c;
+      border-bottom: solid 3px #bfd730; }
+  .css_03_2exercicio_container_edit.matematica .background_number {
+    font-weight: 700; }
+    .css_03_2exercicio_container_edit.matematica .background_number .number_exercicio {
+      color: #1961AC;
+      border-bottom: solid 3px #F1CB40; }
 
 .css_03_2alternativa {
   margin-top: 16px;

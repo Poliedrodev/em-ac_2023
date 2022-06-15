@@ -20,15 +20,14 @@
       width: 34px;
       height: 24px;
 
-      
+
       display: flex;
       align-items: center;
       justify-content: center;
       text-align: center;
-      background: #A90F09;
+
 
       .number_exercicio {
-        color: #ffffff;
         font-size: $fontSizeIndiceQuestion;
         font-weight: 700;
       }
@@ -40,6 +39,51 @@
 
     &::first-child {
       margin: 0;
+    }
+  }
+
+  &.artes {
+    .background_number {
+      font-weight: 700;
+
+      .number_exercicio {
+        color: #64428C ;
+        border-bottom: solid 3px #bfd730;
+      }
+
+    }
+  }
+
+  &.lingua_inglesa {
+    .background_number {
+      font-weight: 700;
+
+      .number_exercicio {
+        color: #069891;
+        border-bottom: solid 3px #bfd730;
+      }
+    }
+  }
+
+  &.lingua_portuguesa {
+    .background_number {
+      font-weight: 700;
+
+      .number_exercicio {
+        color: #c9252c;
+        border-bottom: solid 3px #bfd730;
+      }
+    }
+  }
+
+  &.matematica {
+    .background_number {
+      font-weight: 700;
+
+      .number_exercicio {
+        color: #1961AC;
+        border-bottom: solid 3px #F1CB40;
+      }
     }
   }
 }

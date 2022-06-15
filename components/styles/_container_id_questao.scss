@@ -1,11 +1,12 @@
 /* Container component style*/
 .container_id_questao {
-    margin: 8px 0px 0px 0px !important;
-    padding-top: 16px;
+  margin: 8px 0px 0px 0px !important;
+  padding-top: 16px;
+  clear: both;
+
+  &::after {
+    content: '';
+    display: block;
     clear: both;
-    &::after {
-        content: '';
-        display: block;
-        clear: both;
-    }
+  }
 }
