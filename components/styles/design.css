@@ -6915,7 +6915,7 @@ blockquote {
 
 .container_questao_dissertativa_mancha {
   border: solid 1px #bbbbbb;
-  margin: 16px 0px 0px 0px;
+  margin-top: 16px;
   border-radius: 6px;
   /* media query */ }
   .container_questao_dissertativa_mancha .label {
@@ -7514,7 +7514,7 @@ blockquote {
 
 .container_questao_dissertativa_item_2 {
   border: solid 1px #707070;
-  margin: 16px 0px 0px 0px;
+  margin-top: 16px;
   border-radius: 6px;
   /* media query */ }
   .container_questao_dissertativa_item_2 .label {
@@ -8074,7 +8074,7 @@ blockquote {
 
 .container_questao_dissertativa_item_2_ing {
   border: solid 1px #707070;
-  margin: 16px 0px 0px 0px;
+  margin-top: 16px;
   border-radius: 6px;
   /* media query */ }
   .container_questao_dissertativa_item_2_ing .label {
@@ -8805,6 +8805,758 @@ blockquote {
       clear: right;
       width: 50%;
       z-index: 1; } }
+
+.container_fica_a_dica_lumen_mais {
+  width: 100%;
+  min-height: 40px;
+  margin-top: 32px;
+  background-color: #ECF0A6;
+  position: relative;
+  box-sizing: border-box;
+  padding: 8px 28px 8px 28px;
+  border-radius: 5px;
+  transition: all 0.3;
+  /*
+
+@media only screen and (min-width: $phone-max-width) {
+    &._left {
+        float: left;
+        clear: left;
+        width: 33%;
+        z-index: 1;
+    }
+
+    &._right {
+        float: right;
+        clear: right;
+        width: 33%;
+        z-index: 1;
+    }
+} */ }
+  .container_fica_a_dica_lumen_mais .collapsible-title {
+    margin: 0;
+    font-family: "Lato";
+    font-size: 0.875rem;
+    font-weight: 900; }
+  .container_fica_a_dica_lumen_mais.artes {
+    background-color: #ECF0A6; }
+    .container_fica_a_dica_lumen_mais.artes .collapsible-title {
+      color: #C8D300; }
+    .container_fica_a_dica_lumen_mais.artes .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_fica_a_dica_lumen_mais.artes .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_fica_a_dica_lumen_mais.lingua_inglesa {
+    background-color: #ECF0A6; }
+    .container_fica_a_dica_lumen_mais.lingua_inglesa .collapsible-title {
+      color: #C8D300; }
+    .container_fica_a_dica_lumen_mais.lingua_inglesa .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_fica_a_dica_lumen_mais.lingua_inglesa .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_fica_a_dica_lumen_mais.lingua_portuguesa {
+    background-color: #ECF0A6; }
+    .container_fica_a_dica_lumen_mais.lingua_portuguesa .collapsible-title {
+      color: #84A214; }
+    .container_fica_a_dica_lumen_mais.lingua_portuguesa .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_fica_a_dica_lumen_mais.lingua_portuguesa .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_fica_a_dica_lumen_mais.matematica {
+    background-color: #FAEDBC; }
+    .container_fica_a_dica_lumen_mais.matematica .collapsible-title {
+      color: #C09100; }
+    .container_fica_a_dica_lumen_mais.matematica .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #FAEDBC 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_fica_a_dica_lumen_mais.matematica .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #FAEDBC 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_fica_a_dica_lumen_mais input[type="checkbox"] {
+    display: none; }
+  .container_fica_a_dica_lumen_mais .lbl-toggle-fica_a_dica {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.25s ease-out; }
+  .container_fica_a_dica_lumen_mais .toggle:checked + .lbl-toggle-fica_a_dica + .collapsible-content-fica_a_dica {
+    max-height: 90rem; }
+  .container_fica_a_dica_lumen_mais .toggle:checked + .lbl-toggle-fica_a_dica .plus {
+    display: none; }
+  .container_fica_a_dica_lumen_mais .toggle:checked + .lbl-toggle-fica_a_dica .less {
+    display: block; }
+  .container_fica_a_dica_lumen_mais .less {
+    display: none; }
+  .container_fica_a_dica_lumen_mais .toggle:checked + .lbl-toggle-fica_a_dica {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0; }
+  .container_fica_a_dica_lumen_mais .collapsible-content-fica_a_dica .content-inner {
+    padding: 0 1rem;
+    border-left: 3px solid white; }
+  .container_fica_a_dica_lumen_mais .collapsible-content-fica_a_dica {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.25s ease-in-out; }
+  .container_fica_a_dica_lumen_mais .flex-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; }
+
+.container_repertorio_cultural_lumen_mais {
+  width: 100%;
+  min-height: 40px;
+  background-color: #ECF0A6;
+  position: relative;
+  box-sizing: border-box;
+  padding: 8px 28px 8px 28px;
+  border-radius: 5px;
+  transition: all 0.3;
+  margin-top: 32px; }
+  .container_repertorio_cultural_lumen_mais .collapsible-title {
+    margin: 0;
+    font-family: "Lato";
+    font-size: 0.875rem;
+    font-weight: 900; }
+  .container_repertorio_cultural_lumen_mais.artes {
+    background-color: #ECF0A6; }
+    .container_repertorio_cultural_lumen_mais.artes .collapsible-title {
+      color: #C8D300; }
+    .container_repertorio_cultural_lumen_mais.artes .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_repertorio_cultural_lumen_mais.artes .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_repertorio_cultural_lumen_mais.biologia {
+    background-color: #FCE1BC; }
+    .container_repertorio_cultural_lumen_mais.biologia .collapsible-title {
+      color: #F7A941; }
+    .container_repertorio_cultural_lumen_mais.biologia .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #FCE1BC 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_repertorio_cultural_lumen_mais.biologia .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #FCE1BC 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_repertorio_cultural_lumen_mais.filosofia {
+    background-color: #D7EDE3; }
+    .container_repertorio_cultural_lumen_mais.filosofia .collapsible-title {
+      color: #8CCAAE; }
+    .container_repertorio_cultural_lumen_mais.filosofia .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #D7EDE3 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_repertorio_cultural_lumen_mais.filosofia .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #D7EDE3 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_repertorio_cultural_lumen_mais.fisica {
+    background-color: #FCE1BC; }
+    .container_repertorio_cultural_lumen_mais.fisica .collapsible-title {
+      color: #F7A941; }
+    .container_repertorio_cultural_lumen_mais.fisica .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #FCE1BC 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_repertorio_cultural_lumen_mais.fisica .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #FCE1BC 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_repertorio_cultural_lumen_mais.geografia {
+    background-color: #D7EDE3; }
+    .container_repertorio_cultural_lumen_mais.geografia .collapsible-title {
+      color: #8CCAAE; }
+    .container_repertorio_cultural_lumen_mais.geografia .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #D7EDE3 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_repertorio_cultural_lumen_mais.geografia .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #D7EDE3 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_repertorio_cultural_lumen_mais.historia {
+    background-color: #D7EDE3; }
+    .container_repertorio_cultural_lumen_mais.historia .collapsible-title {
+      color: #8CCAAE; }
+    .container_repertorio_cultural_lumen_mais.historia .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #D7EDE3 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_repertorio_cultural_lumen_mais.historia .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #D7EDE3 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_repertorio_cultural_lumen_mais.lingua_inglesa {
+    background-color: #ECF0A6; }
+    .container_repertorio_cultural_lumen_mais.lingua_inglesa .collapsible-title {
+      color: #C8D300; }
+    .container_repertorio_cultural_lumen_mais.lingua_inglesa .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_repertorio_cultural_lumen_mais.lingua_inglesa .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_repertorio_cultural_lumen_mais.lingua_portuguesa {
+    background-color: #ECF0A6; }
+    .container_repertorio_cultural_lumen_mais.lingua_portuguesa .collapsible-title {
+      color: #C8D300; }
+    .container_repertorio_cultural_lumen_mais.lingua_portuguesa .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_repertorio_cultural_lumen_mais.lingua_portuguesa .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_repertorio_cultural_lumen_mais.matematica {
+    background-color: #FCE1BC; }
+    .container_repertorio_cultural_lumen_mais.matematica .collapsible-title {
+      color: #F7A941; }
+    .container_repertorio_cultural_lumen_mais.matematica .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #FCE1BC 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_repertorio_cultural_lumen_mais.matematica .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #FCE1BC 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_repertorio_cultural_lumen_mais.producao_de_texto {
+    background-color: #ECF0A6; }
+    .container_repertorio_cultural_lumen_mais.producao_de_texto .collapsible-title {
+      color: #C8D300; }
+    .container_repertorio_cultural_lumen_mais.producao_de_texto .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_repertorio_cultural_lumen_mais.producao_de_texto .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_repertorio_cultural_lumen_mais.quimica {
+    background-color: #FCE1BC; }
+    .container_repertorio_cultural_lumen_mais.quimica .collapsible-title {
+      color: #F7A941; }
+    .container_repertorio_cultural_lumen_mais.quimica .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #FCE1BC 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_repertorio_cultural_lumen_mais.quimica .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #FCE1BC 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_repertorio_cultural_lumen_mais.sociologia {
+    background-color: #D7EDE3; }
+    .container_repertorio_cultural_lumen_mais.sociologia .collapsible-title {
+      color: #8CCAAE; }
+    .container_repertorio_cultural_lumen_mais.sociologia .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #D7EDE3 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_repertorio_cultural_lumen_mais.sociologia .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #D7EDE3 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_repertorio_cultural_lumen_mais input[type="checkbox"] {
+    display: none; }
+  .container_repertorio_cultural_lumen_mais .lbl-toggle-saiba_mais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.25s ease-out; }
+  .container_repertorio_cultural_lumen_mais .toggle:checked + .lbl-toggle-saiba_mais + .collapsible-content-saiba_mais {
+    max-height: 90rem; }
+  .container_repertorio_cultural_lumen_mais .toggle:checked + .lbl-toggle-saiba_mais .plus {
+    display: none; }
+  .container_repertorio_cultural_lumen_mais .toggle:checked + .lbl-toggle-saiba_mais .less {
+    display: block; }
+  .container_repertorio_cultural_lumen_mais .less {
+    display: none; }
+  .container_repertorio_cultural_lumen_mais .toggle:checked + .lbl-toggle-saiba_mais {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0; }
+  .container_repertorio_cultural_lumen_mais .collapsible-content-saiba_mais .content-inner {
+    padding: 0 1rem;
+    border-left: 3px solid white; }
+  .container_repertorio_cultural_lumen_mais .collapsible-content-saiba_mais {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.25s ease-in-out; }
+  .container_repertorio_cultural_lumen_mais .flex-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; }
+
+.container_saiba_mais_lumen_mais {
+  width: 100%;
+  min-height: 40px;
+  background-color: #ECF0A6;
+  position: relative;
+  box-sizing: border-box;
+  padding: 8px 28px 8px 28px;
+  border-radius: 5px;
+  transition: all 0.3;
+  margin-top: 32px; }
+  .container_saiba_mais_lumen_mais .collapsible-title {
+    margin: 0;
+    font-family: "Lato";
+    font-size: 0.875rem;
+    font-weight: 900; }
+  .container_saiba_mais_lumen_mais.artes {
+    background-color: #ECF0A6; }
+    .container_saiba_mais_lumen_mais.artes .collapsible-title {
+      color: #C8D300; }
+    .container_saiba_mais_lumen_mais.artes .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_saiba_mais_lumen_mais.artes .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_saiba_mais_lumen_mais.biologia {
+    background-color: #FCE1BC; }
+    .container_saiba_mais_lumen_mais.biologia .collapsible-title {
+      color: #F7A941; }
+    .container_saiba_mais_lumen_mais.biologia .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #FCE1BC 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_saiba_mais_lumen_mais.biologia .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #FCE1BC 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_saiba_mais_lumen_mais.filosofia {
+    background-color: #D7EDE3; }
+    .container_saiba_mais_lumen_mais.filosofia .collapsible-title {
+      color: #8CCAAE; }
+    .container_saiba_mais_lumen_mais.filosofia .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #D7EDE3 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_saiba_mais_lumen_mais.filosofia .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #D7EDE3 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_saiba_mais_lumen_mais.fisica {
+    background-color: #FCE1BC; }
+    .container_saiba_mais_lumen_mais.fisica .collapsible-title {
+      color: #F7A941; }
+    .container_saiba_mais_lumen_mais.fisica .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #FCE1BC 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_saiba_mais_lumen_mais.fisica .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #FCE1BC 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_saiba_mais_lumen_mais.geografia {
+    background-color: #D7EDE3; }
+    .container_saiba_mais_lumen_mais.geografia .collapsible-title {
+      color: #8CCAAE; }
+    .container_saiba_mais_lumen_mais.geografia .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #D7EDE3 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_saiba_mais_lumen_mais.geografia .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #D7EDE3 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_saiba_mais_lumen_mais.historia {
+    background-color: #D7EDE3; }
+    .container_saiba_mais_lumen_mais.historia .collapsible-title {
+      color: #8CCAAE; }
+    .container_saiba_mais_lumen_mais.historia .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #D7EDE3 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_saiba_mais_lumen_mais.historia .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #D7EDE3 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_saiba_mais_lumen_mais.lingua_inglesa {
+    background-color: #ECF0A6; }
+    .container_saiba_mais_lumen_mais.lingua_inglesa .collapsible-title {
+      color: #C8D300; }
+    .container_saiba_mais_lumen_mais.lingua_inglesa .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_saiba_mais_lumen_mais.lingua_inglesa .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_saiba_mais_lumen_mais.lingua_portuguesa {
+    background-color: #ECF0A6; }
+    .container_saiba_mais_lumen_mais.lingua_portuguesa .collapsible-title {
+      color: #C8D300; }
+    .container_saiba_mais_lumen_mais.lingua_portuguesa .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_saiba_mais_lumen_mais.lingua_portuguesa .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_saiba_mais_lumen_mais.matematica {
+    background-color: #FCE1BC; }
+    .container_saiba_mais_lumen_mais.matematica .collapsible-title {
+      color: #F7A941; }
+    .container_saiba_mais_lumen_mais.matematica .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #FCE1BC 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_saiba_mais_lumen_mais.matematica .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #FCE1BC 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_saiba_mais_lumen_mais.producao_de_texto {
+    background-color: #ECF0A6; }
+    .container_saiba_mais_lumen_mais.producao_de_texto .collapsible-title {
+      color: #C8D300; }
+    .container_saiba_mais_lumen_mais.producao_de_texto .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_saiba_mais_lumen_mais.producao_de_texto .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_saiba_mais_lumen_mais.quimica {
+    background-color: #FCE1BC; }
+    .container_saiba_mais_lumen_mais.quimica .collapsible-title {
+      color: #F7A941; }
+    .container_saiba_mais_lumen_mais.quimica .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #FCE1BC 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_saiba_mais_lumen_mais.quimica .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #FCE1BC 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_saiba_mais_lumen_mais.sociologia {
+    background-color: #D7EDE3; }
+    .container_saiba_mais_lumen_mais.sociologia .collapsible-title {
+      color: #8CCAAE; }
+    .container_saiba_mais_lumen_mais.sociologia .plus {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #D7EDE3 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block; }
+    .container_saiba_mais_lumen_mais.sociologia .less {
+      --b: 3px;
+      /* the thickness */
+      width: 18px;
+      /* the size */
+      aspect-ratio: 1/1;
+      /* the outer space */
+      background: conic-gradient(from 90deg at var(--b) var(--b), #D7EDE3 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/calc(50% + var(--b)) calc(50% + var(--b)); }
+  .container_saiba_mais_lumen_mais input[type="checkbox"] {
+    display: none; }
+  .container_saiba_mais_lumen_mais .lbl-toggle-saiba_mais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.25s ease-out; }
+  .container_saiba_mais_lumen_mais .toggle:checked + .lbl-toggle-saiba_mais + .collapsible-content-saiba_mais {
+    max-height: 90rem; }
+  .container_saiba_mais_lumen_mais .toggle:checked + .lbl-toggle-saiba_mais .plus {
+    display: none; }
+  .container_saiba_mais_lumen_mais .toggle:checked + .lbl-toggle-saiba_mais .less {
+    display: block; }
+  .container_saiba_mais_lumen_mais .less {
+    display: none; }
+  .container_saiba_mais_lumen_mais .toggle:checked + .lbl-toggle-saiba_mais {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0; }
+  .container_saiba_mais_lumen_mais .collapsible-content-saiba_mais .content-inner {
+    padding: 0 1rem;
+    border-left: 3px solid white; }
+  .container_saiba_mais_lumen_mais .collapsible-content-saiba_mais {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.25s ease-in-out; }
+  .container_saiba_mais_lumen_mais .flex-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; }
 
 .container_reflecting_and_studying {
   border: 2px solid #96171a;
@@ -9826,7 +10578,7 @@ blockquote {
 .container_slideshow_saiba_mais {
   border: 0px solid #ccc;
   padding: 0px 0px 0px 0px;
-  margin: 20px 0px 0px 182px;
+  margin: 20px 0px 0px 0px;
   clear: both;
   display: block;
   /* media query */ }
@@ -10062,7 +10814,7 @@ blockquote {
       z-index: 1; } }
 
 .container_texto_definicao {
-  margin: 24px 68px 0px 68px;
+  margin: 24px 0px 0px 0px;
   padding: 18px 18px 18px 18px;
   clear: both;
   border-radius: 10px;
@@ -10113,7 +10865,7 @@ blockquote {
       z-index: 1; } }
 
 .container_texto_definicao_60 {
-  margin: 24px 180px 0px 180px;
+  margin: 24px 0px 0px 0px;
   padding: 18px 18px 18px 18px;
   border-radius: 10px;
   background-color: #ffffff;
@@ -10164,7 +10916,7 @@ blockquote {
       z-index: 1; } }
 
 .container_texto_definicao_30 {
-  margin: 24px 250px 0px 250px;
+  margin: 24px 0px 0px 0px;
   padding: 18px 18px 18px 18px;
   border-radius: 10px;
   background-color: #ffffff;
@@ -10215,7 +10967,7 @@ blockquote {
       z-index: 1; } }
 
 .container_dados_mancha {
-  margin: 16px 68px 16px 108px;
+  margin: 16px 0px 16px 0px;
   padding: 4px 16px 4px 0px;
   clear: both;
   border-radius: 10px;
@@ -10551,7 +11303,7 @@ blockquote {
   font-weight: 400;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 24px 68px 0px 68px; }
+  margin: 24px 0px 0px 0px; }
 
 .css_02_texto_geral1 {
   display: block;
@@ -10570,7 +11322,7 @@ blockquote {
   font-family: 'Noticia Text';
   font-weight: 700;
   line-height: 1.5em;
-  margin: 24px 68px 0px 68px;
+  margin: 24px 0px 0px 0px;
   padding: 24px;
   border-radius: 8px;
   box-shadow: 0 0 5px 1px #ddd; }
@@ -10591,7 +11343,7 @@ blockquote {
   font-weight: 400;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 15px 20px 0px 20px; }
+  margin-top: 15px; }
 
 .css_02_texto_bullet {
   display: block;
@@ -10645,7 +11397,7 @@ blockquote {
   font-weight: 400;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 8px 68px 0px 108px; }
+  margin-top: 8px; }
 
 .css_02_texto_definicao {
   display: block;
@@ -10655,7 +11407,7 @@ blockquote {
   font-family: 'Noticia Text';
   font-weight: 700;
   line-height: 1.5em;
-  margin: 24px 68px 0px 68px;
+  margin: 24px 0px 0px 0px;
   padding: 24px;
   border-radius: 8px;
   box-shadow: 0 0 5px 1px #ddd; }
@@ -10668,7 +11420,7 @@ blockquote {
   font-family: 'Noticia Text';
   font-weight: 700;
   line-height: 1.5em;
-  margin: 24px 250px 0px 250px;
+  margin: 24px 0px 0px 0px;
   padding: 24px;
   border-radius: 8px;
   box-shadow: 0 0 5px 1px #ddd; }
@@ -10681,7 +11433,7 @@ blockquote {
   font-family: 'Noticia Text';
   font-weight: 700;
   line-height: 1.5em;
-  margin: 24px 180px 0px 180px;
+  margin: 24px 0px 0px 0px;
   padding: 24px;
   border-radius: 8px;
   box-shadow: 0 0 5px 1px #ddd; }
@@ -10694,7 +11446,7 @@ blockquote {
   font-family: 'Noticia Text';
   font-weight: 700;
   line-height: 1.5em;
-  margin: 24px 68px 0px 68px;
+  margin: 24px 0px 0px 0px;
   padding: 24px;
   border-radius: 8px;
   box-shadow: 0 0 5px 1px #ddd; }
@@ -10707,7 +11459,7 @@ blockquote {
   font-family: 'Noticia Text';
   font-weight: 700;
   line-height: 1.5em;
-  margin: 24px 250px 0px 250px;
+  margin: 24px 0px 0px 0px;
   padding: 24px;
   border-radius: 8px;
   box-shadow: 0 0 5px 1px #ddd; }
@@ -10720,7 +11472,7 @@ blockquote {
   font-family: 'Noticia Text';
   font-weight: 700;
   line-height: 1.5em;
-  margin: 24px 180px 0px 180px;
+  margin: 24px 0px 0px 0px;
   padding: 24px;
   border-radius: 8px;
   box-shadow: 0 0 5px 1px #ddd; }
@@ -10732,7 +11484,7 @@ blockquote {
   font-family: 'Barlow Condensed';
   font-weight: 700;
   text-transform: uppercase;
-  margin: 0px 68px 0px 68px;
+  margin: 0px;
   line-height: 1.5em; }
 
 .css_02_texto_destaque2 {
@@ -10741,7 +11493,7 @@ blockquote {
   font-size: 40px;
   font-family: 'Barlow Condensed';
   font-weight: 700;
-  margin: 0px 68px 0px 68px;
+  margin: 0px;
   line-height: 1.5em;
   text-transform: uppercase; }
   .css_02_texto_destaque2.artes {
@@ -10758,7 +11510,7 @@ blockquote {
   font-family: 'Cookie';
   font-size: 32px;
   color: #000000;
-  margin: 0px 68px; }
+  margin: 0px; }
 
 .css_02_texto_citado_titulo {
   font-family: 'Noticia Text';
@@ -10776,7 +11528,7 @@ blockquote {
   line-height: 1.5em;
   font-size: 20px;
   display: block;
-  margin: 16px 68px 0px 68px; }
+  margin-top: 16px; }
 
 .css_02_texto_citado {
   display: block;
@@ -10860,7 +11612,7 @@ blockquote {
   line-height: 1.5em;
   color: #000000;
   display: block;
-  margin: 24px 250px 24px 68px;
+  margin: 24px 0px 24px 0px;
   padding: 8px 16px;
   border: solid 2px #000000; }
   .css_02_texto_glossario_titulo.artes {
@@ -10898,7 +11650,7 @@ blockquote {
   line-height: 1.5em;
   color: #000000;
   display: block;
-  margin: 24px 0px 0px 20px;
+  margin-top: 24px;
   padding: 8px 16px;
   border: solid 2px #000000; }
   .css_02_texto_glossario_boxe.artes {
@@ -10917,7 +11669,7 @@ blockquote {
   line-height: 1.5em;
   color: #000000;
   display: block;
-  margin: 24px 20px 0px 12px;
+  margin-top: 24px;
   padding: 8px 16px;
   border: solid 2px #000000; }
   .css_02_texto_glossario_citado.artes {
@@ -10937,7 +11689,7 @@ blockquote {
   line-height: 1.5em;
   font-size: 16px;
   background-color: #E5E9F2;
-  margin: 16px 68px 0px 68px;
+  margin-top: 16px;
   padding: 24px; }
 
 .css_03_item {
@@ -11353,7 +12105,7 @@ blockquote {
   font-family: 'Montserrat';
   font-weight: 400;
   line-height: 1.5em;
-  margin: 16px 0px 0px 0px; }
+  margin-top: 16px; }
 
 .css_04_professor_resposta {
   display: block;
@@ -12093,7 +12845,7 @@ blockquote {
   font-family: "TheSerif-HP2ExLig";
   font-size: 16px;
   color: #f5006b;
-  margin: 0px 68px;
+  margin: 0px;
   border-bottom: solid 2px #666666;
   height: 32px; }
 
@@ -12163,7 +12915,7 @@ blockquote {
   color: #000000;
   text-transform: uppercase;
   font-family: 'Barlow Condensed';
-  margin: 24px 68px 0px 68px; }
+  margin: 24px 0px 0px 0px; }
 
 .css_06_item {
   display: block;
@@ -12235,7 +12987,7 @@ blockquote {
   text-align: left;
   font-size: 24px;
   color: #ffffff;
-  margin: 24px 0px 0px 20px; }
+  margin-top: 24px; }
 
 .css_06_boxe_texto1 {
   display: block;
@@ -12363,7 +13115,7 @@ blockquote {
   font-size: 18px;
   color: #505050;
   font-family: "noticia text", "700";
-  margin: 24px 68px 0px 68px;
+  margin: 24px 0px 0px 0px;
   padding: 24px;
   line-height: 1.5em;
   border-radius: 8px;
@@ -13977,7 +14729,7 @@ label img {
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.25s ease-in-out;
-  margin: 0px 68px; }
+  margin: 0px; }
 
 .flex-icon {
   display: flex;
@@ -14096,7 +14848,7 @@ label img {
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.25s ease-in-out;
-  margin: 0px 68px; }
+  margin: 0px; }
 
 .flex-icon {
   display: flex;
@@ -14215,7 +14967,7 @@ label img {
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.25s ease-in-out;
-  margin: 0px 68px; }
+  margin: 0px; }
 
 .flex-icon {
   display: flex;
@@ -14334,7 +15086,7 @@ label img {
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.25s ease-in-out;
-  margin: 0px 68px; }
+  margin: 0px; }
 
 .flex-icon {
   display: flex;
@@ -14453,7 +15205,7 @@ label img {
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.25s ease-in-out;
-  margin: 0px 68px; }
+  margin: 0px; }
 
 .flex-icon {
   display: flex;
@@ -14572,7 +15324,7 @@ label img {
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.25s ease-in-out;
-  margin: 0px 68px; }
+  margin: 0px; }
 
 .flex-icon {
   display: flex;
@@ -14691,7 +15443,7 @@ label img {
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.25s ease-in-out;
-  margin: 0px 68px; }
+  margin: 0px; }
 
 .flex-icon {
   display: flex;
@@ -14810,7 +15562,7 @@ label img {
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.25s ease-in-out;
-  margin: 0px 68px; }
+  margin: 0px; }
 
 .flex-icon {
   display: flex;
@@ -14929,7 +15681,7 @@ label img {
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.25s ease-in-out;
-  margin: 0px 68px; }
+  margin: 0px; }
 
 .flex-icon {
   display: flex;
@@ -15048,7 +15800,7 @@ label img {
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.25s ease-in-out;
-  margin: 0px 68px; }
+  margin: 0px; }
 
 .flex-icon {
   display: flex;
@@ -15167,7 +15919,7 @@ label img {
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.25s ease-in-out;
-  margin: 0px 68px; }
+  margin: 0px; }
 
 .flex-icon {
   display: flex;
@@ -15286,7 +16038,7 @@ label img {
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.25s ease-in-out;
-  margin: 0px 68px; }
+  margin: 0px; }
 
 .flex-icon {
   display: flex;
@@ -15405,7 +16157,7 @@ label img {
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.25s ease-in-out;
-  margin: 0px 68px; }
+  margin: 0px; }
 
 .flex-icon {
   display: flex;
@@ -15648,7 +16400,7 @@ label img {
 
 /* Container component style*/
 .css_06_boxe3 {
-  margin: 16px 68px 16px 108px;
+  margin: 16px 0px 16px 0px;
   padding: 4px 16px 4px 0px;
   clear: both;
   border-radius: 10px;
@@ -15729,7 +16481,7 @@ label img {
 
 /* Container component style*/
 .css_06_boxe4 {
-  margin: 16px 68px 16px 108px;
+  margin: 16px 0px 16px 0px;
   padding: 4px 16px 4px 0px;
   clear: both;
   border-radius: 10px;
@@ -15882,14 +16634,14 @@ label img {
   display: block;
   font-size: 20px;
   color: #000000;
-  margin: 16px 0px 0px 0px;
+  margin-top: 16px;
   padding: 0 19px; }
 
 .css_06_boxe_texto_citado_saiba_mais {
   display: block;
   font-size: 16px;
   color: #62883b;
-  margin: 16px 0px 0px 0px;
+  margin-top: 16px;
   padding: 0 19px; }
 
 .css_06_boxe_subtitulo_citado_saiba_mais {
@@ -16821,7 +17573,7 @@ label img {
   background-color: #F7F9D9;
   min-height: 100px;
   position: relative;
-  margin: 0px 68px;
+  margin: 0px;
   padding: 38px 0px 16px 0px;
   box-sizing: border-box; }
   .css_07_secao_arte_em_leitura .tag {
@@ -16930,7 +17682,7 @@ label img {
 
 /* Container component style*/
 .css_07_boxe1 {
-  margin: 16px 68px 16px 108px;
+  margin: 16px 0px 16px 0px;
   padding: 4px 16px 4px 0px;
   clear: both;
   border: 3px solid #951B81;
@@ -17012,7 +17764,7 @@ label img {
 
 /* Container component style*/
 .css_07_boxe2 {
-  margin: 16px 68px 16px 108px;
+  margin: 16px 0px 16px 0px;
   padding: 4px 16px 4px 0px;
   clear: both;
   border-radius: 10px;
