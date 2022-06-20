@@ -800,7 +800,7 @@
       "name": "slideshow-header",
       "icon": "icons/components/slideshow.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "Slide header",
       "properties": [
         "fitting",
@@ -925,7 +925,7 @@
       "name": "container",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": {
         "key": "COMPONENT_CONTAINER_LABEL"
       },
@@ -947,7 +947,7 @@
       "name": "container_slideshow_boxe",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "Container Slideshow Boxe",
       "properties": [
         "style",
@@ -1008,7 +1008,7 @@
       "name": "container_grupo_checkbox",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": {
         "key": "COMPONENT_CHECKBOX_LABEL"
       },
@@ -1046,7 +1046,7 @@
       "name": "container_grupo_checkbox_lado_a_lado",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": {
         "key": "COMPONENT_CHECKBOX_SIDE_LABEL"
       },
@@ -1145,7 +1145,7 @@
       "name": "container_coluna_falsa",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "Container na Mancha",
       "properties": [
         "style",
@@ -3935,7 +3935,7 @@
       "name": "css_07_secao_texto_e_contexto",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "Seção Texto e Contexto",
       "properties": [
         "style",
@@ -3970,7 +3970,7 @@
       "name": "css_07_secao_arte_em_leitura",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "Seção Arte em Leitura",
       "properties": [
         "style",
@@ -3983,7 +3983,7 @@
       "name": "css_07_secao_texto_em_foco",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "Seção Texto em Foco",
       "properties": [
         "style",
@@ -3996,7 +3996,7 @@
       "name": "css_07_secao_ponto_de_vista",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "Seção Ponto de Vista em Geografia",
       "properties": [
         "style",
@@ -4224,7 +4224,7 @@
       "name": "table",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "Tabela",
       "properties": [
         "style",
@@ -4262,7 +4262,7 @@
       "name": "table_menor",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "Tabela Menor",
       "properties": [
         "style",
