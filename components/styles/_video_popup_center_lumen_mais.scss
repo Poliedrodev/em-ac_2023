@@ -10,7 +10,7 @@
 /* Image component style */
 .video_popup_center_lumen_mais {
     position: relative;
-    width: 83%;
+    width: auto;
     margin: 32px 0px 20px 0px;
     display: block;
     background-color: #fff;
@@ -18,6 +18,19 @@
     border: 5px solid $seg_lin_cor1;
     border-radius: 4px;
     cursor: pointer;
+
+    .video_popup__content {
+        .video__embed {
+            width: 100%;
+
+            iframe {
+                width: 100%;
+                min-height: 400px;
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
 
     &.artes {
         border: 5px solid $seg_lin_cor1;
@@ -125,6 +138,8 @@
             height: 100%;
             padding: 5%;
             box-sizing: border-box;
+
+
 
             a {
                 display: block;

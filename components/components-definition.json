@@ -4845,7 +4845,7 @@
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
       "allowNesting": "yes",
-      "label": "container",
+      "label": "Container Nível 1",
       "properties": []
     },
     {
