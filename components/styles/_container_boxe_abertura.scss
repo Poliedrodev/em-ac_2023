@@ -431,7 +431,7 @@
         display: none;
     }
 
-    .lbl-toggle-saiba_mais {
+    .lbl-toggle-abertura {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -444,15 +444,15 @@
     }
 
 
-    .toggle:checked+.lbl-toggle-saiba_mais+.collapsible-content-saiba_mais {
+    .toggle:checked+.lbl-toggle-abertura+.collapsible-content-abertura {
         max-height: 90rem;
     }
 
-    .toggle:checked+.lbl-toggle-saiba_mais .plus {
+    .toggle:checked+.lbl-toggle-abertura .plus {
         display: none;
     }
 
-    .toggle:checked+.lbl-toggle-saiba_mais .less {
+    .toggle:checked+.lbl-toggle-abertura .less {
         display: block;
     }
 
@@ -460,17 +460,17 @@
         display: none;
     }
 
-    .toggle:checked+.lbl-toggle-saiba_mais {
+    .toggle:checked+.lbl-toggle-abertura {
         border-bottom-right-radius: 0;
         border-bottom-left-radius: 0;
     }
 
-    .collapsible-content-saiba_mais .content-inner {
+    .collapsible-content-abertura .content-inner {
         padding: 0 1rem;
         border-left: 3px solid white;
     }
 
-    .collapsible-content-saiba_mais {
+    .collapsible-content-abertura {
         max-height: 0px;
         overflow: hidden;
         transition: max-height 0.25s ease-in-out;

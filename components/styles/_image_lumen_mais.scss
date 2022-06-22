@@ -8,6 +8,53 @@
     width: 100%;
     height: 100%;
 
+    .slider-subtitle {
+        position: relative;
+        margin-top: 8px;
+       
+    }
+        .slider-subtitle::before{
+            content: "";
+            height: 2px;
+            width: 26%;
+            position: absolute;
+            left: 0;
+            top: -4px;
+        }
+    
+    &.artes {
+        .slider-subtitle::before {
+            
+        background-color: $seg_lin_cor1;
+        }
+    }
+
+    &.lingua_portuguesa {
+        .slider-subtitle::before {
+           
+        background-color: $seg_lin_cor1;
+        }
+    }
+
+    &.lingua_inglesa {
+        .slider-subtitle::before {
+           
+        background-color: $seg_lin_cor1;
+        }
+    }
+
+    &.matematica {
+        .slider-subtitle::before {
+           
+        background-color: $seg_mat_cor1;
+        }
+
+    }
+
+
+
+
+
     &._left {
         margin-left: 0px;
     }
@@ -62,6 +109,7 @@
         color: #000000;
         margin-top: 4px;
         margin-bottom: 2px;
+        
     }
 
     %caption-shared {

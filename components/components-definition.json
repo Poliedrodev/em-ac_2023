@@ -11,11 +11,9 @@
         "key": "COMPONENT_IMAGE_LABEL"
       },
       "properties": [
-        {
-          "name": "fitting",
-          "defaultValue": "_fit-frame-height-to-content"
-        },
         "position",
+        "style_image",
+        "width",
         "style",
         "inside-caption",
         "text-align",
@@ -24,10 +22,6 @@
         {
           "name": "edit-image",
           "directiveKey": "image"
-        },
-        {
-          "name": "hyperlink",
-          "directiveKey": "hyperlink"
         }
       ],
       "directiveOptions": {
@@ -35,7 +29,15 @@
           "autofill": {
             "source": "image",
             "metadataField": "ContentMetaData/Description"
-          }
+          },
+          "stripStylingOnPaste": true
+        },
+        "credit": {
+          "autofill": {
+            "source": "image",
+            "metadataField": "ContentMetaData/Description"
+          },
+          "stripStylingOnPaste": true
         }
       }
     },
@@ -934,7 +936,7 @@
       "name": "container_slideshow_boxe",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "Container Slideshow Boxe",
       "properties": [
         "style",
@@ -3265,6 +3267,17 @@
       ]
     },
     {
+      "name": "container_boxe_abertura",
+      "icon": "icons/components/container.svg",
+      "label": "Boxe Habilidades",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
       "name": "css_06_container_boxe_mais",
       "icon": "icons/components/container.svg",
       "label": "Container Boxe Mais",
@@ -3378,7 +3391,7 @@
       "name": "background",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "Background Livro",
       "properties": [
         "style"
@@ -4680,7 +4693,7 @@
       "name": "slideshow_2_images",
       "icon": "icons/components/slideshow.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "2 Imagens",
       "properties": [
         "style",
@@ -4708,7 +4721,7 @@
       "name": "slideshow_3_images",
       "icon": "icons/components/slideshow.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "3 Imagens",
       "properties": [
         "style",
@@ -4736,7 +4749,7 @@
       "name": "slideshow_4_images",
       "icon": "icons/components/slideshow.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "4 Imagens",
       "properties": [
         "style",
@@ -4764,7 +4777,7 @@
       "name": "slideshow_5_images",
       "icon": "icons/components/slideshow.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "5 Imagens",
       "properties": [
         "style",
@@ -4792,7 +4805,7 @@
       "name": "slideshow_6_images",
       "icon": "icons/components/slideshow.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "6 Imagens",
       "properties": [
         "style",
@@ -4820,7 +4833,7 @@
       "name": "slideshow_7_images",
       "icon": "icons/components/slideshow.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "7 Imagens",
       "properties": [
         "style",
@@ -4848,7 +4861,7 @@
       "name": "slideshow_8_images",
       "icon": "icons/components/slideshow.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "8 Imagens",
       "properties": [
         "style",
@@ -4876,7 +4889,7 @@
       "name": "slideshow_9_images",
       "icon": "icons/components/slideshow.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "9 Imagens",
       "properties": [
         "style",
@@ -4932,7 +4945,7 @@
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
       "allowNesting": "yes",
-      "label": "container",
+      "label": "Container Nível 1",
       "properties": []
     },
     {
@@ -4976,7 +4989,7 @@
       "name": "container_grupo_checkbox",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": {
         "key": "COMPONENT_CHECKBOX_LABEL"
       },
@@ -5014,7 +5027,7 @@
       "name": "container_grupo_checkbox_lado_a_lado",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": {
         "key": "COMPONENT_CHECKBOX_SIDE_LABEL"
       },
@@ -5674,6 +5687,8 @@
       "name": "imagens",
       "components": [
         "image_lumen_mais",
+        "imagem_centralizada",
+        "image_cont_exercicios",
         "hero_tirinha",
         "image_inline",
         "author",
@@ -5715,10 +5730,13 @@
         "container_slideshow_saiba_mais",
         "container",
         "container_nivel1",
+        "container_boxe_abertura",
+        "container_fica_a_dica_lumen_mais",
+        "container_repertorio_cultural_lumen_mais",
+        "container_saiba_mais_lumen_mais",
         "container_slideshow_boxe",
         "container_coluna_falsa",
         "container_exercicios",
-        "container_fica_a_dica",
         "container_take_a_tip",
         "container_fica_a_dica_teoria",
         "container_leitura_complementar",
@@ -5727,12 +5745,7 @@
         "container_matema_tec",
         "container_tarja_secao",
         "container_refletir_e_analisar",
-        "container_fica_a_dica_lumen_mais",
-        "container_repertorio_cultural_lumen_mais",
-        "container_saiba_mais_lumen_mais",
-        "container_repertorio_cultural",
         "container_repertorio_cultural_teoria",
-        "container_saiba_mais",
         "container_saiba_mais_exercicios",
         "container_textos",
         "container_textos_item",
@@ -6664,6 +6677,9 @@
       }
     },
     "image": {
+      "image_lumen_mais": "auto"
+    },
+    "image_cont_exercicios": {
       "image_lumen_mais": "auto"
     },
     "image_teoria": {
