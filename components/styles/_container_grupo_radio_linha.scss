@@ -72,7 +72,7 @@
       &._right {
         +._left {
           margin-top: 0;
-          padding: 0 16 0 68px;
+          padding: 0 16 0 0px;
         }
       }
     }
@@ -91,7 +91,7 @@
     &._right {
       +._left:last-child {
         margin-bottom: 20px;
-        padding: 0 16 0 68px;
+        padding: 0 16 0 0px;
       }
     }
   }

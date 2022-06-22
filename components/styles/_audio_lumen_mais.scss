@@ -18,6 +18,11 @@ $icon: $blue;
         width: 100%;
     }
 
+    .audio-box iframe {
+        width: 100% !important;
+        height: auto !important;
+    }
+
     &.artes {
         border: 5px solid $seg_lin_cor1;
 
@@ -81,6 +86,7 @@ $icon: $blue;
         font-size: 14px;
         font-family: 'Montserrat';
         font-weight: 300;
+        margin-bottom: 16px;
     }
 
 }

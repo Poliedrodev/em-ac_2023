@@ -1,76 +1,88 @@
 .container_texto_definicao {
-  margin: 24px 0px 0px 0px;
-  padding: 18px 18px 18px 18px;
-  clear: both;
-  border-radius: 10px;
-  &::after {
-      content: '';
-      display: block;
-      clear: both;
+    margin: 24px 0px 0px 0px;
+    padding: 18px 18px 18px 18px;
+    clear: both;
+    border-radius: 10px;
+
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
     }
+
     /* class styles for the options properties of the container component */
     &.lingua_portuguesa {
-      box-shadow: 0 0 5px 1px #ddd;
+        box-shadow: 0 0 5px 1px #ddd;
     }
-     &.lingua_inglesa {
-      box-shadow: 0 0 5px 1px #ddd;
-     }
-     &.artes {
-      box-shadow: 0 0 5px 1px #ddd;
-    }
-    &.matematica {
-      box-shadow: 0 0 5px 1px #ddd; 
-     }
-  > * {
-      &:first-child {
-          margin-top: 0;
-          &._left {
-              + ._right {
-                  margin-top: 0;
-                  padding: 0 68 0 16px;
-              }
-          }
-          &._right {
-              + ._left {
-                  margin-top: 0;
-                  padding: 0 16 0 68px;
-              }
-          }
-      }
-      &:last-child {
-          margin-bottom: 0;
-      }
-      &._left {
-          + ._right:last-child {
-              margin-bottom: 20px;
-              padding: 0 68 0 16px;
-          }
-      }
-      &._right {
-          + ._left:last-child {
-              margin-bottom: 20px;
-              padding: 0 16 0 68px;
-          }
-      }
-  }
 
-  /* media query */
-  @media only screen and (min-width: $phone-max-width) {
-      &._left {
-          float: left;
-          clear: left;
-          width: 50%;
-          margin-left: 68px;
-          margin-right: 24px;
-          z-index: 1;
-      }
-      &._right {
-          float: right;
-          clear: right;
-          width: 50%;
-          margin-left: 24px;
-          margin-right: 68px;
-          z-index: 1;
-      }
-  }
+    &.lingua_inglesa {
+        box-shadow: 0 0 5px 1px #ddd;
+    }
+
+    &.artes {
+        box-shadow: 0 0 5px 1px #ddd;
+    }
+
+    &.matematica {
+        box-shadow: 0 0 5px 1px #ddd;
+    }
+
+    >* {
+        &:first-child {
+            margin-top: 0;
+
+            &._left {
+                +._right {
+                    margin-top: 0;
+                    padding: 0 68 0 16px;
+                }
+            }
+
+            &._right {
+                +._left {
+                    margin-top: 0;
+                    padding: 0 16 0 0px;
+                }
+            }
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &._left {
+            +._right:last-child {
+                margin-bottom: 20px;
+                padding: 0 68 0 16px;
+            }
+        }
+
+        &._right {
+            +._left:last-child {
+                margin-bottom: 20px;
+                padding: 0 16 0 0px;
+            }
+        }
+    }
+
+    /* media query */
+    @media only screen and (min-width: $phone-max-width) {
+        &._left {
+            float: left;
+            clear: left;
+            width: 50%;
+            margin-left: 0px;
+            margin-right: 24px;
+            z-index: 1;
+        }
+
+        &._right {
+            float: right;
+            clear: right;
+            width: 50%;
+            margin-left: 24px;
+            margin-right: 0px;
+            z-index: 1;
+        }
+    }
 }
