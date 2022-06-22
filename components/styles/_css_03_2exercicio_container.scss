@@ -6,7 +6,7 @@
   grid-template-columns: min-content auto;
   gap: 8px;
 
-  font-family: $fontName;
+  font-family: $fontPrincipal;
   font-weight: 400;
   color: $textColor;
   line-height: 1.5em;
@@ -42,7 +42,7 @@
       font-weight: 700;
       color: #64428C;
     }
-    
+
     .background_number:first-child {
       &::before {
         border-bottom: solid 3px #bfd730;
@@ -57,7 +57,7 @@
       font-weight: 700;
       color: #069891;
     }
-    
+
     .background_number:first-child {
       &::before {
         border-bottom: solid 3px #bfd730;
@@ -72,7 +72,7 @@
       font-weight: 700;
       color: #c9252c;
     }
-    
+
     .background_number:first-child {
       &::before {
         border-bottom: solid 3px #bfd730;
@@ -87,7 +87,7 @@
       font-weight: 700;
       color: #1961AC;
     }
-    
+
     .background_number:first-child {
       &::before {
         border-bottom: solid 3px #F1CB40;

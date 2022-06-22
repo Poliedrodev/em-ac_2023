@@ -14,6 +14,8 @@
 @import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Cookie&display=swap);
 @import url(https://perugluglu.net/poliedro/stylesheet.css);
+@import url(https://fonts.googleapis.com/css2?family=Bitter:wght@300;600&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;600&display=swap);
 ol,
 ul,
 li,
@@ -30,7 +32,7 @@ h1 {
 .body-book {
   padding: 0;
   margin: 0;
-  font: 14px "Lato";
+  font: 14px "Red Hat Display", "arial";
   color: #000000;
   background-color: #ffffff;
   font-weight: 300;
@@ -1170,7 +1172,7 @@ span[style="text-decoration: line-through;"] {
 /* Image component style */
 .image {
   clear: both;
-  margin: 20px 15px 0px 15px;
+  margin: 20px 0px 0px 0px;
   position: relative;
   /* class styles for the captions properties of the image component */ }
   .image.full-screen {
@@ -1459,7 +1461,7 @@ span[style="text-decoration: line-through;"] {
 /* Image component style */
 .image_popup_center {
   clear: both;
-  margin: 20px 15px 0px 15px;
+  margin: 20px 0px 0px 0px;
   position: relative;
   transition: all .3s; }
   .image_popup_center.__ready {
@@ -1882,7 +1884,7 @@ span[style="text-decoration: line-through;"] {
 /* Image component style */
 .image_saiba_mais {
   clear: both;
-  margin: 20px 0px 0px 24px;
+  margin: 20px 0px 0px 0px;
   position: relative;
   /* class styles for the captions properties of the image component */ }
   .image_saiba_mais.full-screen {
@@ -1972,7 +1974,7 @@ span[style="text-decoration: line-through;"] {
 /* Image component style */
 .image_exercicio {
   clear: both;
-  margin: 20px 0px 0px 32px;
+  margin: 20px 0px 0px 0px;
   position: relative;
   /* class styles for the captions properties of the image component */ }
   .image_exercicio.full-screen {
@@ -2250,7 +2252,7 @@ span[style="text-decoration: line-through;"] {
 /* Image component style */
 .imagem_inline {
   clear: both;
-  margin: 20px 68px 20px 68px;
+  margin: 20px 0px 20px 0px;
   position: relative;
   display: none;
   /* class styles for the captions properties of the image component */ }
@@ -3213,7 +3215,7 @@ span[style="text-decoration: line-through;"] {
 .secao_produzir_e_compartilhar {
   height: 50px;
   width: 77%;
-  margin: 40px 68px 0px 68px;
+  margin: 40px 0px 0px 0px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -3386,7 +3388,7 @@ span[style="text-decoration: line-through;"] {
 .secao_topo_produzir_e_compartilhar {
   height: 32px;
   width: 80%;
-  margin: 40px 60px 0px 63px;
+  margin: 40px 0px 0px 0px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -3466,7 +3468,7 @@ span[style="text-decoration: line-through;"] {
 .secao_topo_quiz {
   height: 32px;
   width: 80%;
-  margin: 40px 60px 0px 63px;
+  margin: 40px 0px 0px 0px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -3547,7 +3549,7 @@ span[style="text-decoration: line-through;"] {
 .secao_topo_para_aprofundar {
   height: 32px;
   width: 80%;
-  margin: 40px 60px 0px 63px;
+  margin: 40px 0px 0px 0px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -3628,7 +3630,7 @@ span[style="text-decoration: line-through;"] {
 .secao_para_aprofundar {
   height: 50px;
   width: 77%;
-  margin: 40px 68px 0px 68px;
+  margin: 40px 0px 0px 0px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -3797,7 +3799,7 @@ span[style="text-decoration: line-through;"] {
 .secao_topo_para_aprofundar {
   height: 32px;
   width: 80%;
-  margin: 40px 60px 0px 63px;
+  margin: 40px 0px 0px 0px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -3879,7 +3881,7 @@ span[style="text-decoration: line-through;"] {
 .secao_para_consolidar {
   height: 50px;
   width: 77%;
-  margin: 40px 68px 0px 68px;
+  margin: 40px 0px 0px 0px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -4048,7 +4050,7 @@ span[style="text-decoration: line-through;"] {
 .secao_topo_para_consolidar {
   height: 32px;
   width: 80%;
-  margin: 40px 60px 0px 63px;
+  margin: 40px 0px 0px 0px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -4130,7 +4132,7 @@ span[style="text-decoration: line-through;"] {
 .secao_creating_and_sharing {
   height: 50px;
   width: 77%;
-  margin: 40px 68px 0px 68px;
+  margin: 40px 0px 0px 0px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -4202,7 +4204,7 @@ span[style="text-decoration: line-through;"] {
 .secao_topo_creating_and_sharing {
   height: 32px;
   width: 80%;
-  margin: 40px 60px 0px 63px;
+  margin: 40px 0px 0px 0px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -4236,7 +4238,7 @@ span[style="text-decoration: line-through;"] {
 .secao_extra_practice {
   height: 50px;
   width: 77%;
-  margin: 40px 68px 0px 68px;
+  margin: 40px 0px 0px 0px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -4308,7 +4310,7 @@ span[style="text-decoration: line-through;"] {
 .secao_topo_extra_practice {
   height: 32px;
   width: 80%;
-  margin: 40px 60px 0px 63px;
+  margin: 40px 0px 0px 0px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -4342,7 +4344,7 @@ span[style="text-decoration: line-through;"] {
 .secao_find_out_more {
   height: 50px;
   width: 77%;
-  margin: 40px 68px 0px 68px;
+  margin: 40px 0px 0px 0px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -4414,7 +4416,7 @@ span[style="text-decoration: line-through;"] {
 .secao_topo_find_out_more {
   height: 32px;
   width: 80%;
-  margin: 40px 60px 0px 63px;
+  margin: 40px 0px 0px 0px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -4828,7 +4830,7 @@ span[style="text-decoration: line-through;"] {
 
 /* Container component style*/
 .container_slideshow_boxe {
-  margin: 20px 20px !important;
+  margin: 20px  0px 20px 0px;
   clear: both;
   /* class styles for the options properties of the container component */
   /* media query */ }
@@ -5580,8 +5582,57 @@ span[style="text-decoration: line-through;"] {
       z-index: 1; } }
 
 /* Container component style*/
+.container_nivel1 {
+  margin: 24px 0px 0px 0px;
+  padding: 0px 68px 0px 68px;
+  background: white;
+  clear: both;
+  /* class styles for the options properties of the container component */
+  /* media query */ }
+  .container_nivel1::after {
+    content: '';
+    display: block;
+    clear: both; }
+  .container_nivel1._option1 {
+    background-color: #141414; }
+    .container_nivel1._option1 .title,
+    .container_nivel1._option1 .subtitle,
+    .container_nivel1._option1 .intro,
+    .container_nivel1._option1 .body,
+    .container_nivel1._option1 .footer,
+    .container_nivel1._option1 blockquote {
+      color: #ffffff; }
+  .container_nivel1._option2 {
+    background-color: #f2c43d; }
+  .container_nivel1._option3 {
+    background-color: #c191d6; }
+  .container_nivel1 > *:first-child {
+    margin-top: 0; }
+    .container_nivel1 > *:first-child._left + ._right {
+      margin-top: 0; }
+    .container_nivel1 > *:first-child._right + ._left {
+      margin-top: 0; }
+  .container_nivel1 > *:last-child {
+    margin-bottom: 0; }
+  .container_nivel1 > *._left + ._right:last-child {
+    margin-bottom: 20px; }
+  .container_nivel1 > *._right + ._left:last-child {
+    margin-bottom: 20px; }
+  @media only screen and (min-width: 481px) {
+    .container_nivel1._left {
+      float: left;
+      clear: left;
+      width: 50%;
+      z-index: 1; }
+    .container_nivel1._right {
+      float: right;
+      clear: right;
+      width: 50%;
+      z-index: 1; } }
+
+/* Container component style*/
 .container_slideshow_boxe {
-  margin: 20px 20px !important;
+  margin: 20px  0px 20px 0px;
   clear: both;
   /* class styles for the options properties of the container component */
   /* media query */ }
@@ -5658,7 +5709,7 @@ span[style="text-decoration: line-through;"] {
   border: solid 1px #707070;
   padding: 0px 12px 12px 0px;
   border-radius: 6px;
-  margin: 16px 0px 0px 32px;
+  margin: 16px 0px 0px 0px;
   clear: both;
   display: block;
   position: relative;
@@ -5714,7 +5765,7 @@ span[style="text-decoration: line-through;"] {
   border: solid 1px #707070;
   padding: 0px 12px 12px 0px;
   border-radius: 6px;
-  margin: 16px 0px 0px 32px;
+  margin: 16px 0px 0px 0px;
   clear: both;
   display: block;
   position: relative;
@@ -5777,7 +5828,7 @@ span[style="text-decoration: line-through;"] {
   font-weight: 700;
   font-size: 18px;
   float: left;
-  margin: 12px 12px -8px 32px !important;
+  margin-top: 12px;
   display: flex;
   justify-content: center; }
 
@@ -5806,7 +5857,7 @@ span[style="text-decoration: line-through;"] {
   font-weight: 700;
   font-size: 18px;
   float: left;
-  margin: 12px 12px -8px 70px !important;
+  margin-top: 12px;
   display: flex;
   justify-content: center; }
 
@@ -5830,7 +5881,7 @@ span[style="text-decoration: line-through;"] {
   font-weight: 700;
   font-size: 18px;
   color: #000000;
-  margin: 16px 0px 0px 32px;
+  margin: 16px 0px 0px 0px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -5871,7 +5922,7 @@ span[style="text-decoration: line-through;"] {
   font-weight: 700;
   font-size: 18px;
   color: #000000;
-  margin: 16px 0px 0px 32px;
+  margin: 16px 0px 0px 0px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -5896,7 +5947,6 @@ span[style="text-decoration: line-through;"] {
   position: relative;
   padding-left: 35px;
   cursor: pointer;
-  margin-left: 40px;
   font-size: 22px;
   display: inline-block;
   user-select: none; }
@@ -5964,6 +6014,88 @@ span[style="text-decoration: line-through;"] {
   flex-direction: row;
   justify-content: flex-start;
   align-items: stretch; }
+
+/* Container component style*/
+.container_coluna_falsa {
+  margin-top: 20px;
+  clear: both;
+  /* class styles for the options properties of the container component */
+  /* media query */ }
+  .container_coluna_falsa::after {
+    content: '';
+    display: block;
+    clear: both; }
+  .container_coluna_falsa.artes {
+    background-color: #64428C !important;
+    color: #FFF !important; }
+  .container_coluna_falsa.biologia {
+    background-color: #45973D !important; }
+  .container_coluna_falsa.filosofia {
+    background-color: #536DA7 !important; }
+  .container_coluna_falsa.fisica {
+    background-color: #00909B !important; }
+  .container_coluna_falsa.geografia {
+    background-color: #D85509 !important; }
+  .container_coluna_falsa.historia {
+    background-color: #951B81 !important; }
+  .container_coluna_falsa.lingua_inglesa {
+    background-color: #069891 !important; }
+  .container_coluna_falsa.lingua_portuguesa {
+    background-color: #C51A1B !important; }
+  .container_coluna_falsa.matematica {
+    background-color: #1961AC !important; }
+  .container_coluna_falsa.producao_de_texto {
+    background-color: #0F83A6 !important; }
+  .container_coluna_falsa.quimica {
+    background-color: #B80071 !important; }
+  .container_coluna_falsa.sociologia {
+    background-color: #C71553 !important; }
+  .container_coluna_falsa > *:first-child {
+    margin-top: 0; }
+    .container_coluna_falsa > *:first-child._left + ._right {
+      margin-top: 0;
+      padding: 0 68 0 16px; }
+    .container_coluna_falsa > *:first-child._right + ._left {
+      margin-top: 0;
+      padding: 0 16 0 68px; }
+  .container_coluna_falsa > *:last-child {
+    margin-bottom: 0; }
+  .container_coluna_falsa > *._left + ._right:last-child {
+    margin-bottom: 20px;
+    padding: 0 68 0 16px; }
+  .container_coluna_falsa > *._right + ._left:last-child {
+    margin-bottom: 20px;
+    padding: 0 16 0 68px; }
+  @media only screen and (min-width: 481px) {
+    .container_coluna_falsa._left {
+      float: left;
+      clear: left;
+      width: 39%;
+      margin-right: 24px;
+      z-index: 1; }
+    .container_coluna_falsa._right {
+      float: right;
+      clear: right;
+      width: 39%;
+      margin-left: 24px;
+      z-index: 1; } }
+
+/* Body component style */
+.body {
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.6;
+  color: #606060;
+  margin: 12px auto;
+  /*
+     * media query
+     * $screen-sm-max constant is defined in the global style file (_common.scss)
+     */ }
+  @media (max-width: 991px) {
+    .body {
+      font-size: 17px;
+      line-height: 1.65; } }
 
 /* Container component style*/
 .container_coluna_falsa {
@@ -6414,7 +6546,7 @@ blockquote {
   font-size: 14px;
   color: #b92e74;
   background-color: #F5D9EA;
-  margin: 16px 8px 0px 8px;
+  margin: 16px 0px 0px 0px;
   padding: 8px; }
 
 .css_00_multimidia {
@@ -6423,7 +6555,7 @@ blockquote {
   font-size: 14px;
   color: #69880d;
   background-color: #E3F0E2;
-  margin: 16px 8px 0px 8px;
+  margin: 16px 0px 0px 0px;
   padding: 8px; }
 
 .css_00_licenciamento_texto_terceiro {
@@ -6432,7 +6564,7 @@ blockquote {
   font-size: 14px;
   color: #69880d;
   background-color: #E3F0E2;
-  margin: 16px 8px 0px 8px;
+  margin: 16px 0px 0px 0px;
   padding: 8px; }
 
 .css_00_ilustracao {
@@ -6441,7 +6573,7 @@ blockquote {
   font-size: 14px;
   color: #b92e74;
   background-color: #F5D9EA;
-  margin: 16px 8px 0px 8px;
+  margin: 16px 0px 0px 0px;
   padding: 8px; }
 
 .css_00_revisao {
@@ -6450,7 +6582,7 @@ blockquote {
   font-size: 14px;
   color: #b47331;
   background-color: #F9E5DA;
-  margin: 16px 8px 0px 8px;
+  margin: 16px 0px 0px 0px;
   padding: 8px; }
 
 .container_exercicios {
@@ -6775,7 +6907,7 @@ blockquote {
 
 .container_questao_dissertativa {
   border: solid 1px #bbbbbb;
-  margin: 16px 0px 0px 32px;
+  margin: 16px 0px 0px 0px;
   border-radius: 6px;
   /* media query */ }
   .container_questao_dissertativa .label {
@@ -7058,9 +7190,7 @@ blockquote {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto; }
+  align-items: center; }
   .container_quiz .but_voltar {
     width: 64px;
     height: 64px;
@@ -7100,9 +7230,7 @@ blockquote {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto; }
+  align-items: center; }
   .container_quiz_pag1 .but_voltar {
     width: 64px;
     height: 64px;
@@ -7142,9 +7270,7 @@ blockquote {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto; }
+  align-items: center; }
   .container_quiz_pag_final .but_voltar {
     width: 64px;
     height: 64px;
@@ -7234,7 +7360,7 @@ blockquote {
 
 .container_questao_dissertativa_semrecuo {
   border: solid 1px #707070;
-  margin: 16px 0px 0px 32px;
+  margin: 16px 0px 0px 0px;
   border-radius: 6px;
   /* media query */ }
   .container_questao_dissertativa_semrecuo .label {
@@ -7374,7 +7500,7 @@ blockquote {
 
 .container_questao_dissertativa_item {
   border: solid 1px #707070;
-  margin: 16px 0px 0px 65px;
+  margin: 16px 0px 0px 0px;
   border-radius: 6px;
   /* media query */ }
   .container_questao_dissertativa_item .label {
@@ -7654,7 +7780,7 @@ blockquote {
 
 .container_questao_dissertativa_ing {
   border: solid 1px #707070;
-  margin: 16px 0px 0px 32px;
+  margin: 16px 0px 0px 0px;
   border-radius: 6px;
   /* media query */ }
   .container_questao_dissertativa_ing .label {
@@ -7794,7 +7920,7 @@ blockquote {
 
 .container_questao_dissertativa_semrecuo_ing {
   border: solid 1px #707070;
-  margin: 16px 0px 0px 32px;
+  margin: 16px 0px 0px 0px;
   border-radius: 6px;
   /* media query */ }
   .container_questao_dissertativa_semrecuo_ing .label {
@@ -7934,7 +8060,7 @@ blockquote {
 
 .container_questao_dissertativa_item_ing {
   border: solid 1px #707070;
-  margin: 16px 0px 0px 65px;
+  margin: 16px 0px 0px 0px;
   border-radius: 6px;
   /* media query */ }
   .container_questao_dissertativa_item_ing .label {
@@ -8731,7 +8857,7 @@ blockquote {
 .container_refletir_e_analisar {
   border: 2px solid #96171a;
   padding: 24px;
-  margin-top: 48px;
+  margin: 48px 0px 0px 0px;
   border-radius: 5px;
   display: block;
   /* media query */ }
@@ -8744,7 +8870,7 @@ blockquote {
     width: 187px;
     text-align: center;
     padding: 3px 0px 3px 6px;
-    font-family: montserrat;
+    font-family: "Bitter", sans-serif;
     font-weight: 700; }
   .container_refletir_e_analisar .line1 {
     width: 100%;
@@ -8835,7 +8961,7 @@ blockquote {
 } */ }
   .container_fica_a_dica_lumen_mais .collapsible-title {
     margin: 0;
-    font-family: "Lato";
+    font-family: "Red Hat Display", "arial";
     font-size: 0.875rem;
     font-weight: 900; }
   .container_fica_a_dica_lumen_mais.artes {
@@ -8968,7 +9094,7 @@ blockquote {
   margin-top: 32px; }
   .container_repertorio_cultural_lumen_mais .collapsible-title {
     margin: 0;
-    font-family: "Lato";
+    font-family: "Red Hat Display", "arial";
     font-size: 0.875rem;
     font-weight: 900; }
   .container_repertorio_cultural_lumen_mais.artes {
@@ -9269,7 +9395,7 @@ blockquote {
   margin-top: 32px; }
   .container_saiba_mais_lumen_mais .collapsible-title {
     margin: 0;
-    font-family: "Lato";
+    font-family: "Red Hat Display", "arial";
     font-size: 0.875rem;
     font-weight: 900; }
   .container_saiba_mais_lumen_mais.artes {
@@ -9574,7 +9700,7 @@ blockquote {
     width: 239px;
     text-align: center;
     padding: 3px 0px 3px 6px;
-    font-family: montserrat;
+    font-family: 'Montserrat';
     font-weight: 700; }
   .container_reflecting_and_studying .line1 {
     width: 100%;
@@ -10394,7 +10520,7 @@ blockquote {
 .container_textos_item {
   border: 2px solid #ccc;
   padding: 8px 16px 16px 16px;
-  margin: 16px 0px 0px 64px;
+  margin: 16px 0px 0px 0px;
   clear: both;
   display: block;
   /* media query */ }
@@ -10486,7 +10612,7 @@ blockquote {
 .container_textos_exercicios {
   border: 2px solid #ccc;
   padding: 14px 16px 16px 16px;
-  margin: 20px 0px 0px 32px;
+  margin: 20px 0px 0px 0px;
   clear: both;
   display: block;
   /* media query */ }
@@ -11079,7 +11205,7 @@ blockquote {
       z-index: 1; } }
 
 .container_dados_mancha_60 {
-  margin: 16px 140px 16px 188px;
+  margin: 16px 0px 16px 0px;
   padding: 4px 16px 4px 0px;
   clear: both;
   border-radius: 10px;
@@ -11145,7 +11271,7 @@ blockquote {
   font-size: 100px;
   font-family: 'Barlow Condensed';
   font-weight: 700;
-  margin: 40px 68px 0px 68px;
+  margin: 40px 0px 0px 0px;
   padding: 0px 0px 16px 0px; }
   .css_01_titulo_unid.artes {
     color: #64428C; }
@@ -11162,7 +11288,7 @@ blockquote {
   font-family: 'Barlow Condensed';
   font-weight: 550;
   font-size: 100px;
-  margin: 40px 68px 0px 68px;
+  margin: 40px 0px 0px 0px;
   padding: 0px 0px 16px 0px; }
   .css_01_titulo_cap.artes {
     color: #64428C; }
@@ -11181,7 +11307,7 @@ blockquote {
   font-size: 400px;
   -webkit-text-stroke-color: #FFFFFF;
   -webkit-text-stroke-width: 2px;
-  margin: 40px 68px 0px 68px;
+  margin: 40px 0px 0px 0px;
   padding: 0px 0px 16px 0px; }
 
 .css_01_titulo1 {
@@ -11275,9 +11401,9 @@ blockquote {
   display: block;
   font-size: 18px;
   color: #404040;
-  font-family: "noticia text", "400";
+  font-family: "Bitter", sans-serif;
   line-height: 1.5em;
-  margin: 24px 68px 24px 68px; }
+  margin: 24px 0px 24px 0px; }
 
 .css_01_bullet_unid {
   display: block;
@@ -11285,7 +11411,7 @@ blockquote {
   color: #FFFFFF;
   font-family: 'Montserrat';
   font-weight: 500;
-  margin: 0px 28px 24px 0px;
+  margin: 0px 0px 24px 0px;
   line-height: 1.8em;
   border-left: solid 2px #FFFFFF;
   padding-left: 10px; }
@@ -11312,7 +11438,7 @@ blockquote {
   font-weight: 400;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 15px 68px 0px 68px; }
+  margin: 15px 0px 0px 0px; }
 
 .css_02_texto_geral2 {
   display: block;
@@ -11356,7 +11482,7 @@ blockquote {
     font-size: 18px;
     font-family: 'Noticia Text';
     font-weight: 400;
-    margin: -8px 68px -8px 50px;
+    margin: 0px;
     line-height: 1.5em;
     padding-left: 4px; }
 
@@ -11371,7 +11497,7 @@ blockquote {
     font-size: 18px;
     font-family: 'Noticia Text';
     font-weight: 400;
-    margin: -8px 68px -8px 58px;
+    margin: 0px;
     line-height: 1.5em;
     padding-left: 4px; }
 
@@ -11386,7 +11512,7 @@ blockquote {
     font-size: 18px;
     font-family: 'Noticia Text';
     font-weight: 400;
-    margin: 16px 68px 16px 70px;
+    margin: 16px 0px;
     line-height: 1.5em;
     padding-left: 4px; }
 
@@ -11507,7 +11633,7 @@ blockquote {
 
 .css_02_texto_manuscrito {
   display: block;
-  font-family: 'Cookie';
+  font-family: 'Montserrat';
   font-size: 32px;
   color: #000000;
   margin: 0px; }
@@ -11519,7 +11645,7 @@ blockquote {
   line-height: 1.5em;
   font-size: 20px;
   display: block;
-  margin: 16px 15px 0px 15px; }
+  margin: 16px 0px 0px 0px; }
 
 .css_02_texto_citado_titulo_2 {
   font-family: 'Noticia Text';
@@ -11537,7 +11663,7 @@ blockquote {
   font-family: 'Montserrat';
   font-weight: 400;
   line-height: 1.5em;
-  margin: 8px 15px 0px 15px; }
+  margin: 8px 0px 0px 0px; }
 
 .css_02_texto_citado_bullet {
   display: block;
@@ -11550,7 +11676,7 @@ blockquote {
     font-size: 16px;
     font-family: 'Montserrat';
     font-weight: 400;
-    margin: -8px 16px -8px -20px;
+    margin: 0px;
     line-height: 1.5em;
     padding-left: 4px; }
 
@@ -11565,7 +11691,7 @@ blockquote {
     font-size: 16px;
     font-family: 'Montserrat';
     font-weight: 400;
-    margin: -8px 16px -8px -7px;
+    margin: 0px;
     line-height: 1.5em;
     padding-left: 4px; }
 
@@ -11576,7 +11702,7 @@ blockquote {
   font-family: 'Montserrat';
   font-weight: 400;
   line-height: 1.5em;
-  margin: 8px 15px 0px 50px; }
+  margin: 8px 0px 0px 0px; }
 
 .css_02_texto_citado_fonte {
   display: block;
@@ -11585,7 +11711,7 @@ blockquote {
   font-weight: 400;
   font-size: 12px;
   text-align: right;
-  margin: -10px 0px 0px 0px; }
+  margin: 0px; }
 
 .css_02_texto_citado_fonte_2 {
   display: block;
@@ -11594,7 +11720,7 @@ blockquote {
   font-weight: 400;
   font-size: 12px;
   text-align: right;
-  margin: 2px 4px 0px 4px; }
+  margin: 2px 0px 0px 0px; }
 
 .css_02_texto_citado_fonte_saiba_mais {
   display: block;
@@ -11603,7 +11729,7 @@ blockquote {
   font-weight: 400;
   font-size: 12px;
   text-align: right;
-  margin: 0px 20px 0px 17px; }
+  margin: 0px 0px 0px 0px; }
 
 .css_02_texto_glossario_titulo {
   font-family: 'Noticia Text';
@@ -11699,7 +11825,7 @@ blockquote {
   font-weight: 700;
   font-size: 18px;
   float: left;
-  margin: 12px 0px 0px 32px !important; }
+  margin: 12px 0px 0px 0px !important; }
 
 .css_03_item_secao_identado {
   display: block;
@@ -11708,7 +11834,7 @@ blockquote {
   font-weight: 700;
   font-size: 18px;
   float: left;
-  margin: 18px 0px 0px 36px !important; }
+  margin: 18px 0px 0px 0px !important; }
 
 .css_03_item_2 {
   display: block;
@@ -11717,7 +11843,7 @@ blockquote {
   font-weight: 700;
   font-size: 18px;
   float: left;
-  margin: 12px 0px 0px 70px !important; }
+  margin: 12px 0px 0px 0px !important; }
 
 .css_02_item_citado {
   display: block;
@@ -11726,7 +11852,7 @@ blockquote {
   font-weight: 700;
   font-size: 18px;
   float: left;
-  margin: 8px 0px 0px 18px !important; }
+  margin: 8px 0px 0px 0px !important; }
 
 .css_03_item_container {
   display: block;
@@ -11735,7 +11861,7 @@ blockquote {
   font-weight: 700;
   font-size: 18px;
   float: left;
-  margin: 12px 0px 0px 10px !important; }
+  margin: 12px 0px 0px 0px !important; }
 
 .css_03_item_container_2 {
   display: block;
@@ -11744,7 +11870,7 @@ blockquote {
   font-weight: 700;
   font-size: 18px;
   float: left;
-  margin: 12px 0px 0px 10px !important; }
+  margin: 12px 0px 0px 0px !important; }
 
 .css_03_item_container {
   display: block;
@@ -11753,7 +11879,7 @@ blockquote {
   font-weight: 700;
   font-size: 18px;
   float: left;
-  margin: 18px 0px 0px 10px !important; }
+  margin: 18px 0px 0px 0px !important; }
 
 .css_03_item_sobrescrito {
   display: block;
@@ -11762,7 +11888,7 @@ blockquote {
   font-weight: 700;
   font-size: 18px;
   float: left;
-  margin: 17px 0px 0px 32px !important; }
+  margin: 17px 0px 0px 0px !important; }
 
 .css_03_item_sobrescrito_2 {
   display: block;
@@ -11771,7 +11897,7 @@ blockquote {
   font-weight: 700;
   font-size: 18px;
   float: left;
-  margin: 20px 0px 0px 32px !important; }
+  margin: 20px 0px 0px 0px !important; }
 
 .css_03_item_alinhamento_1 {
   display: block;
@@ -11782,7 +11908,7 @@ blockquote {
   font-family: 'Noticia Text';
   font-weight: 700;
   line-height: 1.5em;
-  margin: 0px 8px 0px 0px;
+  margin: 0px;
   padding: 0 0 0 68px; }
 
 .css_03_item_resolvido {
@@ -11792,7 +11918,7 @@ blockquote {
   font-weight: 700;
   font-size: 18px;
   float: left;
-  margin: 12px 0px 0px 32px; }
+  margin: 12px 0px 0px 0px; }
 
 .css_03_numero {
   font-family: 'Montserrat';
@@ -11800,7 +11926,7 @@ blockquote {
   font-size: 18px;
   font-variant: tabular-nums;
   color: #000000;
-  margin: 34px 0px -4px 0px !important;
+  margin: 34px 0px 0px 0px !important;
   float: left;
   display: flex;
   justify-content: left; }
@@ -11823,7 +11949,7 @@ blockquote {
   font-size: 18px;
   font-variant: tabular-nums;
   color: #000000;
-  margin: 41px 0px -4px 0px !important;
+  margin: 41px 0px 0px 0px !important;
   float: left;
   display: flex;
   justify-content: left; }
@@ -11846,7 +11972,7 @@ blockquote {
   font-size: 18px;
   font-variant: tabular-nums;
   color: #000000;
-  margin: 50px 0px -4px 0px !important;
+  margin: 50px 0px 0px 0px !important;
   float: left;
   display: flex;
   justify-content: left; }
@@ -11869,7 +11995,7 @@ blockquote {
   font-size: 18px;
   font-variant: tabular-nums;
   color: #000000;
-  margin: 37px 0px -4px 0px !important;
+  margin: 37px 0px 0px 0px !important;
   float: left;
   display: flex;
   justify-content: left; }
@@ -11892,7 +12018,7 @@ blockquote {
   font-size: 18px;
   font-variant: tabular-nums;
   color: #000000;
-  margin: 16px 0px -4px 0px !important;
+  margin: 16px 0px 0px 0px !important;
   float: left;
   display: flex;
   justify-content: left; }
@@ -11915,7 +12041,7 @@ blockquote {
   font-size: 18px;
   font-variant: tabular-nums;
   color: #000000;
-  margin: 34px 0px -4px 0px;
+  margin: 34px 0px 0px 0px;
   float: left;
   display: flex;
   justify-content: left; }
@@ -11939,7 +12065,7 @@ blockquote {
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 31px 0px 0px 32px; }
+  margin: 31px 0px 0px 0px; }
 
 .css_03_exercicio_texto {
   display: block;
@@ -11948,7 +12074,7 @@ blockquote {
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 12px 0px 0px 32px; }
+  margin: 12px 0px 0px 0px; }
 
 .css_03_exercicio_resolvido {
   display: block;
@@ -11957,7 +12083,7 @@ blockquote {
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 32px 0px 0px 32px; }
+  margin: 32px 0px 0px 0px; }
 
 .css_03_exercicio_resolvido_bullet {
   display: block;
@@ -11966,7 +12092,7 @@ blockquote {
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 16px 0px 0px 11px; }
+  margin: 16px 0px 0px 0px; }
   .css_03_exercicio_resolvido_bullet ul li {
     padding-left: 12px; }
 
@@ -11976,7 +12102,7 @@ blockquote {
   font-weight: 400;
   color: #000000;
   font-size: 18px;
-  margin: 12px 0px 0px 64px;
+  margin: 12px 0px 0px 0px;
   line-height: 1.5em; }
 
 .css_03_exercicio_item {
@@ -11985,7 +12111,7 @@ blockquote {
   font-weight: 400;
   color: #000000;
   font-size: 18px;
-  margin: 12px 0px 0px 64px;
+  margin: 12px 0px 0px 0px;
   line-height: 1.5em; }
 
 .css_03_exercicio_item_2 {
@@ -11994,7 +12120,7 @@ blockquote {
   font-weight: 400;
   color: #000000;
   font-size: 18px;
-  margin: 12px 0px 0px 103px;
+  margin: 12px 0px 0px 0px;
   line-height: 1.5em; }
 
 .css_03_exercicio_item_alinhamento_1 {
@@ -12004,7 +12130,7 @@ blockquote {
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 32px 0px 0px 32px; }
+  margin: 32px 0px 0px 0px; }
 
 .css_03_exercicio_bullet {
   display: block;
@@ -12013,7 +12139,7 @@ blockquote {
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 8px 0px 0px 12px; }
+  margin: 8px 0px 0px 0px; }
   .css_03_exercicio_bullet ul {
     list-style-type: disc;
     margin: 0px; }
@@ -12027,7 +12153,7 @@ blockquote {
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 8px 0px 0px 43px; }
+  margin: 8px 0px 0px 0px; }
   .css_03_exercicio_bullet_sub ul {
     list-style-type: disc;
     margin: 0px; }
@@ -12040,7 +12166,7 @@ blockquote {
   font-weight: 400;
   color: #000000;
   font-size: 18px;
-  margin: 12px 0px 0px 64px;
+  margin: 12px 0px 0px 0px;
   line-height: 1.5em; }
 
 .css_03_exercicio_continuacao {
@@ -12058,7 +12184,7 @@ blockquote {
   font-weight: 400;
   color: #000000;
   font-size: 18px;
-  margin: 12px 0px 0px 64px;
+  margin: 12px 0px 0px 0px;
   line-height: 1.5em; }
 
 .css_03_exercicio_item_vf {
@@ -12067,7 +12193,7 @@ blockquote {
   font-weight: 400;
   color: #000000;
   font-size: 18px;
-  margin: 12px 0px 0px 80px;
+  margin: 12px 0px 0px 0px;
   line-height: 1.5em; }
 
 .css_03_exercicio_item_vf_citado {
@@ -12076,7 +12202,7 @@ blockquote {
   font-weight: 400;
   color: #000000;
   font-size: 18px;
-  margin: 12px 0px 0px 80px;
+  margin: 12px 0px 0px 0px;
   line-height: 1.5em; }
 
 .css_03_exercicio_item_vf_2 {
@@ -12085,7 +12211,7 @@ blockquote {
   font-weight: 400;
   color: #000000;
   font-size: 18px;
-  margin: 12px 0px 0px 110px;
+  margin: 12px 0px 0px 0px;
   line-height: 1.5em; }
 
 .css_03_exercicio_citado_titulo {
@@ -12112,42 +12238,42 @@ blockquote {
   font-family: "Pt Sans";
   font-size: 16px;
   color: #f5006b;
-  margin: 16px 0px 0px 32px; }
+  margin: 16px 0px 0px 0px; }
 
 .css_04_professor_comentario {
   display: block;
   font-family: "TheSerif-HP2ExLig";
   font-size: 16px;
   color: #f5006b;
-  margin: 16px 0px 0px 32px; }
+  margin: 16px 0px 0px 0px; }
 
 .css_04_professor_roteiro_cd {
   display: block;
   font-family: "Pt Sans";
   font-size: 16px;
   color: #f5006b;
-  margin: 16px 0px 0px 32px; }
+  margin: 16px 0px 0px 0px; }
 
 .css_04_proposta_didatica {
   display: block;
   font-family: "Pt Sans";
   font-size: 16px;
   color: #f5006b;
-  margin: 16px 0px 0px 32px; }
+  margin: 16px 0px 0px 0px; }
 
 .css_04_proposta_didatica_citado {
   display: block;
   font-family: "Pt Sans";
   font-size: 16px;
   color: #f5006b;
-  margin: 16px 0px 0px 32px; }
+  margin: 16px 0px 0px 0px; }
 
 .css_04_proposta_citado_fonte {
   display: block;
   font-family: "Pt Sans";
   font-size: 16px;
   color: #f5006b;
-  margin: 16px 0px 0px 32px; }
+  margin: 16px 0px 0px 0px; }
 
 .css_05_credito {
   display: block;
@@ -12183,7 +12309,7 @@ blockquote {
   font-weight: 400;
   font-size: 14px;
   font-variant: tabular-nums;
-  margin: 4px 15px 0px 15px; }
+  margin: 4px 0px 0px 0px; }
   .css_05_legenda.artes {
     color: #000000; }
     .css_05_legenda.artes .line-legenda {
@@ -12429,7 +12555,7 @@ blockquote {
   font-weight: 400;
   font-size: 14px;
   font-variant: tabular-nums;
-  margin: 4px 68px 0px 68px; }
+  margin: 4px 0px 0px 0px; }
   .css_05_legenda_teoria.artes {
     color: #000000; }
     .css_05_legenda_teoria.artes .line-legenda {
@@ -12511,7 +12637,7 @@ blockquote {
   font-weight: 400;
   font-size: 14px;
   font-variant: tabular-nums;
-  margin: 4px 0px 0px 24px; }
+  margin: 4px 0px 0px 0px; }
   .css_05_legenda_saiba_mais.artes {
     color: #62883b; }
     .css_05_legenda_saiba_mais.artes .line-legenda {
@@ -12593,7 +12719,7 @@ blockquote {
   font-weight: 400;
   font-size: 14px;
   font-variant: tabular-nums;
-  margin: 4px 0px 0px 32px; }
+  margin: 4px 0px 0px 0px; }
   .css_05_legenda_exercicio.artes {
     color: #000000; }
     .css_05_legenda_exercicio.artes .line-legenda {
@@ -12813,7 +12939,7 @@ blockquote {
   font-family: 'Montserrat';
   font-weight: 400;
   margin: 0px 0px 0px 0px;
-  padding: 0px 68px 0px 108px; }
+  padding: 0px 0px 0px 0px; }
 
 .css_05_fonte_mapa {
   display: block;
@@ -12822,7 +12948,7 @@ blockquote {
   color: #000000;
   font-family: 'Montserrat';
   font-weight: 400;
-  margin: -16px 0px 0px 0px; }
+  margin: 0px; }
 
 .css_05_cota_titulo {
   display: block;
@@ -12856,7 +12982,7 @@ blockquote {
   font-family: "Prelo ExtraBold";
   border-top: solid 3px;
   border-bottom: solid 3px;
-  margin-bottom: -20px; }
+  margin-bottom: 0px; }
   .css_05_mapa_titulo.artes {
     border-color: #84a214;
     color: #84a214 !important; }
@@ -12934,7 +13060,6 @@ blockquote {
   color: #000;
   margin-right: 10px;
   float: left;
-  margin-left: 70px;
   margin-top: 8px; }
 
 .css_06_boxe_numero {
@@ -12942,21 +13067,21 @@ blockquote {
   font-size: 18px;
   color: #000;
   display: block;
-  margin: 13px 20px 0 20px;
+  margin: 13px 0px 0 0px;
   float: left; }
 
 .css_06_boxe_titulo1 {
   font-size: 20px;
   color: #62883b;
   font-family: "nunito sans", "900";
-  margin: 0px 0px 0px 20px; }
+  margin: 0px; }
 
 .css_06_boxe_titulo2 {
   display: block;
   text-align: left;
   font-size: 26px;
   font-family: "Prelo ExtraBold";
-  margin: 0px 0px 0px 20px; }
+  margin: 0px; }
   .css_06_boxe_titulo2.artes {
     color: #C8D300 !important; }
   .css_06_boxe_titulo2.biologia {
@@ -12995,7 +13120,7 @@ blockquote {
   color: #62883b;
   font-family: 'Noticia Text';
   font-weight: 400;
-  margin: 0px 0px 0px 20px;
+  margin: 0px;
   line-height: 1.5em; }
   .css_06_boxe_texto1.artes {
     color: #62883b; }
@@ -13013,7 +13138,7 @@ blockquote {
   color: #000000;
   font-family: "noticia text", "700";
   line-height: 1.5em;
-  margin: 16px 16px 0px 16px; }
+  margin: 16px 0px 0px 0px; }
 
 .css_06_boxe_texto_identado {
   display: block;
@@ -13022,7 +13147,7 @@ blockquote {
   color: #000000;
   font-family: "noticia text", "700";
   line-height: 1.5em;
-  margin: 12px 16px 0px 50px; }
+  margin: 12px 0px 0px 0px; }
 
 .css_06_boxe_texto2_competencias {
   font-size: 18px;
@@ -13070,7 +13195,7 @@ blockquote {
 .css_06_boxe_texto2_competencias_bold {
   font-size: 18px;
   color: #000000;
-  margin: 24px 0px 24px 0px;
+  margin: 24px 0px 0px 0px;
   font-family: "proxima_novabold";
   padding: 0 68px; }
   .css_06_boxe_texto2_competencias_bold.artes, .css_06_boxe_texto2_competencias_bold.biologia, .css_06_boxe_texto2_competencias_bold.filosofia, .css_06_boxe_texto2_competencias_bold.fisica, .css_06_boxe_texto2_competencias_bold.geografia, .css_06_boxe_texto2_competencias_bold.historia, .css_06_boxe_texto2_competencias_bold.lingua_inglesa, .css_06_boxe_texto2_competencias_bold.lingua_portuguesa, .css_06_boxe_texto2_competencias_bold.matematica, .css_06_boxe_texto2_competencias_bold.producao_de_texto, .css_06_boxe_texto2_competencias_bold.quimica, .css_06_boxe_texto2_competencias_bold.sociologia {
@@ -13126,7 +13251,7 @@ blockquote {
   font-family: "Proxima Nova Lt" !important;
   font-size: 18px;
   color: #000;
-  margin: 16px 0px 0px 75px; }
+  margin: 16px 0px 0px 0px; }
 
 .css_06_boxe_mais {
   border: 3px solid #ccc;
@@ -13134,7 +13259,7 @@ blockquote {
   text-align: left;
   position: relative;
   padding: 38px 16px 24px 16px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   font-family: "Proxima Nova Lt" !important; }
   .css_06_boxe_mais:before {
     content: '';
@@ -13229,7 +13354,7 @@ blockquote {
   text-align: left;
   position: relative;
   padding: 38px 16px 24px 16px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   font-family: "Proxima Nova Lt" !important; }
   .css_06_container_boxe_mais:before {
     content: '';
@@ -13324,7 +13449,7 @@ blockquote {
   text-align: left;
   position: relative;
   padding: 38px 16px 24px 16px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   font-family: "Proxima Nova Lt" !important; }
   .css_06_boxe_go_further:before {
     content: '';
@@ -13419,7 +13544,7 @@ blockquote {
   text-align: left;
   position: relative;
   padding: 38px 16px 24px 16px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   font-family: "Proxima Nova Lt" !important; }
   .css_06_container_boxe_go_further:before {
     content: '';
@@ -13514,7 +13639,7 @@ blockquote {
   text-align: left;
   position: relative;
   padding: 38px 16px 24px 16px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   font-family: "Proxima Nova Lt" !important; }
   .css_06_boxe_discussao_em_sala:before {
     content: '';
@@ -13609,7 +13734,7 @@ blockquote {
   text-align: left;
   position: relative;
   padding: 38px 16px 24px 16px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   font-family: "Proxima Nova Lt" !important; }
   .css_06_container_boxe_discussao_em_sala:before {
     content: '';
@@ -13704,7 +13829,7 @@ blockquote {
   text-align: left;
   position: relative;
   padding: 38px 16px 24px 16px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   font-family: "Proxima Nova Lt" !important; }
   .css_06_boxe_speak_out:before {
     content: '';
@@ -13799,7 +13924,7 @@ blockquote {
   text-align: left;
   position: relative;
   padding: 38px 16px 24px 16px;
-  margin: 48px 68px 40px 68px;
+  margin: 48px 0px 40px 0px;
   font-family: "Proxima Nova Lt" !important; }
   .css_06_container_boxe_speak_out:before {
     content: '';
@@ -13894,7 +14019,7 @@ blockquote {
   position: relative;
   padding: 38px 16px 24px 16px;
   box-sizing: border-box;
-  margin: 30px 68px 10px 68px;
+  margin: 30px 0px 10px 0px;
   box-shadow: inset 0px 0px 0px 3px #ccc;
   font-family: "Proxima Nova Lt" !important; }
   .css_06_boxe_experimento:before {
@@ -14003,7 +14128,7 @@ blockquote {
   position: relative;
   padding: 38px 16px 24px 16px;
   box-sizing: border-box;
-  margin: 30px 68px 10px 68px;
+  margin: 30px 0px 10px 0px;
   box-shadow: inset 0px 0px 0px 3px #ccc;
   font-family: "Proxima Nova Lt" !important; }
   .css_06_container_boxe_experimento:before {
@@ -14110,7 +14235,7 @@ blockquote {
   float: left;
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 56px 68px;
+  margin: 32px 0px 56px 0px;
   width: 83.5%;
   min-height: 50px;
   background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
@@ -14255,7 +14380,7 @@ blockquote {
   float: left;
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 56px 68px;
+  margin: 32px 0px 56px 0px;
   width: 83.5%;
   min-height: 50px;
   background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
@@ -14378,7 +14503,7 @@ blockquote {
   float: left;
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 56px 68px;
+  margin: 32px 0px 56px 0px;
   width: 83.5%;
   min-height: 50px;
   background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
@@ -14501,7 +14626,7 @@ blockquote {
   float: left;
   position: relative;
   box-sizing: border-box;
-  margin: 32px 68px 56px 68px;
+  margin: 32px 0px 56px 0px;
   width: 83.5%;
   min-height: 50px;
   background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
@@ -16169,7 +16294,7 @@ label img {
 } */
 /* Container component style*/
 .css_06_boxe1 {
-  margin: 16px 68px 16px 68px;
+  margin: 16px 0px 16px 0px;
   padding: 4px 16px 4px 0px;
   clear: both;
   border-radius: 10px;
@@ -16250,7 +16375,7 @@ label img {
 
 /* Container component style*/
 .css_06_boxe1_exercicio {
-  margin: 16px 0px 16px 30px;
+  margin: 16px 0px 16px 0px;
   padding: 4px 16px 4px 0px;
   clear: both;
   border-radius: 10px;
@@ -16331,7 +16456,7 @@ label img {
 
 /* Container component style*/
 .css_06_boxe2 {
-  margin: 16px 68px 16px 68px;
+  margin: 16px 0px 16px 0px;
   padding: 4px 16px 4px 0px;
   clear: both;
   border-radius: 10px;
@@ -16596,20 +16721,19 @@ label img {
   font-family: "Proxima Nova Lt" !important;
   font-size: 18px;
   color: #000;
-  margin: 16px 0px 0px 70px; }
+  margin: 16px 0px 0px 0px; }
 
 .css_06_boxe_exercicio_continuacao {
   display: block;
   font-family: "Proxima Nova Lt" !important;
   font-size: 18px;
-  margin: 16px 0px 0px 75px;
+  margin: 16px 0px 0px 0px;
   color: #000; }
 
 .css_06_boxe_exercicio_texto {
   display: block;
   font-family: "Proxima Nova Lt" !important;
   font-size: 18px;
-  margin-left: 70px;
   color: #000; }
 
 .css_06_boxe_titulo_texto_citado {
@@ -16658,7 +16782,7 @@ label img {
   font-weight: 700;
   font-size: 18px;
   float: left;
-  margin: 12px 0px 0px 32px; }
+  margin: 12px 0px 0px 0px; }
 
 .css_07_secao_numero {
   font-family: 'Montserrat';
@@ -16781,7 +16905,7 @@ label img {
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 12px 0px 0px 32px; }
+  margin: 12px 0px 0px 0px; }
 
 .css_07_secao_texto_identado {
   display: block;
@@ -16790,7 +16914,7 @@ label img {
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 12px 0px 0px 70px; }
+  margin: 12px 0px 0px 0px; }
 
 .css_07_secao_le_comp {
   display: block;
@@ -16805,7 +16929,7 @@ label img {
   text-align: center;
   font-family: "montserrat bold", "700";
   font-size: 20px;
-  margin: 24px 0px 0px 80px;
+  margin: 24px 0px 0px 0px;
   padding: 0 68px;
   color: #000;
   display: block; }
@@ -16814,7 +16938,7 @@ label img {
   text-align: left;
   font-family: "montserrat bold", "700";
   font-size: 20px;
-  margin: 24px 24px 0px -67px;
+  margin: 24px 0px 0px 0px;
   padding: 0 68px;
   color: #000;
   display: block; }
@@ -16824,7 +16948,7 @@ label img {
   font-size: 16px;
   color: #000;
   display: block;
-  margin: 16px 0px 0px 40px;
+  margin: 16px 0px 0px 0px;
   padding: 0 68px; }
 
 .css_07_secao_texto_citado_2 {
@@ -16832,7 +16956,7 @@ label img {
   font-size: 16px;
   color: #000;
   display: block;
-  margin: 15px -56px 0px -68px;
+  margin: 15px 0px 0px 0px;
   padding: 0 68px; }
 
 .css_07_secao_exercicio1 {
@@ -16842,7 +16966,7 @@ label img {
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 32px 0px 0px 32px; }
+  margin: 32px 0px 0px 0px; }
 
 .css_07_secao_exercicio2 {
   display: block;
@@ -16851,7 +16975,7 @@ label img {
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 32px 0px 0px 32px; }
+  margin: 32px 0px 0px 0px; }
 
 .css_07_secao_exercicio3 {
   display: block;
@@ -16860,7 +16984,7 @@ label img {
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 32px 0px 0px 32px; }
+  margin: 32px 0px 0px 0px; }
 
 .css_07_secao_exercicio4 {
   display: block;
@@ -16869,7 +16993,7 @@ label img {
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 32px 0px 0px 32px; }
+  margin: 32px 0px 0px 0px; }
 
 .css_07_secao_exercicio_item {
   display: block;
@@ -16877,7 +17001,7 @@ label img {
   font-weight: 400;
   color: #000000;
   font-size: 18px;
-  margin: 12px 0px 0px 64px;
+  margin: 12px 0px 0px 0px;
   line-height: 1.5em; }
 
 .css_07_secao_exercicio_item_container {
@@ -16886,7 +17010,7 @@ label img {
   font-weight: 400;
   color: #000000;
   font-size: 18px;
-  margin: 18px 0px 0px 32px;
+  margin: 18px 0px 0px 0px;
   line-height: 1.5em; }
 
 .css_07_secao_aplicando_conhecimentos {
@@ -16902,7 +17026,7 @@ label img {
   word-break: break-word;
   padding-left: 36px;
   position: relative;
-  margin: 40px 68px 16px 68px; }
+  margin: 40px 0px 16px 0px; }
   .css_07_secao_aplicando_conhecimentos:before {
     content: '';
     background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_artes.png");
@@ -16981,7 +17105,7 @@ label img {
   height: 38px;
   background: #FCE1BC;
   border: 3px solid #F7A941;
-  margin: 40px 68px 16px 68px;
+  margin: 40px 0px 16px 0px;
   line-height: 38px;
   padding: 0 16px;
   font-family: "Prelo ExtraBold";
@@ -17129,7 +17253,7 @@ label img {
   height: 38px;
   background: #FCE1BC;
   border: 3px solid #F7A941;
-  margin: 40px 68px 16px 68px;
+  margin: 40px 0px 16px 0px;
   line-height: 38px;
   padding: 0 16px;
   font-family: "Prelo ExtraBold";
@@ -17289,7 +17413,7 @@ label img {
 .css_07_secao_no_enem_e_assim {
   height: 44px;
   background: #BD8432;
-  margin: 48px 68px 32px 68px;
+  margin: 48px 0px 32px 0px;
   line-height: 44px;
   padding: 0 47px;
   font-family: "Prelo ExtraBold";
@@ -17358,7 +17482,7 @@ label img {
 .css_07_secao_brain_teaser {
   height: 44px;
   background: #BD8432;
-  margin: 48px 68px 32px 68px;
+  margin: 48px 0px 32px 0px;
   line-height: 44px;
   padding: 0 47px;
   font-family: "Prelo ExtraBold";
@@ -17427,7 +17551,7 @@ label img {
 .css_07_secao_na_hora_da_prova {
   height: 44px;
   background: #BD8432;
-  margin: 48px 68px 32px 68px;
+  margin: 48px 0px 0px 0px;
   line-height: 44px;
   padding: 0 47px;
   font-family: "Prelo ExtraBold";
@@ -17515,7 +17639,7 @@ label img {
 
 .css_07_secao_por_dentro_da_arte {
   height: 40px;
-  margin: 40px 68px 8px 68px;
+  margin: 40px 0px 8px 0px;
   position: relative; }
   .css_07_secao_por_dentro_da_arte .tag {
     height: 40px;
@@ -17542,7 +17666,7 @@ label img {
 
 .css_07_secao_leitura_de_documentos {
   height: 40px;
-  margin: 40px 68px 16px 68px;
+  margin: 40px 0px 16px 0px;
   width: 83%;
   position: relative;
   float: left; }
@@ -17636,7 +17760,7 @@ label img {
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 16px 0px 0px 11px; }
+  margin: 16px 0px 0px 0px; }
   .css_07_secao_exercicio_bullet ul li {
     padding-left: 12px; }
 
@@ -17647,7 +17771,7 @@ label img {
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 16px 0px 0px -20px; }
+  margin: 16px 0px 0px 0px; }
   .css_07_secao_exercicio_bullet_2 ul li {
     padding-left: 12px; }
 
@@ -17658,7 +17782,7 @@ label img {
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 16px 0px 0px 43px; }
+  margin: 16px 0px 0px 0px; }
   .css_07_secao_exercicio_bullet_sub ul li {
     padding-left: 12px; }
 
@@ -17668,7 +17792,7 @@ label img {
   font-weight: 400;
   color: #000000;
   font-size: 18px;
-  margin: 12px 0px 0px 64px;
+  margin: 12px 0px 0px 0px;
   line-height: 1.5em; }
 
 .css_07_secao_exercicio_continuacao {
@@ -17677,7 +17801,7 @@ label img {
   font-weight: 400;
   color: #000000;
   font-size: 18px;
-  margin: 12px 0px 0px 64px;
+  margin: 12px 0px 0px 0px;
   line-height: 1.5em; }
 
 /* Container component style*/
@@ -17833,7 +17957,7 @@ label img {
 
 /* Container component style*/
 .css_07_boxe3 {
-  margin: 16px 68px 16px 68px;
+  margin: 16px 0px 16px 0px;
   padding: 4px 16px 4px 0px;
   clear: both;
   border: 3px solid #951B81;
@@ -17915,7 +18039,7 @@ label img {
 
 /* Container component style*/
 .css_07_boxe4 {
-  margin: 16px 68px 16px 68px;
+  margin: 16px 0px 16px 0px;
   padding: 4px 16px 4px 0px;
   clear: both;
   border-radius: 10px;
@@ -18058,7 +18182,7 @@ label img {
   font-family: 'Noticia Text';
   font-size: 16px;
   border-collapse: collapse;
-  margin: 16px 0px 0px 32px;
+  margin: 16px 0px 0px 0px;
   clear: both;
   /* media query */ }
   .table::after {
@@ -19200,7 +19324,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   display: grid;
   grid-template-columns: min-content auto;
   gap: 8px;
-  font-family: "Lato";
+  font-family: "Red Hat Display", "arial";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -19256,7 +19380,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   display: grid;
   grid-template-columns: min-content auto;
   gap: 8px;
-  font-family: "Lato";
+  font-family: "Red Hat Display", "arial";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -19301,7 +19425,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2alternativa {
   margin-top: 16px;
-  font-family: "Lato";
+  font-family: "Red Hat Display", "arial";
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -19310,7 +19434,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   list-style: none;
   position: relative; }
   .css_03_2alternativa::before {
-    font-family: "Lato";
+    font-family: "Red Hat Display", "arial";
     font-size: 18px;
     font-weight: 600;
     counter-increment: list;
@@ -19320,7 +19444,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_alternativa_edit {
   margin-top: 16px;
-  font-family: "Lato";
+  font-family: "Red Hat Display", "arial";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -19331,7 +19455,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   margin-top: 16px;
   display: grid;
   gap: 8px;
-  font-family: "Lato";
+  font-family: "Red Hat Display", "arial";
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -19341,7 +19465,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   position: relative; }
   .css_03_2alternativa_edit .number_alternativa_edit {
     width: 32px;
-    font-family: "Lato";
+    font-family: "Red Hat Display", "arial";
     font-size: 18px;
     font-weight: 600;
     position: absolute;
@@ -19349,7 +19473,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_alternativa_assinalar {
   margin-top: 16px;
-  font-family: "Lato";
+  font-family: "Red Hat Display", "arial";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -19359,7 +19483,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_alternativa_assinalar_itens {
   margin-top: 16px;
-  font-family: "Lato";
+  font-family: "Red Hat Display", "arial";
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -19368,7 +19492,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   list-style: none;
   position: relative; }
   .css_03_2exercicio_alternativa_assinalar_itens::after {
-    font-family: "Lato";
+    font-family: "Red Hat Display", "arial";
     font-size: 20px;
     font-weight: 600;
     content: "(";
@@ -19376,7 +19500,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
     left: -32px;
     top: 0; }
   .css_03_2exercicio_alternativa_assinalar_itens::before {
-    font-family: "Lato";
+    font-family: "Red Hat Display", "arial";
     font-size: 20px;
     font-weight: 600;
     content: ")";
@@ -19386,7 +19510,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 .css_03_2exercicio_continuacao {
   width: 100%;
   margin-top: 16px;
-  font-family: "Lato";
+  font-family: "Red Hat Display", "arial";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -19395,7 +19519,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 .css_03_2exercicio_enunciado {
   width: 100%;
   margin-top: 16px;
-  font-family: "Lato";
+  font-family: "Red Hat Display", "arial";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -19403,7 +19527,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_item_romano {
   margin-top: 16px;
-  font-family: "Lato";
+  font-family: "Red Hat Display", "arial";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -19413,7 +19537,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_item_romano_itens {
   margin-top: 16px;
-  font-family: "Lato";
+  font-family: "Red Hat Display", "arial";
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -19422,7 +19546,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   list-style: none;
   position: relative; }
   .css_03_2exercicio_item_romano_itens::before {
-    font-family: "Lato";
+    font-family: "Red Hat Display", "arial";
     font-size: 18px;
     font-weight: 600;
     counter-increment: list;
@@ -19432,7 +19556,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_item {
   margin-top: 16px;
-  font-family: "Lato";
+  font-family: "Red Hat Display", "arial";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -19442,7 +19566,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_itens {
   margin-top: 16px;
-  font-family: "Lato";
+  font-family: "Red Hat Display", "arial";
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -19451,7 +19575,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   list-style: none;
   position: relative; }
   .css_03_2exercicio_itens::before {
-    font-family: "Lato";
+    font-family: "Red Hat Display", "arial";
     font-size: 18px;
     font-weight: 600;
     counter-increment: list;
@@ -19461,7 +19585,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_alternativa {
   margin-top: 16px;
-  font-family: "Lato";
+  font-family: "Red Hat Display", "arial";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -19473,14 +19597,14 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   display: block;
   font-size: 18px;
   color: #000000;
-  font-family: "Lato";
+  font-family: "Red Hat Display", "arial";
   font-weight: 400;
   line-height: 1.5em;
   padding-inline-start: 20px; }
 
 .css_02_2texto_bullet_itens {
   font-size: 18px;
-  font-family: "Lato";
+  font-family: "Red Hat Display", "arial";
   font-weight: 400;
   line-height: 1.5em;
   padding-left: 4px;
@@ -19490,7 +19614,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_02_2texto_bullet_item_texto {
   font-size: 18px;
-  font-family: "Lato";
+  font-family: "Red Hat Display", "arial";
   font-weight: 400;
   line-height: 1.5em;
   padding-left: 4px;

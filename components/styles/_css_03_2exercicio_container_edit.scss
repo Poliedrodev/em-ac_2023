@@ -6,7 +6,7 @@
   grid-template-columns: min-content auto;
   gap: 8px;
 
-  font-family: $fontName;
+  font-family: $fontPrincipal;
   font-weight: 400;
   color: $textColor;
   line-height: 1.5em;
@@ -47,7 +47,7 @@
       font-weight: 700;
 
       .number_exercicio {
-        color: #64428C ;
+        color: #64428C;
         border-bottom: solid 3px #bfd730;
       }
 

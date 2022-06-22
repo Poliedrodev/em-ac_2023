@@ -30,7 +30,8 @@ $teoria: #ffffff;
 $bodyBackground: $por_cor4;
 
 /* Fontes */
-$fontName: 'Lato';
+$fontPrincipal: 'Red Hat Display', 'arial';
+$fonteSerifa: 'Bitter', sans-serif;
 $defaultFontSize: 14px;
 $defaultFontWeight: 300;
 $screen-sm-max: 991px;
@@ -110,13 +111,16 @@ h1 {
 @import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Cookie&display=swap);
 @import url(https://perugluglu.net/poliedro/stylesheet.css);
+@import url(https://fonts.googleapis.com/css2?family=Bitter:wght@300;600&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;600&display=swap);
+
 
 /* Article view style */
 .body,
 .body-book {
   padding: 0;
   margin: 0;
-  font: $defaultFontSize $fontName;
+  font: $defaultFontSize $fontPrincipal;
   color: $textColor;
   background-color: #ffffff;
   font-weight: $defaultFontWeight;
