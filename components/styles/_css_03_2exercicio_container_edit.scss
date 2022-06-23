@@ -1,5 +1,4 @@
 .css_03_2exercicio_container_edit {
-  width: 100%;
   margin-top: 31px;
 
   display: grid;
@@ -28,8 +27,10 @@
 
 
       .number_exercicio {
-        font-size: $fontSizeIndiceQuestion;
+        font-family: $font-montserrat;
         font-weight: 700;
+        font-variant: tabular-nums;
+        font-size: $fontSizeIndiceQuestion;
       }
     }
   }

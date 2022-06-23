@@ -15,7 +15,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Cookie&display=swap);
 @import url(https://perugluglu.net/poliedro/stylesheet.css);
 @import url(https://fonts.googleapis.com/css2?family=Bitter:wght@300;600&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;600&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;600;700&display=swap);
 ol,
 ul,
 li,
@@ -32,7 +32,7 @@ h1 {
 .body-book {
   padding: 0;
   margin: 0;
-  font: 14px "Red Hat Display", "arial";
+  font: 14px "noticia text", "arial";
   color: #000000;
   background-color: #ffffff;
   font-weight: 300;
@@ -8991,7 +8991,7 @@ blockquote {
 } */ }
   .container_fica_a_dica_lumen_mais .collapsible-title {
     margin: 0;
-    font-family: "Red Hat Display", "arial";
+    font-family: "noticia text", "arial";
     font-size: 0.875rem;
     font-weight: 900; }
   .container_fica_a_dica_lumen_mais.artes {
@@ -9124,7 +9124,7 @@ blockquote {
   margin-top: 32px; }
   .container_repertorio_cultural_lumen_mais .collapsible-title {
     margin: 0;
-    font-family: "Red Hat Display", "arial";
+    font-family: "noticia text", "arial";
     font-size: 0.875rem;
     font-weight: 900; }
   .container_repertorio_cultural_lumen_mais.artes {
@@ -9425,7 +9425,7 @@ blockquote {
   margin-top: 32px; }
   .container_saiba_mais_lumen_mais .collapsible-title {
     margin: 0;
-    font-family: "Red Hat Display", "arial";
+    font-family: "noticia text", "arial";
     font-size: 0.875rem;
     font-weight: 900; }
   .container_saiba_mais_lumen_mais.artes {
@@ -13390,7 +13390,7 @@ blockquote {
   margin-top: 32px; }
   .container_boxe_abertura .collapsible-title {
     margin: 0;
-    font-family: "Red Hat Display", "arial";
+    font-family: "noticia text", "arial";
     font-size: 0.875rem;
     font-weight: 900; }
   .container_boxe_abertura.artes {
@@ -19657,12 +19657,11 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   margin-right: 1rem; }
 
 .css_03_2exercicio_container {
-  width: 100%;
   margin-top: 31px;
   display: grid;
   grid-template-columns: min-content auto;
   gap: 8px;
-  font-family: "Red Hat Display", "arial";
+  font-family: "noticia text", "arial";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -19677,8 +19676,10 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
       align-items: center;
       justify-content: center;
       text-align: center;
-      font-size: 18px;
-      font-weight: 700; }
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-variant: tabular-nums;
+      font-size: 18px; }
   .css_03_2exercicio_container .group_exercicio {
     margin: 0; }
     .css_03_2exercicio_container .group_exercicio::first-child {
@@ -19713,12 +19714,11 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
     content: counter(artes, decimal) ""; }
 
 .css_03_2exercicio_container_edit {
-  width: 100%;
   margin-top: 31px;
   display: grid;
   grid-template-columns: min-content auto;
   gap: 8px;
-  font-family: "Red Hat Display", "arial";
+  font-family: "noticia text", "arial";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -19734,8 +19734,10 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
       justify-content: center;
       text-align: center; }
       .css_03_2exercicio_container_edit .content_number .background_number .number_exercicio {
-        font-size: 18px;
-        font-weight: 700; }
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-variant: tabular-nums;
+        font-size: 18px; }
   .css_03_2exercicio_container_edit .group_exercicio {
     margin: 0; }
     .css_03_2exercicio_container_edit .group_exercicio::first-child {
@@ -19761,9 +19763,19 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
       color: #1961AC;
       border-bottom: solid 3px #F1CB40; }
 
-.css_03_2alternativa {
+.css_03_2exercicio_alternativa {
   margin-top: 16px;
-  font-family: "Red Hat Display", "arial";
+  font-family: "noticia text", "arial";
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 18px;
+  counter-reset: list;
+  padding-inline-start: 41px; }
+
+.css_03_2exercicio_alternativa_item {
+  margin-top: 16px;
+  font-family: "noticia text", "arial";
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -19771,8 +19783,8 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   align-items: baseline;
   list-style: none;
   position: relative; }
-  .css_03_2alternativa::before {
-    font-family: "Red Hat Display", "arial";
+  .css_03_2exercicio_alternativa_item::before {
+    font-family: "noticia text", "arial";
     font-size: 18px;
     font-weight: 600;
     counter-increment: list;
@@ -19782,18 +19794,18 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_alternativa_edit {
   margin-top: 16px;
-  font-family: "Red Hat Display", "arial";
+  font-family: "noticia text", "arial";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
-  padding-inline-start: 32px; }
+  padding-inline-start: 41px; }
 
-.css_03_2alternativa_edit {
+.css_03_2exercicio_alternativa_item_edit {
   margin-top: 16px;
   display: grid;
   gap: 8px;
-  font-family: "Red Hat Display", "arial";
+  font-family: "noticia text", "arial";
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -19801,27 +19813,34 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   align-items: baseline;
   list-style: none;
   position: relative; }
-  .css_03_2alternativa_edit .number_alternativa_edit {
+  .css_03_2exercicio_alternativa_item_edit .number_alternativa_edit {
     width: 32px;
-    font-family: "Red Hat Display", "arial";
+    font-family: "noticia text", "arial";
     font-size: 18px;
     font-weight: 600;
     position: absolute;
     left: -32px; }
 
+.css_03_2exercicio_alternativa_item_texto {
+  font-family: "noticia text", "arial";
+  font-weight: 300;
+  color: #000000;
+  line-height: 1.5em;
+  font-size: 18px; }
+
 .css_03_2exercicio_alternativa_assinalar {
   margin-top: 16px;
-  font-family: "Red Hat Display", "arial";
+  font-family: "noticia text", "arial";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
   align-items: baseline;
-  padding-inline-start: 32px; }
+  padding-inline-start: 41px; }
 
 .css_03_2exercicio_alternativa_assinalar_itens {
   margin-top: 16px;
-  font-family: "Red Hat Display", "arial";
+  font-family: "noticia text", "arial";
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -19830,7 +19849,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   list-style: none;
   position: relative; }
   .css_03_2exercicio_alternativa_assinalar_itens::after {
-    font-family: "Red Hat Display", "arial";
+    font-family: "noticia text", "arial";
     font-size: 20px;
     font-weight: 600;
     content: "(";
@@ -19838,7 +19857,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
     left: -32px;
     top: 0; }
   .css_03_2exercicio_alternativa_assinalar_itens::before {
-    font-family: "Red Hat Display", "arial";
+    font-family: "noticia text", "arial";
     font-size: 20px;
     font-weight: 600;
     content: ")";
@@ -19846,18 +19865,16 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
     left: -16px; }
 
 .css_03_2exercicio_continuacao {
-  width: 100%;
   margin-top: 16px;
-  font-family: "Red Hat Display", "arial";
+  font-family: "noticia text", "arial";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
   font-size: 18px; }
 
 .css_03_2exercicio_enunciado {
-  width: 100%;
   margin-top: 16px;
-  font-family: "Red Hat Display", "arial";
+  font-family: "noticia text", "arial";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -19865,17 +19882,17 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_item_romano {
   margin-top: 16px;
-  font-family: "Red Hat Display", "arial";
+  font-family: "noticia text", "arial";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
   counter-reset: list;
-  padding-inline-start: 32px; }
+  padding-inline-start: 41px; }
 
 .css_03_2exercicio_item_romano_itens {
   margin-top: 16px;
-  font-family: "Red Hat Display", "arial";
+  font-family: "noticia text", "arial";
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -19884,7 +19901,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   list-style: none;
   position: relative; }
   .css_03_2exercicio_item_romano_itens::before {
-    font-family: "Red Hat Display", "arial";
+    font-family: "noticia text", "arial";
     font-size: 18px;
     font-weight: 600;
     counter-increment: list;
@@ -19894,17 +19911,17 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_item {
   margin-top: 16px;
-  font-family: "Red Hat Display", "arial";
+  font-family: "noticia text", "arial";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
   counter-reset: list;
-  padding-inline-start: 32px; }
+  padding-inline-start: 41px; }
 
 .css_03_2exercicio_itens {
   margin-top: 16px;
-  font-family: "Red Hat Display", "arial";
+  font-family: "noticia text", "arial";
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -19913,7 +19930,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   list-style: none;
   position: relative; }
   .css_03_2exercicio_itens::before {
-    font-family: "Red Hat Display", "arial";
+    font-family: "noticia text", "arial";
     font-size: 18px;
     font-weight: 600;
     counter-increment: list;
@@ -19921,28 +19938,18 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
     position: absolute;
     left: -32px; }
 
-.css_03_2exercicio_alternativa {
-  margin-top: 16px;
-  font-family: "Red Hat Display", "arial";
-  font-weight: 400;
-  color: #000000;
-  line-height: 1.5em;
-  font-size: 18px;
-  counter-reset: list;
-  padding-inline-start: 32px; }
-
 .css_02_2texto_bullet {
   display: block;
   font-size: 18px;
   color: #000000;
-  font-family: "Red Hat Display", "arial";
+  font-family: "noticia text", "arial";
   font-weight: 400;
   line-height: 1.5em;
   padding-inline-start: 20px; }
 
 .css_02_2texto_bullet_itens {
   font-size: 18px;
-  font-family: "Red Hat Display", "arial";
+  font-family: "noticia text", "arial";
   font-weight: 400;
   line-height: 1.5em;
   padding-left: 4px;
@@ -19952,7 +19959,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_02_2texto_bullet_item_texto {
   font-size: 18px;
-  font-family: "Red Hat Display", "arial";
+  font-family: "noticia text", "arial";
   font-weight: 400;
   line-height: 1.5em;
   padding-left: 4px;
