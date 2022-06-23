@@ -12,7 +12,6 @@
       },
       "properties": [
         "position",
-        "style_image",
         "width",
         "style",
         "inside-caption",
@@ -49,7 +48,6 @@
       },
       "properties": [
         "position",
-        "style_image",
         "width",
         "style",
         "inside-caption",
