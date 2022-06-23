@@ -1,12 +1,16 @@
 .container_questao_f {
   border: solid 1px #707070;
-  padding: 0px 12px 12px 0px;
+  padding: 12px;
   border-radius: 6px;
   margin: 16px 0px 0px 0px;
   clear: both;
   display: block;
   position: relative;
   box-sizing: border-box;
+
+  .css_07_secao_exercicio_item{
+    margin: 0;
+  }
 
   &:before {
     background-image: url(img/falsa.png);

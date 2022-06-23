@@ -1177,112 +1177,9 @@ span[style="text-decoration: line-through;"] {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100%;
   /* class styles for the captions properties of the image component */ }
-  .image_lumen_mais._left {
-    margin-left: 0px; }
-  .image_lumen_mais._right {
-    margin-right: 0px; }
-  .image_lumen_mais._100 img {
-    margin: auto; }
-  .image_lumen_mais._200 img {
-    width: 30%;
-    margin: auto; }
-  .image_lumen_mais.full-screen {
-    position: relative !important;
-    height: 100% !important;
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important; }
-    .image_lumen_mais.full-screen > div {
-      height: 100%; }
-  .image_lumen_mais._option1 > div {
-    border-radius: 25px; }
-  .image_lumen_mais div {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    background-size: cover;
-    background-position: center center; }
-    .image_lumen_mais div > a {
-      display: block;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0; }
-  .image_lumen_mais > figcaption {
-    color: #000000;
-    margin-top: 4px;
-    margin-bottom: 2px; }
-  .image_lumen_mais._caption-inside > figcaption, .image_lumen_mais._caption-top > figcaption, .image_lumen_mais._caption-top-left > figcaption, .image_lumen_mais._caption-top-right > figcaption, .image_lumen_mais._caption-bottom-left > figcaption, .image_lumen_mais._caption-bottom-right > figcaption, .image_lumen_mais .image_cont_exercicios._caption-inside > figcaption, .image_lumen_mais .image_cont_exercicios._caption-top > figcaption, .image_lumen_mais .image_cont_exercicios._caption-top-left > figcaption, .image_lumen_mais .image_cont_exercicios._caption-top-right > figcaption, .image_lumen_mais .image_cont_exercicios._caption-bottom-left > figcaption, .image_lumen_mais .image_cont_exercicios._caption-bottom-right > figcaption, .image_lumen_mais .image_teoria._caption-inside > figcaption, .image_lumen_mais .image_teoria._caption-top > figcaption, .image_lumen_mais .image_teoria._caption-top-left > figcaption, .image_lumen_mais .image_teoria._caption-top-right > figcaption, .image_lumen_mais .image_teoria._caption-bottom-left > figcaption, .image_lumen_mais .image_teoria._caption-bottom-right > figcaption, .image_lumen_mais .image_saiba_mais._caption-inside > figcaption, .image_lumen_mais .image_saiba_mais._caption-top > figcaption, .image_lumen_mais .image_saiba_mais._caption-top-left > figcaption, .image_lumen_mais .image_saiba_mais._caption-top-right > figcaption, .image_lumen_mais .image_saiba_mais._caption-bottom-left > figcaption, .image_lumen_mais .image_saiba_mais._caption-bottom-right > figcaption, .image_lumen_mais .image_exercicio._caption-inside > figcaption, .image_lumen_mais .image_exercicio._caption-top > figcaption, .image_lumen_mais .image_exercicio._caption-top-left > figcaption, .image_lumen_mais .image_exercicio._caption-top-right > figcaption, .image_lumen_mais .image_exercicio._caption-bottom-left > figcaption, .image_lumen_mais .image_exercicio._caption-bottom-right > figcaption, .image_lumen_mais .hero_tirinha._caption-inside > figcaption, .image_lumen_mais .hero_tirinha._caption-top > figcaption, .image_lumen_mais .hero_tirinha._caption-top-left > figcaption, .image_lumen_mais .hero_tirinha._caption-top-right > figcaption, .image_lumen_mais .hero_tirinha._caption-bottom-left > figcaption, .image_lumen_mais .hero_tirinha._caption-bottom-right > figcaption, .image_lumen_mais .imagem_sem_margem._caption-inside > figcaption, .image_lumen_mais .imagem_sem_margem._caption-top > figcaption, .image_lumen_mais .imagem_sem_margem._caption-top-left > figcaption, .image_lumen_mais .imagem_sem_margem._caption-top-right > figcaption, .image_lumen_mais .imagem_sem_margem._caption-bottom-left > figcaption, .image_lumen_mais .imagem_sem_margem._caption-bottom-right > figcaption, .image_lumen_mais .imagem_inline._caption-inside > figcaption, .image_lumen_mais .imagem_inline._caption-top > figcaption, .image_lumen_mais .imagem_inline._caption-top-left > figcaption, .image_lumen_mais .imagem_inline._caption-top-right > figcaption, .image_lumen_mais .imagem_inline._caption-bottom-left > figcaption, .image_lumen_mais .imagem_inline._caption-bottom-right > figcaption, .image_lumen_mais .imagem_centralizada._caption-inside > figcaption, .image_lumen_mais .imagem_centralizada._caption-top > figcaption, .image_lumen_mais .imagem_centralizada._caption-top-left > figcaption, .image_lumen_mais .imagem_centralizada._caption-top-right > figcaption, .image_lumen_mais .imagem_centralizada._caption-bottom-left > figcaption, .image_lumen_mais .imagem_centralizada._caption-bottom-right > figcaption, .image_lumen_mais .imagem_centralizada_tamanho1._caption-inside > figcaption, .image_lumen_mais .imagem_centralizada_tamanho1._caption-top > figcaption, .image_lumen_mais .imagem_centralizada_tamanho1._caption-top-left > figcaption, .image_lumen_mais .imagem_centralizada_tamanho1._caption-top-right > figcaption, .image_lumen_mais .imagem_centralizada_tamanho1._caption-bottom-left > figcaption, .image_lumen_mais .imagem_centralizada_tamanho1._caption-bottom-right > figcaption, .image_lumen_mais .imagem_centralizada_tamanho2._caption-inside > figcaption, .image_lumen_mais .imagem_centralizada_tamanho2._caption-top > figcaption, .image_lumen_mais .imagem_centralizada_tamanho2._caption-top-left > figcaption, .image_lumen_mais .imagem_centralizada_tamanho2._caption-top-right > figcaption, .image_lumen_mais .imagem_centralizada_tamanho2._caption-bottom-left > figcaption, .image_lumen_mais .imagem_centralizada_tamanho2._caption-bottom-right > figcaption, .image_lumen_mais .imagem_coluna_falsa._caption-inside > figcaption, .image_lumen_mais .imagem_coluna_falsa._caption-top > figcaption, .image_lumen_mais .imagem_coluna_falsa._caption-top-left > figcaption, .image_lumen_mais .imagem_coluna_falsa._caption-top-right > figcaption, .image_lumen_mais .imagem_coluna_falsa._caption-bottom-left > figcaption, .image_lumen_mais .imagem_coluna_falsa._caption-bottom-right > figcaption, .image_lumen_mais .imagem_meia_coluna._caption-inside > figcaption, .image_lumen_mais .imagem_meia_coluna._caption-top > figcaption, .image_lumen_mais .imagem_meia_coluna._caption-top-left > figcaption, .image_lumen_mais .imagem_meia_coluna._caption-top-right > figcaption, .image_lumen_mais .imagem_meia_coluna._caption-bottom-left > figcaption, .image_lumen_mais .imagem_meia_coluna._caption-bottom-right > figcaption, .image_lumen_mais .imagem_meia_coluna_container._caption-inside > figcaption, .image_lumen_mais .imagem_meia_coluna_container._caption-top > figcaption, .image_lumen_mais .imagem_meia_coluna_container._caption-top-left > figcaption, .image_lumen_mais .imagem_meia_coluna_container._caption-top-right > figcaption, .image_lumen_mais .imagem_meia_coluna_container._caption-bottom-left > figcaption, .image_lumen_mais .imagem_meia_coluna_container._caption-bottom-right > figcaption, .image_lumen_mais .imagem_meia_coluna_container_exercicios._caption-inside > figcaption, .image_lumen_mais .imagem_meia_coluna_container_exercicios._caption-top > figcaption, .image_lumen_mais .imagem_meia_coluna_container_exercicios._caption-top-left > figcaption, .image_lumen_mais .imagem_meia_coluna_container_exercicios._caption-top-right > figcaption, .image_lumen_mais .imagem_meia_coluna_container_exercicios._caption-bottom-left > figcaption, .image_lumen_mais .imagem_meia_coluna_container_exercicios._caption-bottom-right > figcaption {
-    position: absolute;
-    padding: 8px 12px;
-    background-color: rgba(255, 255, 255, 0.8);
-    font-weight: 400;
-    color: #3f3e3e;
-    margin: 0;
-    /* before represents the placeholder text*/ }
-    .image_lumen_mais._caption-inside > figcaption::before, .image_lumen_mais._caption-top > figcaption::before, .image_lumen_mais._caption-top-left > figcaption::before, .image_lumen_mais._caption-top-right > figcaption::before, .image_lumen_mais._caption-bottom-left > figcaption::before, .image_lumen_mais._caption-bottom-right > figcaption::before, .image_lumen_mais .image_cont_exercicios._caption-inside > figcaption::before, .image_lumen_mais .image_cont_exercicios._caption-top > figcaption::before, .image_lumen_mais .image_cont_exercicios._caption-top-left > figcaption::before, .image_lumen_mais .image_cont_exercicios._caption-top-right > figcaption::before, .image_lumen_mais .image_cont_exercicios._caption-bottom-left > figcaption::before, .image_lumen_mais .image_cont_exercicios._caption-bottom-right > figcaption::before, .image_lumen_mais .image_teoria._caption-inside > figcaption::before, .image_lumen_mais .image_teoria._caption-top > figcaption::before, .image_lumen_mais .image_teoria._caption-top-left > figcaption::before, .image_lumen_mais .image_teoria._caption-top-right > figcaption::before, .image_lumen_mais .image_teoria._caption-bottom-left > figcaption::before, .image_lumen_mais .image_teoria._caption-bottom-right > figcaption::before, .image_lumen_mais .image_saiba_mais._caption-inside > figcaption::before, .image_lumen_mais .image_saiba_mais._caption-top > figcaption::before, .image_lumen_mais .image_saiba_mais._caption-top-left > figcaption::before, .image_lumen_mais .image_saiba_mais._caption-top-right > figcaption::before, .image_lumen_mais .image_saiba_mais._caption-bottom-left > figcaption::before, .image_lumen_mais .image_saiba_mais._caption-bottom-right > figcaption::before, .image_lumen_mais .image_exercicio._caption-inside > figcaption::before, .image_lumen_mais .image_exercicio._caption-top > figcaption::before, .image_lumen_mais .image_exercicio._caption-top-left > figcaption::before, .image_lumen_mais .image_exercicio._caption-top-right > figcaption::before, .image_lumen_mais .image_exercicio._caption-bottom-left > figcaption::before, .image_lumen_mais .image_exercicio._caption-bottom-right > figcaption::before, .image_lumen_mais .hero_tirinha._caption-inside > figcaption::before, .image_lumen_mais .hero_tirinha._caption-top > figcaption::before, .image_lumen_mais .hero_tirinha._caption-top-left > figcaption::before, .image_lumen_mais .hero_tirinha._caption-top-right > figcaption::before, .image_lumen_mais .hero_tirinha._caption-bottom-left > figcaption::before, .image_lumen_mais .hero_tirinha._caption-bottom-right > figcaption::before, .image_lumen_mais .imagem_sem_margem._caption-inside > figcaption::before, .image_lumen_mais .imagem_sem_margem._caption-top > figcaption::before, .image_lumen_mais .imagem_sem_margem._caption-top-left > figcaption::before, .image_lumen_mais .imagem_sem_margem._caption-top-right > figcaption::before, .image_lumen_mais .imagem_sem_margem._caption-bottom-left > figcaption::before, .image_lumen_mais .imagem_sem_margem._caption-bottom-right > figcaption::before, .image_lumen_mais .imagem_inline._caption-inside > figcaption::before, .image_lumen_mais .imagem_inline._caption-top > figcaption::before, .image_lumen_mais .imagem_inline._caption-top-left > figcaption::before, .image_lumen_mais .imagem_inline._caption-top-right > figcaption::before, .image_lumen_mais .imagem_inline._caption-bottom-left > figcaption::before, .image_lumen_mais .imagem_inline._caption-bottom-right > figcaption::before, .image_lumen_mais .imagem_centralizada._caption-inside > figcaption::before, .image_lumen_mais .imagem_centralizada._caption-top > figcaption::before, .image_lumen_mais .imagem_centralizada._caption-top-left > figcaption::before, .image_lumen_mais .imagem_centralizada._caption-top-right > figcaption::before, .image_lumen_mais .imagem_centralizada._caption-bottom-left > figcaption::before, .image_lumen_mais .imagem_centralizada._caption-bottom-right > figcaption::before, .image_lumen_mais .imagem_centralizada_tamanho1._caption-inside > figcaption::before, .image_lumen_mais .imagem_centralizada_tamanho1._caption-top > figcaption::before, .image_lumen_mais .imagem_centralizada_tamanho1._caption-top-left > figcaption::before, .image_lumen_mais .imagem_centralizada_tamanho1._caption-top-right > figcaption::before, .image_lumen_mais .imagem_centralizada_tamanho1._caption-bottom-left > figcaption::before, .image_lumen_mais .imagem_centralizada_tamanho1._caption-bottom-right > figcaption::before, .image_lumen_mais .imagem_centralizada_tamanho2._caption-inside > figcaption::before, .image_lumen_mais .imagem_centralizada_tamanho2._caption-top > figcaption::before, .image_lumen_mais .imagem_centralizada_tamanho2._caption-top-left > figcaption::before, .image_lumen_mais .imagem_centralizada_tamanho2._caption-top-right > figcaption::before, .image_lumen_mais .imagem_centralizada_tamanho2._caption-bottom-left > figcaption::before, .image_lumen_mais .imagem_centralizada_tamanho2._caption-bottom-right > figcaption::before, .image_lumen_mais .imagem_coluna_falsa._caption-inside > figcaption::before, .image_lumen_mais .imagem_coluna_falsa._caption-top > figcaption::before, .image_lumen_mais .imagem_coluna_falsa._caption-top-left > figcaption::before, .image_lumen_mais .imagem_coluna_falsa._caption-top-right > figcaption::before, .image_lumen_mais .imagem_coluna_falsa._caption-bottom-left > figcaption::before, .image_lumen_mais .imagem_coluna_falsa._caption-bottom-right > figcaption::before, .image_lumen_mais .imagem_meia_coluna._caption-inside > figcaption::before, .image_lumen_mais .imagem_meia_coluna._caption-top > figcaption::before, .image_lumen_mais .imagem_meia_coluna._caption-top-left > figcaption::before, .image_lumen_mais .imagem_meia_coluna._caption-top-right > figcaption::before, .image_lumen_mais .imagem_meia_coluna._caption-bottom-left > figcaption::before, .image_lumen_mais .imagem_meia_coluna._caption-bottom-right > figcaption::before, .image_lumen_mais .imagem_meia_coluna_container._caption-inside > figcaption::before, .image_lumen_mais .imagem_meia_coluna_container._caption-top > figcaption::before, .image_lumen_mais .imagem_meia_coluna_container._caption-top-left > figcaption::before, .image_lumen_mais .imagem_meia_coluna_container._caption-top-right > figcaption::before, .image_lumen_mais .imagem_meia_coluna_container._caption-bottom-left > figcaption::before, .image_lumen_mais .imagem_meia_coluna_container._caption-bottom-right > figcaption::before, .image_lumen_mais .imagem_meia_coluna_container_exercicios._caption-inside > figcaption::before, .image_lumen_mais .imagem_meia_coluna_container_exercicios._caption-top > figcaption::before, .image_lumen_mais .imagem_meia_coluna_container_exercicios._caption-top-left > figcaption::before, .image_lumen_mais .imagem_meia_coluna_container_exercicios._caption-top-right > figcaption::before, .image_lumen_mais .imagem_meia_coluna_container_exercicios._caption-bottom-left > figcaption::before, .image_lumen_mais .imagem_meia_coluna_container_exercicios._caption-bottom-right > figcaption::before {
-      color: #3f3e3e; }
-  .image_lumen_mais._caption-inside > figcaption {
-    right: 0;
-    bottom: 0;
-    left: 0; }
-  .image_lumen_mais._caption-none > figcaption {
-    display: none; }
-  .image_lumen_mais._caption-top > figcaption {
-    right: 0;
-    top: 0;
-    left: 0; }
-  .image_lumen_mais._caption-top-left > figcaption {
-    right: 0;
-    top: 0;
-    left: 0;
-    width: 30%; }
-  .image_lumen_mais._caption-top-right > figcaption {
-    right: 0;
-    top: 0;
-    width: 30%; }
-  .image_lumen_mais._caption-bottom-left > figcaption {
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 30%; }
-  .image_lumen_mais._caption-bottom-right > figcaption {
-    right: 0;
-    bottom: 0;
-    width: 30%; }
-  .image_lumen_mais .image .place-holder:hover {
-    top: 0;
-    left: 0; }
-  @media only screen and (min-width: 481px) {
-    .image_lumen_mais {
-      /* class styles for the position properties of the image component */ }
-      .image_lumen_mais._left {
-        float: left;
-        clear: left;
-        width: calc(50% - 15px);
-        margin-right: 15px;
-        margin-left: 0px;
-        z-index: 1; }
-      .image_lumen_mais._right {
-        float: right;
-        clear: right;
-        margin-right: 0px;
-        width: 50%;
-        z-index: 1; } }
-
-/* Image component style */
-.image_lumen_mais {
-  margin: 12px auto;
-  position: relative;
-  clear: both;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  /* class styles for the captions properties of the image component */ }
+  .image_lumen_mais ._image {
+    width: 100%; }
   .image_lumen_mais .slider-subtitle {
     position: relative;
     margin-top: 8px; }
@@ -3418,8 +3315,8 @@ a {
 
 .secao_topo_produzir_e_compartilhar {
   height: 32px;
-  width: 80%;
-  margin: 40px 0px 0px 20px;
+  width: 94%;
+  margin: 40px 0px 0px 10px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -3498,8 +3395,8 @@ a {
 
 .secao_topo_quiz {
   height: 32px;
-  width: 80%;
-  margin: 40px 0px 0px 20px;
+  width: 94%;
+  margin: 40px 0px 0px 10px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -3579,8 +3476,8 @@ a {
 
 .secao_topo_para_aprofundar {
   height: 32px;
-  width: 80%;
-  margin: 40px 0px 0px 20px;
+  width: 94%;
+  margin: 40px 0px 0px 10px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -3830,8 +3727,8 @@ a {
 
 .secao_topo_para_aprofundar {
   height: 32px;
-  width: 80%;
-  margin: 40px 0px 0px 20px;
+  width: 94%;
+  margin: 40px 0px 0px 10px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -4082,8 +3979,8 @@ a {
 
 .secao_topo_para_consolidar {
   height: 32px;
-  width: 80%;
-  margin: 40px 0px 0px 20px;
+  width: 94%;
+  margin: 40px 0px 0px 10px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -4164,7 +4061,7 @@ a {
 /* Author component style */
 .secao_creating_and_sharing {
   height: 50px;
-  width: 77%;
+  width: 90%;
   margin: 40px 0px 0px 20px;
   padding: 0 0 0 38px;
   display: flex;
@@ -4237,8 +4134,8 @@ a {
 
 .secao_topo_creating_and_sharing {
   height: 32px;
-  width: 80%;
-  margin: 40px 0px 0px 20px;
+  width: 94%;
+  margin: 40px 0px 0px 10px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -4344,8 +4241,8 @@ a {
 
 .secao_topo_extra_practice {
   height: 32px;
-  width: 80%;
-  margin: 40px 0px 0px 20px;
+  width: 94%;
+  margin: 40px 0px 0px 10px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -4451,8 +4348,8 @@ a {
 
 .secao_topo_find_out_more {
   height: 32px;
-  width: 80%;
-  margin: 40px 0px 0px 20px;
+  width: 94%;
+  margin: 40px 0px 0px 10px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -5620,7 +5517,7 @@ a {
 /* Container component style*/
 .container_nivel1 {
   margin: 24px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 68px 0px 68px;
   background: white;
   clear: both;
   /* class styles for the options properties of the container component */
@@ -5743,7 +5640,7 @@ a {
 
 .container_questao_f {
   border: solid 1px #707070;
-  padding: 0px 12px 12px 0px;
+  padding: 12px;
   border-radius: 6px;
   margin: 16px 0px 0px 0px;
   clear: both;
@@ -5751,6 +5648,8 @@ a {
   position: relative;
   box-sizing: border-box;
   /* media query */ }
+  .container_questao_f .css_07_secao_exercicio_item {
+    margin: 0; }
   .container_questao_f:before {
     background-image: url(img/falsa.png);
     content: '';
@@ -5852,6 +5751,35 @@ a {
     top: 15px;
     z-index: 1;
     background-size: contain; }
+
+.container_questao_vf_v2 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+  color: #000000;
+  font-family: 'Noticia Text';
+  padding-top: 1px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  float: left;
+  margin-top: 12px; }
+
+.num_vf1_2 {
+  font-family: 'Noticia Text';
+  max-width: 35px;
+  max-height: 31px;
+  resize: none;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+  margin: 0px 0px 0px 4px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  border-color: lightgray; }
 
 .container_questao_vf {
   display: block;
@@ -11514,6 +11442,8 @@ blockquote {
   font-family: 'Noticia Text';
   font-weight: 400;
   line-height: 1.5em; }
+  .css_02_texto_bullet ul {
+    padding-inline-start: 32px; }
   .css_02_texto_bullet ul li {
     font-size: 18px;
     font-family: 'Noticia Text';
@@ -19159,7 +19089,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 /* Container component style*/
 .container_nivel1 {
   margin: 24px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 68px 0px 68px;
   background: white;
   clear: both;
   /* class styles for the options properties of the container component */
@@ -19564,9 +19494,10 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   margin-top: 16px;
   margin-right: 1rem; }
 
+/* Container component style*/
 .container_grupo_radio {
-  min-width: 50%;
-  margin-top: 15px;
+  margin: 0px !important;
+  text-align: -webkit-center;
   /* class styles for the options properties of the container component */
   /* media query */ }
   .container_grupo_radio::after {
@@ -19574,30 +19505,30 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
     display: block;
     clear: both; }
   .container_grupo_radio.artes {
-    background-color: #64428C;
-    color: #FFF; }
+    background-color: #64428C !important;
+    color: #FFF !important; }
   .container_grupo_radio.biologia {
-    background-color: #45973D; }
+    background-color: #45973D !important; }
   .container_grupo_radio.filosofia {
-    background-color: #536DA7; }
+    background-color: #536DA7 !important; }
   .container_grupo_radio.fisica {
-    background-color: #00909B; }
+    background-color: #00909B !important; }
   .container_grupo_radio.geografia {
-    background-color: #D85509; }
+    background-color: #D85509 !important; }
   .container_grupo_radio.historia {
-    background-color: #951B81; }
+    background-color: #951B81 !important; }
   .container_grupo_radio.lingua_inglesa {
-    background-color: #069891; }
+    background-color: #069891 !important; }
   .container_grupo_radio.lingua_portuguesa {
-    background-color: #C51A1B; }
+    background-color: #C51A1B !important; }
   .container_grupo_radio.matematica {
-    background-color: #1961AC; }
+    background-color: #1961AC !important; }
   .container_grupo_radio.producao_de_texto {
-    background-color: #0F83A6; }
+    background-color: #0F83A6 !important; }
   .container_grupo_radio.quimica {
-    background-color: #B80071; }
+    background-color: #B80071 !important; }
   .container_grupo_radio.sociologia {
-    background-color: #C71553; }
+    background-color: #C71553 !important; }
   .container_grupo_radio > *:first-child {
     margin-top: 0; }
     .container_grupo_radio > *:first-child._left + ._right {
@@ -19605,7 +19536,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
       padding: 0 68 0 16px; }
     .container_grupo_radio > *:first-child._right + ._left {
       margin-top: 0;
-      padding: 0 16 0 0px; }
+      padding: 0 16 0 68px; }
   .container_grupo_radio > *:last-child {
     margin-bottom: 0; }
   .container_grupo_radio > *._left + ._right:last-child {
@@ -19613,7 +19544,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
     padding: 0 68 0 16px; }
   .container_grupo_radio > *._right + ._left:last-child {
     margin-bottom: 20px;
-    padding: 0 16 0 0px; }
+    padding: 0 16 0 68px; }
   @media only screen and (min-width: 481px) {
     .container_grupo_radio._left {
       float: left;
@@ -19622,6 +19553,70 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
       margin-right: 24px;
       z-index: 1; }
     .container_grupo_radio._right {
+      float: right;
+      clear: right;
+      width: 47%;
+      margin-left: 24px;
+      z-index: 1; } }
+
+.container_grupo_radio_2 {
+  min-width: 50%;
+  margin-top: 15px;
+  /* class styles for the options properties of the container component */
+  /* media query */ }
+  .container_grupo_radio_2::after {
+    content: '';
+    display: block;
+    clear: both; }
+  .container_grupo_radio_2.artes {
+    background-color: #64428C;
+    color: #FFF; }
+  .container_grupo_radio_2.biologia {
+    background-color: #45973D; }
+  .container_grupo_radio_2.filosofia {
+    background-color: #536DA7; }
+  .container_grupo_radio_2.fisica {
+    background-color: #00909B; }
+  .container_grupo_radio_2.geografia {
+    background-color: #D85509; }
+  .container_grupo_radio_2.historia {
+    background-color: #951B81; }
+  .container_grupo_radio_2.lingua_inglesa {
+    background-color: #069891; }
+  .container_grupo_radio_2.lingua_portuguesa {
+    background-color: #C51A1B; }
+  .container_grupo_radio_2.matematica {
+    background-color: #1961AC; }
+  .container_grupo_radio_2.producao_de_texto {
+    background-color: #0F83A6; }
+  .container_grupo_radio_2.quimica {
+    background-color: #B80071; }
+  .container_grupo_radio_2.sociologia {
+    background-color: #C71553; }
+  .container_grupo_radio_2 > *:first-child {
+    margin-top: 0; }
+    .container_grupo_radio_2 > *:first-child._left + ._right {
+      margin-top: 0;
+      padding: 0 68 0 16px; }
+    .container_grupo_radio_2 > *:first-child._right + ._left {
+      margin-top: 0;
+      padding: 0 16 0 0px; }
+  .container_grupo_radio_2 > *:last-child {
+    margin-bottom: 0; }
+  .container_grupo_radio_2 > *._left + ._right:last-child {
+    margin-bottom: 20px;
+    padding: 0 68 0 16px; }
+  .container_grupo_radio_2 > *._right + ._left:last-child {
+    margin-bottom: 20px;
+    padding: 0 16 0 0px; }
+  @media only screen and (min-width: 481px) {
+    .container_grupo_radio_2._left {
+      float: left;
+      clear: left;
+      width: 47%;
+      margin-right: 24px;
+      z-index: 1; }
+    .container_grupo_radio_2._right {
       float: right;
       clear: right;
       width: 47%;
@@ -19905,6 +19900,13 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
     content: ")";
     position: absolute;
     left: -16px; }
+
+.css_99_bancoquestao {
+  font-family: "noticia text", "arial";
+  font-weight: 400;
+  color: #2a6fd6;
+  line-height: 1.5em;
+  font-size: 12px; }
 
 .css_03_2exercicio_continuacao {
   margin-top: 16px;

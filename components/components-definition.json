@@ -1091,6 +1091,18 @@
       "properties": []
     },
     {
+      "name": "container_questao_vf_v2",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "label": "Novo Quadrinho Verdadeiro Falso",
+      "properties": [],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
       "name": "container_questao_vf",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
@@ -5178,6 +5190,17 @@
       }
     },
     {
+      "name": "container_grupo_radio",
+      "icon": "icons/components/container.svg",
+      "label": "Container Grupo Radio",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
       "name": "container_grupo_radio_linha",
       "icon": "icons/components/container.svg",
       "label": "Container Grupo Radio em Linha",
@@ -5371,12 +5394,11 @@
         }
       }
     },
-
-
     {
       "name": "css_03_2exercicio_alternativa",
       "icon": "icons/components/icon_03_exercicio_alternativa.svg",
       "label": "Exercício Alternativa",
+      "allowNesting": "yes",
       "properties": [
         "style",
         "text-align",
@@ -5404,6 +5426,7 @@
       "name": "css_03_2exercicio_alternativa_item",
       "icon": "icons/components/icon_03_exercicio_alternativa.svg",
       "label": "Alternativa",
+      "allowNesting": "yes",
       "properties": [
         "style",
         "text-align",
@@ -5411,12 +5434,11 @@
         "line-height"
       ]
     },
-
-
     {
       "name": "css_03_2exercicio_alternativa_edit",
       "icon": "icons/components/icon_03_exercicio_alternativa.svg",
       "label": "Editável Exercício Alternativa",
+      "allowNesting": "yes",
       "properties": [
         "style",
         "text-align",
@@ -5444,6 +5466,7 @@
       "name": "css_03_2exercicio_alternativa_item_edit",
       "icon": "icons/components/icon_03_exercicio_alternativa.svg",
       "label": "Alternativa Editável",
+      "allowNesting": "yes",
       "properties": [
         "style",
         "text-align",
@@ -5455,7 +5478,8 @@
           "stripStylingOnPaste": true
         }
       }
-    },{
+    },
+    {
       "name": "css_03_2exercicio_alternativa_item_texto",
       "icon": "icons/components/icon_03_exercicio_alternativa.svg",
       "label": "Texto Alternativa Editável",
@@ -5475,6 +5499,7 @@
       "name": "css_03_2exercicio_alternativa_assinalar",
       "icon": "icons/components/icon_03_exercicio_alternativa.svg",
       "label": "Exercício Alternativa Assinalar",
+      "allowNesting": "yes",
       "properties": [
         "style",
         "text-align",
@@ -5502,6 +5527,18 @@
       "name": "css_03_2exercicio_alternativa_assinalar_itens",
       "icon": "icons/components/icon_03_exercicio_alternativa.svg",
       "label": "Alternativa Assinalar",
+      "allowNesting": "yes",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
+      "name": "99_bancoquestao",
+      "icon": "icons/components/icon_03_exercicio_enunciado.svg",
+      "label": "Metadado Questão",
       "properties": [
         "style",
         "text-align",
@@ -5509,7 +5546,7 @@
         "line-height"
       ],
       "directiveOptions": {
-        "text_item": {
+        "text": {
           "stripStylingOnPaste": true
         }
       }
@@ -5550,6 +5587,7 @@
       "name": "css_03_2exercicio_item_romano",
       "icon": "icons/components/icon_03_exercicio_item_romano.svg",
       "label": "Exercício Item Romano",
+      "allowNesting": "yes",
       "properties": [
         "style",
         "text-align",
@@ -5577,22 +5615,19 @@
       "name": "css_03_2exercicio_item_romano_itens",
       "icon": "icons/components/icon_03_exercicio_item_romano.svg",
       "label": "Item",
+      "allowNesting": "yes",
       "properties": [
         "style",
         "text-align",
         "letter-spacing",
         "line-height"
-      ],
-      "directiveOptions": {
-        "text_item": {
-          "stripStylingOnPaste": true
-        }
-      }
+      ]
     },
     {
       "name": "css_03_2exercicio_item",
       "icon": "icons/components/icon_03_exercicio_item.svg",
       "label": "Exercício Item",
+      "allowNesting": "yes",
       "properties": [
         "style",
         "text-align",
@@ -5620,17 +5655,13 @@
       "name": "css_03_2exercicio_itens",
       "icon": "icons/components/icon_03_exercicio_item.svg",
       "label": "Item",
+      "allowNesting": "yes",
       "properties": [
         "style",
         "text-align",
         "letter-spacing",
         "line-height"
-      ],
-      "directiveOptions": {
-        "text_item": {
-          "stripStylingOnPaste": true
-        }
-      }
+      ]
     },
     {
       "name": "css_02_2texto_bullet",
@@ -5738,7 +5769,6 @@
         "container_nivel1",
         "container_slideshow_saiba_mais",
         "container",
-        "container_nivel1",
         "container_boxe_abertura",
         "container_fica_a_dica_lumen_mais",
         "container_repertorio_cultural_lumen_mais",
@@ -5827,8 +5857,8 @@
         "container_id_questao",
         "container_questao_f",
         "container_questao_c",
+        "container_questao_vf_v2",
         "container_questao_vf",
-        "container_questao_vf_2",
         "container_questao_soma",
         "container_questao_radio",
         "container_questao_dissertativa",
@@ -5933,7 +5963,7 @@
       "label": "03 Exercícios",
       "name": "exercicios",
       "components": [
-        "css_03_2exercicio_container",
+        "99_bancoquestao",
         "css_03_2exercicio_container_edit",
         "css_03_2exercicio_enunciado",
         "css_03_2exercicio_continuacao",
@@ -7265,7 +7295,10 @@
       "css_02_texto_bullet_mancha_sub": "auto",
       "css_02_texto_bullet": "auto",
       "css_07_secao_exercicio_bullet": "auto",
-      "css_07_secao_exercicio_bullet_sub": "auto"
+      "css_07_secao_exercicio_bullet_sub": "auto",
+      "css_02_2texto_bullet": "auto",
+      "css_02_2texto_bullet_itens": "auto",
+      "css_02_2texto_bullet_item_texto": "auto"
     },
     "css_02_texto_bullet_mancha_sub": {
       "css_02_texto_bullet": "auto",
