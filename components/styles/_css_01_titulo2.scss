@@ -6,19 +6,22 @@
   font-size: 26px;
   font-variant: tabular-nums;
   margin-top: 20px;
-  padding: 0 68px;
+  padding: 0 0px;
   margin-bottom: 0px;
   line-height: 1.5em;
 
   &.artes {
     color: $art_cor1;
   }
+
   &.lingua_inglesa {
     color: $ing_cor1;
   }
+
   &.lingua_portuguesa {
     color: $por_cor1;
   }
+
   &.matematica {
     color: $mat_cor1;
   }

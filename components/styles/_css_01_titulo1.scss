@@ -3,54 +3,61 @@
   display: block;
 
   &.artes {
-    .line{
+    .line {
       background-color: $seg_lin_cor1;
     }
-    .text{
+
+    .text {
       color: $art_cor2;
     }
   }
+
   &.lingua_inglesa {
-    .line{
+    .line {
       background-color: $seg_lin_cor1;
     }
-    .text{
+
+    .text {
       color: $ing_cor1;
     }
   }
+
   &.lingua_portuguesa {
-    .line{
+    .line {
       background-color: $seg_lin_cor1;
     }
-    .text{
+
+    .text {
       color: $por_cor2;
     }
   }
+
   &.matematica {
-    .line{
+    .line {
       background-color: $seg_mat_cor1;
     }
-    .text{
+
+    .text {
       color: $mat_cor2;
     }
   }
-  
-  .line{
+
+  .line {
     width: 215px;
     background-color: black;
     position: absolute;
     bottom: -25px;
-    margin: 0px 68px 20px 68px;
+    margin: 0px 0px 20px 0px;
     padding: 0px 0px 3px 0px;
   }
 
-  .text{
+  .text {
     color: $title-color;
     font-family: 'Montserrat';
     font-weight: 800;
     font-size: 40px;
     font-variant: tabular-nums;
-    margin: 40px 68px 0px 68px;
+    margin: 40px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-    }
+  }
 }

@@ -5725,11 +5725,9 @@
       "label": "Outros Assets",
       "name": "outros_assets",
       "components": [
-        "audio",
-        "video_popup_center",
-        "image_popup_center",
         "video_popup_center_lumen_mais",
-        "audio_lumen_mais"
+        "audio_lumen_mais",
+        "image_popup_center"
       ]
     },
     {
@@ -6689,7 +6687,11 @@
       }
     },
     "image": {
-      "image_lumen_mais": "auto"
+      "image_lumen_mais": "auto",
+      "image_inline": "auto"
+    },
+    "image_lumen_mais": {
+      "image_inline": "auto"
     },
     "image_cont_exercicios": {
       "image_lumen_mais": "auto"

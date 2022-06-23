@@ -2,7 +2,8 @@
     border: solid 1px #707070;
     margin: 16px 0px 0px 0px;
     border-radius: 6px;
-    .label{
+
+    .label {
         width: 93%;
         height: 35px;
         margin: 0px 20px 0px 16px;
@@ -10,14 +11,15 @@
         justify-content: center;
         align-items: center;
 
-        .arial{
+        .arial {
             width: 20%;
             border-right: solid 1px #707070;
             display: flex;
             justify-content: space-between;
             align-items: center;
             cursor: pointer;
-            &:after{
+
+            &:after {
                 content: '';
                 width: 10px;
                 height: 10px;
@@ -27,18 +29,20 @@
                 background-repeat: no-repeat;
                 margin-right: 10px;
             }
-            .textarrow{
-                &:before{
+
+            .textarrow {
+                &:before {
                     content: 'Fonte';
                     font-family: "nunito sans";
                     font-size: 14px;
-                    font-weight: 900;  
+                    font-weight: 900;
                 }
-                
+
             }
-            
+
         }
-        .size{
+
+        .size {
             width: 10%;
             border-right: solid 1px #707070;
             display: flex;
@@ -46,7 +50,8 @@
             align-items: center;
             margin: 0px 10px 0px 10px;
             cursor: pointer;
-            &:after{
+
+            &:after {
                 content: '';
                 width: 10px;
                 height: 10px;
@@ -56,21 +61,24 @@
                 background-repeat: no-repeat;
                 margin-right: 10px;
             }
-            .textarrow{
-                &:before{
+
+            .textarrow {
+                &:before {
                     content: '11';
                     font-family: "nunito sans";
                     font-size: 14px;
-                    font-weight: 900;  
+                    font-weight: 900;
                 }
-                
+
             }
         }
-        .type{
+
+        .type {
             width: 70%;
             display: flex;
             align-items: center;
-            .textB{
+
+            .textB {
                 content: '';
                 width: 10px;
                 height: 10px;
@@ -81,7 +89,8 @@
                 margin-right: 10px;
                 cursor: pointer;
             }
-            .textI{
+
+            .textI {
                 content: '';
                 width: 10px;
                 height: 10px;
@@ -93,7 +102,8 @@
                 cursor: pointer;
 
             }
-            .textU{
+
+            .textU {
                 content: '';
                 width: 10px;
                 height: 10px;
@@ -116,36 +126,41 @@
         padding: 10px;
     }
 
-    > * {
+    >* {
         &:first-child {
             margin-top: 0;
+
             &._left {
-                + ._right {
+                +._right {
                     margin-top: 0;
                     padding: 0 68 0 16px;
                 }
             }
+
             &._right {
-                + ._left {
+                +._left {
                     margin-top: 0;
-                    padding: 0 16 0 68px;
+                    padding: 0 16 0 0px;
                 }
             }
         }
+
         &:last-child {
             margin-bottom: 0;
             border-width: 0px;
         }
+
         &._left {
-            + ._right:last-child {
+            +._right:last-child {
                 margin-bottom: 20px;
                 padding: 0 68 0 16px;
             }
         }
+
         &._right {
-            + ._left:last-child {
+            +._left:last-child {
                 margin-bottom: 20px;
-                padding: 0 16 0 68px;
+                padding: 0 16 0 0px;
             }
         }
     }
@@ -159,6 +174,7 @@
             margin-right: 24px;
             z-index: 1;
         }
+
         &._right {
             float: right;
             clear: right;
@@ -167,7 +183,7 @@
             z-index: 1;
         }
     }
-  
+
     .btn {
         background-image: url(img/save.png);
         background-repeat: no-repeat;
@@ -180,8 +196,9 @@
         margin-right: -4px;
         display: block;
         margin-top: 6px;
-        }
-        .btn:active {
-        background-image: url(img/save_ok.png);
-        }
     }
+
+    .btn:active {
+        background-image: url(img/save_ok.png);
+    }
+}

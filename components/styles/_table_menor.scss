@@ -3,8 +3,9 @@
     width: 40%;
     font-family: $font-prelo-book;
     border-collapse: collapse;
-    margin: 20px 68px;
+    margin: 20px 0px;
     clear: both;
+
     &::after {
         content: "";
         display: block;
@@ -15,6 +16,7 @@
         &:first-child {
             margin-top: 0;
         }
+
         &:last-child {
             margin-bottom: 0;
         }
@@ -28,6 +30,7 @@
             width: 30%;
             z-index: 1;
         }
+
         &._right {
             float: right;
             clear: right;
@@ -37,9 +40,10 @@
     }
 }
 
-.table-row, .table-cell {
+.table-row,
+.table-cell {
     border: 1px solid black;
     padding: 16px;
     font-weight: 500;
-    font-size: 14px;    
+    font-size: 14px;
 }

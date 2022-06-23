@@ -7,6 +7,14 @@
     display: none !important;
 }
 
+.content-video__text {
+    margin: 0 16px 16px 16px;
+    color: #666;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
 /* Image component style */
 .video_popup_center_lumen_mais {
     position: relative;
@@ -23,11 +31,20 @@
         .video__embed {
             width: 100%;
 
+            video {
+                width: 100%;
+                min-height: 400px;
+                padding: 0;
+                margin: 0;
+                margin-bottom: 32px;
+            }
+
             iframe {
                 width: 100%;
                 min-height: 400px;
                 padding: 0;
                 margin: 0;
+                margin-bottom: 32px;
             }
         }
     }
@@ -35,8 +52,14 @@
     &.artes {
         border: 5px solid $seg_lin_cor1;
 
-        .video_popup__content .content-video__title {
-            color: $art_cor1;
+        .content-video__title {
+            color: $por_cor1;
+            font-size: 16px;
+            font-weight: 700;
+            font-family: 'Montserrat';
+            text-transform: uppercase;
+            margin-bottom: 2px;
+            margin-left: 16px;
         }
 
         &:before {
@@ -51,8 +74,15 @@
     &.lingua_inglesa {
         border: 5px solid $seg_lin_cor1;
 
-        .video_popup__content .content-video__title {
-            color: $ing_cor1;
+        .content-video__title {
+            color: $por_cor1;
+            font-size: 16px;
+            font-weight: 700;
+            font-family: 'Montserrat';
+            text-transform: uppercase;
+            margin-bottom: 2px;
+            margin-left: 16px;
+
         }
 
         &:before {
@@ -67,8 +97,14 @@
     &.lingua_portuguesa {
         border: 5px solid $seg_lin_cor1;
 
-        .video_popup__content .content-video__title {
+        .content-video__title {
             color: $por_cor1;
+            font-size: 16px;
+            font-weight: 700;
+            font-family: 'Montserrat';
+            text-transform: uppercase;
+            margin-bottom: 2px;
+            margin-left: 16px;
         }
 
         &:before {
@@ -83,7 +119,13 @@
     &.matematica {
         border: 5px solid $seg_mat_cor1;
 
-        .video_popup__content .content-video__title {
+        .content-video__title {
+            font-size: 16px;
+            font-weight: 700;
+            font-family: 'Montserrat';
+            text-transform: uppercase;
+            margin-bottom: 2px;
+            margin-left: 16px;
             color: $mat_cor1;
         }
 
@@ -97,20 +139,19 @@
     }
 
     &.__ready {
-        .video_popup__content {
-            .content-video {
-                &__url {
-                    border: 0;
-                }
 
-                &__title {
-                    border: 0;
-                }
+        .content-video {
 
-                &__text {
-                    border: 0;
-                }
+            &__title {
+                border: 0;
+                margin-left: 16px;
             }
+
+            &__text {
+                border: 0;
+                margin-left: 16px;
+            }
+
         }
     }
 
@@ -185,15 +226,6 @@
 
         .content-video {
             padding: 20px;
-
-            &__url {
-                padding: 2px;
-                overflow: hidden;
-                height: 19px;
-                word-break: break-all;
-                border: 1px solid #ccc;
-                margin-bottom: 10px;
-            }
 
             &__title {
                 color: $por_cor1;

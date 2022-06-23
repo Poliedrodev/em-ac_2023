@@ -1,7 +1,7 @@
 .secao_topo_creating_and_sharing {
     height: 32px;
     width: 80%;
-    margin: 40px 0px 0px 0px;
+    margin: 40px 0px 0px 20px;
     padding: 0 0 0 38px;
     display: flex;
     align-items: center;
@@ -14,6 +14,7 @@
     background-color: #edf8f7;
     border-right: 3px solid #ccebe9;
 }
+
 .icone_disciplina_ing_creating_topo {
     background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/ING_produzir_e_compartilhar.svg");
     width: 32px;
@@ -26,9 +27,9 @@
     position: absolute;
     left: -10px;
     top: -1px;
-    }
+}
 
-.alinhamento{
-        display: flex;
-        align-items: center;
-        }
+.alinhamento {
+    display: flex;
+    align-items: center;
+}
