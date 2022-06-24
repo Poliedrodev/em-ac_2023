@@ -19910,7 +19910,8 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   font-weight: 400;
   color: #2a6fd6;
   line-height: 1.5em;
-  font-size: 12px; }
+  font-size: 12px;
+  position: absolute; }
 
 .css_03_2exercicio_continuacao {
   margin-top: 16px;
