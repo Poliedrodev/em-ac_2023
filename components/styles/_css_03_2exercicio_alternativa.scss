@@ -8,6 +8,53 @@
   font-size: $fontSizeQuestion;
 
   counter-reset: list;
-
   padding-inline-start: 41px;
+
+  
+  &.item_romano_itens .css_03_2exercicio_alternativa_item {
+    &::before {
+      font-family: $fontPrincipal;
+      font-size: $fontSizeIndiceQuestion;
+      font-weight: 600;
+      counter-increment: list;
+      content: counter(list, lower-alpha) ")";
+      position: absolute;
+      left: -30px;
+    }
+  }
+
+  &.itens .css_03_2exercicio_alternativa_item {
+    &::before {
+      counter-increment: list;
+      content: counter(list, decimal) ".";
+    }
+  }
+
+  &.item_romano_itens .css_03_2exercicio_alternativa_item {
+    &::before {
+      counter-increment: list;
+      content: counter(list, upper-roman) ".";
+    }
+  }
+
+  &.alternativa_assinalar_itens .css_03_2exercicio_alternativa_item {
+    &::after {
+      font-family: $fontPrincipal;
+      font-size: 20px;
+      font-weight: 600;
+      content: "(";
+      position: absolute;
+      left: -32px;
+      top: 0;
+    }
+
+    &::before {
+      font-family: $fontPrincipal;
+      font-size: 20px;
+      font-weight: 600;
+      content: ")";
+      position: absolute;
+      left: -16px;
+    }
+  }
 }

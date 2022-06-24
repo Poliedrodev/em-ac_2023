@@ -13,7 +13,6 @@
 @import url(https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Cookie&display=swap);
-@import url(https://perugluglu.net/poliedro/stylesheet.css);
 @import url(https://fonts.googleapis.com/css2?family=Bitter:wght@300;600&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;600;700&display=swap);
 ol,
@@ -19813,6 +19812,35 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   font-size: 18px;
   counter-reset: list;
   padding-inline-start: 41px; }
+  .css_03_2exercicio_alternativa.item_romano_itens .css_03_2exercicio_alternativa_item::before {
+    font-family: "noticia text", "arial";
+    font-size: 18px;
+    font-weight: 600;
+    counter-increment: list;
+    content: counter(list, lower-alpha) ")";
+    position: absolute;
+    left: -30px; }
+  .css_03_2exercicio_alternativa.itens .css_03_2exercicio_alternativa_item::before {
+    counter-increment: list;
+    content: counter(list, decimal) "."; }
+  .css_03_2exercicio_alternativa.item_romano_itens .css_03_2exercicio_alternativa_item::before {
+    counter-increment: list;
+    content: counter(list, upper-roman) "."; }
+  .css_03_2exercicio_alternativa.alternativa_assinalar_itens .css_03_2exercicio_alternativa_item::after {
+    font-family: "noticia text", "arial";
+    font-size: 20px;
+    font-weight: 600;
+    content: "(";
+    position: absolute;
+    left: -32px;
+    top: 0; }
+  .css_03_2exercicio_alternativa.alternativa_assinalar_itens .css_03_2exercicio_alternativa_item::before {
+    font-family: "noticia text", "arial";
+    font-size: 20px;
+    font-weight: 600;
+    content: ")";
+    position: absolute;
+    left: -16px; }
 
 .css_03_2exercicio_alternativa_item {
   margin-top: 16px;

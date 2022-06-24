@@ -5421,6 +5421,7 @@
       "label": "Exercício Alternativa",
       "allowNesting": "yes",
       "properties": [
+        "styles-type-list",
         "style",
         "text-align",
         "letter-spacing",
@@ -5987,9 +5988,6 @@
         "css_03_2exercicio_alternativa_edit",
         "css_03_2exercicio_alternativa",
         "css_03_2exercicio_alternativa_item_texto",
-        "css_03_2exercicio_alternativa_assinalar",
-        "css_03_2exercicio_item_romano",
-        "css_03_2exercicio_item",
         "css_03_exercicio_texto",
         "css_03_exercicio_resolvido",
         "css_03_exercicio_resolvido_bullet",
@@ -6383,6 +6381,48 @@
               }
             },
             "value": "matematica"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+    {
+      "name": "styles-type-list",
+      "label": "Escolha o tipo de lista",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Itens"
+              }
+            },
+            "value": "itens"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Itens Romano"
+              }
+            },
+            "value": "item_romano_itens"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Alternativa Assinalar"
+              }
+            },
+            "value": "alternativa_assinalar_itens"
           }
         ]
       },
