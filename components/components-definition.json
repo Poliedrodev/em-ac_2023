@@ -4969,7 +4969,22 @@
     {
       "name": "audio_lumen_mais",
       "icon": "icons/components/icon_00_arte.svg",
-      "label": "Componente Áudio Lumen Mais",
+      "label": "Áudio Lumen Mais",
+      "properties": [
+        "style_lumen_mais",
+        "text-align",
+        "letter-spacing",
+        "line-height",
+        {
+          "name": "embed-code",
+          "directiveKey": "html"
+        }
+      ]
+    },
+    {
+      "name": "audio_lumen_mais_externo",
+      "icon": "icons/components/icon_00_arte.svg",
+      "label": "Áudio Externo Lumen Mais",
       "properties": [
         "style_lumen_mais",
         "text-align",
@@ -4984,7 +4999,7 @@
     {
       "name": "video_popup_center_lumen_mais",
       "icon": "icons/components/video.svg",
-      "label": "VIDEO_POPUP_CENTER_LUMEN_MAIS",
+      "label": " Video POPUP CENTER Lumen Mais",
       "selectionMethod": "handle",
       "properties": [
         {
@@ -5759,6 +5774,7 @@
       "components": [
         "video_popup_center_lumen_mais",
         "audio_lumen_mais",
+        "audio_lumen_mais_externo",
         "image_popup_center"
       ]
     },

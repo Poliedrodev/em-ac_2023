@@ -82,5 +82,12 @@
   "EXERCICE_TEXT_ALTERNATIVA": "Digite o texto da alternativa",
   "EXERCICE_TITLE_ALTERNATIVA_ASSINALAR": "Digite o título do exercício alternativa assinalar",
   "EXERCICE_TITLE_ITEM": "Digite o título do exercício item",
-  "EXERCICE_TEXT_ITEM": "Digite o texto do item"
+  "EXERCICE_TEXT_ITEM": "Digite o texto do item",
+  "COMPONENT_CONTAINER_ADD_LABEL": "Adicione um coponente dentro do Container",
+  "COMPONENT_TEXTO_BULLET": "Digite o Texto Bullet",
+  "TITLE": "Digite o Título",
+  "TEXT": "Digite o Texto",
+  "SUBTITLE": "Digite a Legenda",
+  "LINK_EXTERNO": "Link Externo",
+  "LINK_INTERNO": "Link Interno"
 }

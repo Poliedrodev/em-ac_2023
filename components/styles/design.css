@@ -3141,8 +3141,8 @@ span[style="text-decoration: line-through;"] {
 /* Author component style */
 .secao_produzir_e_compartilhar {
   height: 50px;
-  width: 90%;
-  margin: 40px 0px 0px 20px;
+  width: 94%;
+  margin: 40px 0px 0px 10px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -3557,8 +3557,8 @@ a {
 
 .secao_para_aprofundar {
   height: 50px;
-  width: 90%;
-  margin: 40px 0px 0px 20px;
+  width: 94%;
+  margin: 40px 0px 0px 10px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -3809,8 +3809,8 @@ a {
 /* Author component style */
 .secao_para_consolidar {
   height: 50px;
-  width: 90%;
-  margin: 40px 0px 0px 20px;
+  width: 94%;
+  margin: 40px 0px 0px 10px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -4061,8 +4061,8 @@ a {
 /* Author component style */
 .secao_creating_and_sharing {
   height: 50px;
-  width: 90%;
-  margin: 40px 0px 0px 20px;
+  width: 94%;
+  margin: 40px 0px 0px 10px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -4168,8 +4168,8 @@ a {
 /* Author component style */
 .secao_extra_practice {
   height: 50px;
-  width: 90%;
-  margin: 40px 0px 0px 20px;
+  width: 94%;
+  margin: 40px 0px 0px 10px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -4275,8 +4275,8 @@ a {
 /* Author component style */
 .secao_find_out_more {
   height: 50px;
-  width: 90%;
-  margin: 40px 0px 0px 20px;
+  width: 94%;
+  margin: 40px 0px 0px 10px;
   padding: 0 0 0 38px;
   display: flex;
   align-items: center;
@@ -11443,7 +11443,7 @@ blockquote {
   font-weight: 400;
   line-height: 1.5em; }
   .css_02_texto_bullet ul {
-    padding-inline-start: 32px; }
+    padding-inline-start: 24px; }
   .css_02_texto_bullet ul li {
     font-size: 18px;
     font-family: 'Noticia Text';
@@ -11459,6 +11459,8 @@ blockquote {
   font-family: 'Noticia Text';
   font-weight: 400;
   line-height: 1.5em; }
+  .css_02_texto_bullet_2 ul {
+    padding-inline-start: 24px; }
   .css_02_texto_bullet_2 ul li {
     font-size: 18px;
     font-family: 'Noticia Text';
@@ -19146,6 +19148,8 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   min-height: 104px;
   padding: 16px 20px;
   box-sizing: border-box; }
+  .audio_lumen_mais .audio__text {
+    margin-bottom: 16px; }
   .audio_lumen_mais .audio-box audio {
     background-color: #f1f3f4;
     width: 100%; }
@@ -19989,15 +19993,26 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   font-family: "noticia text", "arial";
   font-weight: 400;
   line-height: 1.5em;
-  padding-inline-start: 20px; }
+  margin-top: 16px;
+  padding-inline-start: 24px; }
 
 .css_02_2texto_bullet_itens {
   font-size: 18px;
   font-family: "noticia text", "arial";
   font-weight: 400;
   line-height: 1.5em;
-  padding-left: 4px;
-  margin-top: 16px; }
+  list-style: none;
+  position: relative;
+  margin-top: 16px !important; }
+  .css_02_2texto_bullet_itens::after {
+    content: "";
+    background-color: #000;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: 11px;
+    left: -24px; }
   .css_02_2texto_bullet_itens:first-child {
     margin: 0 !important; }
 
