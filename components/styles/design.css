@@ -1280,7 +1280,7 @@ span[style="text-decoration: line-through;"] {
       .image_lumen_mais._left {
         float: left;
         clear: left;
-        width: calc(50% - 15px);
+        width: 46%;
         margin-right: 15px;
         margin-left: 0px;
         z-index: 1; }
@@ -1288,7 +1288,7 @@ span[style="text-decoration: line-through;"] {
         float: right;
         clear: right;
         margin-right: 0px;
-        width: 50%;
+        width: 46%;
         z-index: 1; } }
 
 .audio {
@@ -6873,6 +6873,7 @@ blockquote {
   border: solid 1px #bbbbbb;
   margin: 16px 0px 0px 0px;
   border-radius: 6px;
+  clear: both;
   /* media query */ }
   .container_questao_dissertativa .label {
     width: 93%;
@@ -7013,6 +7014,7 @@ blockquote {
   border: solid 1px #bbbbbb;
   margin-top: 16px;
   border-radius: 6px;
+  clear: both;
   /* media query */ }
   .container_questao_dissertativa_mancha .label {
     width: 93%;
@@ -7326,6 +7328,7 @@ blockquote {
   border: solid 1px #707070;
   margin: 16px 0px 0px 0px;
   border-radius: 6px;
+  clear: both;
   /* media query */ }
   .container_questao_dissertativa_semrecuo .label {
     width: 93%;
@@ -7466,6 +7469,7 @@ blockquote {
   border: solid 1px #707070;
   margin: 16px 0px 0px 0px;
   border-radius: 6px;
+  clear: both;
   /* media query */ }
   .container_questao_dissertativa_item .label {
     width: 93%;
@@ -7606,6 +7610,7 @@ blockquote {
   border: solid 1px #707070;
   margin-top: 16px;
   border-radius: 6px;
+  clear: both;
   /* media query */ }
   .container_questao_dissertativa_item_2 .label {
     width: 93%;
@@ -7746,6 +7751,7 @@ blockquote {
   border: solid 1px #707070;
   margin: 16px 0px 0px 0px;
   border-radius: 6px;
+  clear: both;
   /* media query */ }
   .container_questao_dissertativa_ing .label {
     width: 93%;
@@ -7886,6 +7892,7 @@ blockquote {
   border: solid 1px #707070;
   margin: 16px 0px 0px 0px;
   border-radius: 6px;
+  clear: both;
   /* media query */ }
   .container_questao_dissertativa_semrecuo_ing .label {
     width: 93%;
@@ -8026,6 +8033,7 @@ blockquote {
   border: solid 1px #707070;
   margin: 16px 0px 0px 0px;
   border-radius: 6px;
+  clear: both;
   /* media query */ }
   .container_questao_dissertativa_item_ing .label {
     width: 93%;
@@ -8166,6 +8174,7 @@ blockquote {
   border: solid 1px #707070;
   margin-top: 16px;
   border-radius: 6px;
+  clear: both;
   /* media query */ }
   .container_questao_dissertativa_item_2_ing .label {
     width: 93%;
@@ -19711,6 +19720,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_container {
   margin-top: 31px;
+  position: relative;
   display: grid;
   grid-template-columns: min-content auto;
   gap: 8px;
@@ -19768,6 +19778,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
 
 .css_03_2exercicio_container_edit {
   margin-top: 31px;
+  position: relative;
   display: grid;
   grid-template-columns: min-content auto;
   gap: 8px;
@@ -19825,6 +19836,8 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   font-size: 18px;
   counter-reset: list;
   padding-inline-start: 41px; }
+  .css_03_2exercicio_alternativa .group_alternativa :first-child {
+    margin-top: 0 !important; }
   .css_03_2exercicio_alternativa.item_romano_itens .css_03_2exercicio_alternativa_item::before {
     font-family: "noticia text", "arial";
     font-size: 18px;
@@ -19895,6 +19908,8 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   align-items: baseline;
   list-style: none;
   position: relative; }
+  .css_03_2exercicio_alternativa_item_edit .container_inside_alternativa :first-child {
+    margin-top: 0 !important; }
   .css_03_2exercicio_alternativa_item_edit .number_alternativa_edit {
     width: 32px;
     font-family: "noticia text", "arial";
@@ -19930,6 +19945,8 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   align-items: baseline;
   list-style: none;
   position: relative; }
+  .css_03_2exercicio_alternativa_assinalar_itens .group_item :first-child {
+    margin-top: 0 !important; }
   .css_03_2exercicio_alternativa_assinalar_itens::after {
     font-family: "noticia text", "arial";
     font-size: 20px;
@@ -19952,7 +19969,9 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   color: #2a6fd6;
   line-height: 1.5em;
   font-size: 12px;
-  position: absolute; }
+  position: absolute;
+  width: 500px;
+  top: -14px; }
 
 .css_03_2exercicio_continuacao {
   margin-top: 16px;
@@ -19990,6 +20009,8 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   align-items: baseline;
   list-style: none;
   position: relative; }
+  .css_03_2exercicio_item_romano_itens .group_item :first-child {
+    margin-top: 0 !important; }
   .css_03_2exercicio_item_romano_itens::before {
     font-family: "noticia text", "arial";
     font-size: 18px;
@@ -20019,6 +20040,8 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   align-items: baseline;
   list-style: none;
   position: relative; }
+  .css_03_2exercicio_itens .group_item :first-child {
+    margin-top: 0 !important; }
   .css_03_2exercicio_itens::before {
     font-family: "noticia text", "arial";
     font-size: 18px;

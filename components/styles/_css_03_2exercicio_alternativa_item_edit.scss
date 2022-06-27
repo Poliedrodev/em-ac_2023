@@ -15,6 +15,10 @@
   list-style: none;
   position: relative;
 
+  .container_inside_alternativa :first-child {
+    margin-top: 0 !important;
+  }
+
   .number_alternativa_edit {
     width: 32px;
     font-family: $fontPrincipal;

@@ -10,6 +10,10 @@
   counter-reset: list;
   padding-inline-start: 41px;
 
+  .group_alternativa :first-child {
+    margin-top: 0 !important;
+  }
+
   
   &.item_romano_itens .css_03_2exercicio_alternativa_item {
     &::before {
