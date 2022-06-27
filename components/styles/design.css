@@ -5752,33 +5752,34 @@ a {
     background-size: contain; }
 
 .container_questao_vf_v2 {
+  margin-top: 12px;
   width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  gap: 8px;
+  display: grid;
+  grid-template-columns: min-content auto;
+  gap: 16px;
   color: #000000;
   font-family: 'Noticia Text';
   padding-top: 1px;
-  text-align: center;
   font-weight: 700;
-  font-size: 18px;
-  float: left;
-  margin-top: 12px; }
-
-.num_vf1_2 {
-  font-family: 'Noticia Text';
-  max-width: 35px;
-  max-height: 31px;
-  resize: none;
-  font-weight: 700;
-  font-size: 18px;
-  text-align: center;
-  color: #000000;
-  margin: 0px 0px 0px 4px;
-  float: left;
-  display: flex;
-  justify-content: center;
-  border-color: lightgray; }
+  font-size: 18px; }
+  .container_questao_vf_v2 [doc-container] :first-child {
+    margin-top: 0px !important; }
+  .container_questao_vf_v2 [doc-container]:empty {
+    background: #fff0f0 !important; }
+  .container_questao_vf_v2 .num_vf1_2 {
+    font-family: 'Noticia Text';
+    max-width: 35px;
+    max-height: 31px;
+    resize: none;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    margin: 0px 0px 0px 4px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    border-color: lightgray; }
 
 .container_questao_vf {
   display: block;

@@ -1092,13 +1092,9 @@
       "name": "container_questao_vf_v2",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
+      "allowNesting":"yes",
       "label": "Novo Quadrinho Verdadeiro Falso",
-      "properties": [],
-      "directiveOptions": {
-        "text": {
-          "stripStylingOnPaste": true
-        }
-      }
+      "properties": []
     },
     {
       "name": "container_questao_vf",
