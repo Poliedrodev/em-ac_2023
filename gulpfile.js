@@ -37,7 +37,6 @@ const scriptFiles = [
     // Support script for parallax effect hero components
     path.join(scriptsDir, 'heroes.js'),
 
-
 ];
 const stylesDir = path.join(__dirname, './components/styles');
 

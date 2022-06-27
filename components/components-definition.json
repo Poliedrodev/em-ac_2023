@@ -3404,7 +3404,8 @@
       "allowNesting": "yes",
       "label": "Background Livro",
       "properties": [
-        "style"
+        "style",
+        "edit-mode"
       ]
     },
     {
@@ -4955,7 +4956,8 @@
       "allowNesting": "yes",
       "label": "Background Livro",
       "properties": [
-        "style_lumen_mais"
+        "style_lumen_mais",
+        "edit-mode"
       ]
     },
     {
@@ -6656,6 +6658,23 @@
               "key": "PROPERTY_PLAY_ORIENTATION_VERTICAL_OPTION"
             },
             "value": "_vertical"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+    {
+      "name": "edit-mode",
+      "label": "Ative para ver o modo de edição com barras",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": "Desativado"
+          },
+          {
+            "caption": "Ativado",
+            "value": "edit-mode"
           }
         ]
       },

@@ -32,4 +32,14 @@
 
   }
 
+  &.edit-mode {
+    [doc-container] {
+      padding-bottom: 24px !important;
+      border-bottom: 3px solid #cecece !important;
+    }
+    [doc-container]:empty{
+      padding-bottom: 0 !important;
+      border-bottom: 0 !important;
+    }
+  }
 }

@@ -14644,6 +14644,12 @@ blockquote {
     background-color: #d0e1f0;
     background-size: cover;
     background-repeat: no-repeat; }
+  .body-book.edit-mode [doc-container] {
+    padding-bottom: 24px !important;
+    border-bottom: 3px solid #cecece !important; }
+  .body-book.edit-mode [doc-container]:empty {
+    padding-bottom: 0 !important;
+    border-bottom: 0 !important; }
 
 .css_06_container_boxe_watch_out {
   float: left;
@@ -19086,6 +19092,12 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
     background-color: #d0e1f0;
     background-size: cover;
     background-repeat: no-repeat; }
+  .body-book.edit-mode [doc-container] {
+    padding-bottom: 24px !important;
+    border-bottom: 3px solid #cecece !important; }
+  .body-book.edit-mode [doc-container]:empty {
+    padding-bottom: 0 !important;
+    border-bottom: 0 !important; }
 
 /* Container component style*/
 .container_nivel1 {
