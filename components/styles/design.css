@@ -6626,6 +6626,87 @@ blockquote {
       width: 50%;
       z-index: 1; } }
 
+.container_take_a_tip_exercicios {
+  position: relative;
+  box-sizing: border-box;
+  margin: 32px 0px 0px 0px;
+  padding: 0px 28px 8px 28px;
+  border-radius: 5px;
+  transition: all 0.3;
+  background-color: #ECF0A6;
+  /* media query */ }
+  .container_take_a_tip_exercicios input[type=checkbox] {
+    display: none; }
+  .container_take_a_tip_exercicios input[type=checkbox]:checked ~ label {
+    background: url(img/icons8-minus-close_white.png) left 5px top 9px no-repeat; }
+  .container_take_a_tip_exercicios input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    display: block;
+    transition: all 0.25s ease-out; }
+  .container_take_a_tip_exercicios input[type=checkbox]:checked ~ .line-box {
+    display: block;
+    transition: all 0.25s ease-out; }
+  .container_take_a_tip_exercicios label {
+    width: 100%;
+    height: 40px;
+    background: url(img/icons8-plus-open_white.png) left 5px top 9px no-repeat;
+    position: relative;
+    background-size: 18px !important;
+    display: block;
+    left: -13px; }
+    .container_take_a_tip_exercicios label:before {
+      content: '#TAKEATIP';
+      font-family: "nunito sans";
+      font-size: 14px;
+      font-weight: 900;
+      color: #62883b;
+      position: absolute;
+      left: 28px;
+      top: 10px; }
+  .container_take_a_tip_exercicios .text-box {
+    min-width: 200px;
+    font-family: "nunito sans", "900";
+    font-size: 14px;
+    color: #84A214;
+    position: absolute;
+    left: 50px;
+    top: 10px; }
+  .container_take_a_tip_exercicios .line-box {
+    border-left: 3px solid #FFF;
+    display: none; }
+  .container_take_a_tip_exercicios .txt_boxe_collapsed {
+    display: none; }
+  .container_take_a_tip_exercicios .doc_container {
+    position: relative;
+    padding: 16px;
+    box-sizing: border-box; }
+  .container_take_a_tip_exercicios.artes {
+    background-color: #ECF0A6; }
+    .container_take_a_tip_exercicios.artes .text-box {
+      color: #C8D300; }
+  .container_take_a_tip_exercicios.lingua_inglesa {
+    background-color: #ECF0A6; }
+    .container_take_a_tip_exercicios.lingua_inglesa .text-box {
+      color: #C8D300; }
+  .container_take_a_tip_exercicios.lingua_portuguesa {
+    background-color: #ECF0A6; }
+    .container_take_a_tip_exercicios.lingua_portuguesa .text-box {
+      color: #84A214; }
+  .container_take_a_tip_exercicios.matematica {
+    background-color: #FAEDBC; }
+    .container_take_a_tip_exercicios.matematica .text-box {
+      color: #C09100; }
+  @media only screen and (min-width: 481px) {
+    .container_take_a_tip_exercicios._left {
+      float: left;
+      clear: left;
+      width: 33%;
+      z-index: 1; }
+    .container_take_a_tip_exercicios._right {
+      float: right;
+      clear: right;
+      width: 33%;
+      z-index: 1; } }
+
 .container_take_a_tip {
   position: relative;
   box-sizing: border-box;
@@ -19518,6 +19599,80 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   display: inline-block;
   margin-top: 16px;
   margin-right: 1rem; }
+
+/* Customize the label (the container) */
+.container_questao_checkbox {
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  margin-left: 40px;
+  font-size: 22px;
+  display: block;
+  user-select: none; }
+  .container_questao_checkbox.artes .checkmark {
+    background-color: #64428C; }
+  .container_questao_checkbox.lingua_inglesa .checkmark {
+    background-color: #069891; }
+  .container_questao_checkbox.lingua_portuguesa .checkmark {
+    background-color: #c9252c; }
+  .container_questao_checkbox.matematica .checkmark {
+    background-color: #1961AC; }
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0; }
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #c9252c;
+  border-radius: 50%; }
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ddd; }
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #eee; }
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none; }
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block; }
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white; }
+
+.textradio {
+  font-family: 'Noticia Text';
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch; }
 
 /* Container component style*/
 .container_grupo_radio {

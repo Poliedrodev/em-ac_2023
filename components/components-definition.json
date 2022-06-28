@@ -1092,7 +1092,7 @@
       "name": "container_questao_vf_v2",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
-      "allowNesting":"yes",
+      "allowNesting": "yes",
       "label": "Novo Quadrinho Verdadeiro Falso",
       "properties": []
     },
@@ -1451,6 +1451,18 @@
       "name": "container_exercicios",
       "icon": "icons/components/container.svg",
       "label": "Container Exercícios",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
+      "name": "container_take_a_tip_exercicios",
+      "icon": "icons/components/container.svg",
+      "label": "Container #TAKEATIP",
+      "allowNesting": "yes",
       "properties": [
         "style",
         "text-align",
@@ -5207,6 +5219,15 @@
           "stripStylingOnPaste": true
         }
       }
+    },
+    {
+      "name": "container_questao_checkbox",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "label": "Checkbox em Linhas",
+      "properties": [
+        "style"
+      ]
     },
     {
       "name": "container_grupo_radio",
