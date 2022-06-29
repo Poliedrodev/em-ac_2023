@@ -23,8 +23,8 @@
 
   .num_vf1_2 {
     font-family: 'Noticia Text';
-    max-width: 25px;
-    max-height: 26px;
+    max-width: 30px;
+    max-height: 30px;
     resize: none;
     font-weight: 700;
     font-size: 18px;
@@ -35,5 +35,6 @@
     display: flex;
     justify-content: center;
     border-color: lightgray;
+    overflow: hidden;
   }
 }

@@ -123,7 +123,7 @@
     {
       "name": "video_popup_center",
       "icon": "icons/components/video.svg",
-      "label": "VIDEO_POPUP_CENTER",
+      "label": "Video Interno POPUP_CENTER",
       "selectionMethod": "handle",
       "properties": [
         {
@@ -5014,7 +5014,29 @@
     {
       "name": "video_popup_center_lumen_mais",
       "icon": "icons/components/video.svg",
-      "label": " Video POPUP CENTER Lumen Mais",
+      "label": " Video Externo POPUP CENTER Lumen Mais",
+      "selectionMethod": "handle",
+      "properties": [
+        {
+          "name": "fitting",
+          "defaultValue": "_fit-frame-to-content"
+        },
+        "position",
+        "style_lumen_mais",
+        {
+          "name": "embed-code",
+          "directiveKey": "html"
+        },
+        "inside-caption",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
+      "name": "video_interno_popup_center_lumen_mais",
+      "icon": "icons/components/video.svg",
+      "label": " Video Interno POPUP CENTER Lumen Mais",
       "selectionMethod": "handle",
       "properties": [
         {
@@ -5797,6 +5819,7 @@
       "label": "Outros Assets",
       "name": "outros_assets",
       "components": [
+        "video_interno_popup_center_lumen_mais",
         "video_popup_center_lumen_mais",
         "audio_lumen_mais",
         "audio_lumen_mais_externo",

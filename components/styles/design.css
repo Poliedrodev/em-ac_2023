@@ -5768,8 +5768,8 @@ a {
     background: #fff0f0 !important; }
   .container_questao_vf_v2 .num_vf1_2 {
     font-family: 'Noticia Text';
-    max-width: 35px;
-    max-height: 31px;
+    max-width: 30px;
+    max-height: 30px;
     resize: none;
     font-weight: 700;
     font-size: 18px;
@@ -5779,7 +5779,8 @@ a {
     float: left;
     display: flex;
     justify-content: center;
-    border-color: lightgray; }
+    border-color: lightgray;
+    overflow: hidden; }
 
 .container_questao_vf {
   display: block;
@@ -6673,8 +6674,7 @@ blockquote {
   .container_take_a_tip_exercicios .line-box {
     border-left: 3px solid #FFF;
     display: none;
-    padding-inline-start: 16px;
-    margin-left: 8px; }
+    padding-inline-start: 16px; }
   .container_take_a_tip_exercicios .txt_boxe_collapsed {
     display: none; }
   .container_take_a_tip_exercicios .doc_container {
@@ -6839,8 +6839,7 @@ blockquote {
   .container_fica_a_dica .line-box {
     border-left: 3px solid #FFF;
     display: none;
-    padding-inline-start: 16px;
-    margin-left: 8px; }
+    padding-inline-start: 16px; }
   .container_fica_a_dica .txt_boxe_collapsed {
     display: none; }
   .container_fica_a_dica .doc_container {
@@ -9134,8 +9133,7 @@ blockquote {
     border-bottom-left-radius: 0; }
   .container_fica_a_dica_lumen_mais .collapsible-content-fica_a_dica .content-inner {
     padding: 0 1rem;
-    border-left: 3px solid white;
-    margin-left: 21px; }
+    border-left: 3px solid white; }
   .container_fica_a_dica_lumen_mais .collapsible-content-fica_a_dica {
     max-height: 0px;
     overflow: hidden;
@@ -9437,7 +9435,7 @@ blockquote {
   .container_repertorio_cultural_lumen_mais .collapsible-content-saiba_mais .content-inner {
     padding: 0 1rem;
     border-left: 3px solid white;
-    margin-left: 21px; }
+    margin-left: 8px; }
   .container_repertorio_cultural_lumen_mais .collapsible-content-saiba_mais {
     max-height: 0px;
     overflow: hidden;
@@ -9739,7 +9737,7 @@ blockquote {
   .container_saiba_mais_lumen_mais .collapsible-content-saiba_mais .content-inner {
     padding: 0 1rem;
     border-left: 3px solid white;
-    margin-left: 21px; }
+    margin-left: 8px; }
   .container_saiba_mais_lumen_mais .collapsible-content-saiba_mais {
     max-height: 0px;
     overflow: hidden;
@@ -9866,8 +9864,7 @@ blockquote {
   .container_repertorio_cultural .line-box {
     border-left: 3px solid #FFF;
     display: none;
-    padding-inline-start: 16px;
-    margin-left: 8px; }
+    padding-inline-start: 16px; }
   .container_repertorio_cultural .txt_boxe_collapsed {
     display: none; }
   .container_repertorio_cultural .doc_container {
@@ -9973,8 +9970,7 @@ blockquote {
   .container_repertorio_cultural_teoria .line-box {
     border-left: 3px solid #FFF;
     display: none;
-    padding-inline-start: 16px;
-    margin-left: 8px; }
+    padding-inline-start: 16px; }
   .container_repertorio_cultural_teoria .txt_boxe_collapsed {
     display: none; }
   .container_repertorio_cultural_teoria .doc_container {
@@ -10163,8 +10159,7 @@ blockquote {
   .container_saiba_mais .line-box {
     border-left: 3px solid #FFF;
     display: none;
-    padding-inline-start: 16px;
-    margin-left: 8px; }
+    padding-inline-start: 16px; }
   .container_saiba_mais .txt_boxe_collapsed {
     display: none; }
   .container_saiba_mais .doc_container {
@@ -10270,8 +10265,7 @@ blockquote {
   .container_saiba_mais_exercicios .line-box {
     border-left: 3px solid #FFF;
     display: none;
-    padding-inline-start: 16px;
-    margin-left: 8px; }
+    padding-inline-start: 16px; }
   .container_saiba_mais_exercicios .txt_boxe_collapsed {
     display: none; }
   .container_saiba_mais_exercicios .doc_container {
@@ -10385,8 +10379,7 @@ blockquote {
   .container_fast_facts .line-box {
     border-left: 3px solid #FFF;
     display: none;
-    padding-inline-start: 16px;
-    margin-left: 8px; }
+    padding-inline-start: 16px; }
   .container_fast_facts .txt_boxe_collapsed {
     display: none; }
   .container_fast_facts .doc_container {
@@ -10470,8 +10463,7 @@ blockquote {
   .container_fast_facts_exercicios .line-box {
     border-left: 3px solid #FFF;
     display: none;
-    padding-inline-start: 16px;
-    margin-left: 8px; }
+    padding-inline-start: 16px; }
   .container_fast_facts_exercicios .txt_boxe_collapsed {
     display: none; }
   .container_fast_facts_exercicios .doc_container {
@@ -13733,7 +13725,7 @@ blockquote {
   .container_boxe_abertura .collapsible-content-abertura .content-inner {
     padding: 0 1rem;
     border-left: 3px solid white;
-    margin-left: 21px; }
+    margin-left: 8px; }
   .container_boxe_abertura .collapsible-content-abertura {
     max-height: 0px;
     overflow: hidden;
@@ -19387,7 +19379,7 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   .video_popup_center_lumen_mais.lingua_inglesa {
     border: 5px solid #bfd730; }
     .video_popup_center_lumen_mais.lingua_inglesa .content-video__title {
-      color: #c9252c;
+      color: #069891;
       font-size: 16px;
       font-weight: 700;
       font-family: 'Montserrat';
@@ -19415,13 +19407,13 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   .video_popup_center_lumen_mais.matematica {
     border: 5px solid #F1CB40; }
     .video_popup_center_lumen_mais.matematica .content-video__title {
+      color: #1961AC;
       font-size: 16px;
       font-weight: 700;
       font-family: 'Montserrat';
       text-transform: uppercase;
       margin-bottom: 2px;
-      margin-left: 16px;
-      color: #1961AC; }
+      margin-left: 16px; }
     .video_popup_center_lumen_mais.matematica:before {
       background-image: url(img/play-button-mat.png); }
     .video_popup_center_lumen_mais.matematica .video_popup_center.popup_actived {
@@ -19498,6 +19490,175 @@ CSSgal CUSTOM STYLES / OVERRIDES HERE: */
   .video_popup_center_lumen_mais .video_popup__content #playerYoutube {
     display: none; }
   .video_popup_center_lumen_mais .video_popup__content #playerDefault {
+    width: 100%; }
+
+/* Video component style */
+.doc-section [doc-editable]:empty {
+  background: transparent !important; }
+
+.none {
+  display: none !important; }
+
+.content-video__text {
+  margin: 0 16px 16px 16px;
+  color: #666;
+  font-size: 14px;
+  font-family: 'Montserrat';
+  font-weight: 300; }
+
+/* Image component style */
+.video_interno_popup_center_lumen_mais {
+  position: relative;
+  width: auto;
+  margin: 32px 0px 20px 0px;
+  display: block;
+  background-color: #fff;
+  transition: all .3s;
+  border: 5px solid #bfd730;
+  border-radius: 4px;
+  cursor: pointer; }
+  .video_interno_popup_center_lumen_mais .video_popup__content .video__embed {
+    width: 100%; }
+    .video_interno_popup_center_lumen_mais .video_popup__content .video__embed video {
+      width: 100%;
+      min-height: 400px;
+      padding: 0;
+      margin: 0;
+      margin-bottom: 32px; }
+    .video_interno_popup_center_lumen_mais .video_popup__content .video__embed iframe {
+      width: 100%;
+      min-height: 400px;
+      padding: 0;
+      margin: 0;
+      margin-bottom: 32px; }
+  .video_interno_popup_center_lumen_mais.artes {
+    border: 5px solid #bfd730; }
+    .video_interno_popup_center_lumen_mais.artes .content-video__title {
+      color: #c9252c;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: 'Montserrat';
+      text-transform: uppercase;
+      margin-bottom: 2px;
+      margin-left: 16px; }
+    .video_interno_popup_center_lumen_mais.artes:before {
+      background-image: url(img/play-button-lin.png); }
+    .video_interno_popup_center_lumen_mais.artes .video_popup_center.popup_actived {
+      background-color: #452848bf; }
+  .video_interno_popup_center_lumen_mais.lingua_inglesa {
+    border: 5px solid #bfd730; }
+    .video_interno_popup_center_lumen_mais.lingua_inglesa .content-video__title {
+      color: #069891;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: 'Montserrat';
+      text-transform: uppercase;
+      margin-bottom: 2px;
+      margin-left: 16px; }
+    .video_interno_popup_center_lumen_mais.lingua_inglesa:before {
+      background-image: url(img/play-button-ing.png); }
+    .video_interno_popup_center_lumen_mais.lingua_inglesa .video_popup_center.popup_actived {
+      background-color: #284847bf; }
+  .video_interno_popup_center_lumen_mais.lingua_portuguesa {
+    border: 5px solid #bfd730; }
+    .video_interno_popup_center_lumen_mais.lingua_portuguesa .content-video__title {
+      color: #c9252c;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: 'Montserrat';
+      text-transform: uppercase;
+      margin-bottom: 2px;
+      margin-left: 16px; }
+    .video_interno_popup_center_lumen_mais.lingua_portuguesa:before {
+      background-image: url(img/play-button.png); }
+    .video_interno_popup_center_lumen_mais.lingua_portuguesa .video_popup_center.popup_actived {
+      background-color: #482828bf; }
+  .video_interno_popup_center_lumen_mais.matematica {
+    border: 5px solid #F1CB40; }
+    .video_interno_popup_center_lumen_mais.matematica .content-video__title {
+      color: #1961AC;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: 'Montserrat';
+      text-transform: uppercase;
+      margin-bottom: 2px;
+      margin-left: 16px; }
+    .video_interno_popup_center_lumen_mais.matematica:before {
+      background-image: url(img/play-button-mat.png); }
+    .video_interno_popup_center_lumen_mais.matematica .video_popup_center.popup_actived {
+      background-color: #282f48bf; }
+  .video_interno_popup_center_lumen_mais.__ready .content-video__title {
+    border: 0;
+    margin-left: 16px; }
+  .video_interno_popup_center_lumen_mais.__ready .content-video__text {
+    border: 0;
+    margin-left: 16px; }
+  .video_interno_popup_center_lumen_mais.popup_actived {
+    position: fixed;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000000bf;
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+    border: 0;
+    z-index: 9; }
+    .video_interno_popup_center_lumen_mais.popup_actived:before {
+      content: none; }
+    .video_interno_popup_center_lumen_mais.popup_actived .video_popup__content {
+      width: 60%;
+      margin: 0 auto;
+      height: 100%;
+      padding: 5%;
+      box-sizing: border-box; }
+      .video_interno_popup_center_lumen_mais.popup_actived .video_popup__content a {
+        display: block; }
+      .video_interno_popup_center_lumen_mais.popup_actived .video_popup__content .video_popup__img,
+      .video_interno_popup_center_lumen_mais.popup_actived .video_popup__content .content-video {
+        display: none !important; }
+      .video_interno_popup_center_lumen_mais.popup_actived .video_popup__content #playerYoutube.show {
+        display: block !important; }
+      .video_interno_popup_center_lumen_mais.popup_actived .video_popup__content #playerDefault.show {
+        display: block !important; }
+  .video_interno_popup_center_lumen_mais .video_popup__content a {
+    width: 25px;
+    height: 25px;
+    display: none;
+    background-image: url("img/btn-modal-close.png");
+    position: absolute;
+    z-index: 9;
+    right: 20px;
+    top: 15px; }
+  .video_interno_popup_center_lumen_mais .video_popup__content .video_popup__img {
+    position: relative;
+    height: 280px !important;
+    padding: 0 !important;
+    background-size: cover; }
+  .video_interno_popup_center_lumen_mais .video_popup__content .content-video {
+    padding: 20px; }
+    .video_interno_popup_center_lumen_mais .video_popup__content .content-video__title {
+      color: #c9252c;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: 'Montserrat';
+      text-transform: uppercase;
+      border: 1px solid #ccc;
+      margin-bottom: 10px; }
+    .video_interno_popup_center_lumen_mais .video_popup__content .content-video__text {
+      border: 1px solid #ccc;
+      color: #666;
+      font-size: 14px;
+      font-family: 'Montserrat';
+      font-weight: 300; }
+      .video_interno_popup_center_lumen_mais .video_popup__content .content-video__text span {
+        color: #666 !important; }
+  .video_interno_popup_center_lumen_mais .video_popup__content #playerDefault,
+  .video_interno_popup_center_lumen_mais .video_popup__content #playerYoutube {
+    display: none; }
+  .video_interno_popup_center_lumen_mais .video_popup__content #playerDefault {
     width: 100%; }
 
 .group_checkbox,
