@@ -2789,7 +2789,12 @@
         "text-align",
         "letter-spacing",
         "line-height"
-      ]
+      ],
+      "directiveOptions":{
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
     },
     {
       "name": "css_03_exercicio_item_vf_citado",

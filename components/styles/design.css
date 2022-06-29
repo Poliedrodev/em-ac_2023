@@ -5697,7 +5697,7 @@ a {
 
 .container_questao_c {
   border: solid 1px #707070;
-  padding: 0px 12px 12px 0px;
+  padding: 12px;
   border-radius: 6px;
   margin: 16px 0px 0px 0px;
   clear: both;
@@ -6672,7 +6672,9 @@ blockquote {
     top: 10px; }
   .container_take_a_tip_exercicios .line-box {
     border-left: 3px solid #FFF;
-    display: none; }
+    display: none;
+    padding-inline-start: 16px;
+    margin-left: 8px; }
   .container_take_a_tip_exercicios .txt_boxe_collapsed {
     display: none; }
   .container_take_a_tip_exercicios .doc_container {
@@ -6753,7 +6755,9 @@ blockquote {
     top: 10px; }
   .container_take_a_tip .line-box {
     border-left: 3px solid #FFF;
-    display: none; }
+    display: none;
+    padding-inline-start: 16px;
+    margin-left: 8px; }
   .container_take_a_tip .txt_boxe_collapsed {
     display: none; }
   .container_take_a_tip .doc_container {
@@ -6834,7 +6838,9 @@ blockquote {
     top: 10px; }
   .container_fica_a_dica .line-box {
     border-left: 3px solid #FFF;
-    display: none; }
+    display: none;
+    padding-inline-start: 16px;
+    margin-left: 8px; }
   .container_fica_a_dica .txt_boxe_collapsed {
     display: none; }
   .container_fica_a_dica .doc_container {
@@ -6915,7 +6921,9 @@ blockquote {
     top: 10px; }
   .container_fica_a_dica_teoria .line-box {
     border-left: 3px solid #FFF;
-    display: none; }
+    display: none;
+    padding-inline-start: 16px;
+    margin-left: 8px; }
   .container_fica_a_dica_teoria .txt_boxe_collapsed {
     display: none; }
   .container_fica_a_dica_teoria .doc_container {
@@ -9126,7 +9134,8 @@ blockquote {
     border-bottom-left-radius: 0; }
   .container_fica_a_dica_lumen_mais .collapsible-content-fica_a_dica .content-inner {
     padding: 0 1rem;
-    border-left: 3px solid white; }
+    border-left: 3px solid white;
+    margin-left: 21px; }
   .container_fica_a_dica_lumen_mais .collapsible-content-fica_a_dica {
     max-height: 0px;
     overflow: hidden;
@@ -9427,7 +9436,8 @@ blockquote {
     border-bottom-left-radius: 0; }
   .container_repertorio_cultural_lumen_mais .collapsible-content-saiba_mais .content-inner {
     padding: 0 1rem;
-    border-left: 3px solid white; }
+    border-left: 3px solid white;
+    margin-left: 21px; }
   .container_repertorio_cultural_lumen_mais .collapsible-content-saiba_mais {
     max-height: 0px;
     overflow: hidden;
@@ -9728,7 +9738,8 @@ blockquote {
     border-bottom-left-radius: 0; }
   .container_saiba_mais_lumen_mais .collapsible-content-saiba_mais .content-inner {
     padding: 0 1rem;
-    border-left: 3px solid white; }
+    border-left: 3px solid white;
+    margin-left: 21px; }
   .container_saiba_mais_lumen_mais .collapsible-content-saiba_mais {
     max-height: 0px;
     overflow: hidden;
@@ -9854,7 +9865,9 @@ blockquote {
       top: 10px; }
   .container_repertorio_cultural .line-box {
     border-left: 3px solid #FFF;
-    display: none; }
+    display: none;
+    padding-inline-start: 16px;
+    margin-left: 8px; }
   .container_repertorio_cultural .txt_boxe_collapsed {
     display: none; }
   .container_repertorio_cultural .doc_container {
@@ -9959,7 +9972,9 @@ blockquote {
       top: 10px; }
   .container_repertorio_cultural_teoria .line-box {
     border-left: 3px solid #FFF;
-    display: none; }
+    display: none;
+    padding-inline-start: 16px;
+    margin-left: 8px; }
   .container_repertorio_cultural_teoria .txt_boxe_collapsed {
     display: none; }
   .container_repertorio_cultural_teoria .doc_container {
@@ -10072,7 +10087,9 @@ blockquote {
     top: 10px; }
   .container_culture_box .line-box {
     border-left: 3px solid #FFF;
-    display: none; }
+    display: none;
+    padding-inline-start: 16px;
+    margin-left: 8px; }
   .container_culture_box .txt_boxe_collapsed {
     display: none; }
   .container_culture_box .doc_container {
@@ -10145,7 +10162,9 @@ blockquote {
       top: 10px; }
   .container_saiba_mais .line-box {
     border-left: 3px solid #FFF;
-    display: none; }
+    display: none;
+    padding-inline-start: 16px;
+    margin-left: 8px; }
   .container_saiba_mais .txt_boxe_collapsed {
     display: none; }
   .container_saiba_mais .doc_container {
@@ -10250,7 +10269,9 @@ blockquote {
       top: 10px; }
   .container_saiba_mais_exercicios .line-box {
     border-left: 3px solid #FFF;
-    display: none; }
+    display: none;
+    padding-inline-start: 16px;
+    margin-left: 8px; }
   .container_saiba_mais_exercicios .txt_boxe_collapsed {
     display: none; }
   .container_saiba_mais_exercicios .doc_container {
@@ -10363,7 +10384,9 @@ blockquote {
     top: 10px; }
   .container_fast_facts .line-box {
     border-left: 3px solid #FFF;
-    display: none; }
+    display: none;
+    padding-inline-start: 16px;
+    margin-left: 8px; }
   .container_fast_facts .txt_boxe_collapsed {
     display: none; }
   .container_fast_facts .doc_container {
@@ -10416,7 +10439,9 @@ blockquote {
     transition: all 0.25s ease-out; }
   .container_fast_facts_exercicios input[type=checkbox]:checked ~ .line-box {
     display: block;
-    transition: all 0.25s ease-out; }
+    transition: all 0.25s ease-out;
+    padding-inline-start: 20px;
+    margin-left: 5px; }
   .container_fast_facts_exercicios label {
     width: 100%;
     height: 40px;
@@ -10444,7 +10469,9 @@ blockquote {
     top: 10px; }
   .container_fast_facts_exercicios .line-box {
     border-left: 3px solid #FFF;
-    display: none; }
+    display: none;
+    padding-inline-start: 16px;
+    margin-left: 8px; }
   .container_fast_facts_exercicios .txt_boxe_collapsed {
     display: none; }
   .container_fast_facts_exercicios .doc_container {
@@ -11729,7 +11756,8 @@ blockquote {
   color: #000000;
   font-family: 'Montserrat';
   font-weight: 400;
-  line-height: 1.5em; }
+  line-height: 1.5em;
+  padding-inline-start: 16px; }
   .css_02_texto_citado_bullet ul li {
     font-size: 16px;
     font-family: 'Montserrat';
@@ -11737,6 +11765,8 @@ blockquote {
     margin: 0px;
     line-height: 1.5em;
     padding-left: 4px; }
+  .css_02_texto_citado_bullet .group_questao_vf_v2 .css_03_exercicio_item_vf {
+    padding-inline-start: 0px; }
 
 .css_02_texto_citado_bullet_2 {
   display: block;
@@ -12198,7 +12228,8 @@ blockquote {
   color: #000000;
   line-height: 1.5em;
   font-size: 18px;
-  margin: 8px 0px 0px 0px; }
+  margin: 8px 0px 0px 0px;
+  padding-inline-start: 24px; }
   .css_03_exercicio_bullet ul {
     list-style-type: disc;
     margin: 0px; }
@@ -12254,6 +12285,9 @@ blockquote {
   font-size: 18px;
   margin: 12px 0px 0px 0px;
   line-height: 1.5em; }
+
+.container_questao_vf + .css_03_exercicio_item_vf {
+  padding-inline-start: 42px; }
 
 .css_03_exercicio_item_vf_citado {
   display: block;
@@ -13698,7 +13732,8 @@ blockquote {
     border-bottom-left-radius: 0; }
   .container_boxe_abertura .collapsible-content-abertura .content-inner {
     padding: 0 1rem;
-    border-left: 3px solid white; }
+    border-left: 3px solid white;
+    margin-left: 21px; }
   .container_boxe_abertura .collapsible-content-abertura {
     max-height: 0px;
     overflow: hidden;
@@ -18544,7 +18579,7 @@ label img {
 
 /* Container component style*/
 .table {
-  width: 84.5%;
+  width: 100%;
   font-family: 'Noticia Text';
   font-size: 16px;
   border-collapse: collapse;

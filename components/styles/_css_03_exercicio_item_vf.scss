@@ -5,5 +5,10 @@
   color: #000000;
   font-size: 18px;
   margin: 12px 0px 0px 0px;
-  line-height: 1.5em; 
+  line-height: 1.5em;
+}
+
+// ajuste verdadeiro falso HTML antigo
+.container_questao_vf + .css_03_exercicio_item_vf {
+  padding-inline-start: 42px;
 }

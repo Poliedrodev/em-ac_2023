@@ -5,12 +5,20 @@
   font-family: 'Montserrat';
   font-weight: 400;
   line-height: 1.5em;
-  ul li{
+  padding-inline-start: 16px;
+ 
+  ul li {
     font-size: 16px;
     font-family: 'Montserrat';
     font-weight: 400;
     margin: 0px;
     line-height: 1.5em;
     padding-left: 4px;
+  }
+
+  .group_questao_vf_v2 {
+    .css_03_exercicio_item_vf {
+      padding-inline-start: 0px;
+    }
   }
 }
