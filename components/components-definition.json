@@ -1211,6 +1211,18 @@
       ]
     },
     {
+      "name": "container_grupo_checkbox_6",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "label": "Checkbox 6",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
       "name": "container_coluna_falsa",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
@@ -5073,7 +5085,8 @@
         "container_grupo_checkbox_2": {},
         "container_grupo_checkbox_3": {},
         "container_grupo_checkbox_4": {},
-        "container_grupo_checkbox_5": {}
+        "container_grupo_checkbox_5": {},
+        "container_grupo_checkbox_6": {}
       },
       "directiveOptions": {
         "main": {
@@ -5086,7 +5099,8 @@
                 "container_grupo_checkbox_2",
                 "container_grupo_checkbox_3",
                 "container_grupo_checkbox_4",
-                "container_grupo_checkbox_5"
+                "container_grupo_checkbox_5",
+                "container_grupo_checkbox_6"
               ]
             }
           ]
@@ -5112,7 +5126,8 @@
         "container_grupo_checkbox_2": {},
         "container_grupo_checkbox_3": {},
         "container_grupo_checkbox_4": {},
-        "container_grupo_checkbox_5": {}
+        "container_grupo_checkbox_5": {},
+        "container_grupo_checkbox_6": {}
       },
       "directiveOptions": {
         "main": {
@@ -5125,7 +5140,8 @@
                 "container_grupo_checkbox_2",
                 "container_grupo_checkbox_3",
                 "container_grupo_checkbox_4",
-                "container_grupo_checkbox_5"
+                "container_grupo_checkbox_5",
+                "container_grupo_checkbox_6"
               ]
             }
           ]
@@ -5243,6 +5259,38 @@
           "stripStylingOnPaste": true
         },
         "checkbox5": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },
+    {
+      "name": "container_grupo_checkbox_6",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "label": "Checkbox 6",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "checkbox1": {
+          "stripStylingOnPaste": true
+        },
+        "checkbox2": {
+          "stripStylingOnPaste": true
+        },
+        "checkbox3": {
+          "stripStylingOnPaste": true
+        },
+        "checkbox4": {
+          "stripStylingOnPaste": true
+        },
+        "checkbox5": {
+          "stripStylingOnPaste": true
+        },
+        "checkbox6": {
           "stripStylingOnPaste": true
         }
       }
