@@ -50,10 +50,8 @@
         "position",
         "width",
         "style",
+        "style_image_fit_content",
         "inside-caption",
-        "text-align",
-        "letter-spacing",
-        "line-height",
         {
           "name": "edit-image",
           "directiveKey": "image"
@@ -6611,6 +6609,39 @@
               }
             },
             "value": "matematica"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+    {
+      "name": "style_image_fit_content",
+      "label": "Ajustar tamanho da imagem",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Tamanho real"
+              }
+            },
+            "value": "_fit_content"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Tamanho real ao meio"
+              }
+            },
+            "value": "_fit_content_margin_auto"
           }
         ]
       },
