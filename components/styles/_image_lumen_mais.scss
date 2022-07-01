@@ -11,6 +11,15 @@
     width: 100%;
   }
 
+  &._fit_content ._image{
+    width: fit-content;
+  }
+
+  &._fit_content_margin_auto ._image{
+    width: fit-content;
+    margin: auto;
+  }
+
   .slider-subtitle {
     position: relative;
     margin-top: 8px;

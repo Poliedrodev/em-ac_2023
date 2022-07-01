@@ -1179,6 +1179,11 @@ span[style="text-decoration: line-through;"] {
   /* class styles for the captions properties of the image component */ }
   .image_lumen_mais ._image {
     width: 100%; }
+  .image_lumen_mais._fit_content ._image {
+    width: fit-content; }
+  .image_lumen_mais._fit_content_margin_auto ._image {
+    width: fit-content;
+    margin: auto; }
   .image_lumen_mais .slider-subtitle {
     position: relative;
     margin-top: 8px; }
