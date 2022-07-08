@@ -3153,145 +3153,148 @@ span[style="text-decoration: line-through;"] {
   font-family: 'Barlow Condensed';
   font-weight: 700;
   font-size: 30px;
-  color: #96171a;
   position: relative;
   justify-content: space-between; }
-  .secao_produzir_e_compartilhar.artes {
-    color: #3F1F71;
-    background-color: #f4f2f7; }
-    .secao_produzir_e_compartilhar.artes .icone_disciplina {
-      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LGG_produzir_e_compartilhar.svg");
-      width: 50px;
-      height: 50px;
-      align-items: left;
-      margin: 0;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      position: absolute;
-      left: -20px;
-      top: -1px; }
-    .secao_produzir_e_compartilhar.artes .arrow-menor {
-      border: 1px solid #634d97;
-      border-width: 0 3px 3px 0;
-      display: inline-block;
-      padding: 4.1px;
-      transform: rotate(-45deg);
-      z-index: 2; }
-    .secao_produzir_e_compartilhar.artes .arrow-ponta {
-      border: #f4f2f7;
-      width: 35.7px;
-      height: 35.5px;
-      position: absolute;
-      background: #f4f2f7;
-      display: inline-block;
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-      align-items: center;
-      right: -18px; }
-  .secao_produzir_e_compartilhar.lingua_inglesa {
-    color: #015F5B;
-    background-color: #edf8f7; }
-    .secao_produzir_e_compartilhar.lingua_inglesa .icone_disciplina {
-      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/ING_produzir_e_compartilhar.svg");
-      width: 50px;
-      height: 50px;
-      align-items: left;
-      margin: 0;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      position: absolute;
-      left: -20px;
-      top: -1px; }
-    .secao_produzir_e_compartilhar.lingua_inglesa .arrow-menor {
-      border: 1px solid #039c92;
-      border-width: 0 3px 3px 0;
-      display: inline-block;
-      padding: 4.1px;
-      transform: rotate(-45deg);
-      z-index: 2; }
-    .secao_produzir_e_compartilhar.lingua_inglesa .arrow-ponta {
-      border: #edf8f7;
-      width: 35.7px;
-      height: 35.5px;
-      position: absolute;
-      background: #edf8f7;
-      display: inline-block;
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-      align-items: center;
-      right: -18px; }
-  .secao_produzir_e_compartilhar.lingua_portuguesa {
-    color: #96171a;
-    background-color: #fbf0f0; }
-    .secao_produzir_e_compartilhar.lingua_portuguesa .icone_disciplina {
-      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LPO_produzir_e_compartilhar.svg");
-      width: 50px;
-      height: 50px;
-      align-items: left;
-      margin: 0;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      position: absolute;
-      left: -20px;
-      top: -1px; }
-    .secao_produzir_e_compartilhar.lingua_portuguesa .arrow-menor {
-      border: 1px solid #ce3a40;
-      border-width: 0 3px 3px 0;
-      display: inline-block;
-      padding: 4.1px;
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-      z-index: 2; }
-    .secao_produzir_e_compartilhar.lingua_portuguesa .arrow-ponta {
-      border: #fbf0f0;
-      width: 35.7px;
-      height: 35.5px;
-      position: absolute;
-      background: #fbf0f0;
-      display: inline-block;
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-      align-items: center;
-      right: -18px; }
-  .secao_produzir_e_compartilhar.matematica {
-    color: #033878;
-    background-color: #eef4fa; }
-    .secao_produzir_e_compartilhar.matematica .icone_disciplina {
-      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/MAT_produzir_e_compartilhar.svg");
-      width: 50px;
-      height: 50px;
-      align-items: left;
-      margin: 0;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      position: absolute;
-      left: -20px;
-      top: -1px; }
-    .secao_produzir_e_compartilhar.matematica .arrow-right {
-      border-top: 20px solid transparent;
-      border-bottom: 20px solid transparent;
-      border-left: 20px solid #eef4fa; }
-    .secao_produzir_e_compartilhar.matematica .arrow-menor {
-      border: 1px solid #196cb5;
-      border-width: 0 3px 3px 0;
-      display: inline-block;
-      padding: 4.1px;
-      transform: rotate(-45deg);
-      z-index: 2; }
-    .secao_produzir_e_compartilhar.matematica .arrow-ponta {
-      width: 35.7px;
-      height: 35.5px;
-      position: absolute;
-      background: #eef4fa;
-      display: inline-block;
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-      align-items: center;
-      right: -18px; }
+
+#redirect.artes .secao_produzir_e_compartilhar {
+  color: #3F1F71;
+  background-color: #f4f2f7; }
+  #redirect.artes .secao_produzir_e_compartilhar .icone_disciplina {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LGG_produzir_e_compartilhar.svg");
+    width: 50px;
+    height: 50px;
+    align-items: left;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+    top: -1px; }
+  #redirect.artes .secao_produzir_e_compartilhar .arrow-menor {
+    border: 1px solid #634d97;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4.1px;
+    transform: rotate(-45deg);
+    z-index: 2; }
+  #redirect.artes .secao_produzir_e_compartilhar .arrow-ponta {
+    border: #f4f2f7;
+    width: 35.7px;
+    height: 35.5px;
+    position: absolute;
+    background: #f4f2f7;
+    display: inline-block;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    align-items: center;
+    right: -18px; }
+
+#redirect.lingua_inglesa .secao_produzir_e_compartilhar {
+  color: #015F5B;
+  background-color: #edf8f7; }
+  #redirect.lingua_inglesa .secao_produzir_e_compartilhar .icone_disciplina {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/ING_produzir_e_compartilhar.svg");
+    width: 50px;
+    height: 50px;
+    align-items: left;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+    top: -1px; }
+  #redirect.lingua_inglesa .secao_produzir_e_compartilhar .arrow-menor {
+    border: 1px solid #039c92;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4.1px;
+    transform: rotate(-45deg);
+    z-index: 2; }
+  #redirect.lingua_inglesa .secao_produzir_e_compartilhar .arrow-ponta {
+    border: #edf8f7;
+    width: 35.7px;
+    height: 35.5px;
+    position: absolute;
+    background: #edf8f7;
+    display: inline-block;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    align-items: center;
+    right: -18px; }
+
+#redirect.lingua_portuguesa .secao_produzir_e_compartilhar {
+  color: #96171a;
+  background-color: #fbf0f0; }
+  #redirect.lingua_portuguesa .secao_produzir_e_compartilhar .icone_disciplina {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LPO_produzir_e_compartilhar.svg");
+    width: 50px;
+    height: 50px;
+    align-items: left;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+    top: -1px; }
+  #redirect.lingua_portuguesa .secao_produzir_e_compartilhar .arrow-menor {
+    border: 1px solid #ce3a40;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4.1px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    z-index: 2; }
+  #redirect.lingua_portuguesa .secao_produzir_e_compartilhar .arrow-ponta {
+    border: #fbf0f0;
+    width: 35.7px;
+    height: 35.5px;
+    position: absolute;
+    background: #fbf0f0;
+    display: inline-block;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    align-items: center;
+    right: -18px; }
+
+#redirect.matematica .secao_produzir_e_compartilhar {
+  color: #033878;
+  background-color: #eef4fa; }
+  #redirect.matematica .secao_produzir_e_compartilhar .icone_disciplina {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/MAT_produzir_e_compartilhar.svg");
+    width: 50px;
+    height: 50px;
+    align-items: left;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+    top: -1px; }
+  #redirect.matematica .secao_produzir_e_compartilhar .arrow-right {
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #eef4fa; }
+  #redirect.matematica .secao_produzir_e_compartilhar .arrow-menor {
+    border: 1px solid #196cb5;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4.1px;
+    transform: rotate(-45deg);
+    z-index: 2; }
+  #redirect.matematica .secao_produzir_e_compartilhar .arrow-ponta {
+    width: 35.7px;
+    height: 35.5px;
+    position: absolute;
+    background: #eef4fa;
+    display: inline-block;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    align-items: center;
+    right: -18px; }
 
 .secao_produzir_e_compartilhar_teste > div {
   display: flex;
@@ -3569,145 +3572,148 @@ a {
   font-family: 'Barlow Condensed';
   font-weight: 700;
   font-size: 30px;
-  color: #96171a;
   position: relative;
   justify-content: space-between; }
-  .secao_para_aprofundar.artes {
-    color: #3F1F71;
-    background-color: #f4f2f7; }
-    .secao_para_aprofundar.artes .icone_disciplina {
-      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LGG_para_aprofundar.svg");
-      width: 50px;
-      height: 50px;
-      align-items: left;
-      margin: 0;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      position: absolute;
-      left: -20px;
-      top: -1px; }
-    .secao_para_aprofundar.artes .arrow-menor {
-      border: 1px solid #634d97;
-      border-width: 0 3px 3px 0;
-      display: inline-block;
-      padding: 4.1px;
-      transform: rotate(-45deg);
-      z-index: 2; }
-    .secao_para_aprofundar.artes .arrow-ponta {
-      border: #f4f2f7;
-      width: 35.7px;
-      height: 35.7px;
-      position: absolute;
-      background: #f4f2f7;
-      display: inline-block;
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-      align-items: center;
-      right: -18px; }
-  .secao_para_aprofundar.lingua_inglesa {
-    color: #015F5B;
-    background-color: #edf8f7; }
-    .secao_para_aprofundar.lingua_inglesa .icone_disciplina {
-      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/ING_para_aprofundar.svg");
-      width: 50px;
-      height: 50px;
-      align-items: left;
-      margin: 0;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      position: absolute;
-      left: -20px;
-      top: -1px; }
-    .secao_para_aprofundar.lingua_inglesa .arrow-menor {
-      border: 1px solid #039c92;
-      border-width: 0 3px 3px 0;
-      display: inline-block;
-      padding: 4.1px;
-      transform: rotate(-45deg);
-      z-index: 2; }
-    .secao_para_aprofundar.lingua_inglesa .arrow-ponta {
-      border: #edf8f7;
-      width: 35.7px;
-      height: 35.7px;
-      position: absolute;
-      background: #edf8f7;
-      display: inline-block;
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-      align-items: center;
-      right: -18px; }
-  .secao_para_aprofundar.lingua_portuguesa {
-    color: #96171a;
-    background-color: #fbf0f0; }
-    .secao_para_aprofundar.lingua_portuguesa .icone_disciplina {
-      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LPO_para_aprofundar.svg");
-      width: 50px;
-      height: 50px;
-      align-items: left;
-      margin: 0;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      position: absolute;
-      left: -20px;
-      top: -1px; }
-    .secao_para_aprofundar.lingua_portuguesa .arrow-menor {
-      border: 1px solid #ce3a40;
-      border-width: 0 3px 3px 0;
-      display: inline-block;
-      padding: 4.1px;
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-      z-index: 2; }
-    .secao_para_aprofundar.lingua_portuguesa .arrow-ponta {
-      border: #fbf0f0;
-      width: 35.7px;
-      height: 35.5px;
-      position: absolute;
-      background: #fbf0f0;
-      display: inline-block;
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-      align-items: center;
-      right: -18px; }
-  .secao_para_aprofundar.matematica {
-    color: #033878;
-    background-color: #eef4fa; }
-    .secao_para_aprofundar.matematica .icone_disciplina {
-      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/MAT_para_aprofundar.svg");
-      width: 50px;
-      height: 50px;
-      align-items: left;
-      margin: 0;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      position: absolute;
-      left: -20px;
-      top: -1px; }
-    .secao_para_aprofundar.matematica .arrow-right {
-      border-top: 20px solid transparent;
-      border-bottom: 20px solid transparent;
-      border-left: 20px solid #eef4fa; }
-    .secao_para_aprofundar.matematica .arrow-menor {
-      border: 1px solid #196cb5;
-      border-width: 0 3px 3px 0;
-      display: inline-block;
-      padding: 4.1px;
-      transform: rotate(-45deg);
-      z-index: 2; }
-    .secao_para_aprofundar.matematica .arrow-ponta {
-      width: 35.7px;
-      height: 35.5px;
-      position: absolute;
-      background: #eef4fa;
-      display: inline-block;
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-      align-items: center;
-      right: -18px; }
+
+#redirect.artes {
+  color: #3F1F71;
+  background-color: #f4f2f7; }
+  #redirect.artes .icone_disciplina {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LGG_para_aprofundar.svg");
+    width: 50px;
+    height: 50px;
+    align-items: left;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+    top: -1px; }
+  #redirect.artes .arrow-menor {
+    border: 1px solid #634d97;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4.1px;
+    transform: rotate(-45deg);
+    z-index: 2; }
+  #redirect.artes .arrow-ponta {
+    border: #f4f2f7;
+    width: 35.7px;
+    height: 35.7px;
+    position: absolute;
+    background: #f4f2f7;
+    display: inline-block;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    align-items: center;
+    right: -18px; }
+
+#redirect.lingua_inglesa {
+  color: #015F5B;
+  background-color: #edf8f7; }
+  #redirect.lingua_inglesa .icone_disciplina {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/ING_para_aprofundar.svg");
+    width: 50px;
+    height: 50px;
+    align-items: left;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+    top: -1px; }
+  #redirect.lingua_inglesa .arrow-menor {
+    border: 1px solid #039c92;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4.1px;
+    transform: rotate(-45deg);
+    z-index: 2; }
+  #redirect.lingua_inglesa .arrow-ponta {
+    border: #edf8f7;
+    width: 35.7px;
+    height: 35.7px;
+    position: absolute;
+    background: #edf8f7;
+    display: inline-block;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    align-items: center;
+    right: -18px; }
+
+#redirect.lingua_portuguesa {
+  color: #96171a;
+  background-color: #fbf0f0; }
+  #redirect.lingua_portuguesa .icone_disciplina {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LPO_para_aprofundar.svg");
+    width: 50px;
+    height: 50px;
+    align-items: left;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+    top: -1px; }
+  #redirect.lingua_portuguesa .arrow-menor {
+    border: 1px solid #ce3a40;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4.1px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    z-index: 2; }
+  #redirect.lingua_portuguesa .arrow-ponta {
+    border: #fbf0f0;
+    width: 35.7px;
+    height: 35.5px;
+    position: absolute;
+    background: #fbf0f0;
+    display: inline-block;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    align-items: center;
+    right: -18px; }
+
+#redirect.matematica {
+  color: #033878;
+  background-color: #eef4fa; }
+  #redirect.matematica .icone_disciplina {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/MAT_para_aprofundar.svg");
+    width: 50px;
+    height: 50px;
+    align-items: left;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+    top: -1px; }
+  #redirect.matematica .arrow-right {
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #eef4fa; }
+  #redirect.matematica .arrow-menor {
+    border: 1px solid #196cb5;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4.1px;
+    transform: rotate(-45deg);
+    z-index: 2; }
+  #redirect.matematica .arrow-ponta {
+    width: 35.7px;
+    height: 35.5px;
+    position: absolute;
+    background: #eef4fa;
+    display: inline-block;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    align-items: center;
+    right: -18px; }
 
 .secao_para_aprofundar_teste > div {
   display: flex;
@@ -3821,145 +3827,148 @@ a {
   font-family: 'Barlow Condensed';
   font-weight: 700;
   font-size: 30px;
-  color: #96171a;
   position: relative;
   justify-content: space-between; }
-  .secao_para_consolidar.artes {
-    color: #3F1F71;
-    background-color: #f4f2f7; }
-    .secao_para_consolidar.artes .icone_disciplina_consolidar {
-      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LGG_para_consolidar.svg");
-      width: 50px;
-      height: 50px;
-      align-items: left;
-      margin: 0;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      position: absolute;
-      left: -20px;
-      top: -1px; }
-    .secao_para_consolidar.artes .arrow-menor {
-      border: 1px solid #634d97;
-      border-width: 0 3px 3px 0;
-      display: inline-block;
-      padding: 4.1px;
-      transform: rotate(-45deg);
-      z-index: 2; }
-    .secao_para_consolidar.artes .arrow-ponta {
-      border: #f4f2f7;
-      width: 35.7px;
-      height: 35.5px;
-      position: absolute;
-      background: #f4f2f7;
-      display: inline-block;
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-      align-items: center;
-      right: -18px; }
-  .secao_para_consolidar.lingua_inglesa {
-    color: #015F5B;
-    background-color: #edf8f7; }
-    .secao_para_consolidar.lingua_inglesa .icone_disciplina_consolidar {
-      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/ING_para_consolidar.svg");
-      width: 50px;
-      height: 50px;
-      align-items: left;
-      margin: 0;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      position: absolute;
-      left: -20px;
-      top: -1px; }
-    .secao_para_consolidar.lingua_inglesa .arrow-menor {
-      border: 1px solid #039c92;
-      border-width: 0 3px 3px 0;
-      display: inline-block;
-      padding: 4.1px;
-      transform: rotate(-45deg);
-      z-index: 2; }
-    .secao_para_consolidar.lingua_inglesa .arrow-ponta {
-      border: #edf8f7;
-      width: 35.7px;
-      height: 35.5px;
-      position: absolute;
-      background: #edf8f7;
-      display: inline-block;
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-      align-items: center;
-      right: -18px; }
-  .secao_para_consolidar.lingua_portuguesa {
-    color: #96171a;
-    background-color: #fbf0f0; }
-    .secao_para_consolidar.lingua_portuguesa .icone_disciplina_consolidar {
-      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LPO_para_consolidar.svg");
-      width: 50px;
-      height: 50px;
-      align-items: left;
-      margin: 0;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      position: absolute;
-      left: -20px;
-      top: -1px; }
-    .secao_para_consolidar.lingua_portuguesa .arrow-menor {
-      border: 1px solid #ce3a40;
-      border-width: 0 3px 3px 0;
-      display: inline-block;
-      padding: 4.1px;
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-      z-index: 2; }
-    .secao_para_consolidar.lingua_portuguesa .arrow-ponta {
-      border: #fbf0f0;
-      width: 35.7px;
-      height: 35.5px;
-      position: absolute;
-      background: #fbf0f0;
-      display: inline-block;
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-      align-items: center;
-      right: -18px; }
-  .secao_para_consolidar.matematica {
-    color: #033878;
-    background-color: #eef4fa; }
-    .secao_para_consolidar.matematica .icone_disciplina_consolidar {
-      background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/MAT_para_consolidar.svg");
-      width: 50px;
-      height: 50px;
-      align-items: left;
-      margin: 0;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      position: absolute;
-      left: -20px;
-      top: -1px; }
-    .secao_para_consolidar.matematica .arrow-right {
-      border-top: 20px solid transparent;
-      border-bottom: 20px solid transparent;
-      border-left: 20px solid #eef4fa; }
-    .secao_para_consolidar.matematica .arrow-menor {
-      border: 1px solid #196cb5;
-      border-width: 0 3px 3px 0;
-      display: inline-block;
-      padding: 4.1px;
-      transform: rotate(-45deg);
-      z-index: 2; }
-    .secao_para_consolidar.matematica .arrow-ponta {
-      width: 35.7px;
-      height: 35.5px;
-      position: absolute;
-      background: #eef4fa;
-      display: inline-block;
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-      align-items: center;
-      right: -18px; }
+
+#redirect.artes {
+  color: #3F1F71;
+  background-color: #f4f2f7; }
+  #redirect.artes .icone_disciplina_consolidar {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LGG_para_consolidar.svg");
+    width: 50px;
+    height: 50px;
+    align-items: left;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+    top: -1px; }
+  #redirect.artes .arrow-menor {
+    border: 1px solid #634d97;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4.1px;
+    transform: rotate(-45deg);
+    z-index: 2; }
+  #redirect.artes .arrow-ponta {
+    border: #f4f2f7;
+    width: 35.7px;
+    height: 35.5px;
+    position: absolute;
+    background: #f4f2f7;
+    display: inline-block;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    align-items: center;
+    right: -18px; }
+
+#redirect.lingua_inglesa {
+  color: #015F5B;
+  background-color: #edf8f7; }
+  #redirect.lingua_inglesa .icone_disciplina_consolidar {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/ING_para_consolidar.svg");
+    width: 50px;
+    height: 50px;
+    align-items: left;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+    top: -1px; }
+  #redirect.lingua_inglesa .arrow-menor {
+    border: 1px solid #039c92;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4.1px;
+    transform: rotate(-45deg);
+    z-index: 2; }
+  #redirect.lingua_inglesa .arrow-ponta {
+    border: #edf8f7;
+    width: 35.7px;
+    height: 35.5px;
+    position: absolute;
+    background: #edf8f7;
+    display: inline-block;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    align-items: center;
+    right: -18px; }
+
+#redirect.lingua_portuguesa {
+  color: #96171a;
+  background-color: #fbf0f0; }
+  #redirect.lingua_portuguesa .icone_disciplina_consolidar {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LPO_para_consolidar.svg");
+    width: 50px;
+    height: 50px;
+    align-items: left;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+    top: -1px; }
+  #redirect.lingua_portuguesa .arrow-menor {
+    border: 1px solid #ce3a40;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4.1px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    z-index: 2; }
+  #redirect.lingua_portuguesa .arrow-ponta {
+    border: #fbf0f0;
+    width: 35.7px;
+    height: 35.5px;
+    position: absolute;
+    background: #fbf0f0;
+    display: inline-block;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    align-items: center;
+    right: -18px; }
+
+#redirect.matematica {
+  color: #033878;
+  background-color: #eef4fa; }
+  #redirect.matematica .icone_disciplina_consolidar {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/MAT_para_consolidar.svg");
+    width: 50px;
+    height: 50px;
+    align-items: left;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+    top: -1px; }
+  #redirect.matematica .arrow-right {
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #eef4fa; }
+  #redirect.matematica .arrow-menor {
+    border: 1px solid #196cb5;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4.1px;
+    transform: rotate(-45deg);
+    z-index: 2; }
+  #redirect.matematica .arrow-ponta {
+    width: 35.7px;
+    height: 35.5px;
+    position: absolute;
+    background: #eef4fa;
+    display: inline-block;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    align-items: center;
+    right: -18px; }
 
 .secao_para_consolidar_teste > div {
   display: flex;

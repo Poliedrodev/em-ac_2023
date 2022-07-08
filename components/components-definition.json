@@ -678,6 +678,7 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Seção Produzir e Compartilhar",
       "properties": [
+        "number_section",
         "style",
         "text-align",
         "letter-spacing",
@@ -726,6 +727,7 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Seção Para Aprofundar",
       "properties": [
+        "number_section",
         "style",
         "text-align",
         "letter-spacing",
@@ -752,6 +754,7 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Seção Para Consolidar",
       "properties": [
+        "number_section",
         "style",
         "text-align",
         "letter-spacing",
@@ -778,6 +781,7 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Seção Creating and Sharing",
       "properties": [
+        "number_section",
         "style",
         "text-align",
         "letter-spacing",
@@ -793,6 +797,7 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Topo Creating and Sharing",
       "properties": [
+        "number_section",
         "style",
         "text-align",
         "letter-spacing",
@@ -804,6 +809,7 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Seção Extra Practice",
       "properties": [
+        "number_section",
         "style",
         "text-align",
         "letter-spacing",
@@ -819,6 +825,7 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Topo Extra Practice",
       "properties": [
+        "number_section",
         "style",
         "text-align",
         "letter-spacing",
@@ -830,6 +837,7 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Seção Find Out More",
       "properties": [
+        "number_section",
         "style",
         "text-align",
         "letter-spacing",
@@ -845,6 +853,7 @@
       "icon": "icons/components/icon_02_texto_destaque.svg",
       "label": "Topo Find Out More",
       "properties": [
+        "number_section",
         "style",
         "text-align",
         "letter-spacing",
@@ -2800,7 +2809,7 @@
         "letter-spacing",
         "line-height"
       ],
-      "directiveOptions":{
+      "directiveOptions": {
         "text": {
           "stripStylingOnPaste": true
         }
@@ -6907,6 +6916,237 @@
         }
       },
       "dataType": "doc-link"
+    },
+    {
+      "name": "number_section",
+      "label": "Direcionar para página:",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "3"
+              }
+            },
+            "value": "data-component-redirect='3'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "4"
+              }
+            },
+            "value": "data-component-redirect='4'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "5"
+              }
+            },
+            "value": "data-component-redirect='5'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "6"
+              }
+            },
+            "value": "data-component-redirect='6'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "7"
+              }
+            },
+            "value": "data-component-redirect='7'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "8"
+              }
+            },
+            "value": "data-component-redirect='8'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "9"
+              }
+            },
+            "value": "data-component-redirect='9'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "10"
+              }
+            },
+            "value": "data-component-redirect='10'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "11"
+              }
+            },
+            "value": "data-component-redirect='11'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "12"
+              }
+            },
+            "value": "data-component-redirect='12'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "13"
+              }
+            },
+            "value": "data-component-redirect='13'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "14"
+              }
+            },
+            "value": "data-component-redirect='14'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "15"
+              }
+            },
+            "value": "data-component-redirect='15'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "16"
+              }
+            },
+            "value": "data-component-redirect='16'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "17"
+              }
+            },
+            "value": "data-component-redirect='17'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "18"
+              }
+            },
+            "value": "data-component-redirect='18'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "19"
+              }
+            },
+            "value": "data-component-redirect='19'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "20"
+              }
+            },
+            "value": "data-component-redirect='20'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "21"
+              }
+            },
+            "value": "data-component-redirect='21'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "22"
+              }
+            },
+            "value": "data-component-redirect='22'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "23"
+              }
+            },
+            "value": "data-component-redirect='23'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "24"
+              }
+            },
+            "value": "data-component-redirect='24'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "25"
+              }
+            },
+            "value": "data-component-redirect='25'"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "26"
+              }
+            },
+            "value": "data-component-redirect='26'"
+          }
+        ]
+      },
+      "dataType": "styles"
     }
   ],
   "conversionRules": {

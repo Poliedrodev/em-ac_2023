@@ -9,12 +9,12 @@
   font-family: 'Barlow Condensed';
   font-weight: 700;
   font-size: 30px;
-  color: $por_cor2;
   position: relative;
   justify-content: space-between;
+}
 
-
-  &.artes {
+#redirect {
+  &.artes .secao_produzir_e_compartilhar {
     color: $art_cor2;
     background-color: #f4f2f7;
 
@@ -55,7 +55,7 @@
     }
   }
 
-  &.lingua_inglesa {
+  &.lingua_inglesa .secao_produzir_e_compartilhar {
     color: $ing_cor2;
     background-color: #edf8f7;
 
@@ -96,7 +96,7 @@
     }
   }
 
-  &.lingua_portuguesa {
+  &.lingua_portuguesa .secao_produzir_e_compartilhar {
     color: $por_cor2;
     background-color: #fbf0f0;
 
@@ -139,7 +139,7 @@
 
   }
 
-  &.matematica {
+  &.matematica .secao_produzir_e_compartilhar {
     color: $mat_cor2;
     background-color: #eef4fa;
 
@@ -186,9 +186,7 @@
     }
 
   }
-
 }
-
 
 .secao_produzir_e_compartilhar_teste>div {
   display: flex;

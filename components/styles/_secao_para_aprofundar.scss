@@ -8,11 +8,11 @@
   font-family: 'Barlow Condensed';
   font-weight: 700;
   font-size: 30px;
-  color: $por_cor2;
   position: relative;
   justify-content: space-between;
+}
 
-
+#redirect {
   &.artes {
     color: $art_cor2;
     background-color: #f4f2f7;
@@ -190,7 +190,6 @@
     }
 
   }
-
 }
 
 
