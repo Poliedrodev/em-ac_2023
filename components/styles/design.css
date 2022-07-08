@@ -12981,12 +12981,14 @@ blockquote {
 
 .css_05_nota_rodape {
   display: block;
-  font-size: 14px;
+  font-size: 12px;
   color: #000000;
   border-top: 2px solid #000;
-  font-family: "Proxima Nova Lt" !important;
+  font-family: 'Montserrat';
+  font-weight: 400;
   margin-top: 32px;
-  padding: 8px 0px 0px 0px; }
+  padding: 8px 0px 0px 0px;
+  background-color: white; }
 
 .css_05_grafico_titulo {
   display: block;
