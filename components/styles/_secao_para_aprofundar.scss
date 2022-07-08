@@ -13,7 +13,7 @@
 }
 
 #redirect {
-  &.artes {
+  &.artes .secao_para_aprofundar{
     color: $art_cor2;
     background-color: #f4f2f7;
 
@@ -55,7 +55,7 @@
     }
   }
 
-  &.lingua_inglesa {
+  &.lingua_inglesa .secao_para_aprofundar{
     color: $ing_cor2;
     background-color: #edf8f7;
 
@@ -97,7 +97,7 @@
     }
   }
 
-  &.lingua_portuguesa {
+  &.lingua_portuguesa .secao_para_aprofundar{
     color: $por_cor2;
     background-color: #fbf0f0;
 
@@ -141,7 +141,7 @@
 
   }
 
-  &.matematica {
+  &.matematica .secao_para_aprofundar{
     color: $mat_cor2;
     background-color: #eef4fa;
 
@@ -215,4 +215,10 @@ a {
   z-index: 1;
   margin-right: 1px;
   font-weight: 530;
+}
+
+@media only screen and (max-width: $phone-max-width) {
+  .secao_para_aprofundar{
+    font-size: 12px;
+  }
 }

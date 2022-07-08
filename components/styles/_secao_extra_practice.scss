@@ -83,3 +83,9 @@ a {
     align-items: center;
     display: flex;
 }
+
+@media only screen and (max-width: $phone-max-width) {
+  .secao_extra_practice{
+    font-size: 12px;
+  }
+}

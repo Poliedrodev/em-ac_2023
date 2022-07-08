@@ -11,7 +11,13 @@
   font-size: 30px;
   position: relative;
   justify-content: space-between;
+
+  .icone_disciplina {
+    position: absolute !important;
+  }
 }
+
+
 
 #redirect {
   &.artes .secao_produzir_e_compartilhar {
@@ -216,4 +222,10 @@ a {
 .alinhamento {
   align-items: center;
   display: flex;
+}
+
+@media only screen and (max-width: $phone-max-width) {
+  .secao_produzir_e_compartilhar{
+    font-size: 12px;
+  }
 }
